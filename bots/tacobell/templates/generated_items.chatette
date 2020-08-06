@@ -1,0 +1,199 @@
+@[product#with_sauces_and_addons]
+    Chicken Quesadilla
+    Shredded Chicken Quesadilla Melt
+    Cheesy Roll Up
+    Nacho Cheese Doritos® Locos Tacos
+    Spicy Tostada
+    Chicken Soft Taco
+    Triplelupa
+    Beefy Nacho Griller
+    Nachos Supreme
+    Grilled Steak Soft Taco
+    Cheesy Potato Griller
+    Cheesy Gordita Crunch
+    Power Menu Bowl
+    Steak Quesadilla
+    Beefy 5-Layer Burrito
+    Cheesy Bean and Rice Burrito
+    Crunchwrap Supreme®
+    Beefy Fritos® Burrito
+    7-Layer Burrito
+    Black Bean Crunchwrap Supreme®
+    Flamin' Hot® Doritos® Locos Tacos Supreme
+    Spicy Potato Soft Taco
+    Nachos BellGrande®
+    Quesarito
+    Cheesy Fiesta Potatoes
+    Power Menu Bowl - Veggie
+    Soft Taco
+    Nacho Cheese Doritos® Locos Tacos Supreme®
+    Bean Burrito
+    Cheese Quesadilla
+    Burrito Supreme®
+    Chipotle Chicken Grande Burrito
+    Loaded Taco Grande Burrito
+    Shredded Chicken Burrito
+    Black Bean Quesarito
+    Flamin' Hot® Doritos® Locos Tacos
+    Mexican Pizza
+    Black Beans and Rice
+    Chalupa Supreme
+    Crunchy Taco Supreme®
+    Soft Taco Supreme®
+    Crunchy Taco
+    Black Beans
+@[product#with_addons]
+    Chicken Quesadilla
+    Shredded Chicken Quesadilla Melt
+    Cheesy Roll Up
+    Chips and Guacamole
+    Nacho Cheese Doritos® Locos Tacos
+    Spicy Tostada
+    Chicken Soft Taco
+    Chips and Nacho Cheese Sauce
+    Triplelupa
+    Beefy Nacho Griller
+    Nachos Supreme
+    Grilled Steak Soft Taco
+    Cheesy Potato Griller
+    Cheesy Gordita Crunch
+    Power Menu Bowl
+    Steak Quesadilla
+    Beefy 5-Layer Burrito
+    Cheesy Bean and Rice Burrito
+    Chips and Pico De Gallo
+    Crunchwrap Supreme®
+    Beefy Fritos® Burrito
+    7-Layer Burrito
+    Black Bean Crunchwrap Supreme®
+    Flamin' Hot® Doritos® Locos Tacos Supreme
+    Spicy Potato Soft Taco
+    Nachos BellGrande®
+    Quesarito
+    Cheesy Fiesta Potatoes
+    Power Menu Bowl - Veggie
+    Soft Taco
+    Nacho Cheese Doritos® Locos Tacos Supreme®
+    Bean Burrito
+    Cheese Quesadilla
+    Burrito Supreme®
+    Chipotle Chicken Grande Burrito
+    Loaded Taco Grande Burrito
+    Shredded Chicken Burrito
+    Black Bean Quesarito
+    Flamin' Hot® Doritos® Locos Tacos
+    Mexican Pizza
+    Black Beans and Rice
+    Chalupa Supreme
+    Crunchy Taco Supreme®
+    Soft Taco Supreme®
+    Crunchy Taco
+    Black Beans
+@[product#with_sauces]
+    Chicken Quesadilla
+    Shredded Chicken Quesadilla Melt
+    Cheesy Roll Up
+    Nacho Cheese Doritos® Locos Tacos
+    Spicy Tostada
+    Chicken Soft Taco
+    Triplelupa
+    Beefy Nacho Griller
+    Nachos Supreme
+    Grilled Steak Soft Taco
+    Cheesy Potato Griller
+    Cheesy Gordita Crunch
+    Power Menu Bowl
+    Steak Quesadilla
+    Beefy 5-Layer Burrito
+    Cheesy Bean and Rice Burrito
+    Crunchwrap Supreme®
+    Beefy Fritos® Burrito
+    7-Layer Burrito
+    Black Bean Crunchwrap Supreme®
+    Flamin' Hot® Doritos® Locos Tacos Supreme
+    Spicy Potato Soft Taco
+    Nachos BellGrande®
+    Quesarito
+    Cheesy Fiesta Potatoes
+    Power Menu Bowl - Veggie
+    Soft Taco
+    Nacho Cheese Doritos® Locos Tacos Supreme®
+    Bean Burrito
+    Cheese Quesadilla
+    Burrito Supreme®
+    Chipotle Chicken Grande Burrito
+    Loaded Taco Grande Burrito
+    Shredded Chicken Burrito
+    Black Bean Quesarito
+    Flamin' Hot® Doritos® Locos Tacos
+    Mexican Pizza
+    Black Beans and Rice
+    Chalupa Supreme
+    Crunchy Taco Supreme®
+    Soft Taco Supreme®
+    Crunchy Taco
+    Black Beans
+@[product#with_sizes]
+    Diet Pepsi®
+    Pepsi®
+    Electric Blue Raspberry Freeze
+    Pepsi® Zero Sugar
+    Mountain Dew Baja Blast® Freeze
+    Mountain Dew®
+    Lipton® Unsweetened Iced Tea
+    Sierra Mist®
+    Wild Strawberry Candy Freeze
+    G2 Gatorade® Fruit Punch
+    Mountain Dew® Kickstart™ Orange Citrus
+    Fountain Drink
+    Blue Raspberry Freeze
+    Mountain Dew® Baja Blast™ Zero Sugar
+    Wild Strawberry Freeze
+    Tropicana® Pink Lemonade
+    Brisk® Mango Fiesta
+    Mountain Dew Baja Blast®
+@[size]
+    Small
+    Large
+    Medium
+@[addon]
+    Shredded Chicken
+    Chicken
+    Fritos®
+    Potatoes
+    Jalapeño Peppers
+    Seasoned Beef
+    3 Cheese Blend
+    Tomatoes
+    Seasoned Red Chips
+    Lettuce
+    Beans
+    Steak
+    Seasoned Rice
+    Bacon
+    Cheese
+    Onions
+    Black Beans
+    Red Strips
+@[sauce]
+    Chipotle Sauce
+    Guacamole
+    Avocado Ranch Sauce
+    Red Sauce
+    Spicy Ranch
+    Pico De Gallo
+    Creamy Jalapeño Sauce
+    Reduced Fat Sour Cream
+    Nacho Cheese Sauce
+    Mexican Pizza Sauce
+@[menu_category]
+    burritos
+    cravings value menu
+    deals and combos
+    drinks
+    nachos
+    quesadillas
+    sides
+    specialties
+    sweets
+    tacos

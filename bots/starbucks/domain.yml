@@ -1,0 +1,405 @@
+session_config:
+  session_expiration_time: 15
+  carry_over_slots_to_new_session: false
+
+intents:
+  - select_store
+  - describe_menu
+  - describe_category
+  - select_item
+  - ask_cart_contents
+  - remove_from_cart
+  - clear_cart
+  - inform
+  - goodbye
+  - stop
+  - greet
+  - affirm
+  - deny
+  - thank
+  - faq
+  - out_of_scope
+  - checkout_cart
+  - order_button
+  - not_implemented
+
+entities:
+  - store
+  - size
+  - item
+  - options
+  - quantity
+  - category
+  - rating
+
+slots:
+  store:
+    type: text
+    initial_value: starbucks
+  category:
+    type: text
+  item:
+    type: unfeaturized
+  quantity:
+    type: text
+  size:
+    type: unfeaturized
+  options:
+    type: list
+  image:
+    type: text
+  item_to_add:
+    type: text
+  num_cart_items:
+    type: float
+    initial_value: 0
+  cart_total:
+    type: float
+    initial_value: 0
+  readable_cart:
+    type: text
+  target_cart_item:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
+  rating:
+    type: unfeaturized
+  receipt:
+    type: text
+
+# NOTE: for many of these responses we may want to include a button or image but we need 
+# info from the cart - like if we want to offer buttons for size options, we need to get the size
+# info from the item in the cart. Similarity we could offer buttons and/or images of available stores,
+# categories, recommendations, etc. But this info is in cart.py. That means these responses must be 
+# moved to custom actions in order to interface with cart.py
+responses:
+  utter_greet:
+  - text: Welcome to the Starbucks Facebook experience! How can I help you?
+  - text: Let's get started.
+    channel: facebook
+    custom:
+      attachment:
+        type: template
+        payload:
+          template_type: generic
+          elements:
+          - title: Welcome to Starbucks
+            image_url: https://media2.s-nbcnews.com/j/newscms/2019_51/3150416/191216-starbucks-mn-1300_900835c3c2f8f0e875a7294d36555d2a.fit-2000w.jpg
+            subtitle: Welcome to the Starbucks Facebook experience! How can I help you?
+            default_action:
+              type: web_url
+              url: https://www.starbucks.com/
+              webview_height_ratio: tall
+            buttons:
+            - type: postback
+              title: Order ☕
+              payload: /order_button
+            - type: postback
+              title: Track order 🏃
+              payload: /not_implemented
+            - type: postback
+              title: Customer support 📞
+              payload: /not_implemented
+  utter_goodbye:
+  - text: Bye
+  utter_noworries:
+  - text: No problem.
+  utter_show_menu: # This one opens a new webpage, we want it to stay inside messenger
+  - text: Sure, here is the menu for {store}.
+  - text: Sure, here's Starbucks.
+    channel: facebook
+    custom:
+      attachment:
+        type: template
+        payload:
+          template_type: generic
+          elements:
+          - title: Starbucks menu
+            image_url: https://www.ishn.com/ext/resources/logos/900x500/starbucks-logo-900.jpg?1556110290
+            subtitle: Order your favorite drinks from Starbucks!
+            default_action:
+              type: web_url
+              url: https://www.starbucks.com/
+              webview_height_ratio: tall
+              # This line is required for webview but throws an error when I include it
+              #messenger_extensions: true
+            buttons:
+            - type: web_url
+              url: https://www.starbucks.com/
+              title: Order now!
+  utter_show_menu_categories:
+  - text: Here are the categories available on the {store} menu. 
+  utter_no_store_selected:
+  - text: You haven't selected a store. Where would you like to order from?
+  - text: You haven't selected a store. Where would you like to order from?
+    channel: facebook
+    quick_replies:
+      - title: Starbucks
+        payload: starbucks
+  utter_category_not_found:
+  - text: Sorry, {store} doesn't have a category for {category}
+  utter_no_category_selected:
+  - text: You haven't selected a category.
+  utter_menu_not_found:
+  - text: Sorry, I couldn't find a menu for that restaurant. 
+  utter_ask_order:
+  - text: Sure, what would you like to order?
+  - text: Sure, what would you like to order?
+    channel: facebook
+    quick_replies:
+      - title: Hot Coffee
+        payload: '/describe_category{"category": "Hot Coffees"}'
+      - title: Cold Coffee
+        payload: '/describe_category{"category": "Cold Coffees"}'
+      - title: Something Else
+        payload: "/describe_menu"
+  utter_ask_store:
+  - text: Which store would you like to order from?
+  - text: Which store would you like to order from?
+    channel: facebook
+    quick_replies:
+      - title: Starbucks
+        payload: starbucks
+  utter_ask_size:
+  - text: What size would you like?
+  - text: What size would you like?
+    channel: facebook
+    quick_replies:
+      - title: Short (8oz)
+        payload: Short
+      - title: Tall (12oz)
+        payload: Tall
+      - title: Grande (16oz)
+        payload: Grande
+      - title: Venti (20oz)
+        payload: Venti
+  utter_invalid_size:
+  - text: Sorry, that's not a valid size.
+  utter_ask_options:
+  - text: Please state any options you would like, or just say 'None'.
+  utter_request_options:
+  - text: What option would you like to add?
+  utter_ask_item:
+  - text: What item would you like?
+  utter_invalid_item:
+  - text: Sorry, I couldn't find that item on the menu.
+  utter_affirm_item:
+  - text: Okay, you want a {item}.
+  utter_item_not_found:
+  - text: Sorry, I couldn't find that item.
+  utter_no_item_selected:
+  - text: Please specify which item you would like to select.
+  utter_ask_target_cart_item:
+  - text: Which item in your cart would you like to select?
+  utter_target_cart_item_not_found:
+  - text: Sorry, I couldn't find {item} in your cart.
+  utter_confirm_remove:
+  - text: Are you sure you want to remove {target_cart_item}?
+  - text: Are you sure you want to remove {target_cart_item}?
+    buttons:
+      - type: postback
+        title: Yes ✔
+        payload: /affirm
+      - type: postback
+        title: No ✖
+        payload: /deny
+  utter_removed:
+  - text: The {target_cart_item} was removed.
+  - text: The {target_cart_item} was removed.
+    channel: facebook
+    quick_replies:
+      - type: postback
+        title: Add ➕
+        payload: /select_item
+      - type: postback
+        title: Cart 🛒
+        payload: /ask_cart_contents
+      - type: postback
+        title: Menu 📃
+        payload: /describe_menu
+      - type: postback
+        title: Checkout 💸
+        payload: /checkout_cart
+  utter_deny_remove:
+  - text: Alright I won't change your cart.
+  utter_confirm_add:
+  - text: Okay, you want to add {item_to_add} to your cart?
+  - text: Let's confirm.
+    channel: facebook
+    custom:
+      attachment:
+        type: template
+        payload:
+          template_type: generic
+          elements:
+          - title: Confirm Add
+            # ISSUE: I tried at first using slots {image} and {item_to_add} for image and subtitle
+            # Facebook does not like {image} or '{image}' if they're the only thing as the value
+            # for example, in the text section, something like "okay you want a {item}" is fine, but 
+            #image_url: https://{image}
+            subtitle: Add {item_to_add}?
+            buttons:
+              - type: postback
+                title: Yes ✔
+                payload: /affirm
+              - type: postback
+                title: No ✖
+                payload: /deny
+  utter_affirm_add:
+  - text: Okay, I added {item_to_add} to your cart.
+  utter_ask_next_action:
+  - text: What would you like to do next?
+  - text: What would you like to do next?
+    channel: facebook
+    quick_replies:
+      - type: postback
+        title: Add ➕
+        payload: /select_item
+      - type: postback
+        title: Cart 🛒
+        payload: /ask_cart_contents
+      - type: postback
+        title: Menu 📃
+        payload: /describe_menu
+      - type: postback
+        title: Checkout 💸
+        payload: /checkout_cart
+  utter_deny_add:
+  - text: Okay, I won't add that to your cart.
+  - text: Okay, I won't add that to your cart.
+    channel: facebook
+    quick_replies:
+      - type: postback
+        title: Add ➕
+        payload: /select_item
+      - type: postback
+        title: Cart 🛒
+        payload: /ask_cart_contents
+      - type: postback
+        title: Menu 📃
+        payload: /describe_menu
+      - type: postback
+        title: Checkout 💸
+        payload: /checkout_cart
+  utter_confirm_clear_cart:
+  - text: Are you sure you want to empty the cart?
+    buttons:
+      - title: Yes ✔
+        payload: /affirm
+      - title: No ✖
+        payload: /deny
+  utter_cart_cleared:
+  - text: Okay, I removed all the items from your cart.
+  utter_deny_clear_cart:
+  - text: Nevermind, I won't clear your cart.
+  - text: Nevermind, I won't clear your cart.
+    channel: facebook
+    quick_replies:
+      - type: postback
+        title: Add ➕
+        payload: /select_item
+      - type: postback
+        title: Cart 🛒
+        payload: /ask_cart_contents
+      - type: postback
+        title: Menu 📃
+        payload: /describe_menu
+      - type: postback
+        title: Checkout 💸
+        payload: /checkout_cart
+  utter_cart_is_empty:
+  - text: Your cart is empty.
+  utter_cart_contents:
+  - text: Here's what you have in your cart.
+  utter_default:
+  - text: Sorry, I didn't understand that. Could you ask again?
+  utter_confirm_checkout:
+  - text: Are you sure you want to checkout your cart?
+    buttons:
+      - title: Yes ✔
+        payload: /affirm
+      - title: No ✖
+        payload: /deny
+  utter_cancel_checkout:
+  - text: Okay, I won't checkout your cart yet.
+  utter_empty_cart_no_checkout:
+  - text: Your cart is empty. Add something to your cart before checkout out.
+  utter_receipt:
+  - text: '{receipt}'
+  utter_checkout_complete:
+  - text: The items in your cart have been purchased. Enjoy!
+  utter_request_rating:
+  - text: Please take a moment to rate this bot from 1-10 (10 being excellent)
+    quick_replies:
+      - title: '1'
+        payload: '/inform{"rating": "1"}'
+      - title: '2'
+        payload: '/inform{"rating": "2"}'
+      - title: '3'
+        payload: '/inform{"rating": "3"}'
+      - title: '4'
+        payload: '/inform{"rating": "4"}'
+      - title: '5'
+        payload: '/inform{"rating": "5"}'
+      - title: '6'
+        payload: '/inform{"rating": "6"}'
+      - title: '7'
+        payload: '/inform{"rating": "7"}'
+      - title: '8'
+        payload: '/inform{"rating": "8"}'
+      - title: '9'
+        payload: '/inform{"rating": "9"}'
+      - title: '10'
+        payload: '/inform{"rating": "10"}'
+  utter_thank:
+  - text: Thank you!
+  utter_not_implemented:
+  - text: Sorry, this feature hasn't been implemented yet!
+
+actions:
+  - respond_faq
+  - action_confirm_add
+  - action_validate_item
+  - action_validate_size
+  - action_validate_options
+  - action_prepare_add_to_cart
+  - action_add_to_cart
+  - action_get_cart_item
+  - action_remove_from_cart
+  - action_clear_cart
+  - action_cart_to_string
+  - action_clear_slots
+  - action_set_options_none
+  - action_read_cart
+  - action_item_to_string
+  - action_set_menu
+  - action_describe_menu
+  - action_describe_category
+  - action_checkout_cart
+  - action_request_rating
+  - utter_goodbye
+  - utter_greet
+  - utter_noworries
+  - utter_show_menu
+  - utter_affirm_item
+  - utter_invalid_item
+  - utter_ask_size
+  - utter_invalid_size
+  - utter_ask_options
+  - utter_request_options
+  - utter_ask_item
+  - utter_deny_add
+  - utter_cart_is_empty
+  - utter_cart_contents
+  - utter_ask_target_cart_item
+  - utter_target_cart_item_not_found
+  - utter_confirm_remove
+  - utter_removed
+  - utter_default
+  - utter_affirm_add
+  - utter_confirm_add
+  - utter_request_rating
+  - utter_confirm_checkout
+  - utter_checkout_complete
+  - utter_empty_cart_no_checkout
+  - utter_thank

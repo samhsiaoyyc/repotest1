@@ -1,0 +1,21 @@
+2020-03-31 09:19:43 INFO     rasa.nlu.test  - Accumulated test folds entity evaluation results:
+2020-03-31 09:19:43 INFO     rasa.nlu.test  - Evaluation for entity extractor: CRFEntityExtractor
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - Classification report for 'CRFEntityExtractor' saved to 'results/CRFEntityExtractor_report.json'.
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - Incorrect entity predictions saved to results/CRFEntityExtractor_errors.json.
+2020-03-31 09:19:44 INFO     rasa.test  - CV evaluation (n=5)
+2020-03-31 09:19:44 INFO     rasa.test  - Intent evaluation results
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - train Accuracy: 0.983 (0.002)
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - train F1-score: 0.983 (0.002)
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - train Precision: 0.983 (0.002)
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - test Accuracy: 0.802 (0.009)
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - test F1-score: 0.802 (0.007)
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - test Precision: 0.812 (0.004)
+2020-03-31 09:19:44 INFO     rasa.test  - Entity evaluation results
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - Entity extractor: CRFEntityExtractor
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - train Accuracy: 0.998 (0.000)
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - train F1-score: 0.783 (0.026)
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - train Precision: 0.839 (0.044)
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - Entity extractor: CRFEntityExtractor
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - test Accuracy: 0.995 (0.002)
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - test F1-score: 0.577 (0.082)
+2020-03-31 09:19:44 INFO     rasa.nlu.test  - test Precision: 0.684 (0.090)

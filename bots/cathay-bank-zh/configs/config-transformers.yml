@@ -1,0 +1,35 @@
+language: "zh"
+
+pipeline: 
+- name: "HFTransformersNLP"
+  # Name of the language model to use
+  model_name: "bert"
+  # Pre-Trained weights to be loaded
+  model_weights: "bert-base-chinese"
+  # An optional path to a specific directory to download and cache the pre-trained model weights.
+  # The `default` cache_dir is the same as https://huggingface.co/transformers/serialization.html#cache-directory .
+  # ~/.cache/torch/
+  cache_dir: transformers_cache
+- name: "LanguageModelTokenizer"
+  # Flag to check whether to split intents
+  "intent_tokenization_flag": False
+  # Symbol on which intent should be split
+  "intent_split_symbol": "_"
+- name: "RegexFeaturizer"
+- name: "LanguageModelFeaturizer"
+- name: "EntitySynonymMapper"
+- name: "CountVectorsFeaturizer"
+  analyzer: "char_wb"
+  min_ngram: 1
+  max_ngram: 4
+- name: "CRFEntityExtractor"
+- name: "EmbeddingIntentClassifier"
+policies:
+  - name: MemoizationPolicy
+  - name: KerasPolicy
+  - name: FormPolicy
+  - name: MappingPolicy
+  - name: FallbackPolicy
+    nlu_threshold: 0.4
+    core_threshold: 0.3
+    fallback_action_name: action_repeate

@@ -1,0 +1,74 @@
+session_config:
+    session_expiration_time: 60.0
+    carry_over_slots_to_new_session: true
+  intents:
+  - thanks
+  - greetings
+  - bye
+  - faq
+  - faq/richart_check_currency
+  - faq/ach_date
+  - faq/ach_income_date
+  - faq/richart_currency_date
+  - faq/richart_outward_remittance
+  - faq/ach_apply_effective
+  - faq/richart_promotion
+  - faq/richart_amount_limit
+  - faq/richart_friendship_activity
+  - faq/richart_gogo
+  - faq/richart_easycard_introduce
+  - faq/richart_apply_underage_validate
+  - faq/richart_creditcard_reset_pwd
+  - faq/richart_debit_predesignate
+  - faq/richart_check_cross_transfer_discount
+  - faq/richart_currency_min
+  - faq/ach_bank_supported
+  - faq/richart_easycard_debit_activity
+  - faq/richart_check_transaction
+  - faq/richart_apply
+  - faq/richart_currency
+  - faq/ach_apply
+  - faq/richart_currency_atm
+  - faq/ach_introduce
+  - faq/ach_date_change
+  - faq/ach_amount_limit
+  - faq/richart_apply_futher_documents
+  - faq/gogo_apply
+  - faq/richart_debit_active
+  - faq/ach_switch
+  - faq/richart_debit_reset_pwd
+  - faq/richart_check_account_apply_process
+  - faq/richart_deduction_change
+  - faq/prime_rate_activity
+  - faq/richart_reset_id_pwd
+  - faq/richart_id_validate
+  - faq/gogo_digital
+  - faq/richart_check_credit_consumer
+  - faq/richart_check_credit_balance
+  - faq/richart_easycard_replace
+  - faq/richart_apply_underage
+  - faq/ach_terminate
+  - faq/richart_loans_qualification
+  - faq/richart_creditcard_apply
+  - faq/richart_non_predesignate_amount_limit
+  - faq/gogo_apply_document
+  - faq/richart_promotion_excusive_code
+  - faq/richart_currency_promotion_activity
+  - faq/ach_amount_change
+  - faq/ach_account_change
+  responses:
+    utter_greetings:
+    - text: 您好，台新銀行Richart客服，很高興為您服務。請問有什麼能夠服務的嗎？
+    utter_thanks:
+    - text: 不用客氣，為您服務是我的榮幸。請問還有什麼需要服務的嗎？
+    utter_repeate:
+    - text: 不好意思，可以請您再說一次嗎？
+    utter_bye:
+    - text: 再見，期待再為您服務。
+  actions:
+  - utter_greetings
+  - utter_thanks
+  - utter_repeate
+  - utter_bye
+  - respond_faq
+  

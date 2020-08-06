@@ -1,0 +1,344 @@
+easalt01:~/seasalt-ai/ngChat/bots/cathay-bank-zh/transformers (NGCHAT-53/docs/Trasa_jieba_mitie/20200331)*$ CUDA_VISIBLE_DEVICES=-1 rasa test nlu -c configs/cansformers.yml -u data/training_data.json --cross-validation
+o init server: Could not connect: Connection refused
+o init server: Could not connect: Connection refused
+
+804): Gdk-CRITICAL **: 09:54:26.370: gdk_cursor_new_for_display: assertion 'GDKLAY (display)' failed
+
+804): Gdk-CRITICAL **: 09:54:26.375: gdk_cursor_new_for_display: assertion 'GDKLAY (display)' failed
+01 09:54:26.999859: W tensorflow/stream_executor/platform/default/dso_loader.ccld not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannotared object file: No such file or directory
+01 09:54:26.999942: W tensorflow/stream_executor/platform/default/dso_loader.ccld not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugicannot open shared object file: No such file or directory
+01 09:54:26.999953: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Canen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, ake sure the missing libraries mentioned above are installed properly.
+01 09:54:27 INFO     rasa.cli.test  - Test model using cross validation.
+01 09:54:29 INFO     transformers.file_utils  - PyTorch version 1.3.1 available
+01 09:54:29 INFO     transformers.file_utils  - TensorFlow version 2.1.0 availa
+01 09:54:29 INFO     transformers.tokenization_utils  - loading file https://s3ws.com/models.huggingface.co/bert/bert-base-chinese-vocab.txt from cache at /hon/.cache/torch/transformers/8a0c070123c1f794c42a29c6904beb7c1b8715741e235bee04afc83f.9b42061518a39ca00b8b52059fd2bede8daa613f8a8671500e518a8c29de8c00
+01 09:54:30 INFO     transformers.configuration_utils  - loading configuration ps://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-config.json he at /home/xuchen/.cache/torch/transformers/8a3b1cfe5da58286e12a0f5d7d182b8d6e26c332ee3817548cf7e60a.3767c74c8ed285531d04153fe84a0791672aff52f7249b27df341dbc
+01 09:54:30 INFO     transformers.configuration_utils  - Model config BertConfi
+tectures": [
+tForMaskedLM"
+
+tion_probs_dropout_prob": 0.1,
+oken_id": 0,
+tionality": "bidi",
+mple": false,
+oken_ids": 0,
+uning_task": null,
+n_act": "gelu",
+n_dropout_prob": 0.1,
+n_size": 768,
+bel": {
+ "LABEL_0",
+ "LABEL_1"
+
+alizer_range": 0.02,
+mediate_size": 3072,
+coder": false,
+2id": {
+EL_0": 0,
+EL_1": 1
+
+_norm_eps": 1e-12,
+h_penalty": 1.0,
+ength": 20,
+osition_embeddings": 512,
+_type": "bert",
+ttention_heads": 12,
+eams": 1,
+idden_layers": 12,
+abels": 2,
+eturn_sequences": 1,
+t_attentions": false,
+t_hidden_states": false,
+t_past": true,
+oken_id": 0,
+r_fc_size": 768,
+r_num_attention_heads": 12,
+r_num_fc_layers": 3,
+r_size_per_head": 128,
+r_type": "first_token_transform",
+d_heads": {},
+ition_penalty": 1.0,
+rature": 1.0,
+": 50,
+": 1.0,
+script": false,
+vocab_size": 2,
+float16": false,
+_size": 21128
+
+
+01 09:54:30 INFO     transformers.modeling_tf_utils  - loading weights file httamazonaws.com/models.huggingface.co/bert/bert-base-chinese-tf_model.h5 from cacome/xuchen/.cache/torch/transformers/987cd265ea1aa9cd7e884caf8dd86c2e764e5114ee86c1fe05f7a26c.e6b974f59b54219496a89fd32be7afb020374df0976a796e5ccd3a1733d31537
+01 09:54:30.922853: E tensorflow/stream_executor/cuda/cuda_driver.cc:351] faileo cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+01 09:54:32 INFO     transformers.modeling_tf_utils  - Layers from pretrained m used in TFBertModel: ['mlm___cls', 'nsp___cls']
+01 09:54:32 WARNING  rasa.nlu.classifiers.diet_classifier  - Please configure tr of 'epochs' in your configuration file. We will change the default value of 'in the future to 1.
+01 09:54:32 INFO     rasa.nlu.model  - Starting to train component HFTransforme
+01 09:56:21 INFO     rasa.nlu.model  - Finished training component.
+01 09:56:21 INFO     rasa.nlu.model  - Starting to train component LanguageModeer
+01 09:56:21 INFO     rasa.nlu.model  - Finished training component.
+01 09:56:21 INFO     rasa.nlu.model  - Starting to train component RegexFeaturi
+01 09:56:21 INFO     rasa.nlu.model  - Finished training component.
+01 09:56:21 INFO     rasa.nlu.model  - Starting to train component LanguageModezer
+01 09:56:21 INFO     rasa.nlu.model  - Finished training component.
+01 09:56:21 INFO     rasa.nlu.model  - Starting to train component EntitySynony
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target 'SuperMarket' with '7-11'. Checraining data and remove conflicting synonym definitions to prevent this from ha
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target '7-11' with 'OK商店'. Check young data and remove conflicting synonym definitions to prevent this from happeni
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target 'OK商店' with '7-ELEVEN'. Checkaining data and remove conflicting synonym definitions to prevent this from hap
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target '7-ELEVEN' with '711'. Check yoing data and remove conflicting synonym definitions to prevent this from happen
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target '711' with 'family'. Check yourg data and remove conflicting synonym definitions to prevent this from happenin
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+01 09:56:21 INFO     rasa.nlu.model  - Finished training component.
+01 09:56:21 INFO     rasa.nlu.model  - Starting to train component CountVectorser
+01 09:56:22 INFO     rasa.nlu.model  - Finished training component.
+01 09:56:22 INFO     rasa.nlu.model  - Starting to train component DIETClassifi
+  0%| | 0/300 [00:13<?, ?it/s, t_loss=9.152, i_loss=5.039, e_loss=2.546, i_acc=  0%| | 1/300 [00:13<1:07:55, 13.63s/it, t_loss=9.152, i_loss=5.039, e_loss=2.5c=0.181, e_f1=0.000]
+
+
+  6%| | 19/300 [04:27<1:01:45, 13.19s/it, t_loss=1.603, i_loss=0.686, e_loss=0.cc=0.94Epochs:   7%| | 20/300 [04:27<1:02:07, 13.31s/it, t_loss=1.603, i_loss=0loss=0.099, i_acc=0.948, e_f1=0.426]
+
+01 11:01:59 INFO     rasa.utils.tensorflow.models  - Finished training.
+01 11:01:59 INFO     rasa.nlu.model  - Finished training component.
+01 11:01:59 INFO     rasa.nlu.test  - Running model for predictions:
+████████████████████████████████████████████████████████████████████████| 2715/:33<00:00,  5.74it/s]
+01 11:10:34 INFO     rasa.nlu.test  - Running model for predictions:
+██████████████████████████████████████████████████████████████████████████| 679:06<00:00,  5.66it/s]
+01 11:12:41 INFO     rasa.nlu.model  - Starting to train component HFTransforme
+01 11:14:17 INFO     rasa.nlu.model  - Finished training component.
+01 11:14:17 INFO     rasa.nlu.model  - Starting to train component LanguageModeer
+01 11:14:18 INFO     rasa.nlu.model  - Finished training component.
+01 11:14:18 INFO     rasa.nlu.model  - Starting to train component RegexFeaturi
+01 11:14:18 INFO     rasa.nlu.model  - Finished training component.
+01 11:14:18 INFO     rasa.nlu.model  - Starting to train component LanguageModezer
+01 11:14:18 INFO     rasa.nlu.model  - Finished training component.
+01 11:14:18 INFO     rasa.nlu.model  - Starting to train component EntitySynony
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target 'family' with 'SuperMarket'. Ch training data and remove conflicting synonym definitions to prevent this from g.
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target 'SuperMarket' with '7-11'. Checraining data and remove conflicting synonym definitions to prevent this from ha
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target '7-11' with 'OK商店'. Check young data and remove conflicting synonym definitions to prevent this from happeni
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target 'OK商店' with '7-ELEVEN'. Checkaining data and remove conflicting synonym definitions to prevent this from hap
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target '7-ELEVEN' with 'seven'. Check ining data and remove conflicting synonym definitions to prevent this from happ
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+01 11:14:18 INFO     rasa.nlu.model  - Finished training component.
+01 11:14:18 INFO     rasa.nlu.model  - Starting to train component CountVectorser
+01 11:14:19 INFO     rasa.nlu.model  - Finished training component.
+01 11:14:19 INFO     rasa.nlu.model  - Starting to train component DIETClassifi
+100%|██| 300/300 [56:04<00:00, 12.40s/it, t_loss=0.381, i_loss=0.101, e_loss=0.cc=0.986, e_f1=0.803]
+01 12:10:29 INFO     rasa.utils.tensorflow.models  - Finished training.
+01 12:10:29 INFO     rasa.nlu.model  - Finished training component.
+01 12:10:29 INFO     rasa.nlu.test  - Running model for predictions:
+████████████████████████████████████████████████████████████████████████| 2715/:21<00:00,  6.21it/s]
+01 12:18:52 INFO     rasa.nlu.test  - Running model for predictions:
+██████████████████████████████████████████████████████████████████████████| 679:06<00:00,  6.10it/s]
+al/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinWarning: Precision and F-score are ill-defined and being set to 0.0 in labels wredicted samples. Use `zero_division` parameter to control this behavior.
+prf(average, modifier, msg_start, len(result))
+al/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinWarning: Precision is ill-defined and being set to 0.0 in labels with no predicles. Use `zero_division` parameter to control this behavior.
+prf(average, modifier, msg_start, len(result))
+01 12:20:58 INFO     rasa.nlu.model  - Starting to train component HFTransforme
+01 12:22:36 INFO     rasa.nlu.model  - Finished training component.
+01 12:22:36 INFO     rasa.nlu.model  - Starting to train component LanguageModeer
+01 12:22:36 INFO     rasa.nlu.model  - Finished training component.
+01 12:22:36 INFO     rasa.nlu.model  - Starting to train component RegexFeaturi
+01 12:22:36 INFO     rasa.nlu.model  - Finished training component.
+01 12:22:36 INFO     rasa.nlu.model  - Starting to train component LanguageModezer
+01 12:22:36 INFO     rasa.nlu.model  - Finished training component.
+01 12:22:36 INFO     rasa.nlu.model  - Starting to train component EntitySynony
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target 'seven' with '7-11'. Check yourg data and remove conflicting synonym definitions to prevent this from happenin
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target '7-11' with 'OK商店'. Check young data and remove conflicting synonym definitions to prevent this from happeni
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target 'OK商店' with '711'. Check yourg data and remove conflicting synonym definitions to prevent this from happenin
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target '711' with 'family'. Check yourg data and remove conflicting synonym definitions to prevent this from happenin
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target 'family' with 'seven'. Check yoing data and remove conflicting synonym definitions to prevent this from happen
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+01 12:22:36 INFO     rasa.nlu.model  - Finished training component.
+01 12:22:36 INFO     rasa.nlu.model  - Starting to train component CountVectorser
+01 12:22:37 INFO     rasa.nlu.model  - Finished training component.
+01 12:22:37 INFO     rasa.nlu.model  - Starting to train component DIETClassifi
+01 13:25:10 INFO     rasa.utils.tensorflow.models  - Finished training.
+01 13:25:10 INFO     rasa.nlu.model  - Finished training component.
+01 13:25:10 INFO     rasa.nlu.test  - Running model for predictions:
+████████████████████████████████████████████████████████████████████████| 2715/:18<00:00,  5.71it/s]
+01 13:33:29 INFO     rasa.nlu.test  - Running model for predictions:
+██████████████████████████████████████████████████████████████████████████| 679:05<00:00,  6.98it/s]
+01 13:35:35 INFO     rasa.nlu.model  - Starting to train component HFTransforme
+01 13:37:09 INFO     rasa.nlu.model  - Finished training component.
+01 13:37:09 INFO     rasa.nlu.model  - Starting to train component LanguageModeer
+01 13:37:09 INFO     rasa.nlu.model  - Finished training component.
+01 13:37:09 INFO     rasa.nlu.model  - Starting to train component RegexFeaturi
+01 13:37:09 INFO     rasa.nlu.model  - Finished training component.
+01 13:37:09 INFO     rasa.nlu.model  - Starting to train component LanguageModezer
+01 13:37:09 INFO     rasa.nlu.model  - Finished training component.
+01 13:37:09 INFO     rasa.nlu.model  - Starting to train component EntitySynony
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target 'seven' with 'SuperMarket'. Chetraining data and remove conflicting synonym definitions to prevent this from h.
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target 'SuperMarket' with '7-11'. Checraining data and remove conflicting synonym definitions to prevent this from ha
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target '7-11' with 'OK商店'. Check young data and remove conflicting synonym definitions to prevent this from happeni
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target 'OK商店' with '7-ELEVEN'. Checkaining data and remove conflicting synonym definitions to prevent this from hap
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target '7-ELEVEN' with '711'. Check yoing data and remove conflicting synonym definitions to prevent this from happen
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target '711' with 'family'. Check yourg data and remove conflicting synonym definitions to prevent this from happenin
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target 'family' with 'seven'. Check yoing data and remove conflicting synonym definitions to prevent this from happen
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+01 13:37:09 INFO     rasa.nlu.model  - Finished training component.
+01 13:37:09 INFO     rasa.nlu.model  - Starting to train component CountVectorser
+01 13:37:11 INFO     rasa.nlu.model  - Finished training component.
+01 13:37:11 INFO     rasa.nlu.model  - Starting to train component DIETClassifi
+01 14:39:03 INFO     rasa.utils.tensorflow.models  - Finished training.
+01 14:39:03 INFO     rasa.nlu.model  - Finished training component.
+01 14:39:03 INFO     rasa.nlu.test  - Running model for predictions:
+████████████████████████████████████████████████████████████████████████| 2715/:16<00:00,  6.18it/s]
+01 14:47:20 INFO     rasa.nlu.test  - Running model for predictions:
+██████████████████████████████████████████████████████████████████████████| 679:04<00:00,  4.29it/s]
+al/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinWarning: Precision and F-score are ill-defined and being set to 0.0 in labels wredicted samples. Use `zero_division` parameter to control this behavior.
+prf(average, modifier, msg_start, len(result))
+al/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinWarning: Precision is ill-defined and being set to 0.0 in labels with no predicles. Use `zero_division` parameter to control this behavior.
+prf(average, modifier, msg_start, len(result))
+01 14:49:25 INFO     rasa.nlu.model  - Starting to train component HFTransforme
+01 14:51:02 INFO     rasa.nlu.model  - Finished training component.
+01 14:51:02 INFO     rasa.nlu.model  - Starting to train component LanguageModeer
+01 14:51:02 INFO     rasa.nlu.model  - Finished training component.
+01 14:51:02 INFO     rasa.nlu.model  - Starting to train component RegexFeaturi
+01 14:51:02 INFO     rasa.nlu.model  - Finished training component.
+01 14:51:02 INFO     rasa.nlu.model  - Starting to train component LanguageModezer
+01 14:51:02 INFO     rasa.nlu.model  - Finished training component.
+01 14:51:02 INFO     rasa.nlu.model  - Starting to train component EntitySynony
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target 'seven' with 'SuperMarket'. Chetraining data and remove conflicting synonym definitions to prevent this from h.
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target 'SuperMarket' with '7-11'. Checraining data and remove conflicting synonym definitions to prevent this from ha
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target '7-11' with '7-ELEVEN'. Check yning data and remove conflicting synonym definitions to prevent this from happe
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target '7-ELEVEN' with '711'. Check yoing data and remove conflicting synonym definitions to prevent this from happen
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target '711' with 'family'. Check yourg data and remove conflicting synonym definitions to prevent this from happenin
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+al/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found con synonym definitions for ''. Overwriting target 'family' with 'seven'. Check yoing data and remove conflicting synonym definitions to prevent this from happen
+nfo at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+01 14:51:02 INFO     rasa.nlu.model  - Finished training component.
+01 14:51:02 INFO     rasa.nlu.model  - Starting to train component CountVectorser
+01 14:51:03 INFO     rasa.nlu.model  - Finished training component.
+01 14:51:03 INFO     rasa.nlu.model  - Starting to train component DIETClassifi
+01 15:54:26 INFO     rasa.utils.tensorflow.models  - Finished training.
+01 15:54:26 INFO     rasa.nlu.model  - Finished training component.
+01 15:54:26 INFO     rasa.nlu.test  - Running model for predictions:
+████████████████████████████████████████████████████████████████████████| 2716/:17<00:00,  4.80it/s]
+01 16:02:45 INFO     rasa.nlu.test  - Running model for predictions:
+█████████████████▌                                                        | 181:32<01:33,  5.32it/s]
+██████████████████                                                        | 185:33<01:13,  6.67it/s]
+██████████████████████████████████████████████████████████████████████████| 678:04<00:00,  5.96it/s]
+01 16:04:50 INFO     rasa.nlu.test  - Accumulated test folds intent evaluation 
+01 16:04:50 INFO     rasa.nlu.test  - Intent Evaluation: Only considering thoseamples that have a defined intent out of 3394 examples
+01 16:04:50 INFO     rasa.nlu.test  - Classification report saved to results/inort.json.
+01 16:04:50 INFO     rasa.nlu.test  - Incorrect intent predictions saved to resent_errors.json.
+01 16:04:50 INFO     rasa.nlu.test  - Confusion matrix, without normalization:
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1
+0   0   1   0   0   0   0   0   0   0   0   0]
+4   3   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+0   0   0   0   0   0   0   0   0   0   0   0]
+1  29   0   0   0   0   0   0   0   1   0   0   0   0   1   0   9
+0   0   0   2   0   0   0   0   0   0   0   0]
+0   0   8   0   0   0   0   0   0   0   0   1   0   0   0   0   4
+0   0   0   0   0   0   0   0   0   1   0   0]
+0   0   0  51   0   2   0   0   0   0   0   2   0   0   0   0   8
+0   0   0   0   0   0   0   0   0   0   0   0]
+0   1   0   1  50   0   0   0   0   0   0   2   0   0   0   0  10
+0   0   0   1   1   1   0   0   0   0   0   0]
+0   0   0   0   1  46   1   0   0   0   0   1   0   0   0   0   4
+0   0   1   0   0   0   0   0   0   0   0   0]
+0   0   0   0   2   1  53   0   0   0   0   1   0   0   0   0   6
+0   0   0   2   0   0   0   0   0   1   0   0]
+0   0   0   0   0   0   0  31   0   0   0   0   0   0   0   0   2
+0   0   0   0   0   0   0   0   0   0   0   0]
+0   0   0   0   0   0   0   0  15   3   0   1   0   0   0   0   0
+0   0   0   0   0   0   0   0   0   0   0   0]
+0   0   0   0   0   0   0   0   1  48   0   0   0   0   0   0   5
+0   0   0   0   0   0   0   0   0   0   0   0]
+0   0   0   0   1   0   0   0   0   0  51   4   0   0   0   0  14
+0   0   0   0   0   0   0   0   0   0   0   0]
+0   0   0   1   2   0   1   0   0   0   2  86   0   0   0   0  22
+0   0   0   8   0   0   0   0   0   0   1   0]
+0   0   0   0   0   0   0   0   0   0   0   0 137   0   0   0  19
+0   0   0   3   2   0   0   0   0   1   0   0]
+0   0   0   0   0   0   0   0   0   0   0   0   0   6   0   0   3
+0   0   0   1   0   0   0   0   0   0   0   0]
+0   0   0   0   0   0   0   0   0   0   0   0   0   0  73  10   8
+0   0   0   0   0   0   0   0   0   2   0   0]
+0   0   0   0   0   0   0   0   0   0   0   0   1   0  15  24   2
+0   0   0   1   0   0   0   0   0   1   0   0]
+0   1   3   9   6   4   2   2   2   2   9  23  12   1   3   0 397
+0   1   2  59   1   1   0   7  10   9   5   1]
+0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   5
+0   0   0   0   0   0   0   0   0   0   1   0]
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   3
+6   2   0   0   0   0   0   0   0   0   0   0]
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   2
+3  14   0   0   0   0   0   0   0   0   0   0]
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+0   0 233   0   0   0   0   0   0   0   0   0]
+0   1   0   0   0   1   0   0   0   0   0   8   2   0   1   0  41
+0   0   0 281   0   0   0   0   0   3   1   0]
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   7
+0   0   0   0  62   4   0   0   0   0   0   0]
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   5
+0   0   0   0   2 230   1   0   0   0   0   0]
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1
+0   0   0   0   0   1   5   0   0   0   0   0]
+0   0   0   1   1   0   0   0   0   0   0   1   0   0   0   0  12
+0   0   0   1   0   0   0  20  13   0   0   0]
+0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0  12
+0   0   0   0   0   0   0   5  61   0   0   0]
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   5   1  10
+0   0   0   8   0   0   0   0   0  35   0   0]
+0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   1
+0   0   0   0   0   0   0   0   0   0 207   0]
+0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1
+0   0   0   1   0   0   0   0   0   0   0 210]]
+01 16:04:53 INFO     rasa.nlu.test  - Accumulated test folds entity evaluation 
+01 16:04:53 INFO     rasa.nlu.test  - Evaluation for entity extractor: DIETClas
+01 16:04:54 INFO     rasa.nlu.test  - Classification report for 'DIETClassifierto 'results/DIETClassifier_report.json'.
+01 16:04:54 INFO     rasa.nlu.test  - Incorrect entity predictions saved to resTClassifier_errors.json.
+01 16:04:54 INFO     rasa.test  - CV evaluation (n=5)
+01 16:04:54 INFO     rasa.test  - Intent evaluation results
+01 16:04:54 INFO     rasa.nlu.test  - train Accuracy: 0.981 (0.003)
+01 16:04:54 INFO     rasa.nlu.test  - train F1-score: 0.981 (0.003)
+01 16:04:54 INFO     rasa.nlu.test  - train Precision: 0.982 (0.002)
+01 16:04:54 INFO     rasa.nlu.test  - test Accuracy: 0.830 (0.019)
+01 16:04:54 INFO     rasa.nlu.test  - test F1-score: 0.827 (0.017)
+01 16:04:54 INFO     rasa.nlu.test  - test Precision: 0.836 (0.011)
+01 16:04:54 INFO     rasa.test  - Entity evaluation results
+01 16:04:54 INFO     rasa.nlu.test  - Entity extractor: DIETClassifier
+01 16:04:54 INFO     rasa.nlu.test  - train Accuracy: 0.998 (0.000)
+01 16:04:54 INFO     rasa.nlu.test  - train F1-score: 0.862 (0.017)
+01 16:04:54 INFO     rasa.nlu.test  - train Precision: 0.805 (0.021)
+01 16:04:54 INFO     rasa.nlu.test  - Entity extractor: DIETClassifier
+01 16:04:54 INFO     rasa.nlu.test  - test Accuracy: 0.994 (0.001)
+01 16:04:54 INFO     rasa.nlu.test  - test F1-score: 0.565 (0.109)
+01 16:04:54 INFO     rasa.nlu.test  - test Precision: 0.593 (0.140)
+2020-04-01 16:04:54 INFO     rasa.test  - Intent evaluation results
+2020-04-01 16:04:54 INFO     rasa.nlu.test  - train Accuracy: 0.981 (0.003)
+2020-04-01 16:04:54 INFO     rasa.nlu.test  - train F1-score: 0.981 (0.003)
+2020-04-01 16:04:54 INFO     rasa.nlu.test  - train Precision: 0.982 (0.002)
+2020-04-01 16:04:54 INFO     rasa.nlu.test  - test Accuracy: 0.830 (0.019)
+2020-04-01 16:04:54 INFO     rasa.nlu.test  - test F1-score: 0.827 (0.017)
+2020-04-01 16:04:54 INFO     rasa.nlu.test  - test Precision: 0.836 (0.011)
+2020-04-01 16:04:54 INFO     rasa.test  - Entity evaluation results
+2020-04-01 16:04:54 INFO     rasa.nlu.test  - Entity extractor: DIETClassifier
+2020-04-01 16:04:54 INFO     rasa.nlu.test  - train Accuracy: 0.998 (0.000)
+2020-04-01 16:04:54 INFO     rasa.nlu.test  - train F1-score: 0.862 (0.017)
+2020-04-01 16:04:54 INFO     rasa.nlu.test  - train Precision: 0.805 (0.021)
+2020-04-01 16:04:54 INFO     rasa.nlu.test  - Entity extractor: DIETClassifier
+2020-04-01 16:04:54 INFO     rasa.nlu.test  - test Accuracy: 0.994 (0.001)
+2020-04-01 16:04:54 INFO     rasa.nlu.test  - test F1-score: 0.565 (0.109)
+2020-04-01 16:04:54 INFO     rasa.nlu.test  - test Precision: 0.593 (0.140)

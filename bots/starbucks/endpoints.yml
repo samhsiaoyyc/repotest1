@@ -1,0 +1,50 @@
+# This file contains the different endpoints your bot can use.
+
+# Server where the models are pulled from.
+# https://rasa.com/docs/rasa/user-guide/configuring-http-api/#fetching-models-from-a-server/
+
+#models:
+#  url: http://my-server.com/models/default_core@latest
+#  wait_time_between_pulls:  10   # [optional](default: 100)
+
+# Server which runs your custom actions.
+# https://rasa.com/docs/rasa/core/actions/#custom-actions/
+
+action_endpoint:
+  # local:
+  # url: "http://localhost:5055/webhook/"
+  # Kubernetes
+  url: "http://starbucks-bot-actions:5055/webhook/"
+
+# Tracker store which is used to store the conversations.
+# By default the conversations are stored in memory.
+# https://rasa.com/docs/rasa/api/tracker-stores/
+
+tracker_store:
+  type: SQL
+  dialect: "postgresql"  # the dialect used to interact with the db
+  url: "20.37.112.189"
+  db: "rasa"  # path to your db
+  username: "postgres" # username used for authentication
+  password: "seasalt" # password used for authentication
+
+#tracker_store:
+#    type: redis
+#    url: "redis-service"
+#    port: 6379
+#    use_ssl: false
+
+#tracker_store:
+#    type: mongod
+#    url: <url to your mongo instance, e.g. mongodb://localhost:27017>
+#    db: <name of the db within your mongo instance, e.g. rasa>
+#    username: <username used for authentication>
+#    password: <password used for authentication>
+
+# Event broker which all conversation events should be streamed to.
+# https://rasa.com/docs/rasa/api/event-brokers/
+
+event_broker:
+  type: SQL
+  dialect: sqlite
+  db: events.db 

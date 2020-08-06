@@ -1,0 +1,1676 @@
+[
+  {
+    "text": "我 想 郵 局 繳 費",
+    "entities": [
+      {
+        "value": "郵 局",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "線 上 繳 款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "線 上 繳 款"
+      }
+    ]
+  },
+  {
+    "text": "繳 納 最 低",
+    "entities": [
+      {
+        "value": "最 低",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "郵 局 劃 撥",
+    "entities": [
+      {
+        "value": "郵 局",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "郵 局 劃 撥"
+      }
+    ]
+  },
+  {
+    "text": "線 上 繳 款",
+    "entities": [
+      {
+        "value": "線 上 繳",
+        "start": 0,
+        "end": 5,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "線 上 繳 款"
+      }
+    ]
+  },
+  {
+    "text": "我 想 線 上 繳 款",
+    "entities": [
+      {
+        "value": "線 上",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 要 線 上 繳 最 低 應 繳",
+    "entities": [
+      {
+        "value": "線 上",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_method"
+      },
+      {
+        "value": "最 低 應 繳",
+        "start": 10,
+        "end": 17,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "線 上"
+      },
+      {
+        "entity": "pay_amount",
+        "start": 10,
+        "end": 13,
+        "extractor": "DIETClassifier",
+        "value": "最 低"
+      }
+    ]
+  },
+  {
+    "text": "郵 局 繳 款",
+    "entities": [
+      {
+        "value": "郵 局",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "郵 局 繳 款"
+      }
+    ]
+  },
+  {
+    "text": "全 國 繳 費 網",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 9,
+        "extractor": "DIETClassifier",
+        "value": "全 國 繳 費 網"
+      }
+    ]
+  },
+  {
+    "text": "全 部 繳",
+    "entities": [
+      {
+        "value": "全 部",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 0,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "全 部 繳"
+      }
+    ]
+  },
+  {
+    "text": "轉 帳 繳 費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "轉 帳 繳 費"
+      }
+    ]
+  },
+  {
+    "text": "高 雄 機 場 外 圍 停 車",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "park_location",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "高 雄"
+      }
+    ]
+  },
+  {
+    "text": "桃 園 機 場 外 圍 停 車",
+    "entities": [
+      {
+        "value": "桃 園",
+        "start": 0,
+        "end": 3,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "park_location",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "桃 園 機 場"
+      }
+    ]
+  },
+  {
+    "text": "桃 園 機 場 外 圍 停 車",
+    "entities": [
+      {
+        "value": "場",
+        "start": 6,
+        "end": 7,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "park_location",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "桃 園 機 場"
+      }
+    ]
+  },
+  {
+    "text": "我 要 付 信 用 卡 費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 6,
+        "end": 13,
+        "extractor": "DIETClassifier",
+        "value": "信 用 卡 費"
+      }
+    ]
+  },
+  {
+    "text": "我 想 查 詢 額 度",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "查 詢"
+      }
+    ]
+  },
+  {
+    "text": "我 想 查 询 其 他 额 度",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "查 询"
+      }
+    ]
+  },
+  {
+    "text": "最 低 應 繳 金 額 計 算 方 法",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 0,
+        "end": 1,
+        "extractor": "DIETClassifier",
+        "value": "最"
+      }
+    ]
+  },
+  {
+    "text": "多 繳 費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 1,
+        "extractor": "DIETClassifier",
+        "value": "多"
+      }
+    ]
+  },
+  {
+    "text": "線 上 客 服",
+    "entities": [
+      {
+        "value": "線 上",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "線 上 調 額",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "線 上"
+      }
+    ]
+  },
+  {
+    "text": "搬 家 日 記",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "搬 家"
+      }
+    ]
+  },
+  {
+    "text": "我 想 通 過 商 超 繳 費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 8,
+        "end": 11,
+        "extractor": "DIETClassifier",
+        "value": "商 超"
+      }
+    ]
+  },
+  {
+    "text": "我 想 商 超 繳 費",
+    "entities": [
+      {
+        "value": "商 超",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 想 郵 局 繳 費",
+    "entities": [
+      {
+        "value": "郵 局 繳",
+        "start": 4,
+        "end": 9,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "郵 局"
+      }
+    ]
+  },
+  {
+    "text": "郵 局 繳 費",
+    "entities": [
+      {
+        "value": "郵 局",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "郵 局 繳 費"
+      }
+    ]
+  },
+  {
+    "text": "線 上 繳 款",
+    "entities": [
+      {
+        "value": "線 上 繳 款",
+        "start": 0,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "線 上 繳"
+      }
+    ]
+  },
+  {
+    "text": "郵 局 劃 撥",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "郵 局 劃 撥"
+      }
+    ]
+  },
+  {
+    "text": "我 想 通 過 郵 局 全 繳",
+    "entities": [
+      {
+        "value": "郵 局",
+        "start": 8,
+        "end": 11,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全 繳",
+        "start": 12,
+        "end": 15,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 8,
+        "end": 11,
+        "extractor": "DIETClassifier",
+        "value": "郵 局"
+      }
+    ]
+  },
+  {
+    "text": "我 要 去 SuperMarket 繳 費",
+    "entities": [
+      {
+        "value": "SuperMarket",
+        "start": 6,
+        "end": 17,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "超 商 繳 款",
+    "entities": [
+      {
+        "value": "超 商 繳 款",
+        "start": 0,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "超 商"
+      }
+    ]
+  },
+  {
+    "text": "郵 局 劃 撥",
+    "entities": [
+      {
+        "value": "郵",
+        "start": 0,
+        "end": 1,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "郵 局 劃 撥"
+      }
+    ]
+  },
+  {
+    "text": "立 即 繳 款",
+    "entities": [
+      {
+        "value": "立 即",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "最 低 應 繳 金 額",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "最 低 應 繳"
+      }
+    ]
+  },
+  {
+    "text": "全 國 繳 費 網",
+    "entities": [
+      {
+        "value": "全 國 繳 費 網",
+        "start": 0,
+        "end": 9,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全 家 繳 費",
+    "entities": [
+      {
+        "value": "全 家 繳",
+        "start": 0,
+        "end": 5,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "全 家"
+      }
+    ]
+  },
+  {
+    "text": "萊 爾 富 繳 費",
+    "entities": [
+      {
+        "value": "萊 爾 富",
+        "start": 0,
+        "end": 5,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全 國 繳 費 網 繳 費",
+    "entities": [
+      {
+        "value": "全 國 繳 費 網 繳",
+        "start": 0,
+        "end": 11,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 9,
+        "extractor": "DIETClassifier",
+        "value": "全 國 繳 費 網"
+      }
+    ]
+  },
+  {
+    "text": "商 超",
+    "entities": [
+      {
+        "value": "商 超",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "什 麼 時 候 要 繳 費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 1,
+        "extractor": "DIETClassifier",
+        "value": "什"
+      }
+    ]
+  },
+  {
+    "text": "超 商 繳 全 額",
+    "entities": [
+      {
+        "value": "超 商 繳",
+        "start": 0,
+        "end": 5,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全 額",
+        "start": 6,
+        "end": 9,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "超 商"
+      },
+      {
+        "entity": "pay_amount",
+        "start": 6,
+        "end": 9,
+        "extractor": "DIETClassifier",
+        "value": "全 額"
+      }
+    ]
+  },
+  {
+    "text": "繳 最 低 應 繳 金 額",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 2,
+        "end": 9,
+        "extractor": "DIETClassifier",
+        "value": "最 低 應 繳"
+      }
+    ]
+  },
+  {
+    "text": "最 低 應 繳",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "最 低"
+      }
+    ]
+  },
+  {
+    "text": "高 雄 機 場 外 圍 停 車",
+    "entities": [
+      {
+        "value": "高 雄",
+        "start": 0,
+        "end": 3,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 想 查 询 其 他 额 度",
+    "entities": [
+      {
+        "value": "查 询",
+        "start": 4,
+        "end": 7,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 要 繳 費 的 時 候",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 12,
+        "end": 13,
+        "extractor": "DIETClassifier",
+        "value": "候"
+      }
+    ]
+  },
+  {
+    "text": "線 上 克 服",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "線 上"
+      }
+    ]
+  },
+  {
+    "text": "7 - 11 繳 款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 6,
+        "extractor": "DIETClassifier",
+        "value": "7 - 11"
+      }
+    ]
+  },
+  {
+    "text": "我 要 郵 局 繳 費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "郵 局"
+      }
+    ]
+  },
+  {
+    "text": "我 想 線 上 繳 費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "線 上"
+      }
+    ]
+  },
+  {
+    "text": "我 想 郵 局 繳 費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "郵 局"
+      }
+    ]
+  },
+  {
+    "text": "我 想 全 繳",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "全 繳"
+      }
+    ]
+  },
+  {
+    "text": "我 想 繳 納 最 低",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 8,
+        "end": 11,
+        "extractor": "DIETClassifier",
+        "value": "最 低"
+      }
+    ]
+  },
+  {
+    "text": "我 想 全 部 繳 納",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 4,
+        "end": 11,
+        "extractor": "DIETClassifier",
+        "value": "全 部 繳 納"
+      }
+    ]
+  },
+  {
+    "text": "我 要 全 繳",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "全 繳"
+      }
+    ]
+  },
+  {
+    "text": "郵 局 繳 款",
+    "entities": [
+      {
+        "value": "郵 局 繳 款",
+        "start": 0,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "郵 局"
+      }
+    ]
+  },
+  {
+    "text": "全 部 繳 納",
+    "entities": [
+      {
+        "value": "全 部",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 0,
+        "end": 1,
+        "extractor": "DIETClassifier",
+        "value": "全"
+      }
+    ]
+  },
+  {
+    "text": "我 要 繳 最 低 應 繳 金 額",
+    "entities": [
+      {
+        "value": "最 低",
+        "start": 6,
+        "end": 9,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 6,
+        "end": 13,
+        "extractor": "DIETClassifier",
+        "value": "最 低 應 繳"
+      }
+    ]
+  },
+  {
+    "text": "線 上 繳 清",
+    "entities": [
+      {
+        "value": "線 上",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      },
+      {
+        "value": "繳 清",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "線 上"
+      }
+    ]
+  },
+  {
+    "text": "7 - 11 繳 款",
+    "entities": [
+      {
+        "value": "7 - 11",
+        "start": 0,
+        "end": 6,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 要 付 信 用 卡 費",
+    "entities": [
+      {
+        "value": "信 用 卡 費",
+        "start": 6,
+        "end": 13,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "超 商",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "超 商"
+      }
+    ]
+  },
+  {
+    "text": "他 行 繳 費",
+    "entities": [
+      {
+        "value": "他 行",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "最 低 應 繳",
+    "entities": [
+      {
+        "value": "最 低",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "线 上 缴 款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "线 上"
+      }
+    ]
+  },
+  {
+    "text": "桃 園 機 場 外 圍 停 車",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "park_location",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "桃 園 機 場"
+      }
+    ]
+  },
+  {
+    "text": "我 要 查 可 用 餘 額",
+    "entities": [
+      {
+        "value": "查",
+        "start": 4,
+        "end": 5,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 想 商 超 繳 費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "商 超"
+      }
+    ]
+  },
+  {
+    "text": "我 想 繳 納 最 低",
+    "entities": [
+      {
+        "value": "最 低",
+        "start": 8,
+        "end": 11,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全 繳",
+    "entities": [
+      {
+        "value": "全 繳",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "線 上 繳 款",
+    "entities": [
+      {
+        "value": "線 上",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "線 上 繳 款"
+      }
+    ]
+  },
+  {
+    "text": "繳 納 最 低",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "最 低"
+      }
+    ]
+  },
+  {
+    "text": "我 想 全 部 繳 納",
+    "entities": [
+      {
+        "value": "全 部 繳 納",
+        "start": 4,
+        "end": 11,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 自 己 輸 入 金 額",
+    "entities": [
+      {
+        "value": "自 己 輸 入",
+        "start": 2,
+        "end": 9,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 6,
+        "end": 9,
+        "extractor": "DIETClassifier",
+        "value": "輸 入"
+      }
+    ]
+  },
+  {
+    "text": "超 商 繳 全 額",
+    "entities": [
+      {
+        "value": "超 商",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全 額",
+        "start": 6,
+        "end": 9,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "超 商 繳"
+      },
+      {
+        "entity": "pay_amount",
+        "start": 6,
+        "end": 9,
+        "extractor": "DIETClassifier",
+        "value": "全 額"
+      }
+    ]
+  },
+  {
+    "text": "去 超 商 全 繳",
+    "entities": [
+      {
+        "value": "超 商",
+        "start": 2,
+        "end": 5,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全 繳",
+        "start": 6,
+        "end": 9,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "去 超 商 全"
+      }
+    ]
+  },
+  {
+    "text": "郵 局 劃 撥",
+    "entities": [
+      {
+        "value": "郵 局 劃 撥",
+        "start": 0,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "郵 局"
+      }
+    ]
+  },
+  {
+    "text": "中 華 郵 政",
+    "entities": [
+      {
+        "value": "中 華 郵 政",
+        "start": 0,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全 家 繳 費",
+    "entities": [
+      {
+        "value": "全 家",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "全 家 繳"
+      }
+    ]
+  },
+  {
+    "text": "立 即 繳 款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "立 即"
+      }
+    ]
+  },
+  {
+    "text": "最 低 應 繳 金 額",
+    "entities": [
+      {
+        "value": "最 低 應 繳",
+        "start": 0,
+        "end": 7,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "高 雄 機 場 外 圍 停 車",
+    "entities": [
+      {
+        "value": "高 雄 機 場",
+        "start": 0,
+        "end": 7,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "park_location",
+        "start": 2,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "雄"
+      }
+    ]
+  },
+  {
+    "text": "桃 園 機 場 外 圍 停 車",
+    "entities": [
+      {
+        "value": "桃 園 機 場",
+        "start": 0,
+        "end": 7,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "park_location",
+        "start": 6,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "場"
+      }
+    ]
+  },
+  {
+    "text": "我 想 查 詢 其 他 餘 額",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "查 詢"
+      }
+    ]
+  },
+  {
+    "text": "我 想 查 詢 餘 額",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "查 詢"
+      }
+    ]
+  },
+  {
+    "text": "線 上 繳 費 有 手 續 費 嗎 ？",
+    "entities": [
+      {
+        "value": "線 上 繳 費 有 手 續 費 嗎 ？",
+        "start": 0,
+        "end": 19,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 1,
+        "extractor": "DIETClassifier",
+        "value": "線"
+      }
+    ]
+  },
+  {
+    "text": "查 詢 信 用 卡 未 出 帳 明 細",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "查 詢"
+      }
+    ]
+  },
+  {
+    "text": "我 想 超 商 繳 費",
+    "entities": [
+      {
+        "value": "超 商",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 想 全 繳",
+    "entities": [
+      {
+        "value": "全 繳",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 想 線 上 繳 款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "線 上"
+      }
+    ]
+  },
+  {
+    "text": "我 要 郵 局 繳 費",
+    "entities": [
+      {
+        "value": "郵 局",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 想 繳 納 全 部",
+    "entities": [
+      {
+        "value": "繳 納 全 部",
+        "start": 4,
+        "end": 11,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 8,
+        "end": 11,
+        "extractor": "DIETClassifier",
+        "value": "全 部"
+      }
+    ]
+  },
+  {
+    "text": "我 要 自 行 決 定 繳 納 金 額",
+    "entities": [
+      {
+        "value": "自 行 決 定",
+        "start": 4,
+        "end": 11,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 4,
+        "end": 19,
+        "extractor": "DIETClassifier",
+        "value": "自 行 決 定 繳 納 金 額"
+      }
+    ]
+  },
+  {
+    "text": "我 要 線 上 繳 全 額",
+    "entities": [
+      {
+        "value": "線 上",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全 額",
+        "start": 10,
+        "end": 13,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "線 上"
+      },
+      {
+        "entity": "pay_amount",
+        "start": 8,
+        "end": 13,
+        "extractor": "DIETClassifier",
+        "value": "繳 全 額"
+      }
+    ]
+  },
+  {
+    "text": "全 國 繳 費 網 繳 費",
+    "entities": [
+      {
+        "value": "全 國 繳 費 網",
+        "start": 0,
+        "end": 9,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 11,
+        "extractor": "DIETClassifier",
+        "value": "全 國 繳 費 網 繳"
+      }
+    ]
+  },
+  {
+    "text": "繳 部 分",
+    "entities": [
+      {
+        "value": "部 分",
+        "start": 2,
+        "end": 5,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 0,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "繳 部 分"
+      }
+    ]
+  },
+  {
+    "text": "全 家 便 利 商 店 繳 費",
+    "entities": [
+      {
+        "value": "全 家 便 利 商 店",
+        "start": 0,
+        "end": 11,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "全 家"
+      }
+    ]
+  },
+  {
+    "text": "轉 帳 繳 費",
+    "entities": [
+      {
+        "value": "轉 帳 繳 費",
+        "start": 0,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "劃 撥",
+    "entities": [
+      {
+        "value": "劃 撥",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "繳 最 低 應 繳 金 額",
+    "entities": [
+      {
+        "value": "最 低 應 繳",
+        "start": 2,
+        "end": 9,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "高 雄 機 場 外 圍 停 車",
+    "entities": [
+      {
+        "value": "雄",
+        "start": 2,
+        "end": 3,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "park_location",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "高 雄"
+      }
+    ]
+  },
+  {
+    "text": "桃 園 機 場 外 圍 停 車",
+    "entities": [
+      {
+        "value": "桃",
+        "start": 0,
+        "end": 1,
+        "entity": "park_location"
+      },
+      {
+        "value": "園",
+        "start": 2,
+        "end": 3,
+        "entity": "park_location"
+      },
+      {
+        "value": "機",
+        "start": 4,
+        "end": 5,
+        "entity": "park_location"
+      },
+      {
+        "value": "場",
+        "start": 6,
+        "end": 7,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 想 查 詢 餘 額",
+    "entities": [
+      {
+        "value": "查 詢",
+        "start": 4,
+        "end": 7,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "線 上 客 服",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "線 上"
+      }
+    ]
+  },
+  {
+    "text": "查 詢 信 用 卡 未 出 帳 明 細",
+    "entities": [
+      {
+        "value": "查 詢",
+        "start": 0,
+        "end": 3,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

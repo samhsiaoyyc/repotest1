@@ -1,0 +1,20 @@
+language: "zh"
+pipeline:
+  - name: "MitieNLP"
+    model: "components/total_word_feature_extractor.dat"
+  - name: "JiebaTokenizer"
+    dictionary_path: "components/dict.txt"
+  - name: "MitieEntityExtractor"
+  - name: "EntitySynonymMapper"
+  - name: "RegexFeaturizer"
+  - name: "MitieIntentClassifier"
+
+policies:
+  - name: MemoizationPolicy
+  - name: KerasPolicy
+  - name: FormPolicy
+  - name: MappingPolicy
+  - name: FallbackPolicy
+    nlu_threshold: 0.4
+    core_threshold: 0.3
+    fallback_action_name: action_repeate

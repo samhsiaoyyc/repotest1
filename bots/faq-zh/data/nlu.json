@@ -1,0 +1,945 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "intent": "greetings",
+                "text": "嗨"
+            },
+            {
+                "intent": "greetings",
+                "text": "你好"
+            },
+            {
+                "intent": "greetings",
+                "text": "安"
+            },
+            {
+                "intent": "greetings",
+                "text": "安安"
+            },
+            {
+                "intent": "thanks",
+                "text": "謝謝"
+            },
+            {
+                "intent": "thanks",
+                "text": "感謝"
+            },
+            {
+                "intent": "bye",
+                "text": "掰"
+            },
+            {
+                "intent": "bye",
+                "text": "掰掰"
+            },
+            {
+                "intent": "bye",
+                "text": "再見"
+            },
+            {
+                "intent": "faq/ach_apply",
+                "text": "ACH去哪設定"
+            },
+            {
+                "intent": "faq/ach_apply",
+                "text": "ACH如何申辦"
+            },
+            {
+                "intent": "faq/ach_apply",
+                "text": "ACH只能在官網設定嗎"
+            },
+            {
+                "intent": "faq/ach_apply",
+                "text": "ACH的申辦方式"
+            },
+            {
+                "intent": "faq/ach_introduce",
+                "text": "ACH的用途"
+            },
+            {
+                "intent": "faq/ach_introduce",
+                "text": "ach入帳"
+            },
+            {
+                "intent": "faq/ach_introduce",
+                "text": "ach"
+            },
+            {
+                "intent": "faq/ach_introduce",
+                "text": "ACH可以介紹一下嗎"
+            },
+            {
+                "intent": "faq/ach_date",
+                "text": "ach可以選擇幾號扣款嗎"
+            },
+            {
+                "intent": "faq/ach_date",
+                "text": "ACH自動轉帳的扣款日期"
+            },
+            {
+                "intent": "faq/ach_date",
+                "text": "ACH扣款時間"
+            },
+            {
+                "intent": "faq/ach_date",
+                "text": "Ach扣款日"
+            },
+            {
+                "intent": "faq/ach_terminate",
+                "text": "ACH的服務我不想用了"
+            },
+            {
+                "intent": "faq/ach_terminate",
+                "text": "ach如何取消"
+            },
+            {
+                "intent": "faq/ach_terminate",
+                "text": "ACH該如何終止扣款設定"
+            },
+            {
+                "intent": "faq/ach_terminate",
+                "text": "ACH停用"
+            },
+            {
+                "intent": "faq/ach_switch",
+                "text": "已申辦ACH可否暫停或恢復每月扣款"
+            },
+            {
+                "intent": "faq/ach_switch",
+                "text": "如何暫時取消存款自動轉帳轉入服務的每月扣款"
+            },
+            {
+                "intent": "faq/ach_switch",
+                "text": "ACH恢復可以在官網設定嗎"
+            },
+            {
+                "intent": "faq/ach_switch",
+                "text": "ACH暫停可以在官網設定嗎"
+            },
+            {
+                "intent": "faq/ach_amount_change",
+                "text": "ACH提高金額"
+            },
+            {
+                "intent": "faq/ach_amount_change",
+                "text": "ACH扣款金額可以在APP設定嗎"
+            },
+            {
+                "intent": "faq/ach_amount_change",
+                "text": "ACH扣款金額只能在官網設定嗎"
+            },
+            {
+                "intent": "faq/ach_amount_change",
+                "text": "ACH每月扣款金額的變更方式"
+            },
+            {
+                "intent": "faq/ach_date_change",
+                "text": "ACH扣款設定了就不能變更了嗎"
+            },
+            {
+                "intent": "faq/ach_date_change",
+                "text": "ACH每月扣款日期的更改方式"
+            },
+            {
+                "intent": "faq/ach_date_change",
+                "text": "ACH扣款日期可以調整嗎"
+            },
+            {
+                "intent": "faq/ach_date_change",
+                "text": "ACH每月扣款日期的變更"
+            },
+            {
+                "intent": "faq/ach_account_change",
+                "text": "ACH扣款帳戶變更只能在官網嗎"
+            },
+            {
+                "intent": "faq/ach_account_change",
+                "text": "ACH扣款行的更改方式"
+            },
+            {
+                "intent": "faq/ach_account_change",
+                "text": "ACH應該可以變更其他帳戶扣款吧"
+            },
+            {
+                "intent": "faq/ach_account_change",
+                "text": "ACH扣款帳戶可以變更次數有上限嗎"
+            },
+            {
+                "intent": "faq/ach_bank_supported",
+                "text": "哪些銀行可以授權ach"
+            },
+            {
+                "intent": "faq/ach_bank_supported",
+                "text": "台灣銀行可以設定ach嗎"
+            },
+            {
+                "intent": "faq/ach_bank_supported",
+                "text": "ach可以扣那些銀行"
+            },
+            {
+                "intent": "faq/ach_bank_supported",
+                "text": "ACH扣款配合銀行"
+            },
+            {
+                "intent": "faq/ach_apply_effective",
+                "text": "ach多久會成功"
+            },
+            {
+                "intent": "faq/ach_apply_effective",
+                "text": "請問我的ach申請進度怎麼這麼緩慢"
+            },
+            {
+                "intent": "faq/ach_apply_effective",
+                "text": "申辦ACH什麼時候會生效"
+            },
+            {
+                "intent": "faq/ach_apply_effective",
+                "text": "ACH申辦生效時間"
+            },
+            {
+                "intent": "faq/ach_amount_limit",
+                "text": "ACH轉帳的上限"
+            },
+            {
+                "intent": "faq/ach_amount_limit",
+                "text": "ACH服務轉帳有限額嗎"
+            },
+            {
+                "intent": "faq/ach_amount_limit",
+                "text": "ACH轉帳額度限制"
+            },
+            {
+                "intent": "faq/ach_amount_limit",
+                "text": "ACH服務的最小轉帳金額是"
+            },
+            {
+                "intent": "faq/ach_income_date",
+                "text": "ACH款項入帳時間"
+            },
+            {
+                "intent": "faq/ach_income_date",
+                "text": "ACH扣款當天就會入帳嗎"
+            },
+            {
+                "intent": "faq/ach_income_date",
+                "text": "ACH的款項沒收到麼辦"
+            },
+            {
+                "intent": "faq/ach_income_date",
+                "text": "ACH扣款完成後要多久才會入帳"
+            },
+            {
+                "intent": "faq/prime_rate_activity",
+                "text": "外幣優利存款介紹"
+            },
+            {
+                "intent": "faq/prime_rate_activity",
+                "text": "轉2萬就有1%嗎"
+            },
+            {
+                "intent": "faq/prime_rate_activity",
+                "text": "優利存款專案活動"
+            },
+            {
+                "intent": "faq/prime_rate_activity",
+                "text": "外幣也有優利存款嗎"
+            },
+            {
+                "intent": "faq/prime_rate_activity",
+                "text": "優利活儲怎麼拿"
+            },
+            {
+                "intent": "faq/prime_rate_activity",
+                "text": "轉兩萬就有1%嗎"
+            },
+            {
+                "intent": "faq/richart_gogo",
+                "text": "信用卡款如何辦銀行自動轉帳"
+            },
+            {
+                "intent": "faq/richart_gogo",
+                "text": "怎麼用RICHART APP設定GOGO卡自動轉帳"
+            },
+            {
+                "intent": "faq/richart_gogo",
+                "text": "要怎麼自動扣繳信用卡"
+            },
+            {
+                "intent": "faq/richart_gogo",
+                "text": "用查理app每月自動扣gogo卡帳單，可以跟我說從哪裡操作嗎"
+            },
+            {
+                "intent": "faq/richart_apply",
+                "text": "Richart帳戶的申請條件"
+            },
+            {
+                "intent": "faq/richart_apply",
+                "text": "Richart帳戶申辦有什麼條件"
+            },
+            {
+                "intent": "faq/richart_apply",
+                "text": "我今年19歲，可以辦Richart嗎"
+            },
+            {
+                "intent": "faq/richart_apply",
+                "text": "Richart帳戶開戶限制"
+            },
+            {
+                "intent": "faq/richart_amount_limit",
+                "text": "臺幣帳戶約定轉帳額度限制"
+            },
+            {
+                "intent": "faq/richart_amount_limit",
+                "text": "richart帳戶約轉一次可以轉多少"
+            },
+            {
+                "intent": "faq/richart_amount_limit",
+                "text": "Richart帳戶的約定轉帳單筆額度是多少"
+            },
+            {
+                "intent": "faq/richart_amount_limit",
+                "text": "Richart帳戶約轉的額度多少"
+            },
+            {
+                "intent": "faq/richart_promotion",
+                "text": "請問richrt網路帳戶轉帳升級只能持雙證件去實體銀行辦理嗎"
+            },
+            {
+                "intent": "faq/richart_promotion",
+                "text": "Richart不能轉帳"
+            },
+            {
+                "intent": "faq/richart_promotion",
+                "text": "Richart帳戶升級方式"
+            },
+            {
+                "intent": "faq/richart_promotion",
+                "text": "Richart要怎麼升級"
+            },
+            {
+                "intent": "faq/richart_non_predesignate_amount_limit",
+                "text": "臺幣帳戶非約定轉帳額度限制"
+            },
+            {
+                "intent": "faq/richart_non_predesignate_amount_limit",
+                "text": "請問richart app非約定轉帳每日上限額度為多少"
+            },
+            {
+                "intent": "faq/richart_non_predesignate_amount_limit",
+                "text": "Richart帳戶的非約定轉帳單月額度是多少"
+            },
+            {
+                "intent": "faq/richart_non_predesignate_amount_limit",
+                "text": "RICHART帳戶非約轉金額上限"
+            },
+            {
+                "intent": "faq/richart_easycard_debit_activity",
+                "text": "Richart悠遊debit卡自動加值活動"
+            },
+            {
+                "intent": "faq/richart_easycard_debit_activity",
+                "text": "悠遊加值10%"
+            },
+            {
+                "intent": "faq/richart_easycard_debit_activity",
+                "text": "10%回饋活動"
+            },
+            {
+                "intent": "faq/richart_easycard_debit_activity",
+                "text": "Richart 悠遊Debit卡自動加值享最高10%回饋"
+            },
+            {
+                "intent": "faq/richart_id_validate",
+                "text": "Richart帳戶身分驗證管道"
+            },
+            {
+                "intent": "faq/richart_id_validate",
+                "text": "Richart身分驗證的方式"
+            },
+            {
+                "intent": "faq/richart_id_validate",
+                "text": "Richart要怎麼驗證"
+            },
+            {
+                "intent": "faq/richart_id_validate",
+                "text": "未成年要怎麼驗證"
+            },
+            {
+                "intent": "faq/richart_currency",
+                "text": "Richart提供那些外幣"
+            },
+            {
+                "intent": "faq/richart_currency",
+                "text": "Richart可以換那些外幣"
+            },
+            {
+                "intent": "faq/richart_currency",
+                "text": "Richart可以換日幣嗎"
+            },
+            {
+                "intent": "faq/richart_currency",
+                "text": "外幣帳戶幣別"
+            },
+            {
+                "intent": "faq/richart_currency_promotion_activity",
+                "text": "幫我查外匯的優惠是哪些"
+            },
+            {
+                "intent": "faq/richart_currency_promotion_activity",
+                "text": "我想知道外幣的優惠活動"
+            },
+            {
+                "intent": "faq/richart_currency_promotion_activity",
+                "text": "外幣優惠活動"
+            },
+            {
+                "intent": "faq/richart_currency_promotion_activity",
+                "text": "外匯的優惠活動有哪些"
+            },
+            {
+                "intent": "faq/richart_currency_date",
+                "text": "上網換匯到幾點"
+            },
+            {
+                "intent": "faq/richart_currency_date",
+                "text": "什麼時候可以下單外匯存款"
+            },
+            {
+                "intent": "faq/richart_currency_date",
+                "text": "半夜能換外幣嗎"
+            },
+            {
+                "intent": "faq/richart_currency_date",
+                "text": "外幣存款換匯時間"
+            },
+            {
+                "intent": "faq/richart_currency_atm",
+                "text": "atm外幣提領方式"
+            },
+            {
+                "intent": "faq/richart_currency_atm",
+                "text": "外幣戶頭如何提款"
+            },
+            {
+                "intent": "faq/richart_currency_atm",
+                "text": "RICHART帳戶如何存外幣"
+            },
+            {
+                "intent": "faq/richart_currency_atm",
+                "text": "外幣帳戶提領方式"
+            },
+            {
+                "intent": "faq/richart_currency_atm",
+                "text": "外幣帳戶提領/存入方式"
+            },
+            {
+                "intent": "faq/richart_currency_atm",
+                "text": "外幣atm提領方式"
+            },
+            {
+                "intent": "faq/richart_currency_atm",
+                "text": "外幣帳戶提領或存入方式"
+            },
+            {
+                "intent": "faq/gogo_apply",
+                "text": "GoGo卡有規定申請條件嗎"
+            },
+            {
+                "intent": "faq/gogo_apply",
+                "text": "GoGo卡申辦資格"
+            },
+            {
+                "intent": "faq/gogo_apply",
+                "text": "請問GOGO卡需要申請帳戶嗎"
+            },
+            {
+                "intent": "faq/gogo_apply",
+                "text": "請問@GOGO卡需要申請帳戶嗎"
+            },
+            {
+                "intent": "faq/gogo_apply",
+                "text": "我是大學生可以辦GoGo卡嗎"
+            },
+            {
+                "intent": "faq/gogo_apply",
+                "text": "我是大學生可以辦@GoGo卡嗎"
+            },
+            {
+                "intent": "faq/gogo_apply",
+                "text": "@GoGo卡申辦資格"
+            },
+            {
+                "intent": "faq/gogo_apply",
+                "text": "@GoGo卡有規定申請條件嗎"
+            },
+            {
+                "intent": "faq/gogo_apply_document",
+                "text": "辦理@GoGo卡要準備什麼文件"
+            },
+            {
+                "intent": "faq/gogo_apply_document",
+                "text": "辦理GoGo卡要準備什麼文件"
+            },
+            {
+                "intent": "faq/gogo_apply_document",
+                "text": "GoGo卡申辦所需文件"
+            },
+            {
+                "intent": "faq/gogo_apply_document",
+                "text": "辦卡要那些資料"
+            },
+            {
+                "intent": "faq/gogo_apply_document",
+                "text": "申辦@gogo卡時，除了扣繳憑單還可以提供甚麼資料"
+            },
+            {
+                "intent": "faq/gogo_apply_document",
+                "text": "請教一下，申辦狗狗卡需要的文件有那些呢"
+            },
+            {
+                "intent": "faq/gogo_apply_document",
+                "text": "@GoGo卡申辦所需文件"
+            },
+            {
+                "intent": "faq/gogo_digital",
+                "text": "@GoGo卡數位通路定義"
+            },
+            {
+                "intent": "faq/gogo_digital",
+                "text": "蝦皮算數位通路嗎"
+            },
+            {
+                "intent": "faq/gogo_digital",
+                "text": "訂房網消費也有3.5%嗎"
+            },
+            {
+                "intent": "faq/gogo_digital",
+                "text": "Apple pay有3.5%嗎"
+            },
+            {
+                "intent": "faq/gogo_digital",
+                "text": "數位通路是指那些"
+            },
+            {
+                "intent": "faq/richart_creditcard_apply",
+                "text": "信用卡的申辦管道"
+            },
+            {
+                "intent": "faq/richart_creditcard_apply",
+                "text": "GOGO信用卡網路上怎辦"
+            },
+            {
+                "intent": "faq/richart_creditcard_apply",
+                "text": "Richart信用卡除了分行還有哪能辦"
+            },
+            {
+                "intent": "faq/richart_creditcard_apply",
+                "text": "@GOGO信用卡網路上怎辦"
+            },
+            {
+                "intent": "faq/richart_creditcard_apply",
+                "text": "richart可以申辦新用卡嗎"
+            },
+            {
+                "intent": "faq/richart_creditcard_apply",
+                "text": "GoGo信用卡申請書可以在哪裡索取"
+            },
+            {
+                "intent": "faq/richart_debit_reset_pwd",
+                "text": "我忘了Richart卡密碼"
+            },
+            {
+                "intent": "faq/richart_debit_reset_pwd",
+                "text": "ATM可以解鎖提款卡嗎"
+            },
+            {
+                "intent": "faq/richart_debit_reset_pwd",
+                "text": "我忘了我的Richart卡密碼"
+            },
+            {
+                "intent": "faq/richart_debit_reset_pwd",
+                "text": "Richart金融卡密碼可以重設嗎"
+            },
+            {
+                "intent": "faq/richart_debit_reset_pwd",
+                "text": "我忘記我的Richart卡密碼"
+            },
+            {
+                "intent": "faq/richart_debit_reset_pwd",
+                "text": "金融卡晶片密碼忘記處理方式"
+            },
+            {
+                "intent": "faq/richart_debit_reset_pwd",
+                "text": "我的Richart卡密碼忘了"
+            },
+            {
+                "intent": "faq/richart_debit_reset_pwd",
+                "text": "ATM可以直接重新設定Richart金融卡密碼嗎"
+            },
+            {
+                "intent": "faq/richart_debit_active",
+                "text": "Richart金融卡可以在app上開卡嗎"
+            },
+            {
+                "intent": "faq/richart_debit_active",
+                "text": "Richart金融卡怎麼開卡"
+            },
+            {
+                "intent": "faq/richart_debit_active",
+                "text": "Richart金融卡要去atm開啟嗎"
+            },
+            {
+                "intent": "faq/richart_debit_active",
+                "text": "如何金融卡開卡"
+            },
+            {
+                "intent": "faq/richart_reset_id_pwd",
+                "text": "重設行動銀行使用者代號密碼"
+            },
+            {
+                "intent": "faq/richart_reset_id_pwd",
+                "text": "我要去哪邊重設我的代號密碼"
+            },
+            {
+                "intent": "faq/richart_reset_id_pwd",
+                "text": "RICHART APP忘記代號密碼"
+            },
+            {
+                "intent": "faq/richart_reset_id_pwd",
+                "text": "代號密碼怎麼重設"
+            },
+            {
+                "intent": "faq/richart_check_transaction",
+                "text": "我想查詢我的交易明細"
+            },
+            {
+                "intent": "faq/richart_check_transaction",
+                "text": "Richart的交易明細"
+            },
+            {
+                "intent": "faq/richart_check_transaction",
+                "text": "查詢網路銀行臺幣帳戶交易明細"
+            },
+            {
+                "intent": "faq/richart_check_transaction",
+                "text": "交易明細怎麼看"
+            },
+            {
+                "intent": "faq/richart_check_credit_consumer",
+                "text": "我@GoGo花了多少錢"
+            },
+            {
+                "intent": "faq/richart_check_credit_consumer",
+                "text": "ATM可以查詢@GoGo刷多少嗎"
+            },
+            {
+                "intent": "faq/richart_check_credit_consumer",
+                "text": "請問我的@Gogo卡的目前消費可以在理查App裡面的哪裡找到"
+            },
+            {
+                "intent": "faq/richart_check_credit_consumer",
+                "text": "ATM可以查詢GoGo刷多少嗎"
+            },
+            {
+                "intent": "faq/richart_check_credit_consumer",
+                "text": "Gogo卡刷卡內容可以用電腦看嗎"
+            },
+            {
+                "intent": "faq/richart_check_credit_consumer",
+                "text": "我狗狗卡刷了多少錢了"
+            },
+            {
+                "intent": "faq/richart_check_credit_consumer",
+                "text": "我GoGo花了多少錢"
+            },
+            {
+                "intent": "faq/richart_check_credit_consumer",
+                "text": "@Gogo卡刷卡內容可以用電腦看嗎"
+            },
+            {
+                "intent": "faq/richart_easycard_introduce",
+                "text": "綠狗卡有悠遊卡功能嗎"
+            },
+            {
+                "intent": "faq/richart_easycard_introduce",
+                "text": "Richart悠遊Debit卡介紹"
+            },
+            {
+                "intent": "faq/richart_easycard_introduce",
+                "text": "Richart金融卡悠遊卡功能介紹"
+            },
+            {
+                "intent": "faq/richart_easycard_introduce",
+                "text": "悠遊金融卡自動儲值功能"
+            },
+            {
+                "intent": "faq/richart_check_account_apply_process",
+                "text": "我的帳戶審核好久"
+            },
+            {
+                "intent": "faq/richart_check_account_apply_process",
+                "text": "Richart帳戶什麼時候會審核完成"
+            },
+            {
+                "intent": "faq/richart_check_account_apply_process",
+                "text": "Richart帳戶要審核多久"
+            },
+            {
+                "intent": "faq/richart_check_account_apply_process",
+                "text": "RICHART帳戶進度到哪裡"
+            },
+            {
+                "intent": "faq/richart_check_credit_balance",
+                "text": "剩餘額度要去哪裡查"
+            },
+            {
+                "intent": "faq/richart_check_credit_balance",
+                "text": "我還有多少額度可以刷"
+            },
+            {
+                "intent": "faq/richart_check_credit_balance",
+                "text": "刷卡額度是否滿了"
+            },
+            {
+                "intent": "faq/richart_check_credit_balance",
+                "text": "我的@gogo卡還有額度可以刷嗎"
+            },
+            {
+                "intent": "faq/richart_check_credit_balance",
+                "text": "我想查我的信用卡額度"
+            },
+            {
+                "intent": "faq/richart_deduction_change",
+                "text": "我有寄回調整扣卡費金額的表格，這個變更要怎麼提出申請"
+            },
+            {
+                "intent": "faq/richart_deduction_change",
+                "text": "我現金有比較多錢可以還您們銀行錢，我要改自動扣款方式，請告訴我處理的方式"
+            },
+            {
+                "intent": "faq/richart_deduction_change",
+                "text": "變更信用卡自動扣款方式"
+            },
+            {
+                "intent": "faq/richart_deduction_change",
+                "text": "信用卡自動轉帳扣繳的變更方式"
+            },
+            {
+                "intent": "faq/richart_apply_futher_documents",
+                "text": "我的生日填寫錯誤可以在Richart app補正確資料嗎"
+            },
+            {
+                "intent": "faq/richart_apply_futher_documents",
+                "text": "我收到開戶申辦Richart帳戶失敗的訊息，要怎麼補資料"
+            },
+            {
+                "intent": "faq/richart_apply_futher_documents",
+                "text": "申辦Richart帳戶補件方式"
+            },
+            {
+                "intent": "faq/richart_apply_futher_documents",
+                "text": "上傳不了證件"
+            },
+            {
+                "intent": "faq/richart_apply_underage",
+                "text": "我16歲可以申請Richart嗎"
+            },
+            {
+                "intent": "faq/richart_apply_underage",
+                "text": "小孩子不到20要怎麼申請Richart"
+            },
+            {
+                "intent": "faq/richart_apply_underage",
+                "text": "未成年開立Richart數位帳戶的方式"
+            },
+            {
+                "intent": "faq/richart_apply_underage",
+                "text": "未成年要去分行開Richart嗎"
+            },
+            {
+                "intent": "faq/richart_apply_underage_validate",
+                "text": "驗證一定要父母嗎"
+            },
+            {
+                "intent": "faq/richart_apply_underage_validate",
+                "text": "未成年驗證方法"
+            },
+            {
+                "intent": "faq/richart_apply_underage_validate",
+                "text": "驗證一定要父母陪同去分行嗎"
+            },
+            {
+                "intent": "faq/richart_apply_underage_validate",
+                "text": "父母陪同驗證要帶證件嗎"
+            },
+            {
+                "intent": "faq/richart_debit_predesignate",
+                "text": "Richart金融卡約定帳號可以臨櫃辦理嗎"
+            },
+            {
+                "intent": "faq/richart_debit_predesignate",
+                "text": "RICHART卡可以綁約定嗎"
+            },
+            {
+                "intent": "faq/richart_debit_predesignate",
+                "text": "RICHART金融卡約定方法有哪些"
+            },
+            {
+                "intent": "faq/richart_debit_predesignate",
+                "text": "Richart金融卡約定帳號可以透過哪些方式申請"
+            },
+            {
+                "intent": "faq/richart_outward_remittance",
+                "text": "Richart帳戶匯出明細功能的匯出資料範圍"
+            },
+            {
+                "intent": "faq/richart_outward_remittance",
+                "text": "Richart帳戶跟信用卡明細會匯出成什麼"
+            },
+            {
+                "intent": "faq/richart_outward_remittance",
+                "text": "Richart匯出交易明細"
+            },
+            {
+                "intent": "faq/richart_outward_remittance",
+                "text": "Richart帳戶明細有辦法會到電腦嗎"
+            },
+            {
+                "intent": "faq/richart_outward_remittance",
+                "text": "@gogo的刷卡明細可以匯出到電腦裡面嗎"
+            },
+            {
+                "intent": "faq/richart_check_cross_transfer_discount",
+                "text": "我Richart帳號還有多少跨轉優惠"
+            },
+            {
+                "intent": "faq/richart_check_cross_transfer_discount",
+                "text": "Richart帳戶跨行轉帳優惠次數查詢"
+            },
+            {
+                "intent": "faq/richart_check_cross_transfer_discount",
+                "text": "Richart帳戶免費跨行轉帳優惠剩多少"
+            },
+            {
+                "intent": "faq/richart_check_cross_transfer_discount",
+                "text": "richart帳戶跨行轉帳優惠次數查詢方式"
+            },
+            {
+                "intent": "faq/richart_promotion_excusive_code",
+                "text": "Richart行銷活動專屬代碼"
+            },
+            {
+                "intent": "faq/richart_promotion_excusive_code",
+                "text": "哪邊有活動代碼"
+            },
+            {
+                "intent": "faq/richart_promotion_excusive_code",
+                "text": "我沒有輸入到專屬代碼"
+            },
+            {
+                "intent": "faq/richart_promotion_excusive_code",
+                "text": "我沒有輸入到代碼可以補救嗎"
+            },
+            {
+                "intent": "faq/richart_easycard_replace",
+                "text": "Richart悠遊Debit卡換補發"
+            },
+            {
+                "intent": "faq/richart_easycard_replace",
+                "text": "Ricahrt金融卡可以換成綠色的嗎"
+            },
+            {
+                "intent": "faq/richart_easycard_replace",
+                "text": "綠狗卡換發"
+            },
+            {
+                "intent": "faq/richart_easycard_replace",
+                "text": "Ricahrt金融卡要怎麼換成悠遊卡功能"
+            },
+            {
+                "intent": "faq/richart_creditcard_reset_pwd",
+                "text": "Richart金融卡密碼是什麼"
+            },
+            {
+                "intent": "faq/richart_creditcard_reset_pwd",
+                "text": "金融卡密碼跟登入Richart的密碼一樣嗎"
+            },
+            {
+                "intent": "faq/richart_creditcard_reset_pwd",
+                "text": "Richart金融卡有預設密碼嗎"
+            },
+            {
+                "intent": "faq/richart_creditcard_reset_pwd",
+                "text": "我不知道Richart金融卡密碼"
+            },
+            {
+                "intent": "faq/richart_check_currency",
+                "text": "Richart可以看換匯紀錄嗎"
+            },
+            {
+                "intent": "faq/richart_check_currency",
+                "text": "哪裡查詢外幣明細"
+            },
+            {
+                "intent": "faq/richart_check_currency",
+                "text": "去哪看外幣帳戶的資料"
+            },
+            {
+                "intent": "faq/richart_check_currency",
+                "text": "Richart官網看的到換匯紀錄嗎"
+            },
+            {
+                "intent": "faq/richart_currency_min",
+                "text": "最少要多少台幣才能換外幣"
+            },
+            {
+                "intent": "faq/richart_currency_min",
+                "text": "我錢不多要多少錢才能換外幣"
+            },
+            {
+                "intent": "faq/richart_currency_min",
+                "text": "換匯最低交易金額是依各幣別計算嗎"
+            },
+            {
+                "intent": "faq/richart_currency_min",
+                "text": "一次至少要換多少外幣"
+            },
+            {
+                "intent": "faq/richart_friendship_activity",
+                "text": "Richart好友分享日活動"
+            },
+            {
+                "intent": "faq/richart_friendship_activity",
+                "text": "Richart好友分享日活動什麼時候入帳"
+            },
+            {
+                "intent": "faq/richart_friendship_activity",
+                "text": "好友推薦300元什麼時候入帳"
+            },
+            {
+                "intent": "faq/richart_friendship_activity",
+                "text": "推薦好友的100元什麼時候入帳"
+            },
+            {
+                "intent": "faq/richart_loans_qualification",
+                "text": "信貸有什麼條件嗎"
+            },
+            {
+                "intent": "faq/richart_loans_qualification",
+                "text": "Richart信貸有什麼資格"
+            },
+            {
+                "intent": "faq/richart_loans_qualification",
+                "text": "信貸需要那些資格"
+            },
+            {
+                "intent": "faq/richart_loans_qualification",
+                "text": "信貸的申辦資格"
+            }
+        ],
+        "regex_features": [],
+        "lookup_tables": [],
+        "entity_synonyms": []
+    }
+}

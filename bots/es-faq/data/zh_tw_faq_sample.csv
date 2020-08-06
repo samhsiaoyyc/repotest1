@@ -1,0 +1,57 @@
+ID,回答,類目,關鍵詞,開始日期,結束日期,問題,問題,更多問題,
+1,"一開始，<strong>Linux</strong> 指的是一個能相容 <strong>GNU</strong> 系統的核心元件 （就叫作「內部核心」或「核心」）。而當今使用者執行的，更精確的說，應該是「<em> GNU/Linux 系統的散布版</em>」。
+        事實上，「Linux」比較好記（毫無意外），現在人們比較喜歡把整個系統簡單稱為「Linux」。這造成了很多爭議。
+        不管是技術層面而言（因為終端用戶常用到很多「GNU」軟體，但很少會去碰「Linux」核心），還有理念層面來看：<a href=""https://www.softwareliberty.com/"" rel=""external"">自由軟體</a>發展的源動力起始於 <a href=""https://www.gnu.org/"" rel=""external"">GNU 專案</a>，並且直至今日都仍是主力；<em>GNU/Linux</em> 都是更具實質意義的稱呼。
+        把這個系統叫 <em>Linux</em> 比較實際，而且比較容易吸引電腦使用者的目光，因為他們常認為地球上只有 Windows 作業系統。
+        為了避免混淆，我們採用「GNU/Linux」來稱呼含有 <a href=""https://www.gnu.org/"" rel=""external"">GNU</a> 軟體和 <a href=""https://www.kernel.org/"" rel=""external"">Linux 核心</a>的作業系統。當我們只講「Linux」沒有提到 GNU 時，我們只單單討論這個核心。","命名，名字、姓名,linux",GNU、linux、 名字,8/23/2019,10/12/2020,「GNU/Linux」與「Linux」有什麼差異？,一下叫這個名字，一下又叫另一個。它們有什麼不同嗎？,,
+2,"當理查・史托曼 (Richard Stallman) 開始設計 GNU 時，當時的主流系統還是專有的 Unix。因為 GNU 相似（且相容）於 Unix，但不同點在於 GNU 是<a href=""https://www.softwareliberty.com/"" rel=""external"">自由軟體</a>，他便創造了 GNU 這個詞，意思是 <strong>GNU's Not Unix</strong>。它是一個<a href=""https://en.wikipedia.org/wiki/Recursive_acronym"" rel=""external"">遞迴縮寫</a>（如果你覺得遞迴縮寫很有趣，那麼你也可以查查看 <a href=""https://www.gnu.org/software/hurd/hurd.html"" rel=""external"">GNU Hurd</a> 所代表的意義）。",軟體，名字，命名,"GNU，軟體, 關係",8/23/2019,,那這軟體又跟 GNU 有什麼關係了？,,,
+3,"是的，你不能販賣任何帶有 Linux&reg; 字樣的商品。該商標為 <a href=""http://www.linuxmark.org/"" rel=""external"">Linux 標示機構</a>所有。",linux，法律,"linux, 商標",,,Linux 是一個註冊商標嗎？,GNU/Linux 是一個註冊商標嗎？,Linux 註冊商標了嗎？,GNU/Linux 註冊商標了嗎？
+4,"不，GNU/Linux 是目前使用最廣的自由作業系統；但還有其他的系統存在。
+        這些包含 Unix 的衍生系統如 <a href=""https://freebsd.org/"" rel=""external"">FreeBSD</a>、<a href=""https://netbsd.org/"" rel=""external"">NetBSD</a>、<a href=""https://openbsd.org/"" rel=""external"">OpenBSD</a> 以及 BeOS 的克隆版 <a href=""https://haiku-os.org/"" rel=""external"">Haiku OS</a>，Windows NT 的克隆版 <a href=""http://www.reactos.com/"" rel=""external"">ReactOS</a>，DOS 的克隆版 <a href=""http://www.freedos.org/"" rel=""external"">FreeDOS</a>、還有<a href=""https://www.syllable.org/"" rel=""external"">Syllable</a> 等等。","linux, 市場","linux, 唯一，自由",,10/12/2020,GNU/Linux 是市面上唯一一個自由的作業系統嗎？,,,
+5,"不是。雖然 macOS 裡面有部份元件是<a href=""https://www.softwareliberty.com/"" rel=""external"">自由軟體</a>，並且從技術上來說也相似於 GNU/Linux 作業系統。但整體而言，它是專有軟體 ― <a href=""/zh-tw/windows/"">所有 Windows 存在的問題</a>也都完全適用。","linux, 發行","macOS, 散布版",,,macOS 是 GNU/Linux 散布版嗎？,,,
+6,"是，但又不是。以技術面來說，絕大多數的開放源始碼軟體都是自由軟體，反之亦然。
+        而從思想面來說，這兩個詞就有非常大的不同。「開放源始碼」是為了讓「自由軟體」更有吸引力而創造的，其支持者認為開放源始碼是個讓軟體變更好的方法。
+        而支持使用「自由軟體」這個詞的人則更看重自由的價值，不只是軟體的製造方法而已，所以他們認為「開放源始碼」這個詞<a href=""http://www.gnu.org/philosophy/open-source-misses-the-point.html"">亡失重點</a>。
+        要使用哪一個詞端看你對軟體的觀點為何。",open source，源碼,開放原始代碼，開源軟體，自由軟體,,,開放源始碼軟體（簡稱開源軟體）」與「自由軟體」是相同的東西嗎？,,,
+7,"<a href=""https://www.softwareliberty.com/"" rel=""external"">自由軟體</a>的概念，講求的是自由，而不是價格。你可以自由複製、研究、修改，並流通自由軟體。
+        大多數開發自由軟體的公司是透過針對其軟體的各方面<strong>服務</strong>來營利，而不是販賣軟體本身。有時候會將這些東西組合成一個完整的配套措施來進行販賣：顧客一次性的購買CD，書籍，以及支援服務。軟體本身仍是自由使用的。
+        更多： <a href=""/zh-tw/linux/misunderstanding_free_software/"">對自由軟體的常見誤解</a> | <a href=""https://en.wikibooks.org/wiki/FLOSS_Concept_Booklet"" rel=""external"">自由開源軟體觀念小冊子</a>.",,,,,為什麼有些 GNU/Linux 散布版要付費，而不是免費送出？,有些網站事實上是在<em>販賣</em> GNU/Linux 散布版。既然如此，為什麼你還要寫說那是「自由使用且無償提供」呢？,,
+8,"會包含非自由軟體可能有以下三種較常見的原因：
+        <ul>
+          <li>有些 GNU/Linux 的散布版本允許在系統中使用非自由軟體以便提供較完整的硬體支援。          這是因為有些硬體研發廠商，例如說 NVidia，他們並不在乎其使用者的自由，所以只提供充滿限制的韌體與驅動程式（有些廠商則甚至不提供任何支援，例如說 Broadcom）。雖然說這類軟體可以免費使用（屬於免費軟體），但是其授權條款上會有所限制。因此在某些像是 <a href=""https://www.ubuntu.com/"" rel=""external"">Ubuntu</a> 這些散布版中，還是會提供這類軟體以增進硬體的相容性。</li>
+          <li>有些 GNU/Linux 的散布者不想放棄軟體上的自由，並且確保他們的散布版是完全自由的。像 <a href=""https://trisquel.info/"" rel=""external"">Trisquel</a> 就是其中的一個例子，它是一個移除了所有受限組件的 Ubuntu 衍生版本。</li>
+          <li>某些 GNU/Linux 散布版本將自由軟體與有著作權限制軟體整合在一起，這類的散布版基本上並不希望其使用者去思考他們自身的自由權，而只是希望他們自家產品的功能性能獲得更好的宣傳效果。使用這類型的軟體與<a href=""/zh-tw/windows/"">使用微軟視窗作業系統</a>比較起來並無差異，我們非常重視你的自由權，因此建議你應當要謹慎選擇！</li>
+        </ul>","linux, 發行",散布版，無償,,,為什麼有些 GNU/Linux 散布版不是完全自由？,有些 GNU/Linux 散布版雖然無償提供，但卻包含了一些有限制的軟體。這又是為什麼呢？,,
+9,"大多數蘋果電腦的 Mac 使用者都會認為<a href=""/zh-tw/windows/"">微軟 Windows 系統的授權限制</a>與他們無關，但是很不幸地事實並非如此。
+        macOS 確實有一些低階層的組件是屬於<a href=""https://www.softwareliberty.com/"" rel=""external"">自由軟體</a>；而 Apple 也較少花費精力在封鎖客戶上（甚至有一些知名的成品，如 BootCamp）。
+        然而，終端使用者仍受到某些功能上的限制 &mdash; 由於其專有軟體授權條款之故，他們無法隨心所欲地使用蘋果公司的 macOS 系統，任何複製、研究、修改、再次散佈等行為都不被允許。
+        值得慶幸的是，因為這些自由至關重要，想要在蘋果公司的 Mac 電腦上安裝並執行一些熱門的 GNU/Linux 散布版是可以做到的（像是 <a href=""https://www.ubuntu.com/"" rel=""external"">Ubuntu</a>）。",macOS，自由,macOS、 作業系統、自由,,,macOS 也是自由的作業系統嗎？,所有避免使用 Windows 的理由也同樣適用於 macOS 嗎？,,
+10," 不論你是在哪裡聽到或看到這些錯誤的訊息，你都應該改變你的想法了。GNU/Linux 與這些東西毫不相干。無論你是不是想這麼做，或是你比較偏好<a href=""https://www.magnatune.com/"" rel=""external"">聰明</a>、<a href=""https://www.jamendo.com/"" rel=""external"">合法</a>的下載，在這一方面 GNU/Linux 與 Windows 並無不同。不幸的是，你並沒有辦法單就車子的廠牌分辨出誰是小偷；而作業系統也是一樣的道理。
+        GNU/Linux 系統開發維護者的理念，是不希望看到全世界的電腦只使用來自同一家公司的專有軟體產品。至於這點基本上完全沒錯！
+        進一步閱讀這篇文章：<a href=""/zh-tw/linux/misunderstanding_free_software/"">對自由軟體的常見誤解</a>。","linux, 法律",破解、盜版，下載,,,GNU/Linux 的使用者是不是都在進行非法下載？,GNU/Linux 不是跟破解、盜版以及違法下載網站有關嗎？,,
+11,"GNU/Linux 無關乎任何政治系統或是任何人的特定觀點 &mdash; 無論他們的政治態度是什麼 &mdash; 都可以使用。我們會在我們這篇《<a href=""/zh-tw/linux/misunderstanding_free_software/"">對自由軟體的常見誤解</a>》文章中簡單解釋這一點。","linux, 市場",共產主義，自由,,,GNU/Linux 是共產主義的一種形式嗎？,"「全部都必須自由」以及「沒有人可以私佔任何東西」，這些概念聽起來挺嚇人的，所以 GNU/Linux 和它的 <abbr title=""GNU General Public License"">GNU 公眾授權條款 (GPL)</abbr> 是否是為無政府主義者或共產主義者所設計的？",,
+12,"確實是如此沒錯！為此我們設立了一個專門的網站：<a href=""https://linuxpreloaded.com/"" title=""GNU/Linux laptops"" rel=""external"">LinuxPreloaded.com</a>。該站上羅列一些有販售預裝 GNU/Linux 系統的桌上型與筆記型電腦之廠商。
+        請注意，<a href=""#new_computer"">購買新硬體產品並不一定</a>要用 GNU/Linux 系統！","linux, 市場",預裝，電腦,,,有預裝 GNU/Linux 的電腦嗎？,,,
+13,"是的，所有主流的散布版（例如<a href=""/zh-tw/switch_to_linux/choose_a_distribution/"">我們推薦的那些版本</a>）都有各種語言的支援，對於各種不同配置的鍵盤也都有支援。
+        這和微軟的 Windows 作業系統不太一樣，所有支援的語言都已經包在安裝光碟中了；所以若想變更系統的語言介面時，完全不須要大費周張（甚至另外花錢買！）去下載另一個版本。","linux, 語言",語言,,,我可以取得支援我語言的 GNU/Linux 嗎？,,,
+14,"可以的。這絕對、完全是合法行為，前提是你必須是該電腦的擁有者才行！
+        那張貼紙只是單純的市場行銷宣傳手段而已，並沒有任何法律上的意義。我們相信自由選擇要在自己機器上執行什麼軟體是<em>基本的權利</em>。
+        事實上這項權利目前正受到某些威脅，像是<a href=""http://www.timj.co.uk/digiculture/drm-fallacy"" rel=""external"">數位限制管理 (DRM) 以及信任式運算 (Trusted Computing)</a>。更多關於此部份的資訊請參閱我們的另一篇文章 <a href=""/zh-tw/windows/stand_for_a_free_society/"">為了自由的社會</a>。","linux, 法律",合法，windows,,,在我的電腦上安裝 GNU/Linux 作業系統是合法的嗎？,這上面貼有一張亮晶晶的 Windows 作業系統貼紙！這樣的話我還是能夠將 Windows 系統刪除掉，或是讓它和 GNU/Linux 系統並存嗎？,,
+15,"完全不必。它可以快樂地在你的電腦上執行。
+        你唯一必須要擔心的情況，是如果你想用一些非常新穎的硬體設備，例如顯示卡等，否則的話所有 GNU/Linux 散布版都可以在普通個人電腦（通常稱為「i386」或「x86」電腦）、64 位元處理器電腦、和蘋果公司的 Mac 電腦上正常執行。關於如何在你的電腦上試用或安裝 GNU/Linux 系統，<a href=""/zh-tw/switch_to_linux/try_or_install/"">請參閱此文章</a>，除了能完全取代掉 Windows 系統外，也可以讓它和 Windows 系統並存。",linux， 運行,新電腦,,,我必須買一臺新電腦來執行 GNU/Linux 嗎？,,,
+16,"從技術面而言，讓 Microsoft Office 在 GNU/Linux 上執行完全可行，但 Microsoft 並不想讓 Office 用戶選擇他們想要使用的作業系統。而 MS Office 與開放之間還存在著其他問題 &mdash; 例如 Microsoft 在對<a href=""http://www.opendocumentformat.org/"" rel=""external"">開放文件格式</a>的支援上採取強烈反對的立場。
+        不過，我們還有一套完善、自由、可靠的辦公室套裝軟體：<a href=""https://www.libreoffice.org/"" rel=""external"">LibreOffice</a>。或是它的近親，<a href=""https://www.openoffice.org/"" rel=""external"">Apache OpenOffice</a>。它們同樣都可以輕鬆的打開並編輯你所有已存在的 Microsoft Word、Microsoft Excel 以及 Microsoft PowerPoint 等檔案格式，並且都是真正自由且無償提供。它們也都同時可以在 Windows 及 GNU/Linux 上執行的版本。
+        
+          <a href=""https://zh-tw.libreoffice.org/""><img src=""/images/LibreOfficeLogo.png"" alt=""LibreOffice.org""/></a>
+          &nbsp;
+          <a href=""https://www.openoffice.org/zh-tw/""><img src=""/images/OpenOfficeLogo.png"" alt=""OpenOffice.org""/></a>
+        ","linux, microsoft",microsoft，office,,,可以在 GNU/Linux 上執行 Microsoft Office 嗎？,,,
+17,"較簡單的答案是「可以」；然而，這只說對了一半。
+        由於 MP3 格式的專利緣故，有不少 GNU/Linux 散布版都沒有包含可以直接播放 MP3 的軟體。但這個專利的問題並不會直接影響使用者，因為大多數的散布版都可以很方便的透過網際網路安裝 MP3 的播放支援，並以非商業用途<strong>合法播放 MP3 檔案</strong>。
+        但 DVD 的情況則麻煩的多。大多數（若不是全部的話）的 DVD 都會使用一種叫做「<abbr title=""內容擾亂系統, Content Scrambling System"">CSS</abbr>」的系統進行加密。可以利用一種叫做<code>libdvdcss</code>的自由軟體來解密這些 DVD 影片。然而，在世界上大多數的地方，如美國及歐盟地區，若規避加諸於 DVD 上的限制是犯法的。
+        有個合法的解決途徑可以在那些於 GNU/Linux 上使用 <code>libdvdcss</code> 播放加密式 DVD 屬違法行徑的地區使用。<a href=""https://fluendo.com/"" rel=""external"">Fluendo</a> 公司開發了一個（非自由）應用程式來解決這項問題，你可以到他們的網站上面購買。
+        未加密的 DVD，包含大多數的家庭 DVD，只要用自由軟體就能完美播放。",linux，多媒體,"dvd, mp3",,,我可以在 GNU/Linux 上播放 DVD 和 MP3 嗎？,,,
+18,"是，但又不是。有一些遊戲，例如雷神之鎚系列、Rust、絕對武力、古墓奇兵、傳送門、惡靈勢力，以及更多的其他遊戲都有 GNU/Linux 版本。因為流行的 Steam 平臺在 GNU/Linux 作業系統上的釋出，在 Steam 上相容於 GNU/Linux 的遊戲數量增長快速。看看 <a href=""http://store.steampowered.com/linux"" rel=""external"">Steam 商店</a>，您可以找到豐富且高品質的 GNU/Linux 相容遊戲。
+        許多流行的遊戲只能在 Windows 下執行，有的有 macOS 版本。一些 Windows 遊戲可以透過 <a href=""https://www.winehq.org/"" rel=""external"">Wine</a> 或者它的非自由衍生產品 <a href=""https://www.codeweavers.com/products/crossover/"" rel=""external"">CrossOver</a> 在 GNU/Linux 下執行。但是使用者可能會需要額外一番努力才能成功。<a href=""https://appdb.winehq.org/"" rel=""external"">Wine 的遊戲資料庫</a>上有一份可以透過 Wine 執行的遊戲列表。","linux, 多媒體",3d,,,我可以在 GNU/Linux 上玩流行的 3D 遊戲嗎？,,,
+19,"如果你還有這裡沒有提到的問題，有許多的社群能夠幫助你。我們的「<a href=""/zh-tw/more/"">更多</a>」區塊會幫助你找到正確的提問地點。
+        如果你認為有一些常見問題我們沒有回答，<a href=""https://blog.getgnulinux.org/contact/"" rel=""external"">請告訴我們</a>，當然，我們更希望你<a href=""https://github.com/figure002/getgnulinux/issues"" rel=""external"">能提交臭蟲回報</a>。",linux,其他,,,還有其他問題？,,,

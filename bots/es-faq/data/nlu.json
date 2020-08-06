@@ -1,0 +1,45 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "intent": "greetings",
+                "text": "嗨"
+            },
+            {
+                "intent": "greetings",
+                "text": "你好"
+            },
+            {
+                "intent": "greetings",
+                "text": "安"
+            },
+            {
+                "intent": "greetings",
+                "text": "安安"
+            },
+            {
+                "intent": "thanks",
+                "text": "謝謝"
+            },
+            {
+                "intent": "thanks",
+                "text": "感謝"
+            },
+            {
+                "intent": "bye",
+                "text": "掰"
+            },
+            {
+                "intent": "bye",
+                "text": "掰掰"
+            },
+            {
+                "intent": "bye",
+                "text": "再見"
+            }
+        ],
+        "regex_features": [],
+        "lookup_tables": [],
+        "entity_synonyms": []
+    }
+}

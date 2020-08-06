@@ -1,0 +1,795 @@
+//To-run: ~/starbucks/$ python -m chatette data/main.chatette -o data/chatette_output -a rasa-md
+
+// INTENTS
+%[greet](50)
+    ~[&greeting][!?]
+
+%[goodbye](50)
+    ~[&bye][!?]
+
+%[thank](50)
+    ~[&thanks][!?]
+
+%[affirm](50)
+    ~[&yes][!?]
+
+%[deny](50)
+    ~[&no][!?]
+
+%[stop](30)
+    [okay?][ actually?] ~[stop][ please?]
+
+%[inform](100)
+    [a?] @[&size]
+    [a?] @[&item]
+    @[&options]
+    @[options#post] and @[options#post]
+    @[&store]
+    @[&category]
+    @[rating]
+    [&sure,?] add @[options#post]
+    [&make] it [a @[size]|@[options]]
+    [&yeah,?] ~[want#item] [a @[size]|a @[item]|@[options#post][ and @[options#post]?]]
+    I'll have[ a?] [@[size]|@[item]]
+
+%[faq\/ask_volli](50)
+    [&what] is ~[volli][\??]
+    [&what] does ~[volli] do[\??]
+    [&give] me [an introduction|a description] [of the app?]
+    [&tell] me [about ~[volli]|what ~[volli] does]
+    [&about] ~[volli]
+    [&introduction]
+    [&describe] ~[volli]
+    [&app] description
+
+%[faq\/ask_volli_name](50)
+    [&why] is [this|it|~[volli]] called Volligator[\??]
+    [&why] are you called Volligator[\??]
+    [&what] does[[ the name?] Volligator| your name] mean[\??]
+    [&what's|what is] the meaning behind [the name?] Volliagator[\??]
+
+%[faq\/ask_how_to](50)
+    [&how] does ~[volli] work[\??]
+    ~[&how] use ~[volli][\??]
+    ~[&how] [get started with|start using] ~[volli][\??]
+    [&what] [do I|am I supposed to] do[\??]
+    [&tell] me how to [use|get started with|start using] ~[volli]
+    [&usage] instructions
+
+%[faq\/ask_find_shop](50)
+    ~[&how] [look for|find|pick] [a ~[shop#s]|~[shop#pl]][[ that?] I want?] [to order from?]
+    ~[&how] find [which|what] ~[shop#pl] are available[\??]
+    ~[&how] browse ~[shop#pl][\??]
+    ~[&how] [browse|find|look for] ~[shop#pl]
+
+%[faq\/ask_find_item](50)
+    ~[&how] [find|look for|search for] ~[thing][[ that?] I want?] [to order?][\??]
+    ~[&how] browse ~[thing#pl][\??]
+    ~[&how] know what [[items|foods|items] are|is] available[\??]
+    ~[&how] see what [items|food|stuff|items?] a ~[shop#s] has[\??]
+
+%[faq\/ask_add_cart](50)
+    ~[&how] [select|choose|pick] [~[thing#s]|what I want][\??]
+    ~[&how] put ~[thing][[ that?] I want?] in[to?] my cart[\??]
+    ~[&how] add ~[thing][[ that?] I want?] to my cart[\??]
+    ~[&how] [put in[to?]|add to] cart
+
+%[faq\/ask_remove_cart](50)
+    ~[&how] [remove|take out|delete|deselect] ~[thing][[ out of| from| in] my cart?][\??]
+    ~[&how] [remove from|take out of|delete from] [my?] cart[\??]
+    ~[&how] take ~[thing] out[ of my cart?][\??]
+
+%[faq\/ask_purchase](50)
+    ~[&how] ~[order][\??]
+    ~[&how] [order|purchase|order][ what's in| what is in?] my cart[\??]
+    ~[&how] [buy|purchase|order] ~[thing][ in my cart?][\??]
+
+%[faq\/ask_multiple_orders](50)
+    [~[&how]|[&can] I] [make|place] [more than one order|[multiple|many|several] orders] at [once|a time][\??]
+    [~[&how]|[&can] I] [order|purchase|order] from [more than one ~[shop#s]|[multiple|many|several] ~[shop#pl]][ at [once|a time]?][\??]
+    [~[&how]|[&can] I] make [more than one purchase|[multiple|many|several] purchases][ at [once|a time]?][\??]
+
+%[faq\/ask_help](50)
+    [&help][!?]
+    I [don't|do not] know [what to do|[how to work|what to do with] ~[volli]]
+    [&this] [app?] [[isn't|is not] working|does[n't| not] work] [properly|well?]
+    [&where] can I [find|get|receive] help[\??]
+    I [need help|am having [trouble|problem|issues]] [with ~[volli]?]
+
+%[select_store](100)
+    ~[&show][ the?] @[store] menu[ please?]
+    ~[&show][ the menu for?] @[store][ please?]
+    ~[&want#action] [see|look at|open|browse|view|read][[ the menu for?] @[store]| the @[store] menu]
+    ~[&can] I [see|look at|open|browse|view|read][[ the menu for?] @[store]| the @[store] menu][ please?][\??]
+    ~[&want#action] to [order|purchase|shop|get ~[thing]] from [the @[store] menu|@[store]]
+
+%[describe_menu](100)
+    ~[&show] more information about[[ the menu for?] @[store]|[ the?] @[store] menu][ please?]
+    ~[&show] the [categories|sections|groups|types of things] [in|under|on][ the?][ @[store]?] menu
+    ~[&want#action] [hear|get][[ more?] info[rmation?]?] about the[ @[store]?] menu
+    [[&tell] me[ more?] about|[&explain][ more about?]|[&describe]] the[ @[store]?] menu[ please?]
+    [[&what] are|list] the [@[store] menu [categories|sections|groups]|[categories|sections|groups] on the[ @[store]?] menu]
+
+%[describe_category](100)
+    ~[&show] more info[rmation?] about[[ the?] @[category] category| @[category]][ please?]
+    ~[&show] the ~[thing#pl] [in|under][ the?] @[category][ category?]
+    ~[&want#action] [hear|get] more[ info[rmation?]?] about[[ the] @[category] category| @[category]]
+    [[&tell] me[ more?] about|[&explain][ more about?]|[&describe]][ the @[category] category| @[category]][ please?]
+
+%[select_item](200)
+    ~[&want#item] [@[quantity] @[size][ @[options#pre]?] @[item#pl_drink]|a [@[size][ sized?]?][ @[options#pre]?] @[item#sg_drink]][ with @[options#post][ and @[options#post]?]?][ from @[store]?][ please?]
+    ~[&want#item] [@[quantity][ @[options#pre_food]?] @[item#pl_food]|a[ @[options#pre_food]?] @[item#sg_food]][ from @[store]?][ please?]
+    [&add] [@[quantity] @[size][ @[options#pre]?] @[item#pl_drink]|a [@[size][ sized?]?][ @[options#pre]?] @[item#sg_drink]][ with @[options#post][ and @[options#post]?]?][ to my ~[cart]?][ please?]
+    [&add] [@[quantity][ @[options#pre_food]?] @[item#pl_food]|a[ @[options#pre_food]?] @[item#sg_food]][ to my ~[cart]?][ please?]
+    [&put] [@[quantity] @[size][ @[options#pre]?] @[item#pl_drink]|a [@[size][ sized?]?][ @[options#pre]?] @[item#sg_drink]][ with @[options#post][ and @[options#post]?]?] in my ~[cart] [please?]
+    [&put] [@[quantity][ @[options#pre_food]?] @[item#pl_food]|a[ @[options#pre_food]?] @[item#sg_food]] in my ~[cart] [please?]
+    [&from @[store]?] ~[want#item] [@[quantity] @[size][ @[options#pre]?] @[item#pl_drink]|a [@[size]?][ @[options#pre]?] @[item#sg_drink]][ with @[options#post]?] [please?]
+    [&from @[store]?] ~[want#item] [@[quantity][ @[options#pre_food]?] @[item#pl_food]|a[ @[options#pre_food]?] @[item#sg_food]][ please?]
+    [&select] [a?] [@[size]?][ @[options#pre]?] @[item#sg_drink][ with @[options#post]?][ please?]
+    [&select] [@[quantity][ @[options#pre_food]?] @[item#pl_food]|a[ @[options#pre_food]?] @[item#sg_food]][please?]
+    ~[&want#item] [@[quantity][ @[options#pre]?] @[item#pl_drink]|a[ @[options#pre]?] @[item#sg_drink]][ please?]
+    ~[&want#item] [@[quantity][ @[options#pre_food]?] @[item#pl_food]|a[ @[options#pre_food]?] @[item#sg_food]][ please?]
+
+%[ask_cart_contents](100)
+    [[&what's]|[&what is]] in my ~[cart][[ right?] now| currently| at the moment?][\??]
+    [&what] did I [add to|put in] my ~[cart][\??]
+    [&what] do I have in my ~[cart][[ right?] now| currently| at the moment?][\??]
+    [[&show] me|[&read] me|[&open]|[&view]] my ~[cart] [please?]
+    [[&show] me|[&read] [me|out]|[&tell] me] [what['s| is] in my ~[cart]|the contents of my ~[cart]]
+    ~[&want] [see what's in|look at|view] my ~[cart]
+    [&could] you [check|read|open|look at] [the|my] ~[cart] [for me?]
+
+%[remove_from_cart](100)
+    ~[&want#action] ~[remove][ a| the][ @[size]?/30%] @[item][ from my ~[cart]?]
+    ~[&remove][ a| the][@[size]?/30%] @[item][ from my ~[cart]?][ please?]
+    [Actually,?] ~[&can] you ~[remove] the[ @[size?/30%]] @[item][ from my ~[cart]?][ please?]
+    [Actually,?] I don't want the @[item][ in my ~[cart]?]
+
+%[clear_cart](100)
+    ~[&want#action] ~[remove] ~[all_items][ from my ~[cart]?]
+    ~[&remove] ~[all_items][ from my ~[cart]?][ please?]
+    ~[&remove] my ~[cart]
+    [Actually, ?]~[&can] you ~[remove] ~[all_items][ from my ~[cart]?][ please?]
+
+%[checkout_cart](100)
+    ~[&want#action] ~[checkout] ~[all_items][ in my ~[cart]?]
+    ~[&want#action] ~[checkout] my ~[cart]
+    ~[&want#action] [checkout|place my order][ please?]
+    [&place] my order[ please?]
+    [&checkout] my ~[cart][ please?]
+
+// ALIASES
+~[greeting]
+    Hi
+    Hey
+    Hi bot
+    Hey bot
+    Hello
+    Good morning
+    hi again
+    hi folks
+    hello
+    Howdy
+    Heya
+    How's it going
+    Hey there
+    hiya
+    Howdy do
+
+~[bye]
+    bye
+    goodbye
+    bye bye
+    toodle-oo
+    good-bye
+    talk to you later
+    see you
+    see ya
+    good night
+    good bye
+    gotta go
+    farewell
+    later
+
+~[thanks]
+    thanks
+    thank you
+    thanks a bunch
+    thanks a million
+    thanks a ton
+    thank you so much
+    many thanks
+    thanks for that
+    cheers
+    thanks bot
+
+~[yes]
+    yes
+    yup
+    yep
+    yuppers
+    yeah
+    yee
+    yeet
+    yessir
+    ye
+    yah
+    yes please
+    indeed
+    of course
+    sounds good
+    correct
+    affirmative
+    sure [thing?]
+
+~[no]
+    no
+    no thanks
+    nay
+    nothing
+    no way
+    never
+    I don't think so
+    don't like that
+    don't want that
+    no way
+    not really
+    nevermind
+    none
+
+~[volli]
+    Volli
+    Volligator
+    this app
+    the app
+
+~[shop#s]
+    store
+    restaurant
+    shop
+    place
+
+~[shop#pl]
+    stores
+    restaurants
+    shops
+    places
+
+~[how]
+    how can I
+    how do I
+    how to
+
+~[thing#s]
+    an item
+    the item
+    the food
+    the item
+    a item
+    a food item
+    something
+
+~[thing#pl]
+    [the?] items
+    [the?] food
+    [the?] items
+    [the?] food items
+    something
+    stuff
+
+~[cart]
+    cart
+    basket
+    order
+    purchase
+
+~[order]
+    make a purchase
+    order
+    purchase
+    buy
+    make an order
+    place an order
+
+~[checkout]
+    checkout
+    check out
+    finalize
+    purchase
+
+~[show]
+    open
+    show me
+    select
+    give me
+    gimme
+
+~[want#action]
+    I want to
+    let me
+    I'd like to
+    I would like to
+    I wanna
+    I['m| am] going to
+    I'm gunna
+
+~[want#item]
+    I want
+    let me have
+    I'd like
+    How about
+    Give me
+    I would like
+    I'll have
+
+~[can]
+    could
+    can
+    may
+    might
+
+~[remove]
+    remove
+    take out
+    delete
+    drop
+    get rid of
+    erase
+    clear
+
+~[all_items]
+    all of the items
+    everything
+    all the stuff
+    it all
+    all the items
+
+~[stop]
+    stop
+    cancel
+    nevermind
+    exit
+    leave
+    stop it
+    move on
+    I changed my mind
+
+// SLOTS
+@[rating]
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+
+@[store]
+    [&starbucks]
+    [&taco] [&bell]
+    [&panera]
+    [&whole] [&foods]
+
+@[quantity]
+    one
+    two
+    three
+    four
+    five
+    1
+    2
+    3
+    4
+    5
+
+@[size]
+    small
+    medium
+    large
+    short
+    tall
+    grande
+    venti
+    8oz
+    12oz
+    16oz
+    20oz
+    32oz
+    single
+    Solo
+    Double
+    doppio
+    Triple
+    quad
+    trenta
+
+@[item#sg_drink]
+    Caffe Americano
+    Blonde Caffe Americano
+    Blonde Roast
+    Caffe Misto
+    Dark Roast Coffee
+    Pike Place Roast
+    Decaf Pike Place Roast
+    Cappuccino
+    Blonde Cappuccino
+    Espresso
+    Espresso con Panna
+    Flat White
+    Blonde Flat White
+    Almondmilk Honey Flat White
+    Almondmilk Honey Flat White with Blonde Espresso
+    Oatmilk Honey Latte
+    Oatmilk Honey Latte with Blonde Espresso
+    Coconutmilk Latte
+    Cocounutmilk Latte with Blonde Espresso
+    Caffe Latte
+    Cinnamon Dolce Latte
+    Starbucks Reserve Latte
+    Starbucks Reserve Hazelnut Bianco Latte
+    Blone Vanilla Latte
+    Blonde Caffe Latte
+    Cocoa Cloud macchiato
+    Blonde Cocoa Cloud Macchiato
+    Caramel Cloud Macchiato
+    Blone Caramel Cloud Macchiato
+    Caramel Macchiato
+    Espresso Macchiato
+    Caffe Mocha
+    Starbucks Reserve Dark Chocolate Mocha
+    White Chocolate Mocha
+
+@[item#pl_drink]
+    Caffe Americanos
+    Blonde Caffe Americanos
+    Blonde Roasts
+    Caffe Mistos
+    Dark Roast Coffees
+    Pike Place Roasts
+    Decaf Pike Place Roasts
+    Cappuccinos
+    Blonde Cappuccinos
+    Espressos
+    Espresso con Pannas
+    Flat Whites
+    Blonde Flat Whites
+    Almondmilk Honey Flat Whites
+    Almondmilk Honey Flat White with Blonde Espressos
+    Oatmilk Honey Lattes
+    Oatmilk Honey Latte with Blonde Espressos
+    Coconutmilk Lattes
+    Cocounutmilk Latte with Blonde Espressos
+    Caffe Lattes
+    Cinnamon Dolce Lattes
+    Starbucks Reserve Lattes
+    Starbucks Reserve Hazelnut Bianco Lattes
+    Blone Vanilla Lattes
+    Blonde Caffe Lattes
+    Cocoa Cloud macchiatos
+    Blonde Cocoa Cloud Macchiatos
+    Caramel Cloud macchiatos
+    Blone Caramel Cloud Macchiatos
+    Caramel Macchiatos
+    Espresso Macchiatos
+    Caffe Mochas
+    Starbucks Reserve Dark Chocolate Mochas
+    White Chocolate Mochas
+
+@[item#sg_food]
+    Chicken & Double-Smoked Bacon
+    Chocolate Covered Espresso Beans
+    Evolution Fresh® Orange
+    Spinach, Feta & Cage-Free Egg White Wrap
+    Eggs & Cheese Protein Box
+    Banana Nut Bread
+    Perfect Bar® – Dark Chocolate Chip Peanut Butter
+    Everything Bagel
+    Banana
+    Espresso Roast Verismo® Pods
+    Tomato & Mozzarella
+    Old-Fashioned Glazed Doughnut
+    Chicken Wrap Protein Box
+    Double-Smoked Bacon, Cheddar & Egg Sandwich
+    Egg White & Roasted Red Pepper Sous Vide Egg Bites
+    Petite Vanilla Bean Scone
+    Crispy Grilled Cheese Sandwich
+    Grilled Chicken and Hummus Protein Box
+    Justin’s® Dark Chocolate Peanut Butter Cups
+    Siggi's® Yogurt Cup 0\% Vanilla
+    Passport Series: West Java
+    Blueberry Muffin
+    Bacon & Gruyère Sous Vide Egg Bites
+    Evolution Fresh® Organic Vital Berry
+    Blueberry Scone
+    Starbucks® BBQ Potato Chips
+    Iced Lemon Loaf Cake
+    Hippeas® – White Cheddar
+    Unicorn Cake Pop
+    Chicken Caprese
+    Cinnamon Raisin Bagel
+    Plain Bagel
+    This Bar Saves Lives™ Madagascar Vanilla Almond & Honey Bar
+    Peter Rabbit™ Organics Apple & Grape
+    Chicken & Quinoa Protein Bowl with Black Beans and Greens
+    Galvanina Sparkling Water
+    Birthday Cake Pop
+    Cheese & Fruit Protein Box
+    Pumpkin Bread
+    Ham & Cheese Croissant
+
+@[item#pl_food]
+    Chicken & Double-Smoked Bacons
+    Chocolate Covered Espresso Beans
+    Evolution Fresh® Oranges
+    Spinach, Feta & Cage-Free Egg White Wraps
+    Eggs & Cheese Protein Boxes
+    Banana Nut Breads
+    Perfect Bars® – Dark Chocolate Chip Peanut Butter
+    Everything Bagels
+    Bananas
+    Espresso Roast Verismo® Pods
+    Tomato & Mozzarellas
+    Old-Fashioned Glazed Doughnuts
+    Chicken Wrap Protein Boxes
+    Double-Smoked Bacon, Cheddar & Egg Sandwiches
+    Egg White & Roasted Red Pepper Sous Vide Egg Bites
+    Petite Vanilla Bean Scones
+    Crispy Grilled Cheese Sandwiches
+    Grilled Chicken and Hummus Protein Boxes
+    Justin’s® Dark Chocolate Peanut Butter Cups
+    Siggi's® Yogurt Cups 0\% Vanilla
+    Passport Series: West Javas
+    Blueberry Muffins
+    Bacon & Gruyère Sous Vide Egg Bites
+    Evolution Fresh® Organic Vital Berrys
+    Blueberry Scones
+    Starbucks® BBQ Potato Chips
+    Iced Lemon Loaf Cakes
+    Hippeas® – White Cheddar
+    Unicorn Cake Pops
+    Chicken Capreses
+    Cinnamon Raisin Bagels
+    Plain Bagels
+    This Bar Saves Lives™ Madagascar Vanilla Almond & Honey Bars
+    Peter Rabbit™ Organics Apple & Grape
+    Chicken & Quinoa Protein Bowls with Black Beans and Greens
+    Galvanina Sparkling Waters
+    Birthday Cake Pops
+    Cheese & Fruit Protein Boxes
+    Pumpkin Breads
+    Ham & Cheese Croissants
+
+@[options#post]
+    Foam
+    Heavy Cream
+    Lemonade
+    Soy
+    Light Cascara Topping
+    No Apple Juice
+    Toasted Honey Topping
+    Light Graham Cracker Topping
+    No Splash of Black Tea
+    No Cinnamon Soymilk Foam
+    Light Ice
+    No Graham Cracker Topping
+    Splash of Almondmilk
+    Extra Cinnamon Powder
+    Kids
+    Substitute Dark Cocoa Soymilk Foam
+    Light Cinnamon Dolce Sprinkles
+    Splash of White Tea
+    Light Splash of Heavy Cream
+    Extra Splash of Almondmilk
+    No Splash of White Tea
+    Substitute Dark Cocoa Almondmilk Foam
+    with Extra Whipped Cream
+    Light Splash of Coconutmilk
+    Light Foam
+    Light Splash of Whole Milk
+    Coconut
+    Splash of Heavy Cream
+    No Splash of 2\% Milk
+    Splash of Soymilk
+    Extra Foam
+    Splash of Nonfat Milk
+    French Press (Coarse)
+    Espresso (Fine)
+    Marshmallow Whipped Cream
+    Light Splash of Cream (Half & Half)
+    No Splash of Coconutmilk
+    Extra Splash of Passion Tango Tea
+    Extra Room
+    23.7 fl oz
+    Guava Juice Blend
+    Substitute Cinnamon Almondmilk Foam
+    No Cold Foam
+    with Light Whipped Cream
+    Extra Splash of Whole Milk
+    Splash of Coconutmilk
+    Extra Cinnamon Soymilk Foam
+    No Dark Cocoa Almondmilk Foam
+    Light Splash of Green Tea
+    Splash of Whole Milk
+    Light Mocha Drizzle
+    No Vanilla Powder
+    Light Splash of Sweet Cream
+    Extra Cinnamon Almondmilk Foam
+    Extra Splash of Black Tea
+    No Cinnamon Powder
+    Extra Splash of Coconutmilk
+    Cone (Semi-Fine)
+    Light Splash of White Tea
+    Extra Ice
+    Extra Caramel Drizzle
+    Light Lemonade
+    Double Blended
+    Cinnamon Almondmilk Foam
+    Caramel Crunch Topping
+    Whole Milk
+    Venti Cup
+    No Water
+    Light Cinnamon Almondmilk Foam
+    Substitute Guava Juice Blend
+    Extra Splash of Cream (Half & Half)
+    No Nutmeg Powder
+    Almond
+    No Chocolate Powder
+    Light Splash of Soymilk
+    Light Apple Juice
+    Chocolate Powder
+    Extra Splash of 2\% Milk
+    Extra Splash of Sweet Cream
+    Vanilla Powder
+    Extra Tea
+    Cinnamon Dolce Sprinkles
+    Extra Guava Juice Blend
+    Tall Cup
+    Cold Foam
+    Extra Water
+    No Foam
+    Extra Splash of 1\% Milk
+    Cascara Topping
+    Cinnamon Powder
+    Light Guava Juice Blend
+    No Lemonade
+    Light Room
+    Extra Dark Cocoa Almondmilk Foam
+    Splash of Cream (Half & Half)
+    No Caramel Drizzle
+    Light Nutmeg Powder
+    Flat Bottom (Drip)
+    No Splash of Sweet Cream
+    Light Marshmallow Whipped Cream
+    Apple Juice
+    Extra Splash of Soymilk
+    Regular Foam
+    No Cascara Topping
+    Extra Splash of Heavy Cream
+    Light Cookie Crumble Topping
+    Breve (Half & Half)
+    9.6 fl oz
+    Extra Vanilla Powder
+    No Splash of Passion Tango Tea
+    Water
+    Extra Mocha Drizzle
+    Light Dark Cocoa Almondmilk Foam
+    Extra Marshmallow Whipped Cream
+    No Cinnamon Almondmilk Foam
+    Room
+    Extra Cinnamon Dolce Sprinkles
+    16.9 fl oz
+    Whipped Cream
+    Extra Cookie Crumble Topping
+    No Vanilla Sweet Cream Cold Foam
+    Nutmeg Powder
+    No Toasted Honey Topping
+    Substitute Toasted Honey Topping
+    Extra Peach Juice Blend
+    Light Dark Cocoa Soymilk Foam
+    Extra Apple Juice
+    Nonfat Milk
+    Light Peach Juice Blend
+    Extra Splash of Nonfat Milk
+    Splash of Black Tea
+    Vanilla Sweet Cream Cold Foam
+    Extra Toasted Honey Topping
+    14.5 fl oz
+    No Marshmallow Whipped Cream
+    Cookie Crumble Topping
+    Substitute Caramel Crunch Topping
+    Light Splash of 1\% Milk
+    Splash of Green Tea
+    Steamed
+    Light Splash of Nonfat Milk
+    No Whipped Cream
+    Extra Nutmeg Powder
+    No Cinnamon Dolce Sprinkles
+    Splash of 1\% Milk
+    Light Cinnamon Powder
+    Ice
+    No Room
+    2\% Milk
+    Dark Cocoa Almondmilk Foam
+    Light Splash of Black Tea
+    Light Splash of Passion Tango Tea
+    Light Water
+    Extra Caramel Crunch Topping
+    Splash of Passion Tango Tea
+    Extra Graham Cracker Topping
+    Light Cinnamon Soymilk Foam
+    Extra Splash of Green Tea
+    No Cookie Crumble Topping
+    Salted Honey Cold Foam
+    Grande Cup
+    Light Caramel Drizzle
+    Substitute Cookie Crumble Topping
+    No Salted Honey Cold Foam
+    Splash of Sweet Cream
+    Light Splash of 2\% Milk
+    11 fl oz
+    Cinnamon Soymilk Foam
+    No Mocha Drizzle
+    No Ice
+    Substitute Cinnamon Soymilk Foam
+    Extra Dark Cocoa Soymilk Foam
+    Extra Lemonade
+    Caramel Drizzle
+    Substitute Peach Juice Blend
+    Graham Cracker Topping
+    Dark Cocoa Soymilk Foam
+    1\% Milk
+    Mocha Drizzle
+    Light Toasted Honey Topping
+    Splash of 2\% Milk
+    No Splash of Green Tea
+    Substitute Cascara Topping
+    Peach Juice Blend
+    Extra Cascara Topping
+    Light Caramel Crunch Topping
+    Light Splash of Almondmilk
+    Light Vanilla Powder
+    No Caramel Crunch Topping
+    No Dark Cocoa Soymilk Foam
+    Extra Splash of White Tea
+
+@[options#pre_food]
+    Warmed
+    Not Warmed
+
+@[options#pre]
+    Wet
+    Extra Wet
+    Extra Dry
+    Dry
+    1/3 Decaf
+    2/3 Decaf
+    1/2 Decaf
+    Decaf
+    Ristretto
+    Blonde Espresso
+    Long Shot
+    Upside Down
+    Warm
+    Extra Hot
+
+@[category]
+    Hot Coffee[s?]
+    Hot Drink[s?]
+    Cold Coffee[s?]
+    Cold Drink[s?]
+    Hot Tea[s?]
+    Frappuccino Blended Beverage[s?]
+    Iced Tea[s?]
+    Hot Breakfast
+    Lunch
+    Yogurt and Custard
+    Bakery
+    Snacks and Sweets
+    Whole Bean Coffee
+    Via Instant Coffee
+    Verismo Pods
+    Cold Brew Coffee
+    Shopping Bags

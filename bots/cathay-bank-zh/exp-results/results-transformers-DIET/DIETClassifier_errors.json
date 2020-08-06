@@ -1,0 +1,1816 @@
+[
+  {
+    "text": "我想郵局繳費",
+    "entities": [
+      {
+        "value": "郵局",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我想郵局繳費",
+    "entities": [
+      {
+        "value": "郵局繳",
+        "start": 2,
+        "end": 5,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我要全繳",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 2,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "全繳"
+      }
+    ]
+  },
+  {
+    "text": "郵局劃撥",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "郵局劃撥"
+      }
+    ]
+  },
+  {
+    "text": "我要郵局繳費",
+    "entities": [
+      {
+        "value": "郵局",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "超商繳款",
+    "entities": [
+      {
+        "value": "超商",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "超商繳款"
+      }
+    ]
+  },
+  {
+    "text": "我自己輸入金額",
+    "entities": [
+      {
+        "value": "自己輸入",
+        "start": 1,
+        "end": 5,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 1,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "自己"
+      },
+      {
+        "entity": "pay_amount",
+        "start": 4,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "入金額"
+      }
+    ]
+  },
+  {
+    "text": "中華郵政",
+    "entities": [
+      {
+        "value": "中華郵政",
+        "start": 0,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全國繳費網繳費",
+    "entities": [
+      {
+        "value": "全國繳費網繳",
+        "start": 0,
+        "end": 6,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "全國繳費網"
+      }
+    ]
+  },
+  {
+    "text": "繳最低應繳金額",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 1,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "最低應繳"
+      }
+    ]
+  },
+  {
+    "text": "最低應繳金額",
+    "entities": [
+      {
+        "value": "最低應繳",
+        "start": 0,
+        "end": 4,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "好，我要自行輸入金額",
+    "entities": [
+      {
+        "value": "自行輸入",
+        "start": 4,
+        "end": 8,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 4,
+        "end": 10,
+        "extractor": "DIETClassifier",
+        "value": "自行輸入金額"
+      }
+    ]
+  },
+  {
+    "text": "我要查可用餘額",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 2,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "查"
+      }
+    ]
+  },
+  {
+    "text": "我想查詢餘額",
+    "entities": [
+      {
+        "value": "查詢",
+        "start": 2,
+        "end": 4,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "行動銀行繳費繳稅限額",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 2,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "銀行"
+      }
+    ]
+  },
+  {
+    "text": "我要查信用卡金額",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 2,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "查"
+      }
+    ]
+  },
+  {
+    "text": "是否繳款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 0,
+        "end": 2,
+        "extractor": "DIETClassifier",
+        "value": "是否"
+      }
+    ]
+  },
+  {
+    "text": "我想線上繳費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 2,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "線上"
+      }
+    ]
+  },
+  {
+    "text": "我想商超繳費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 2,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "商超"
+      }
+    ]
+  },
+  {
+    "text": "我想繳納最低",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 2,
+        "end": 6,
+        "extractor": "DIETClassifier",
+        "value": "繳納最低"
+      }
+    ]
+  },
+  {
+    "text": "我想全部繳納",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 2,
+        "end": 6,
+        "extractor": "DIETClassifier",
+        "value": "全部繳納"
+      }
+    ]
+  },
+  {
+    "text": "我想繳納最低",
+    "entities": [
+      {
+        "value": "最低",
+        "start": 4,
+        "end": 6,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 2,
+        "end": 6,
+        "extractor": "DIETClassifier",
+        "value": "繳納最低"
+      }
+    ]
+  },
+  {
+    "text": "我想繳納全部",
+    "entities": [
+      {
+        "value": "繳納全部",
+        "start": 2,
+        "end": 6,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 4,
+        "end": 6,
+        "extractor": "DIETClassifier",
+        "value": "全部"
+      }
+    ]
+  },
+  {
+    "text": "我想線上繳款",
+    "entities": [
+      {
+        "value": "線上",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全部繳納",
+    "entities": [
+      {
+        "value": "全部",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "全部繳納"
+      }
+    ]
+  },
+  {
+    "text": "我要自行決定繳納金額",
+    "entities": [
+      {
+        "value": "自行決定",
+        "start": 2,
+        "end": 6,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 2,
+        "end": 6,
+        "extractor": "DIETClassifier",
+        "value": "自行決定"
+      },
+      {
+        "entity": "pay_amount",
+        "start": 8,
+        "end": 10,
+        "extractor": "DIETClassifier",
+        "value": "金額"
+      }
+    ]
+  },
+  {
+    "text": "超商繳款",
+    "entities": [
+      {
+        "value": "超商繳款",
+        "start": 0,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 2,
+        "extractor": "DIETClassifier",
+        "value": "超商"
+      }
+    ]
+  },
+  {
+    "text": "全國繳費網",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "全國繳費網"
+      }
+    ]
+  },
+  {
+    "text": "我要付款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 2,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "付款"
+      }
+    ]
+  },
+  {
+    "text": "轉帳繳費",
+    "entities": [
+      {
+        "value": "轉帳繳費",
+        "start": 0,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "立即繳款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 2,
+        "extractor": "DIETClassifier",
+        "value": "立即"
+      }
+    ]
+  },
+  {
+    "text": "繳最低應繳金額",
+    "entities": [
+      {
+        "value": "最低應繳",
+        "start": 1,
+        "end": 5,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "线上缴款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 2,
+        "extractor": "DIETClassifier",
+        "value": "线上"
+      }
+    ]
+  },
+  {
+    "text": "桃園機場外圍停車",
+    "entities": [
+      {
+        "value": "桃園機場",
+        "start": 0,
+        "end": 4,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我要付信用卡費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 3,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "信用卡費"
+      }
+    ]
+  },
+  {
+    "text": "劃撥",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 2,
+        "extractor": "DIETClassifier",
+        "value": "劃撥"
+      }
+    ]
+  },
+  {
+    "text": "線上繳費有手續費嗎？",
+    "entities": [
+      {
+        "value": "線上繳費有手續費嗎？",
+        "start": 0,
+        "end": 10,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "線上客服",
+    "entities": [
+      {
+        "value": "線上",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "國民黨",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 1,
+        "extractor": "DIETClassifier",
+        "value": "國"
+      }
+    ]
+  },
+  {
+    "text": "查詢信用卡未出帳明細",
+    "entities": [
+      {
+        "value": "查詢",
+        "start": 0,
+        "end": 2,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我想全繳",
+    "entities": [
+      {
+        "value": "全繳",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "線上繳款",
+    "entities": [
+      {
+        "value": "線上",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "線上繳款"
+      }
+    ]
+  },
+  {
+    "text": "繳納最低",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 2,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "最低"
+      }
+    ]
+  },
+  {
+    "text": "郵局劃撥",
+    "entities": [
+      {
+        "value": "郵局",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我要有局繳費",
+    "entities": [
+      {
+        "value": "有局",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "繳納全部",
+    "entities": [
+      {
+        "value": "全部",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "繳納全部"
+      }
+    ]
+  },
+  {
+    "text": "郵局劃撥",
+    "entities": [
+      {
+        "value": "郵局劃撥",
+        "start": 0,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "郵局劃撥",
+    "entities": [
+      {
+        "value": "郵",
+        "start": 0,
+        "end": 1,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "立即繳款",
+    "entities": [
+      {
+        "value": "立即",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "最低應繳金額",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "最低應繳"
+      }
+    ]
+  },
+  {
+    "text": "最低多少",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 0,
+        "end": 1,
+        "extractor": "DIETClassifier",
+        "value": "最"
+      }
+    ]
+  },
+  {
+    "text": "我要超商繳",
+    "entities": [
+      {
+        "value": "超商",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 2,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "超商"
+      },
+      {
+        "entity": "pay_amount",
+        "start": 4,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "繳"
+      }
+    ]
+  },
+  {
+    "text": "部分",
+    "entities": [
+      {
+        "value": "部分",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全家繳費",
+    "entities": [
+      {
+        "value": "全家",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "全家繳"
+      }
+    ]
+  },
+  {
+    "text": "萊爾富繳費",
+    "entities": [
+      {
+        "value": "萊爾富",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全家便利商店繳費",
+    "entities": [
+      {
+        "value": "全家便利商店",
+        "start": 0,
+        "end": 6,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 2,
+        "extractor": "DIETClassifier",
+        "value": "全家"
+      }
+    ]
+  },
+  {
+    "text": "商超",
+    "entities": [
+      {
+        "value": "商超",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "小7繳費",
+    "entities": [
+      {
+        "value": "小7",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 1,
+        "extractor": "DIETClassifier",
+        "value": "小"
+      }
+    ]
+  },
+  {
+    "text": "轉帳繳費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "轉帳繳費"
+      }
+    ]
+  },
+  {
+    "text": "超商繳全額",
+    "entities": [
+      {
+        "value": "超商繳",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全額",
+        "start": 3,
+        "end": 5,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 2,
+        "extractor": "DIETClassifier",
+        "value": "超商"
+      },
+      {
+        "entity": "pay_amount",
+        "start": 3,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "全額"
+      }
+    ]
+  },
+  {
+    "text": "最低應繳",
+    "entities": [
+      {
+        "value": "最低",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "最低應繳"
+      }
+    ]
+  },
+  {
+    "text": "最低應繳",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "最低應繳"
+      }
+    ]
+  },
+  {
+    "text": "高雄機場外圍停車",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "park_location",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "高雄機場"
+      }
+    ]
+  },
+  {
+    "text": "桃園機場外圍停車",
+    "entities": [
+      {
+        "value": "桃園",
+        "start": 0,
+        "end": 2,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "park_location",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "桃園機場"
+      }
+    ]
+  },
+  {
+    "text": "高雄機場外圍停車",
+    "entities": [
+      {
+        "value": "高雄",
+        "start": 0,
+        "end": 2,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "park_location",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "高雄機場"
+      }
+    ]
+  },
+  {
+    "text": "我想查詢信用卡餘額",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 2,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "查詢"
+      }
+    ]
+  },
+  {
+    "text": "我想查询其他额度",
+    "entities": [
+      {
+        "value": "查询",
+        "start": 2,
+        "end": 4,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我要查可用餘額",
+    "entities": [
+      {
+        "value": "查",
+        "start": 2,
+        "end": 3,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我想查詢餘額",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 2,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "查詢"
+      }
+    ]
+  },
+  {
+    "text": "線上客服",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 2,
+        "extractor": "DIETClassifier",
+        "value": "線上"
+      }
+    ]
+  },
+  {
+    "text": "我要郵局繳費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 2,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "郵局"
+      }
+    ]
+  },
+  {
+    "text": "我想郵局繳費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 2,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "郵局繳"
+      }
+    ]
+  },
+  {
+    "text": "我想通過商超繳費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 4,
+        "end": 6,
+        "extractor": "DIETClassifier",
+        "value": "商超"
+      }
+    ]
+  },
+  {
+    "text": "我要全繳！",
+    "entities": [
+      {
+        "value": "全繳",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我要全繳",
+    "entities": [
+      {
+        "value": "全繳",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我想線上繳款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 2,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "線上"
+      }
+    ]
+  },
+  {
+    "text": "線上繳款",
+    "entities": [
+      {
+        "value": "線上繳款",
+        "start": 0,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "線上繳"
+      }
+    ]
+  },
+  {
+    "text": "繳納最低",
+    "entities": [
+      {
+        "value": "最低",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "郵局繳款",
+    "entities": [
+      {
+        "value": "郵局繳款",
+        "start": 0,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 2,
+        "extractor": "DIETClassifier",
+        "value": "郵局"
+      }
+    ]
+  },
+  {
+    "text": "我想要全繳",
+    "entities": [
+      {
+        "value": "全繳",
+        "start": 3,
+        "end": 5,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 4,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "繳"
+      }
+    ]
+  },
+  {
+    "text": "我想通過郵局全繳",
+    "entities": [
+      {
+        "value": "郵局",
+        "start": 4,
+        "end": 6,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全繳",
+        "start": 6,
+        "end": 8,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 4,
+        "end": 6,
+        "extractor": "DIETClassifier",
+        "value": "郵局"
+      },
+      {
+        "entity": "pay_amount",
+        "start": 6,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "全"
+      }
+    ]
+  },
+  {
+    "text": "我想線上繳費",
+    "entities": [
+      {
+        "value": "線上",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我要線上繳最低應繳",
+    "entities": [
+      {
+        "value": "線上",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      },
+      {
+        "value": "最低應繳",
+        "start": 5,
+        "end": 9,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 3,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "上"
+      },
+      {
+        "entity": "pay_amount",
+        "start": 5,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "最低"
+      }
+    ]
+  },
+  {
+    "text": "超商繳全額",
+    "entities": [
+      {
+        "value": "超商",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全額",
+        "start": 3,
+        "end": 5,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "超商繳"
+      },
+      {
+        "entity": "pay_amount",
+        "start": 3,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "全額"
+      }
+    ]
+  },
+  {
+    "text": "線上繳清",
+    "entities": [
+      {
+        "value": "線上",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      },
+      {
+        "value": "繳清",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "線上繳"
+      }
+    ]
+  },
+  {
+    "text": "我要付信用卡費",
+    "entities": [
+      {
+        "value": "信用卡費",
+        "start": 3,
+        "end": 7,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "繳部分",
+    "entities": [
+      {
+        "value": "部分",
+        "start": 1,
+        "end": 3,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全國繳費網",
+    "entities": [
+      {
+        "value": "全國繳費網",
+        "start": 0,
+        "end": 5,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全家繳費",
+    "entities": [
+      {
+        "value": "全家繳",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 2,
+        "extractor": "DIETClassifier",
+        "value": "全家"
+      }
+    ]
+  },
+  {
+    "text": "高雄機場外圍停車",
+    "entities": [
+      {
+        "value": "高雄機場",
+        "start": 0,
+        "end": 4,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "park_location",
+        "start": 0,
+        "end": 2,
+        "extractor": "DIETClassifier",
+        "value": "高雄"
+      }
+    ]
+  },
+  {
+    "text": "高雄機場外圍停車",
+    "entities": [
+      {
+        "value": "雄",
+        "start": 1,
+        "end": 2,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "park_location",
+        "start": 0,
+        "end": 2,
+        "extractor": "DIETClassifier",
+        "value": "高雄"
+      }
+    ]
+  },
+  {
+    "text": "桃園機場外圍停車",
+    "entities": [
+      {
+        "value": "場",
+        "start": 3,
+        "end": 4,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "park_location",
+        "start": 0,
+        "end": 2,
+        "extractor": "DIETClassifier",
+        "value": "桃園"
+      }
+    ]
+  },
+  {
+    "text": "我想商超繳費",
+    "entities": [
+      {
+        "value": "商超",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我想全繳",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 2,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "全繳"
+      }
+    ]
+  },
+  {
+    "text": "線上繳款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "線上繳款"
+      }
+    ]
+  },
+  {
+    "text": "好，我要自行決定金額",
+    "entities": [
+      {
+        "value": "自行決定金額",
+        "start": 4,
+        "end": 10,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 4,
+        "end": 8,
+        "extractor": "DIETClassifier",
+        "value": "自行決定"
+      }
+    ]
+  },
+  {
+    "text": "我要自行決定金額",
+    "entities": [
+      {
+        "value": "自行決定金額",
+        "start": 2,
+        "end": 8,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 2,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "自行決定金"
+      }
+    ]
+  },
+  {
+    "text": "線上繳款",
+    "entities": [
+      {
+        "value": "線上繳",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "線上繳款"
+      }
+    ]
+  },
+  {
+    "text": "線上繳費",
+    "entities": [
+      {
+        "value": "線上",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "線上繳費"
+      }
+    ]
+  },
+  {
+    "text": "我想商超全繳",
+    "entities": [
+      {
+        "value": "商超",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全繳",
+        "start": 4,
+        "end": 6,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 4,
+        "end": 6,
+        "extractor": "DIETClassifier",
+        "value": "全繳"
+      }
+    ]
+  },
+  {
+    "text": "我要繳最低應繳金額",
+    "entities": [
+      {
+        "value": "最低",
+        "start": 3,
+        "end": 5,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 3,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "最低應繳"
+      },
+      {
+        "entity": "pay_amount",
+        "start": 8,
+        "end": 9,
+        "extractor": "DIETClassifier",
+        "value": "額"
+      }
+    ]
+  },
+  {
+    "text": "去超商全繳",
+    "entities": [
+      {
+        "value": "超商",
+        "start": 1,
+        "end": 3,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全繳",
+        "start": 3,
+        "end": 5,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "去超商"
+      },
+      {
+        "entity": "pay_amount",
+        "start": 3,
+        "end": 5,
+        "extractor": "DIETClassifier",
+        "value": "全繳"
+      }
+    ]
+  },
+  {
+    "text": "郵局繳款",
+    "entities": [
+      {
+        "value": "郵局",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "郵局繳款"
+      }
+    ]
+  },
+  {
+    "text": "全國繳費網繳費",
+    "entities": [
+      {
+        "value": "全國繳費網",
+        "start": 0,
+        "end": 5,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 6,
+        "extractor": "DIETClassifier",
+        "value": "全國繳費網繳"
+      }
+    ]
+  },
+  {
+    "text": "他行繳費",
+    "entities": [
+      {
+        "value": "他行",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "劃撥",
+    "entities": [
+      {
+        "value": "劃撥",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全部繳",
+    "entities": [
+      {
+        "value": "全部",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 0,
+        "end": 3,
+        "extractor": "DIETClassifier",
+        "value": "全部繳"
+      }
+    ]
+  },
+  {
+    "text": "桃園機場外圍停車",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "park_location",
+        "start": 0,
+        "end": 2,
+        "extractor": "DIETClassifier",
+        "value": "桃園"
+      },
+      {
+        "entity": "park_location",
+        "start": 3,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "場"
+      }
+    ]
+  },
+  {
+    "text": "我想查询其他额度",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 2,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "查询"
+      }
+    ]
+  },
+  {
+    "text": "最低應繳金額計算方法",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_amount",
+        "start": 0,
+        "end": 4,
+        "extractor": "DIETClassifier",
+        "value": "最低應繳"
+      }
+    ]
+  },
+  {
+    "text": "網銀繳卡費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "pay_method",
+        "start": 0,
+        "end": 1,
+        "extractor": "DIETClassifier",
+        "value": "網"
+      }
+    ]
+  },
+  {
+    "text": "查詢信用卡未出帳明細",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "action",
+        "start": 0,
+        "end": 2,
+        "extractor": "DIETClassifier",
+        "value": "查詢"
+      }
+    ]
+  }
+]

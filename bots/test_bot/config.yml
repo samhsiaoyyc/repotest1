@@ -1,0 +1,54 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+importers:
+  - name: ngchat_plugins.importers.faq_importer.FAQImporter
+    faq_paths:
+      - data/en_faq_sample.csv
+    synonym_paths:
+      - data/en_synonym_sample.csv
+    augment_with_synonyms: false
+    timezone: Asia/Taipei
+  - name: RasaFileImporter
+
+pipeline:
+  - name: ConveRTTokenizer
+  - name: ConveRTFeaturizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 5
+  - name: EntitySynonymMapper
+  - name: ngchat_plugins.nlu.selectors.elastic_selector.ElasticSelector
+    retrieval_intent: faq
+    batch_size: 2048
+    es_indexing:
+      analyzer: standard
+      host: quickstart-es-http.default.svc.cluster.local
+      port: 9200
+      index_name: linux_faq
+      login: elastic
+      secret: 73K7N2SQ4Yw2rr6L2q87yqEu
+    bert_client:
+      enabled: false
+      host: bert-as-service
+      port: 5555
+      port_out: 5556
+    eval:
+      metric: map
+      N: 1
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+#  - name: ngchat_plugins.core.policy.ngchat.ngChatPolicy
+#    dialogue_path: ./dialogue.yml
+   - name: ngchat_plugins.core.policy.ngchat.ngChatPolicy
+     dialogue_path: ./dialogue.yml
+   - name: MappingPolicy
+   - name: FormPolicy

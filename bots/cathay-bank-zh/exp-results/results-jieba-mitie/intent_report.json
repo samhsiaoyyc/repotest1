@@ -1,0 +1,323 @@
+{
+  "cpin.enter": {
+    "precision": 0.8545454545454545,
+    "recall": 0.8703703703703703,
+    "f1-score": 0.8623853211009175,
+    "support": 54,
+    "confused_with": {
+      "fallback": 3,
+      "point.checkBonus": 1
+    }
+  },
+  "fallback": {
+    "precision": 0.6335540838852097,
+    "recall": 0.49482758620689654,
+    "f1-score": 0.5556631171345595,
+    "support": 580,
+    "confused_with": {
+      "pay.billInfo": 85,
+      "creditLimit.queryAmount": 27
+    }
+  },
+  "cashAdvance.enter": {
+    "precision": 0.8235294117647058,
+    "recall": 0.8484848484848485,
+    "f1-score": 0.8358208955223881,
+    "support": 33,
+    "confused_with": {
+      "fallback": 3,
+      "creditLimit.Apply": 1
+    }
+  },
+  "dialogue.cardList": {
+    "precision": 0.6,
+    "recall": 0.6,
+    "f1-score": 0.6,
+    "support": 10,
+    "confused_with": {
+      "fallback": 2,
+      "roadsideAsst.callAssitant": 1
+    }
+  },
+  "point.checkBonus": {
+    "precision": 0.5444444444444444,
+    "recall": 0.620253164556962,
+    "f1-score": 0.5798816568047337,
+    "support": 79,
+    "confused_with": {
+      "fallback": 16,
+      "point.check": 10
+    }
+  },
+  "debitbybk.apply": {
+    "precision": 0.8324022346368715,
+    "recall": 0.9197530864197531,
+    "f1-score": 0.8739002932551319,
+    "support": 162,
+    "confused_with": {
+      "fallback": 5,
+      "pay.billInfo": 4
+    }
+  },
+  "pay.billInfo": {
+    "precision": 0.6658097686375322,
+    "recall": 0.7640117994100295,
+    "f1-score": 0.7115384615384616,
+    "support": 339,
+    "confused_with": {
+      "fallback": 36,
+      "resend.bill": 10
+    }
+  },
+  "park.airport": {
+    "precision": 0.957983193277311,
+    "recall": 0.9785407725321889,
+    "f1-score": 0.9681528662420383,
+    "support": 233,
+    "confused_with": {
+      "fallback": 3,
+      "roadsideAsst.callAssitant": 1
+    }
+  },
+  "elecbill.applyElecBill": {
+    "precision": 0.6886792452830188,
+    "recall": 0.7849462365591398,
+    "f1-score": 0.7336683417085427,
+    "support": 93,
+    "confused_with": {
+      "elecbill.cancelElecBill": 12,
+      "fallback": 5
+    }
+  },
+  "cardDiscount.Discount": {
+    "precision": 0.6621621621621622,
+    "recall": 0.7205882352941176,
+    "f1-score": 0.6901408450704226,
+    "support": 68,
+    "confused_with": {
+      "cardStatus.add_doc": 3,
+      "creditLimit.queryAmount": 3
+    }
+  },
+  "card.lost": {
+    "precision": 0.7567567567567568,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8175182481751826,
+    "support": 63,
+    "confused_with": {
+      "fallback": 6,
+      "creditLimit.Apply": 1
+    }
+  },
+  "bank.notTurnToReal": {
+    "precision": 0.8,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.6666666666666666,
+    "support": 7,
+    "confused_with": {
+      "bank.turnToReal": 3
+    }
+  },
+  "creditLimit.queryAmount": {
+    "precision": 0.6016260162601627,
+    "recall": 0.6016260162601627,
+    "f1-score": 0.6016260162601627,
+    "support": 123,
+    "confused_with": {
+      "fallback": 19,
+      "pay.billInfo": 10
+    }
+  },
+  "roadsideAsst.callAssitant": {
+    "precision": 0.9537037037037037,
+    "recall": 0.9671361502347418,
+    "f1-score": 0.9603729603729604,
+    "support": 213,
+    "confused_with": {
+      "fallback": 3,
+      "airportService.Service": 2
+    }
+  },
+  "point.check": {
+    "precision": 0.5116279069767442,
+    "recall": 0.4489795918367347,
+    "f1-score": 0.47826086956521735,
+    "support": 49,
+    "confused_with": {
+      "point.checkBonus": 13,
+      "fallback": 7
+    }
+  },
+  "place.atm": {
+    "precision": 0.8395061728395061,
+    "recall": 0.9315068493150684,
+    "f1-score": 0.8831168831168831,
+    "support": 73,
+    "confused_with": {
+      "place.bank": 3,
+      "fallback": 2
+    }
+  },
+  "airportService.Service": {
+    "precision": 0.9695121951219512,
+    "recall": 0.9520958083832335,
+    "f1-score": 0.9607250755287009,
+    "support": 167,
+    "confused_with": {
+      "park.airport": 4,
+      "fallback": 3
+    }
+  },
+  "installment.apply": {
+    "precision": 0.8660714285714286,
+    "recall": 0.9238095238095239,
+    "f1-score": 0.8940092165898618,
+    "support": 105,
+    "confused_with": {
+      "rights.info": 2,
+      "pay.billInfo": 2
+    }
+  },
+  "cpin.cardApply": {
+    "precision": 0.7894736842105263,
+    "recall": 0.7894736842105263,
+    "f1-score": 0.7894736842105263,
+    "support": 19,
+    "confused_with": {
+      "card.lost": 2,
+      "place.bank": 1
+    }
+  },
+  "loan.unsecuredWidget": {
+    "precision": 0.5,
+    "recall": 0.3793103448275862,
+    "f1-score": 0.4313725490196078,
+    "support": 29,
+    "confused_with": {
+      "loan.unsecured": 10,
+      "fallback": 4
+    }
+  },
+  "place.prepare": {
+    "precision": 0.75,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.5454545454545454,
+    "support": 7,
+    "confused_with": {
+      "place.bank": 4
+    }
+  },
+  "elecbill.cancelElecBill": {
+    "precision": 0.5365853658536586,
+    "recall": 0.5,
+    "f1-score": 0.5176470588235295,
+    "support": 44,
+    "confused_with": {
+      "elecbill.applyElecBill": 16,
+      "resend.bill": 2
+    }
+  },
+  "cardStatus.query": {
+    "precision": 0.8253968253968254,
+    "recall": 0.7878787878787878,
+    "f1-score": 0.8062015503875969,
+    "support": 66,
+    "confused_with": {
+      "fallback": 7,
+      "cardStatus.add_doc": 2
+    }
+  },
+  "rights.info": {
+    "precision": 0.9269406392694064,
+    "recall": 0.9712918660287081,
+    "f1-score": 0.9485981308411214,
+    "support": 209,
+    "confused_with": {
+      "fallback": 2,
+      "airportService.Service": 1
+    }
+  },
+  "billDetail.query": {
+    "precision": 0.38461538461538464,
+    "recall": 0.35714285714285715,
+    "f1-score": 0.3703703703703704,
+    "support": 14,
+    "confused_with": {
+      "pay.billInfo": 4,
+      "fallback": 3
+    }
+  },
+  "cardStatus.add_doc": {
+    "precision": 0.7413793103448276,
+    "recall": 0.7962962962962963,
+    "f1-score": 0.7678571428571429,
+    "support": 54,
+    "confused_with": {
+      "fallback": 5,
+      "cardDiscount.Discount": 2
+    }
+  },
+  "loan.unsecured": {
+    "precision": 0.7978723404255319,
+    "recall": 0.8241758241758241,
+    "f1-score": 0.8108108108108109,
+    "support": 91,
+    "confused_with": {
+      "loan.unsecuredWidget": 4,
+      "creditLimit.queryAmount": 3
+    }
+  },
+  "bank.turnToReal": {
+    "precision": 0.6744186046511628,
+    "recall": 0.6744186046511628,
+    "f1-score": 0.6744186046511628,
+    "support": 43,
+    "confused_with": {
+      "fallback": 4,
+      "pay.billInfo": 3
+    }
+  },
+  "creditLimit.Apply": {
+    "precision": 0.76,
+    "recall": 0.8142857142857143,
+    "f1-score": 0.7862068965517242,
+    "support": 70,
+    "confused_with": {
+      "fallback": 4,
+      "pay.billInfo": 3
+    }
+  },
+  "resend.bill": {
+    "precision": 0.5306122448979592,
+    "recall": 0.4406779661016949,
+    "f1-score": 0.4814814814814815,
+    "support": 59,
+    "confused_with": {
+      "fallback": 13,
+      "pay.billInfo": 9
+    }
+  },
+  "place.bank": {
+    "precision": 0.9233870967741935,
+    "recall": 0.9621848739495799,
+    "f1-score": 0.9423868312757201,
+    "support": 238,
+    "confused_with": {
+      "fallback": 4,
+      "place.atm": 2
+    }
+  },
+  "accuracy": 0.7751915144372422,
+  "macro avg": {
+    "precision": 0.732341795977627,
+    "recall": 0.7294501854229483,
+    "f1-score": 0.7272815287544571,
+    "support": 3394
+  },
+  "weighted avg": {
+    "precision": 0.7690382885512107,
+    "recall": 0.7751915144372422,
+    "f1-score": 0.769430759796441,
+    "support": 3394
+  }
+}

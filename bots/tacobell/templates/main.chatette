@@ -1,0 +1,192 @@
+|generated_items.chatette
+
+%[ask_menu](500)
+    what's on the menu?
+    tell me about the menu.
+    read the menu.
+    what can I get?
+    what can I order?
+    remind me what's on the menu.
+
+%[ask_menu_category](500)
+    @[menu_category]
+    what kind of @[menu_category] [are there|do you have]
+    what @[menu_category] are on the menu?
+    what @[menu_category] [items|options|choices] [are there|do you have] [on the menu]?
+    list the @[menu_category][s?]
+    tell me about the @[menu_category][s?]
+
+%[ask_price](100)
+    what's my total?
+    how much does my order cost?
+    what's the price so far?
+
+%[add_item](500)
+    ~[order_start?] ~[order]
+    ~[request_pre?] add ~[order] ~[prep] ~[det] ~[cart]
+
+%[ask_cart_contents](100)
+    ~[whats_in] ~[det] ~[cart]?
+    what have ~[subj] [ordered|gotten] [so far?]?
+    ~[request_pre] ~[list] ~[det] ~[cart]
+
+
+%[remove_item](500)
+    ~[request_pre?] ~[remove] ~[det?] @[product] ~[prep] ~[det] ~[cart]
+    ~[request_pre?] ~[remove] ~[det?] @[product]
+
+%[greeting](100)
+    ~[greeting]
+
+%[affirm](100)
+    ~[affirm]
+
+%[deny](100)
+    ~[deny]
+
+%[inform](500)
+    ~[order]
+    @[quantity?] @[product] [please?]
+    @[quantity] [please?]
+    @[size] [please?]
+
+~[order]
+    @[quantity?] @[product]
+    @[quantity?] @[product#with_sauces_and_addons] with @[addon] and @[sauce]
+    @[quantity?] @[product#with_sauces] with @[sauce]
+    @[quantity?] @[product#with_addons] with @[addon]
+    @[quantity?] @[size?] @[product#with_sizes]
+
+@[quantity]
+    a = 1
+    one = 1
+    the = 1
+    two = 2
+    a couple = 2
+    three = 3
+    four = 4
+    five = 5
+    six = 6
+    a half dozen = 6
+    seven = 7
+    eight = 8
+    nine = 9
+    ten = 10
+    eleven = 11
+    twelve = 12
+    a dozen = 12
+
+~[prep]
+    to
+    in
+
+~[remove]
+    remove
+    delete
+    cancel
+    get rid of
+
+~[whats_in]
+    what do I have in
+    what's in
+    what are the contents of
+
+~[request_pre]
+    can you
+    could you
+    would you please
+    can you please
+    why don't you
+    please
+    go ahead and
+
+~[list]
+    repeat
+    list
+    repeat back
+    tell me
+    review
+    confirm
+
+~[cart]
+    cart
+    selections
+    order
+    shopping cart
+
+~[greeting]
+    hello
+    hey
+    hi
+    howdy
+    hi there
+    good morning
+    good evening
+    hey there
+
+~[goodbye]
+    bye
+    later
+    see you
+    see you later
+    see you around
+    adios
+    bye bye
+
+~[affirm]
+    yes
+    that's right
+    correct
+    yeah
+    sounds good
+    got it
+    perfect
+    right
+    that's good
+
+~[deny]
+    no
+    that's not right
+    I don't think so
+    wrong
+    that's incorrect
+    incorrect
+    no way
+    not that
+
+~[subj]
+    I
+    we
+
+~[obj]
+    me
+    us
+
+~[det]
+    my
+    the
+    our
+
+~[receive]
+    get
+    take
+    have
+    do
+
+~[desire]
+    like
+    want
+    need
+
+~[order_start]
+    ~[subj]'d ~[desire]
+    ~[subj] would ~[desire]
+    ~[subj] ~[desire]
+    how about
+    ~[subj]'ll ~[receive]
+    ~[subj] will ~[receive]
+    give ~[obj]
+    let's ~[receive]
+    order
+    add
+

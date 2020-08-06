@@ -1,0 +1,4626 @@
+[
+  {
+    "text": "下期帳單繳款期限",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.863133430480957
+    }
+  },
+  {
+    "text": "信用卡賬單日期如何查詢？",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9607008695602417
+    }
+  },
+  {
+    "text": "信用卡繳保費額度夠嗎",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "rights.info",
+      "confidence": 0.6032103300094604
+    }
+  },
+  {
+    "text": "請問，網路當期信用卡繳費金額怎麼查",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7883116006851196
+    }
+  },
+  {
+    "text": "我想問我的信用卡",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.769371509552002
+    }
+  },
+  {
+    "text": "金融卡消費紀錄",
+    "intent": "billDetail.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9311562776565552
+    }
+  },
+  {
+    "text": "掉信用卡",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.3906473219394684
+    }
+  },
+  {
+    "text": "有收到刷卡交易的訊息我被盜帳號可以立即停止支付嗎？",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8865837454795837
+    }
+  },
+  {
+    "text": "已消費/預借現金總額",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.977321207523346
+    }
+  },
+  {
+    "text": "我要尋問信用卡額度要扣國泰保險",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "rights.info",
+      "confidence": 0.4845161437988281
+    }
+  },
+  {
+    "text": "想請問我需要在繳多少錢才能使用信用卡呢",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9996820688247681
+    }
+  },
+  {
+    "text": "我想知道我的信用卡是什麼卡",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.83195561170578
+    }
+  },
+  {
+    "text": "可用額度",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9775986671447754
+    }
+  },
+  {
+    "text": "信用卡繳保費分期說明",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.9104841351509094
+    }
+  },
+  {
+    "text": "跨行匯款繳信用卡帳單",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.7208215594291687
+    }
+  },
+  {
+    "text": "行動銀行繳費繳稅限額",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.5182321667671204
+    }
+  },
+  {
+    "text": "我要繳交COSTCO的會費。",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9996236562728882
+    }
+  },
+  {
+    "text": "我打電話辦了預借現金，請問什麼時候會匯入？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cashAdvance.enter",
+      "confidence": 0.4476916491985321
+    }
+  },
+  {
+    "text": "我去ATM一天只能最多領十萬塊，請問我要提高領款限額要怎麼做？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.7497613430023193
+    }
+  },
+  {
+    "text": "申請分期付款請款單",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.9238792061805725
+    }
+  },
+  {
+    "text": "我不知道要辦哪款信用卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.7726356387138367
+    }
+  },
+  {
+    "text": "多卡共用最多可以刷多少錢？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9921700358390808
+    }
+  },
+  {
+    "text": "繳保費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9979954361915588
+    }
+  },
+  {
+    "text": "我的智慧密碼鎖可以登錯幾次",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cpin.enter",
+      "confidence": 0.5741207003593445
+    }
+  },
+  {
+    "text": "我要繳信用卡費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9998812675476074
+    }
+  },
+  {
+    "text": "我要繳費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9999063014984131
+    }
+  },
+  {
+    "text": "官網申辦信用卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.6839221119880676
+    }
+  },
+  {
+    "text": "信用卡不見了我能以後用ApplePay刷就好了嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.46101757884025574
+    }
+  },
+  {
+    "text": "你們的信用卡電子帳單平板怎麼打不開？不支援嗎？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.6920473575592041
+    }
+  },
+  {
+    "text": "紅利點數餘額查詢",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9646934866905212
+    }
+  },
+  {
+    "text": "我被盜刷了",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.3122193515300751
+    }
+  },
+  {
+    "text": "申請額度調整",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.9852533340454102
+    }
+  },
+  {
+    "text": "KOKO（COMBO）icash聯名卡刷保險費回饋",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "rights.info",
+      "confidence": 0.8176551461219788
+    }
+  },
+  {
+    "text": "雙幣卡指定卡片信用額度",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9935569763183594
+    }
+  },
+  {
+    "text": "i刷金融卡可以使用分期交易嗎？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.9595860242843628
+    }
+  },
+  {
+    "text": "未成年可否國外刷卡？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.6487025618553162
+    }
+  },
+  {
+    "text": "我想要查國外分行據點分布在哪些地方？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "place.bank",
+      "confidence": 0.930612325668335
+    }
+  },
+  {
+    "text": "我現在急著要刷卡，額度不夠",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.48170021176338196
+    }
+  },
+  {
+    "text": "紅利",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.9300214648246765
+    }
+  },
+  {
+    "text": "我想要用財富點數換禮品，要如何辦理？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.3992440402507782
+    }
+  },
+  {
+    "text": "我的世界卡紅利點數如何累積？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9334326386451721
+    }
+  },
+  {
+    "text": "補件中",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.add_doc",
+      "confidence": 0.9068119525909424
+    }
+  },
+  {
+    "text": "停車繳款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "park.airport",
+      "confidence": 0.9715268611907959
+    }
+  },
+  {
+    "text": "繳他人信用卡款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.997086763381958
+    }
+  },
+  {
+    "text": "紅利當期",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.8807438611984253
+    }
+  },
+  {
+    "text": "信用卡費超過10萬的部分",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.5202123522758484
+    }
+  },
+  {
+    "text": "如何繳費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9963386654853821
+    }
+  },
+  {
+    "text": "我大概知道我這個月的刷卡金額要先繳清用怎麼處理",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9996145367622375
+    }
+  },
+  {
+    "text": "如何查詢2月帳單",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8974756598472595
+    }
+  },
+  {
+    "text": "剛查詢最低繳款金額總和部分",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9994780421257019
+    }
+  },
+  {
+    "text": "可以拿缴费单去便利商店缴?",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.999680757522583
+    }
+  },
+  {
+    "text": "帳單條碼",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9740079641342163
+    }
+  },
+  {
+    "text": "為何信用卡消費沒有紅利點數",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9770685434341431
+    }
+  },
+  {
+    "text": "這樣還要去繳款嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9991217851638794
+    }
+  },
+  {
+    "text": "我要繳費的時候",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9998748898506165
+    }
+  },
+  {
+    "text": "活期存款繳信用卡",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9567978382110596
+    }
+  },
+  {
+    "text": "我要查信用卡金額",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9432657361030579
+    }
+  },
+  {
+    "text": "是否繳款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8751900792121887
+    }
+  },
+  {
+    "text": "想請教信用卡掛失的處理方法和如何補發，謝謝。",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "cardStatus.add_doc",
+      "confidence": 0.48289400339126587
+    }
+  },
+  {
+    "text": "叫你們主管出來",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9588202834129333
+    }
+  },
+  {
+    "text": "我要找金管會",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.4082544147968292
+    }
+  },
+  {
+    "text": "還是看不懂請直接轉客服好嗎",
+    "intent": "bank.notTurnToReal",
+    "intent_prediction": {
+      "name": "bank.turnToReal",
+      "confidence": 0.98026043176651
+    }
+  },
+  {
+    "text": "卡如果掉在國外飯店第一步怎麼辦？",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.34168848395347595
+    }
+  },
+  {
+    "text": "電子帳單會寄到哪裡",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.7163875699043274
+    }
+  },
+  {
+    "text": "我沒有貴行信用卡，但郵件信箱收到帳單....想確認一下怎麼回事...??",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.6819117069244385
+    }
+  },
+  {
+    "text": "我要註銷卡片",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "cardStatus.add_doc",
+      "confidence": 0.7647749781608582
+    }
+  },
+  {
+    "text": "我的信用卡查一下",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9884794354438782
+    }
+  },
+  {
+    "text": "你好請問我有紅利點數是到今年到期的嗎",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.5629814863204956
+    }
+  },
+  {
+    "text": "到底怎麼查詢正確紅利到期時效？？",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5275645852088928
+    }
+  },
+  {
+    "text": "那舞動紅利的三年期限要去哪查？",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.997834324836731
+    }
+  },
+  {
+    "text": "多利金餘額查詢方式",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8463024497032166
+    }
+  },
+  {
+    "text": "我要如何查到目前累積的點數呢",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.41370171308517456
+    }
+  },
+  {
+    "text": "多張信用卡點數計算方式",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6674201488494873
+    }
+  },
+  {
+    "text": "我現在急著要刷卡，額度不夠",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.48170021176338196
+    }
+  },
+  {
+    "text": "信用卡額度不足",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8859341740608215
+    }
+  },
+  {
+    "text": "調高信用卡臨時信用額度",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9950162768363953
+    }
+  },
+  {
+    "text": "線上調額",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6566120386123657
+    }
+  },
+  {
+    "text": "詢問我的combo卡屬於哪一種卡等",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9730368256568909
+    }
+  },
+  {
+    "text": "我不曉得我的卡是什麼卡別",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.5564276576042175
+    }
+  },
+  {
+    "text": "我忘記我的卡別是什麼了是多拉Ａ夢的卡片",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9607589840888977
+    }
+  },
+  {
+    "text": "想詢問如何預繳下期卡費?",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9963744878768921
+    }
+  },
+  {
+    "text": "里程數",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9955940246582031
+    }
+  },
+  {
+    "text": "長榮航空聯名卡哩程效期",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9937565922737122
+    }
+  },
+  {
+    "text": "紙本帳單日期都過了好久了我還沒收到帳單是什麼原因？",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.981264054775238
+    }
+  },
+  {
+    "text": "帳務問題",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "bank.turnToReal",
+      "confidence": 0.2513083815574646
+    }
+  },
+  {
+    "text": "不想再收到書面帳單要改申請電子帳單",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.9313335418701172
+    }
+  },
+  {
+    "text": "我的卡現在不想寄紙本帳單了，可以改用網路看就好了嗎？",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.666497528553009
+    }
+  },
+  {
+    "text": "我信用卡想用電子帳單就好不要寄紙本給我",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.9297415018081665
+    }
+  },
+  {
+    "text": "刷卡對帳單可以MAIL寄發嗎",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8700308799743652
+    }
+  },
+  {
+    "text": "取消實體帳單改電子寄送的帳單方式",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.8249726295471191
+    }
+  },
+  {
+    "text": "取消實體帳單改辦電子帳單",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.6901297569274902
+    }
+  },
+  {
+    "text": "信用卡帳單可不可以改用email",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6182944178581238
+    }
+  },
+  {
+    "text": "信用卡繳費單可以指定MAIL發送嗎",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9894979596138
+    }
+  },
+  {
+    "text": "想把電子帳單改回來",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.9027217626571655
+    }
+  },
+  {
+    "text": "可以通?客服??申?取消?子??改??寄?",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.29927149415016174
+    }
+  },
+  {
+    "text": "我不要再收到電子帳單了",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.29111409187316895
+    }
+  },
+  {
+    "text": "我剛剛沒有要申請電子帳單",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9201961755752563
+    }
+  },
+  {
+    "text": "我想關閉電子帳單的功能",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.8204825520515442
+    }
+  },
+  {
+    "text": "想改成實體信用卡帳單",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.4311814308166504
+    }
+  },
+  {
+    "text": "Combo卡自動扣款",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.999237596988678
+    }
+  },
+  {
+    "text": "代扣卡費",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9373766183853149
+    }
+  },
+  {
+    "text": "請問本人有貴行的信用卡是否可以申請使用貴行的活期儲蓄存款證券戶自動扣繳",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9905809760093689
+    }
+  },
+  {
+    "text": "請問自扣的扣款時間是什麼時候？",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.997287392616272
+    }
+  },
+  {
+    "text": "最晚在何時之前，須將信用卡的自動扣款款項存入帳號？",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5006006956100464
+    }
+  },
+  {
+    "text": "我要怎麼查我的信用卡帳單是不是自扣？",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.7160614132881165
+    }
+  },
+  {
+    "text": "出國買機票刷卡有什麼好處嗎",
+    "intent": "rights.info",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.5041698217391968
+    }
+  },
+  {
+    "text": "國泰保費使用國泰信用卡付款可以免息分八期",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "rights.info",
+      "confidence": 0.807200014591217
+    }
+  },
+  {
+    "text": "信用卡近一期帳單名細",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8258214592933655
+    }
+  },
+  {
+    "text": "想查詢本月刷卡對帳單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9974064826965332
+    }
+  },
+  {
+    "text": "想請問帳單明細",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.388473778963089
+    }
+  },
+  {
+    "text": "中央氣象局",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.7237945199012756
+    }
+  },
+  {
+    "text": "多利金",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9859001636505127
+    }
+  },
+  {
+    "text": "您好，我想請問，我是小吃店的老闆，想要貸款做週轉",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.3202282786369324
+    }
+  },
+  {
+    "text": "不好意思請問儀下我有資金需求",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8440191149711609
+    }
+  },
+  {
+    "text": "繳費通知說明",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9445616602897644
+    }
+  },
+  {
+    "text": "使用測試範例單筆借錢功能設定",
+    "intent": "cashAdvance.enter",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9959969520568848
+    }
+  },
+  {
+    "text": "若要辦副卡給小孩出國用須多少作業天",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.7616969347000122
+    }
+  },
+  {
+    "text": "請問我申請好事多聯名卡，需要幾個工作天。",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6080338358879089
+    }
+  },
+  {
+    "text": "想問之前申請的信用卡是否可領取了？",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.3240068554878235
+    }
+  },
+  {
+    "text": "信用卡怎麼補件",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.32381436228752136
+    }
+  },
+  {
+    "text": "您好我收到信件說我申請的COSTCO卡，檢附資料有缺，請問缺哪些呢?",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7505940198898315
+    }
+  },
+  {
+    "text": "ATM據點",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.4054992198944092
+    }
+  },
+  {
+    "text": "台北市西門町門市",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7579759359359741
+    }
+  },
+  {
+    "text": "麻煩提供就近國泰世華分行電話洽詢信用卡業務",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.22192585468292236
+    }
+  },
+  {
+    "text": "營業據點",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "place.prepare",
+      "confidence": 0.6362729072570801
+    }
+  },
+  {
+    "text": "請問貴行ATM跨行轉帳是哪個分行",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6769488453865051
+    }
+  },
+  {
+    "text": "哪些ATM是觸控式螢幕",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9971206188201904
+    }
+  },
+  {
+    "text": "網路重設網銀密碼方式",
+    "intent": "cpin.enter",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5166316628456116
+    }
+  },
+  {
+    "text": "卡戶怎麼辦理網路銀行可查詢信用卡相關資料",
+    "intent": "cpin.cardApply",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.42794957756996155
+    }
+  },
+  {
+    "text": "我想查詢新辦信用卡繳費時間",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8587063550949097
+    }
+  },
+  {
+    "text": "信用卡是否有欠款",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9986334443092346
+    }
+  },
+  {
+    "text": "2666005223333689信用卡是否有欠款",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9998189210891724
+    }
+  },
+  {
+    "text": "不好意思，我想要線上觀看信用帳單",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9031604528427124
+    }
+  },
+  {
+    "text": "登入本行網路銀行可以查詢出帳總額嗎？",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.4397146701812744
+    }
+  },
+  {
+    "text": "我想知道我這個月卡片刷了多少",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.7545937895774841
+    }
+  },
+  {
+    "text": "信用卡轉帳",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9766667485237122
+    }
+  },
+  {
+    "text": "不用轉真人客服",
+    "intent": "bank.notTurnToReal",
+    "intent_prediction": {
+      "name": "bank.turnToReal",
+      "confidence": 0.48729631304740906
+    }
+  },
+  {
+    "text": "看常用牌卡",
+    "intent": "dialogue.cardList",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9811696410179138
+    }
+  },
+  {
+    "text": "轉人",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.7718780636787415
+    }
+  },
+  {
+    "text": "你可以回答什麼",
+    "intent": "dialogue.cardList",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.5883714556694031
+    }
+  },
+  {
+    "text": "以往信用卡消費明信，如何查詢?",
+    "intent": "billDetail.query",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.6764820218086243
+    }
+  },
+  {
+    "text": "I刷金融卡遺失",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9400269389152527
+    }
+  },
+  {
+    "text": "我在葡萄牙,信用卡剛被偷,如何掛失止付!!??信用卡號沒記,本人許進富A121524417660118",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9985923171043396
+    }
+  },
+  {
+    "text": "卡爆了嗎",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.6148412823677063
+    }
+  },
+  {
+    "text": "我要查未出帳的金額",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9539485573768616
+    }
+  },
+  {
+    "text": "因為我目前人在日本我想知道實際消費多少錢",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9488040208816528
+    }
+  },
+  {
+    "text": "今日信用卡消費金額",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9942541122436523
+    }
+  },
+  {
+    "text": "卡片掛失",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.98490971326828
+    }
+  },
+  {
+    "text": "信用卡額度查詢",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9818592071533203
+    }
+  },
+  {
+    "text": "劃撥",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9990805983543396
+    }
+  },
+  {
+    "text": "信用卡自扣指定扣款金額",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.896378755569458
+    }
+  },
+  {
+    "text": "請問以後COSTCO是只能刷聯名卡，還是只要是國泰世華發行的信用卡都可以",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.8991901278495789
+    }
+  },
+  {
+    "text": "去辦信用卡的時候，說什麼文件有缺",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.add_doc",
+      "confidence": 0.9930986762046814
+    }
+  },
+  {
+    "text": "信用卡繳款可以每月都mail傳送嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9133303761482239
+    }
+  },
+  {
+    "text": "請問要怎麼列印學雜費繳款單?",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.6833578944206238
+    }
+  },
+  {
+    "text": "我想辦貸款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "loan.unsecuredWidget",
+      "confidence": 0.972417414188385
+    }
+  },
+  {
+    "text": "額度不夠刷",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.641284704208374
+    }
+  },
+  {
+    "text": "我忘記上次那張掉了以後我還有幾張卡？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.5926765203475952
+    }
+  },
+  {
+    "text": "我想要問信用卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9771360158920288
+    }
+  },
+  {
+    "text": "在國外要查帳戶還剩下多少需要收多少錢",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.46115654706954956
+    }
+  },
+  {
+    "text": "如果我沒有在每月繳款截止日前付清當期最低應繳金額會有什麼後果",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9929465055465698
+    }
+  },
+  {
+    "text": "紙本帳單日期都過了好久了我還沒收到帳單是什麼原因？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.9738523960113525
+    }
+  },
+  {
+    "text": "信用卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.7080212831497192
+    }
+  },
+  {
+    "text": "你好，世界",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8259726762771606
+    }
+  },
+  {
+    "text": "多卡是共用一個額度嗎？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9634128212928772
+    }
+  },
+  {
+    "text": "我可以用我的信用卡額度去繳保險費用嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.4471907913684845
+    }
+  },
+  {
+    "text": "我要查詢餘額",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9745100736618042
+    }
+  },
+  {
+    "text": "你好",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.6343594193458557
+    }
+  },
+  {
+    "text": "泰贈點點數查詢方式",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.6347230076789856
+    }
+  },
+  {
+    "text": "我的ETC聯名卡有累積紅利嗎？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.5866687297821045
+    }
+  },
+  {
+    "text": "請問自扣的扣款時間是什麼時候？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.9907599687576294
+    }
+  },
+  {
+    "text": "開卡密碼遺失",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.970291256904602
+    }
+  },
+  {
+    "text": "詢問我的combo卡屬於哪一種卡等",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9934401512145996
+    }
+  },
+  {
+    "text": "繳款方式",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9998519420623779
+    }
+  },
+  {
+    "text": "帳單顯示條碼",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.992113471031189
+    }
+  },
+  {
+    "text": "不好意思如何申請本期帳單繳款最低？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9964978098869324
+    }
+  },
+  {
+    "text": "您好我想查月結單",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9997979402542114
+    }
+  },
+  {
+    "text": "查詢二月消費明細",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "billDetail.query",
+      "confidence": 0.9403084516525269
+    }
+  },
+  {
+    "text": "請給我客服電話",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "bank.turnToReal",
+      "confidence": 0.9710375666618347
+    }
+  },
+  {
+    "text": "線上補件",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.add_doc",
+      "confidence": 0.9956365823745728
+    }
+  },
+  {
+    "text": "最近一次繳款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.999599039554596
+    }
+  },
+  {
+    "text": "繳信用卡帳號",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9998751282691956
+    }
+  },
+  {
+    "text": "我要投訴",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.4422534704208374
+    }
+  },
+  {
+    "text": "信用卡帳單明細未收到但已收到扣繳成功email",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9994194507598877
+    }
+  },
+  {
+    "text": "剛查詢最低繳款金額總和部分",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9998254179954529
+    }
+  },
+  {
+    "text": "我想問我的信用卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9997932314872742
+    }
+  },
+  {
+    "text": "信用卡已剪卡繳款金額查詢",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9960236549377441
+    }
+  },
+  {
+    "text": "紅利兌換截止到何日",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.3801378905773163
+    }
+  },
+  {
+    "text": "你好我想查詢信用卡點數",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.8933125138282776
+    }
+  },
+  {
+    "text": "請問點數到期日期要在哪裡查詢",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.5653166174888611
+    }
+  },
+  {
+    "text": "我如何查到現在有幾點",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9740095138549805
+    }
+  },
+  {
+    "text": "信用卡紅利點數",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.7411857843399048
+    }
+  },
+  {
+    "text": "您好想要請問紅利積點",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.6016301512718201
+    }
+  },
+  {
+    "text": "信用卡餘額不足",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9520151019096375
+    }
+  },
+  {
+    "text": "調高信用卡信用額度",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9594269394874573
+    }
+  },
+  {
+    "text": "調高信用金額",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9659042358398438
+    }
+  },
+  {
+    "text": "我忘記上次那張掉了以後我還有幾張卡？",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.5926765203475952
+    }
+  },
+  {
+    "text": "我的卡還能用嗎？",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9965353012084961
+    }
+  },
+  {
+    "text": "多利金餘額查詢",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9979694485664368
+    }
+  },
+  {
+    "text": "紅利點數餘額查詢",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9981828927993774
+    }
+  },
+  {
+    "text": "通過什麼方法能補寄信用卡帳單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9433236718177795
+    }
+  },
+  {
+    "text": "我為什麼沒有收到這期信用卡通知我繳錢的紙本？",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.457983136177063
+    }
+  },
+  {
+    "text": "我要繳過期在好市多消費的費用但沒有帳單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9577322006225586
+    }
+  },
+  {
+    "text": "取消帳單寄送",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.31774526834487915
+    }
+  },
+  {
+    "text": "因為我常常忘記收EMAIL.忘掉繳信用卡費用.可以改為寄紙本嗎?",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8979929089546204
+    }
+  },
+  {
+    "text": "我不想用電子帳單了",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.984511137008667
+    }
+  },
+  {
+    "text": "請問我原本信用卡帳單是傳電子信箱，想把信用卡改郵寄地址，可以在這理申請嗎?",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9776334762573242
+    }
+  },
+  {
+    "text": "不想用電子帳單，可以再補寄紙本帳單嗎？",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9865856766700745
+    }
+  },
+  {
+    "text": "我想要申請實體帳單！",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.5368297696113586
+    }
+  },
+  {
+    "text": "我要繳信用卡帳單，要怎麼轉扣帳",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5405795574188232
+    }
+  },
+  {
+    "text": "信用卡繳款截止日如遇假日，如何計算？",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9996680617332458
+    }
+  },
+  {
+    "text": "請問卡片扣款日期是啥時候",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9458550214767456
+    }
+  },
+  {
+    "text": "調高信用卡額度",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5151360630989075
+    }
+  },
+  {
+    "text": "沒有油需要幫忙",
+    "intent": "roadsideAsst.callAssitant",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.23661330342292786
+    }
+  },
+  {
+    "text": "有什麼JCB卡",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9756324887275696
+    }
+  },
+  {
+    "text": "你們信用卡有什麼分類，告訴我好嗎",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "place.bank",
+      "confidence": 0.32415783405303955
+    }
+  },
+  {
+    "text": "我想請問是否有JCB信用卡",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9820422530174255
+    }
+  },
+  {
+    "text": "您好！請問你們的頂級卡是哪一張呢？",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.7784538269042969
+    }
+  },
+  {
+    "text": "現在有JBC卡嗎?",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9985623359680176
+    }
+  },
+  {
+    "text": "想申請信用卡不清楚要申請哪張卡片卸卸",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.8816344141960144
+    }
+  },
+  {
+    "text": "請問國泰的卡有沒有可以買電影票有便宜也有現金回饋的卡?",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.2047225832939148
+    }
+  },
+  {
+    "text": "請問貴行有JCB卡?",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "place.atm",
+      "confidence": 0.9422269463539124
+    }
+  },
+  {
+    "text": "可以麻煩妳幫我查查我這期帳單消費多少了嗎?",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9991137385368347
+    }
+  },
+  {
+    "text": "暑期班",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9014620780944824
+    }
+  },
+  {
+    "text": "我在葡萄牙，信用卡剛被偷，如何掛失止付!!??信用卡號沒記，本人許進富A121524417660118",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9888696670532227
+    }
+  },
+  {
+    "text": "本利攤還方式.現行利率多少",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9250752925872803
+    }
+  },
+  {
+    "text": "怎麼用小額信用貸款",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.9961815476417542
+    }
+  },
+  {
+    "text": "我上週申請信用卡的時候好像遺漏了什麼？導致沒有成功",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.7628398537635803
+    }
+  },
+  {
+    "text": "新屋哪裡有國泰世華的atm",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "place.bank",
+      "confidence": 0.662438154220581
+    }
+  },
+  {
+    "text": "附近atm位置",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "place.bank",
+      "confidence": 0.5849865674972534
+    }
+  },
+  {
+    "text": "分行是否有自動存款機",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.30516791343688965
+    }
+  },
+  {
+    "text": "信用卡網銀代號忘記被停用",
+    "intent": "cpin.cardApply",
+    "intent_prediction": {
+      "name": "cpin.enter",
+      "confidence": 0.9453639388084412
+    }
+  },
+  {
+    "text": "我有你們的信用卡怎麼辦網銀密碼",
+    "intent": "cpin.cardApply",
+    "intent_prediction": {
+      "name": "cpin.enter",
+      "confidence": 0.9790241718292236
+    }
+  },
+  {
+    "text": "忘記信用卡網銀代號跟密碼",
+    "intent": "cpin.cardApply",
+    "intent_prediction": {
+      "name": "cpin.enter",
+      "confidence": 0.9690954089164734
+    }
+  },
+  {
+    "text": "我要繳款",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8654308319091797
+    }
+  },
+  {
+    "text": "最低多少",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.40298426151275635
+    }
+  },
+  {
+    "text": "部分",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9966126680374146
+    }
+  },
+  {
+    "text": "超商",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.47097933292388916
+    }
+  },
+  {
+    "text": "信用卡月付金",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9995424151420593
+    }
+  },
+  {
+    "text": "每個月最少還多少？怎麼算",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8870342969894409
+    }
+  },
+  {
+    "text": "對不起,我要查詢我這個月的帳單...可能我密碼又輸入錯了…",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9829273223876953
+    }
+  },
+  {
+    "text": "請間一下信用卡刷下去之後帳單什麼會時侯出來",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.7794667482376099
+    }
+  },
+  {
+    "text": "查看單筆消費明細",
+    "intent": "billDetail.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.4900516867637634
+    }
+  },
+  {
+    "text": "我的問題沒有解決",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7659334540367126
+    }
+  },
+  {
+    "text": "其他選項",
+    "intent": "dialogue.cardList",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.4436076581478119
+    }
+  },
+  {
+    "text": "查詢自動轉帳繳款",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6463093757629395
+    }
+  },
+  {
+    "text": "給我帳單明細",
+    "intent": "billDetail.query",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.4232476055622101
+    }
+  },
+  {
+    "text": "想請您幫我查詢我的帳戶-悠遊聯名卡的累積消費?",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9995942115783691
+    }
+  },
+  {
+    "text": "請幫我查未付款之卡費金額",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.998370885848999
+    }
+  },
+  {
+    "text": "我有幾張信用卡",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.6747882962226868
+    }
+  },
+  {
+    "text": "查詢點數",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9687197208404541
+    }
+  },
+  {
+    "text": "支票繳納信用卡帳單",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9994261860847473
+    }
+  },
+  {
+    "text": "申請自動扣繳路邊停車費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "park.airport",
+      "confidence": 0.9956244826316833
+    }
+  },
+  {
+    "text": "想請問一起附上的自動扣繳申請有沒有成功",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.9882211089134216
+    }
+  },
+  {
+    "text": "信用卡帳單什麼時候寄出？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.5224534273147583
+    }
+  },
+  {
+    "text": "貸款過期了，怎麼繳費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8884510397911072
+    }
+  },
+  {
+    "text": "我要申請繳款協商，但我沒有能力繳款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.6986166834831238
+    }
+  },
+  {
+    "text": "信用卡最多可申辦幾張",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.5832000374794006
+    }
+  },
+  {
+    "text": "我本期的信用卡帳單要如何指定金額？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9972512722015381
+    }
+  },
+  {
+    "text": "自動扣繳生效日",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.9901058077812195
+    }
+  },
+  {
+    "text": "我想知道MYATM和一般提款機不同的地方？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "place.atm",
+      "confidence": 0.990535318851471
+    }
+  },
+  {
+    "text": "我的卡還能用嗎？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9923214316368103
+    }
+  },
+  {
+    "text": "信用卡繳款截止日如遇假日，如何計算？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.9875323176383972
+    }
+  },
+  {
+    "text": "從哪裡可以查詢到我的分期繳款金額？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.972002387046814
+    }
+  },
+  {
+    "text": "查詢信用卡明細",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "billDetail.query",
+      "confidence": 0.8541200160980225
+    }
+  },
+  {
+    "text": "信用卡取消掛失方式",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.9665996432304382
+    }
+  },
+  {
+    "text": "信用卡掛失費包含哪些",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.5166692733764648
+    }
+  },
+  {
+    "text": "我的信用卡丟了掛失費要收取多少",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.9683574438095093
+    }
+  },
+  {
+    "text": "卡片找到了，幫我撤銷金融卡掛失",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.9714995622634888
+    }
+  },
+  {
+    "text": "點數餘額查詢",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.9655795693397522
+    }
+  },
+  {
+    "text": "已消費現金總額",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9644318222999573
+    }
+  },
+  {
+    "text": "Combo卡使用晶片卡登入網路銀行功能",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cpin.cardApply",
+      "confidence": 0.7508864998817444
+    }
+  },
+  {
+    "text": "調高信用卡臨時信用額度",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.9569905996322632
+    }
+  },
+  {
+    "text": "里程數",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.9691205620765686
+    }
+  },
+  {
+    "text": "請問點數能抵costco年費嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.9249261617660522
+    }
+  },
+  {
+    "text": "亞洲萬里通的點數年限",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.8815958499908447
+    }
+  },
+  {
+    "text": "koko快速轉帳",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8138436079025269
+    }
+  },
+  {
+    "text": "網路銀行繳信用卡費活期帳戶可用郵局嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9840822219848633
+    }
+  },
+  {
+    "text": "請問我剛在線上確認信貸契約可是沒收到簡訊驗證碼",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cpin.enter",
+      "confidence": 0.3712245523929596
+    }
+  },
+  {
+    "text": "我看不懂這期信用卡帳單的金額？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.5078715682029724
+    }
+  },
+  {
+    "text": "結帳日變更",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9213288426399231
+    }
+  },
+  {
+    "text": "想詢問如何預繳下期卡費?",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9975394606590271
+    }
+  },
+  {
+    "text": "我要問信用卡付費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9557830691337585
+    }
+  },
+  {
+    "text": "登出在那？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9556947946548462
+    }
+  },
+  {
+    "text": "我剛剛先是去線上付信用卡費了",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9978549480438232
+    }
+  },
+  {
+    "text": "金融卡餘額",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.6813455820083618
+    }
+  },
+  {
+    "text": "我的信用卡查一下",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9783538579940796
+    }
+  },
+  {
+    "text": "繳費確認",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9996125102043152
+    }
+  },
+  {
+    "text": "多卡共用最多可以刷多少錢？",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.989513635635376
+    }
+  },
+  {
+    "text": "客服方面是否有電子信箱可以寄信??",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.927200436592102
+    }
+  },
+  {
+    "text": "如何撥打網路客服",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7418431043624878
+    }
+  },
+  {
+    "text": "請協助查詢信用卡繳費單尚未收到",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9165641069412231
+    }
+  },
+  {
+    "text": "查詢點數相關問題",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.6019349098205566
+    }
+  },
+  {
+    "text": "我想請問我的信用卡紅利是不是都歸零了？",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9517428278923035
+    }
+  },
+  {
+    "text": "我的信用卡紅利會過期嗎？",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9960802793502808
+    }
+  },
+  {
+    "text": "信用卡點數查詢",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.7226001024246216
+    }
+  },
+  {
+    "text": "我要查詢點數",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9028536081314087
+    }
+  },
+  {
+    "text": "查詢回饋",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9958294034004211
+    }
+  },
+  {
+    "text": "查詢點數",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9687197208404541
+    }
+  },
+  {
+    "text": "我要查詢點數/回饋/累積方式",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9973005652427673
+    }
+  },
+  {
+    "text": "你們信用卡的是怎麼計算紅利點數",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9823818802833557
+    }
+  },
+  {
+    "text": "信用卡紅利",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7989516854286194
+    }
+  },
+  {
+    "text": "還是看不懂請直接轉客服好嗎",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "bank.notTurnToReal",
+      "confidence": 0.9367921948432922
+    }
+  },
+  {
+    "text": "刷爆",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9753839373588562
+    }
+  },
+  {
+    "text": "請問costco御璽卡海外(日本)刷卡可增額至多少?如何申請?",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7360771298408508
+    }
+  },
+  {
+    "text": "請問您因為要出國，想把卡片額度加大，是打哪支電話呢？下班時間可以打嗎？",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.42897239327430725
+    }
+  },
+  {
+    "text": "雙幣卡指定卡片信用額度",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9998419880867004
+    }
+  },
+  {
+    "text": "紅利當期",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9983305931091309
+    }
+  },
+  {
+    "text": "這個月應繳帳款661元，但未收到帳單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5933852195739746
+    }
+  },
+  {
+    "text": "信用卡回饋",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9765848517417908
+    }
+  },
+  {
+    "text": "信用卡已剪卡繳款金額查詢",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.99257493019104
+    }
+  },
+  {
+    "text": "etc鈦金商務卡如何申請EMAIL帳單",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.40603747963905334
+    }
+  },
+  {
+    "text": "原本設定實體帳單，怎麼改成電子的",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.8114818334579468
+    }
+  },
+  {
+    "text": "停止寄送紙本帳單",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.38819000124931335
+    }
+  },
+  {
+    "text": "我的帳單想改回收一般的紙本，怎麼用？",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8490757346153259
+    }
+  },
+  {
+    "text": "幫我取消電子帳單，改寄紙本帳單",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9618335962295532
+    }
+  },
+  {
+    "text": "信用卡扣款辦理方式",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9481799006462097
+    }
+  },
+  {
+    "text": "如何申請信用卡卡費代扣",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8528821468353271
+    }
+  },
+  {
+    "text": "你好--想請問我所辦的好市多聯名卡是否有辦妥轉帳代繳卡費",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9839697480201721
+    }
+  },
+  {
+    "text": "刷機票送旅遊不便有限制時間嗎",
+    "intent": "rights.info",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9696736335754395
+    }
+  },
+  {
+    "text": "我需要接電服務",
+    "intent": "roadsideAsst.callAssitant",
+    "intent_prediction": {
+      "name": "bank.turnToReal",
+      "confidence": 0.578039288520813
+    }
+  },
+  {
+    "text": "我想瞭解你們的信用卡",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.6170014142990112
+    }
+  },
+  {
+    "text": "信用卡類型",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7280619740486145
+    }
+  },
+  {
+    "text": "請問有分期信用卡嗎？",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.9936633706092834
+    }
+  },
+  {
+    "text": "請問最新信用卡是哪幾總?",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.998553991317749
+    }
+  },
+  {
+    "text": "信用卡分期付款同意書",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9998265504837036
+    }
+  },
+  {
+    "text": "信用卡帳單分期，線上申請資料填寫完畢，點選確認送出無法操作",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.57734215259552
+    }
+  },
+  {
+    "text": "如何在網銀上看到每個月的對帳單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.979602038860321
+    }
+  },
+  {
+    "text": "請問可以上網看信用卡帳單嗎",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9587981700897217
+    }
+  },
+  {
+    "text": "冰箱超級小",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.2926316261291504
+    }
+  },
+  {
+    "text": "多多注意安全",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "rights.info",
+      "confidence": 0.7462932467460632
+    }
+  },
+  {
+    "text": "怎麼跟銀行先借錢應急?",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "loan.unsecuredWidget",
+      "confidence": 0.5060213804244995
+    }
+  },
+  {
+    "text": "是否可查可貸金額",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.48837360739707947
+    }
+  },
+  {
+    "text": "小額借貸金額",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.2899820804595947
+    }
+  },
+  {
+    "text": "我要辦小額信用貸款。",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.4685485064983368
+    }
+  },
+  {
+    "text": "我想了解信用貸款相關資訊，可以請您們撥空與我聯絡嗎?",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.9194244742393494
+    }
+  },
+  {
+    "text": "我想問關於個人信用貸款手機要撥那支專線",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.9764491319656372
+    }
+  },
+  {
+    "text": "信用卡領現金",
+    "intent": "cashAdvance.enter",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9992181062698364
+    }
+  },
+  {
+    "text": "申请的信用卡没消息？",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.33154407143592834
+    }
+  },
+  {
+    "text": "您好我想停卡鳳凰鈦金卡那張",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.5981168150901794
+    }
+  },
+  {
+    "text": "你好，我要停卡",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "park.airport",
+      "confidence": 0.9162640571594238
+    }
+  },
+  {
+    "text": "最近ＡＴＭ",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9996663928031921
+    }
+  },
+  {
+    "text": "完全找不到貴行ATM可以進行交易",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9955463409423828
+    }
+  },
+  {
+    "text": "台中存款機分行",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "place.bank",
+      "confidence": 0.9544522762298584
+    }
+  },
+  {
+    "text": "捷運有ATM嗎?",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9983212947845459
+    }
+  },
+  {
+    "text": "請問想辦網銀，一定要到銀行才能辦理嗎？",
+    "intent": "cpin.enter",
+    "intent_prediction": {
+      "name": "cpin.cardApply",
+      "confidence": 0.8844988942146301
+    }
+  },
+  {
+    "text": "我要繳費",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9997280836105347
+    }
+  },
+  {
+    "text": "我要繳費啦",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6943656802177429
+    }
+  },
+  {
+    "text": "我要繳信用卡費",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9999479055404663
+    }
+  },
+  {
+    "text": "不是消費明細是我當月刷卡金額入帳截止的日期",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7272863984107971
+    }
+  },
+  {
+    "text": "信用卡消費金額",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.8726615905761719
+    }
+  },
+  {
+    "text": "我本期的信用卡帳單，不知道帳目上金額是多少，怎麼查",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.6523289084434509
+    }
+  },
+  {
+    "text": "繳信用卡帳號",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9973964691162109
+    }
+  },
+  {
+    "text": "想繳清停用信用卡",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "cardStatus.add_doc",
+      "confidence": 0.6504383683204651
+    }
+  },
+  {
+    "text": "請問信用卡入帳",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.5489251613616943
+    }
+  },
+  {
+    "text": "轉真人",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9392154216766357
+    }
+  },
+  {
+    "text": "真的人",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9979415535926819
+    }
+  },
+  {
+    "text": "我不要機器人",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9997318983078003
+    }
+  },
+  {
+    "text": "其他功能",
+    "intent": "dialogue.cardList",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9922124147415161
+    }
+  },
+  {
+    "text": "我想要我2017年7月份至今的交易明細",
+    "intent": "billDetail.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9975401163101196
+    }
+  },
+  {
+    "text": "信用卡夠繳保費嗎",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.999488890171051
+    }
+  },
+  {
+    "text": "Costco聯名卡無限卡額度",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9859358668327332
+    }
+  },
+  {
+    "text": "已消費現金總額",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9998294711112976
+    }
+  },
+  {
+    "text": "詢問好事多聯名卡刷卡額度",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7446721196174622
+    }
+  },
+  {
+    "text": "請問一下我的信用卡是不是已經刷超過金額不能繼續刷",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9550622701644897
+    }
+  },
+  {
+    "text": "總消費金額",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9944315552711487
+    }
+  },
+  {
+    "text": "信用卡掛失",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.994330644607544
+    }
+  },
+  {
+    "text": "帳單分期之當期帳單繳款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.6621554493904114
+    }
+  },
+  {
+    "text": "電話預借現金的撥款時間",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cashAdvance.enter",
+      "confidence": 0.9528303742408752
+    }
+  },
+  {
+    "text": "申請信用卡帳戶自動扣款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.9984700679779053
+    }
+  },
+  {
+    "text": "信用卡分期付款同意書",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.9955694675445557
+    }
+  },
+  {
+    "text": "我信用卡多繳費用怎麼辦",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9851096272468567
+    }
+  },
+  {
+    "text": "沒有收到紙本帳單的原因是什麼呀",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.9455479979515076
+    }
+  },
+  {
+    "text": "每個月幾號可以提供定期定期基金扣款？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.9175931215286255
+    }
+  },
+  {
+    "text": "我想要查詢我的信用卡申請進度",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.9949377775192261
+    }
+  },
+  {
+    "text": "代扣繳之車輛必須有eTag才能申請自動儲值嗎？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.9888647794723511
+    }
+  },
+  {
+    "text": "信用卡申請自動儲值要裝eTag嗎？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.9926149845123291
+    }
+  },
+  {
+    "text": "遇到假日繳款日會順延嗎？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.3984717130661011
+    }
+  },
+  {
+    "text": "常用牌卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "dialogue.cardList",
+      "confidence": 0.4405522644519806
+    }
+  },
+  {
+    "text": "查詢信用卡刷卡消費明細",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "billDetail.query",
+      "confidence": 0.6234385967254639
+    }
+  },
+  {
+    "text": "額度可以調高嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.991003692150116
+    }
+  },
+  {
+    "text": "要付信用卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9994452595710754
+    }
+  },
+  {
+    "text": "已消費/預借現金總額",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9879392385482788
+    }
+  },
+  {
+    "text": "我想辦kokoicash卡刷保險",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "rights.info",
+      "confidence": 0.9929276704788208
+    }
+  },
+  {
+    "text": "我想用台新帳戶代繳你們信用卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.7623330354690552
+    }
+  },
+  {
+    "text": "額度不夠想要刷分期",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.9237368702888489
+    }
+  },
+  {
+    "text": "我想查詢我申請的額度調整結果",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.8517278432846069
+    }
+  },
+  {
+    "text": "刷車子保險有累積哩程嗎？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "rights.info",
+      "confidence": 0.9989641308784485
+    }
+  },
+  {
+    "text": "請問是否有繳款成功？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9855561852455139
+    }
+  },
+  {
+    "text": "您好我想詢問我的信用卡卡別",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9929183125495911
+    }
+  },
+  {
+    "text": "我可以分次繳款嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.9948674440383911
+    }
+  },
+  {
+    "text": "網路繳款現多少",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.34371039271354675
+    }
+  },
+  {
+    "text": "這個網頁的紅利累積",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9895027279853821
+    }
+  },
+  {
+    "text": "信用卡帳單列印",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.9815924167633057
+    }
+  },
+  {
+    "text": "使用紅利點數",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.8315219879150391
+    }
+  },
+  {
+    "text": "信用卡額度不足",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.9375038743019104
+    }
+  },
+  {
+    "text": "我想問一下我帳單已繳納了嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9963696599006653
+    }
+  },
+  {
+    "text": "您好我想查月結單",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.99967360496521
+    }
+  },
+  {
+    "text": "pay.billinfo",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9999874234199524
+    }
+  },
+  {
+    "text": "多繳費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8362721800804138
+    }
+  },
+  {
+    "text": "多卡共用額度",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9981635212898254
+    }
+  },
+  {
+    "text": "多卡是共用一個額度嗎？",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9960629343986511
+    }
+  },
+  {
+    "text": "不懂你的意思可以轉客服嗎",
+    "intent": "bank.notTurnToReal",
+    "intent_prediction": {
+      "name": "bank.turnToReal",
+      "confidence": 0.9276275038719177
+    }
+  },
+  {
+    "text": "信用卡帳單明細未收到但已收到扣繳成功email",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.9879208207130432
+    }
+  },
+  {
+    "text": "舞動點數能放到哪時",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.524823009967804
+    }
+  },
+  {
+    "text": "紅利點數的餘額！",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.41130703687667847
+    }
+  },
+  {
+    "text": "亞洲萬里通聯名卡里數查詢",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5572002530097961
+    }
+  },
+  {
+    "text": "查詢點數",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5310365557670593
+    }
+  },
+  {
+    "text": "我想查的是今年到期的點數有多少",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.5004634857177734
+    }
+  },
+  {
+    "text": "點數被扣掉",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.6722378730773926
+    }
+  },
+  {
+    "text": "刷國泰世華銀行的點數什麼時候到期",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.5195760130882263
+    }
+  },
+  {
+    "text": "請問一下國泰世華點數到期日是到甚麼時候截止",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9933814406394958
+    }
+  },
+  {
+    "text": "卡片回饋方式",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.998234212398529
+    }
+  },
+  {
+    "text": "我想問我還有國泰世華的信用卡嗎",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.5356743931770325
+    }
+  },
+  {
+    "text": "想請問我需要在繳多少錢才能使用信用卡呢",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9960631132125854
+    }
+  },
+  {
+    "text": "紅利",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9980006217956543
+    }
+  },
+  {
+    "text": "繳款單沒收到，可以在寄一次嗎",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6673442125320435
+    }
+  },
+  {
+    "text": "你好我想要取消紙本的信用卡帳單",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.8739299774169922
+    }
+  },
+  {
+    "text": "我需要查詢近期國外消費的帳單，需要申請電子帳單",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.8381687998771667
+    }
+  },
+  {
+    "text": "我沒使用網銀如何停止電子帳單",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9408811330795288
+    }
+  },
+  {
+    "text": "我想申請信用卡的書面帳單",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.9582360982894897
+    }
+  },
+  {
+    "text": "我想把信用卡帳單改成紙本方式",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9579519629478455
+    }
+  },
+  {
+    "text": "想申辦紙本帳單",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9805925488471985
+    }
+  },
+  {
+    "text": "請問原本有申請貴行的電子帳單，但想改回紙本帳單要如何申請",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.8035502433776855
+    }
+  },
+  {
+    "text": "申請紙本帳單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.8521542549133301
+    }
+  },
+  {
+    "text": "這個月出差較多又要繳年度壽險保險費如何提高額度?",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9937731623649597
+    }
+  },
+  {
+    "text": "我要辦何種卡",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.5306917428970337
+    }
+  },
+  {
+    "text": "我想詢問有沒有哪一款信用卡對我只有使用上網刷卡較優惠的",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6204968690872192
+    }
+  },
+  {
+    "text": "我對貴銀行信用卡有興趣請問有專人服務嗎",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "bank.turnToReal",
+      "confidence": 0.7450576424598694
+    }
+  },
+  {
+    "text": "請問要買東西分五期",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.5218537449836731
+    }
+  },
+  {
+    "text": "您好###我想請教您###我可以在貴司網站上###查詢我的信用卡帳單有多少筆以及總金額嗎?",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.5679075121879578
+    }
+  },
+  {
+    "text": "該如何才能用手機app查詢帳單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.23637859523296356
+    }
+  },
+  {
+    "text": "信用卡不見了，我要申請掛失",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5067816376686096
+    }
+  },
+  {
+    "text": "信用借貸",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "loan.unsecuredWidget",
+      "confidence": 0.25223594903945923
+    }
+  },
+  {
+    "text": "我需要辦理信用貸款但是金額不會很大",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.9328051805496216
+    }
+  },
+  {
+    "text": "我想辦貸款",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9984373450279236
+    }
+  },
+  {
+    "text": "你好，我是國泰的薪轉戶，想辦信用貸款要跟誰詢問呢",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.99018394947052
+    }
+  },
+  {
+    "text": "申辦信用貸款",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.9771286249160767
+    }
+  },
+  {
+    "text": "申請信用貸款",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.9721816778182983
+    }
+  },
+  {
+    "text": "但至昨天還是沒有收到卡片",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.8214296698570251
+    }
+  },
+  {
+    "text": "這樣太多了，我要取消",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.42470037937164307
+    }
+  },
+  {
+    "text": "查詢分行據點",
+    "intent": "place.prepare",
+    "intent_prediction": {
+      "name": "place.bank",
+      "confidence": 0.9995673894882202
+    }
+  },
+  {
+    "text": "wherecanifindbranch",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9999790191650391
+    }
+  },
+  {
+    "text": "我在新竹火車站附近連續繞了很久，都沒有找到你們的ATM",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8246361613273621
+    }
+  },
+  {
+    "text": "請問下中港路文心路口上有國泰ATM的地方？",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "place.bank",
+      "confidence": 0.42393970489501953
+    }
+  },
+  {
+    "text": "如何設定mybank的身分代號",
+    "intent": "cpin.enter",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5555315017700195
+    }
+  },
+  {
+    "text": "要付信用卡",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9851773381233215
+    }
+  },
+  {
+    "text": "OK商店繳費",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9846005439758301
+    }
+  },
+  {
+    "text": "他行繳費",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.856362521648407
+    }
+  },
+  {
+    "text": "劃撥",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9990499019622803
+    }
+  },
+  {
+    "text": "網站可查詢帳單週期嗎?",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9643648266792297
+    }
+  },
+  {
+    "text": "總消費金額",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9821832180023193
+    }
+  },
+  {
+    "text": "帳單是否逾期",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.999355137348175
+    }
+  },
+  {
+    "text": "我想查詢信用卡還有多少餘額未繳",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9938427805900574
+    }
+  },
+  {
+    "text": "請問COMBO普卡，這張的繳費時間的期限在哪幾天?",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9600791931152344
+    }
+  },
+  {
+    "text": "請問怎麼在網站查詢當期的信用卡帳單資料?",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.9174630641937256
+    }
+  },
+  {
+    "text": "我想知道信用卡出帳總額",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9779115319252014
+    }
+  },
+  {
+    "text": "繳信用卡帳單",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6431523561477661
+    }
+  },
+  {
+    "text": "繳費確認",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9991893172264099
+    }
+  },
+  {
+    "text": "為什麼我信用卡這個月還沒自動扣款",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.9393733739852905
+    }
+  },
+  {
+    "text": "查詢消費明細",
+    "intent": "billDetail.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.44023093581199646
+    }
+  },
+  {
+    "text": "卡片掛失",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9985739588737488
+    }
+  },
+  {
+    "text": "信用卡掛失",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9995828866958618
+    }
+  },
+  {
+    "text": "信用卡卡片掛失",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9989451169967651
+    }
+  },
+  {
+    "text": "刷爆",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.9757578372955322
+    }
+  },
+  {
+    "text": "Combo財富卡普卡額度多少?",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9958919882774353
+    }
+  },
+  {
+    "text": "Combo普卡額度多少",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.917276918888092
+    }
+  },
+  {
+    "text": "如何查信用卡全部還沒有付款的消費",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9970752596855164
+    }
+  },
+  {
+    "text": "我現在累積多少刷卡費？",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.6986203193664551
+    }
+  },
+  {
+    "text": "您好我想詢問我的信用卡卡別",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9839483499526978
+    }
+  },
+  {
+    "text": "我要取消年費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8329368233680725
+    }
+  },
+  {
+    "text": "最低應繳金額計算方法",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9947942495346069
+    }
+  },
+  {
+    "text": "查詢信貸繳款日",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.6415368318557739
+    }
+  },
+  {
+    "text": "我目前的泰贈點有多少？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "rights.info",
+      "confidence": 0.6418009400367737
+    }
+  },
+  {
+    "text": "撥打客服電話可以查詢商店刷退進度嗎？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.5716162919998169
+    }
+  },
+  {
+    "text": "能告訴我信用卡繳款到賬的時間要幾天",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9889006614685059
+    }
+  },
+  {
+    "text": "請問最新信用卡是哪幾總?",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.9787484407424927
+    }
+  },
+  {
+    "text": "信用卡我不想用了，怎麼申請停用？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.add_doc",
+      "confidence": 0.3666430413722992
+    }
+  },
+  {
+    "text": "我的聯名卡掉了也掛失了，但我要辦退貨需要裡面存的收據怎麼辦",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.6850924491882324
+    }
+  },
+  {
+    "text": "多利金餘額查詢",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9597700238227844
+    }
+  },
+  {
+    "text": "我應該要辦什麼卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.5486882925033569
+    }
+  },
+  {
+    "text": "信用卡正附卡帳單分開寄",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.4600664973258972
+    }
+  },
+  {
+    "text": "多卡共用額度",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9238595962524414
+    }
+  },
+  {
+    "text": "信用卡網路開卡方法",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cpin.cardApply",
+      "confidence": 0.5255007743835449
+    }
+  },
+  {
+    "text": "調高信用卡信用額度",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.9620038270950317
+    }
+  },
+  {
+    "text": "亞洲萬里通聯名卡的年費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.5048100352287292
+    }
+  },
+  {
+    "text": "我想知道我的信用卡是什麼卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9792661070823669
+    }
+  },
+  {
+    "text": "我想詢問信用卡消費金額的問題",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.5131621360778809
+    }
+  },
+  {
+    "text": "紅利回饋進帳日",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.6034959554672241
+    }
+  },
+  {
+    "text": "我的信用卡年繳",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9677229523658752
+    }
+  },
+  {
+    "text": "信用卡電子對帳單",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9414342045783997
+    }
+  },
+  {
+    "text": "網銀繳卡費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9991175532341003
+    }
+  },
+  {
+    "text": "本人活期帳戶繳信用卡帳單",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9941638708114624
+    }
+  },
+  {
+    "text": "不好意思如何申請本期帳單繳款最低？",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9985413551330566
+    }
+  },
+  {
+    "text": "本期信用卡帳單應繳金額已繳了",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9628778100013733
+    }
+  },
+  {
+    "text": "有消費又查不到帳單",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.938690721988678
+    }
+  },
+  {
+    "text": "信用卡餘額不足",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.7025498151779175
+    }
+  },
+  {
+    "text": "專員",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9965072274208069
+    }
+  },
+  {
+    "text": "聯繫我時可以撥電話嗎",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9935393929481506
+    }
+  },
+  {
+    "text": "網銀進不去可請服務員跟我聯絡嗎？因手機卡在畫面",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "cpin.enter",
+      "confidence": 0.284699022769928
+    }
+  },
+  {
+    "text": "我這個月刷卡帳單沒收到",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.980065643787384
+    }
+  },
+  {
+    "text": "我sogo卡有多少點",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.932438850402832
+    }
+  },
+  {
+    "text": "我現在有多少點數",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.7413086891174316
+    }
+  },
+  {
+    "text": "請問哪裡可以查詢信用卡點數呢？",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.5944251418113708
+    }
+  },
+  {
+    "text": "我sogo卡有幾點",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.42014580965042114
+    }
+  },
+  {
+    "text": "我想問我的點數",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.489726722240448
+    }
+  },
+  {
+    "text": "你好我有信用卡紅利的問題想詢問",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9676040410995483
+    }
+  },
+  {
+    "text": "可以告訴我卡片的回饋嗎",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.5358198881149292
+    }
+  },
+  {
+    "text": "申請額度調整",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9985936880111694
+    }
+  },
+  {
+    "text": "額度可以調高嗎",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9990423321723938
+    }
+  },
+  {
+    "text": "可以暫時調高嗎？",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9050588607788086
+    }
+  },
+  {
+    "text": "你好！我要提高我的玉璽卡臨時刷卡信用卡，謝謝",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6964405179023743
+    }
+  },
+  {
+    "text": "商店表示我額度不夠無法刷卡",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.743944525718689
+    }
+  },
+  {
+    "text": "如果需要的話，可以直接從這邊調高刷卡額度嗎",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.3666490614414215
+    }
+  },
+  {
+    "text": "我要提高刷卡金額",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.4616397023200989
+    }
+  },
+  {
+    "text": "SOGO卡卡面紅色的，請問是普卡?白金卡?還是御璽卡?",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8774160146713257
+    }
+  },
+  {
+    "text": "我想確認我辦的信用卡",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9828040599822998
+    }
+  },
+  {
+    "text": "我可以分次繳款嗎",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9996936917304993
+    }
+  },
+  {
+    "text": "帳單條碼",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9914981722831726
+    }
+  },
+  {
+    "text": "點數餘額查詢",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.984973669052124
+    }
+  },
+  {
+    "text": "信用卡帳單列印",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9999169111251831
+    }
+  },
+  {
+    "text": "帳單日期都過了好久了我還沒收到帳單是什麼原因？",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9310222864151001
+    }
+  },
+  {
+    "text": "沒有收到帳單的原因是什麼呀",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9985253810882568
+    }
+  },
+  {
+    "text": "我用自動扣款可以不要寄帳單到家裡嗎",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8068417310714722
+    }
+  },
+  {
+    "text": "我想要取消紙本帳單",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.9695753455162048
+    }
+  },
+  {
+    "text": "刷卡可以寄網路帳單給我嗎?",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.4062756299972534
+    }
+  },
+  {
+    "text": "線上能更改電子帳單嗎",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6288188695907593
+    }
+  },
+  {
+    "text": "請改寄電子帳單給我",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.9280861616134644
+    }
+  },
+  {
+    "text": "用手機撥哪隻電話可以取消信用卡電子帳單？",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9879947304725647
+    }
+  },
+  {
+    "text": "我不知道信用卡的電子帳單怎麼取消",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.6676245331764221
+    }
+  },
+  {
+    "text": "我的信用卡現在是電子帳單，可否變成實體帳單",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9857986569404602
+    }
+  },
+  {
+    "text": "我想撥電話到客服專線取消信用卡電子帳單，要按幾啊？",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9327750205993652
+    }
+  },
+  {
+    "text": "當初辦卡先生說要選電子帳單，可是並不想用電子帳單阿",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.648470938205719
+    }
+  },
+  {
+    "text": "可以提供申請信用卡自動扣款的網址給我嗎？",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "place.atm",
+      "confidence": 0.41642647981643677
+    }
+  },
+  {
+    "text": "如何讓信用卡帳戶自動繳費",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9687156081199646
+    }
+  },
+  {
+    "text": "如何指定扣款帳戶",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9972145557403564
+    }
+  },
+  {
+    "text": "可以在網路上開啟自動扣錢功能就好嗎？還是一定要到現場辦？",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "place.atm",
+      "confidence": 0.7600823044776917
+    }
+  },
+  {
+    "text": "申請再度扣繳卡費",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9195706248283386
+    }
+  },
+  {
+    "text": "如何在網路上辦理銀行(也是國泰世華活期的帳戶)自動轉帳付卡費",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7450622320175171
+    }
+  },
+  {
+    "text": "我想知道信用卡扣款日期是何時，好存錢進戶頭。",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8458095192909241
+    }
+  },
+  {
+    "text": "如果已經設定好信用卡自動繳款什麼時候會實際繳付",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5716177225112915
+    }
+  },
+  {
+    "text": "自動扣繳生效日",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9991758465766907
+    }
+  },
+  {
+    "text": "我之前有申請自動扣繳但我不知道是否申請成功",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9977965950965881
+    }
+  },
+  {
+    "text": "請問我的自動扣款有沒有成功",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5367193222045898
+    }
+  },
+  {
+    "text": "我想請問本期帳單是否已經可以用郵局轉帳服務了？新申請的",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.45306509733200073
+    }
+  },
+  {
+    "text": "請問機場停車優惠明年還有嗎？只要刷機票就可以免費停車嗎？多久前預約？",
+    "intent": "airportService.Service",
+    "intent_prediction": {
+      "name": "park.airport",
+      "confidence": 0.9992249011993408
+    }
+  },
+  {
+    "text": "機接",
+    "intent": "airportService.Service",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.882939338684082
+    }
+  },
+  {
+    "text": "你們專對汽車駕駛提供的服務項目有哪些？",
+    "intent": "roadsideAsst.callAssitant",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8298699259757996
+    }
+  },
+  {
+    "text": "需要用到信用卡",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8863309025764465
+    }
+  },
+  {
+    "text": "分其同意書",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9384229779243469
+    }
+  },
+  {
+    "text": "國外旅遊團費有分期付款的優惠嗎",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5514947772026062
+    }
+  },
+  {
+    "text": "今日信用卡出帳單內容為何？",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8034970760345459
+    }
+  },
+  {
+    "text": "我想知道我這月刷多少金額的每筆帳單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9992624521255493
+    }
+  },
+  {
+    "text": "人工草皮",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "roadsideAsst.callAssitant",
+      "confidence": 0.9294075965881348
+    }
+  },
+  {
+    "text": "我要辦卡",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8916868567466736
+    }
+  },
+  {
+    "text": "卡片介紹",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9938476085662842
+    }
+  },
+  {
+    "text": "目前有想貸信用貸款",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.9890105128288269
+    }
+  },
+  {
+    "text": "我想要辦信用貸款,有國泰信用卡,聽朋友說國泰世華友卡友貸這方面的業務",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.9799837470054626
+    }
+  },
+  {
+    "text": "哈嚕~我想申請信用貸款可否請專人與我聯絡",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.746545672416687
+    }
+  },
+  {
+    "text": "預約信用貸款諮詢",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.8963615298271179
+    }
+  },
+  {
+    "text": "繳款簡訊通知",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.988146960735321
+    }
+  },
+  {
+    "text": "信用卡申辦情形",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9989914894104004
+    }
+  },
+  {
+    "text": "我想知道現在信用卡辦得怎麼樣了",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.4368651211261749
+    }
+  },
+  {
+    "text": "我的卡辦好了嗎",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.3215749263763428
+    }
+  },
+  {
+    "text": "我的卡片下來了嗎",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "cardStatus.add_doc",
+      "confidence": 0.427789568901062
+    }
+  },
+  {
+    "text": "我要怎麼知道上個禮拜申請的信用卡什麼時候可以開始用？",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.36927053332328796
+    }
+  },
+  {
+    "text": "我要怎麼查詢我信用卡辦理的進度？",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7512958645820618
+    }
+  },
+  {
+    "text": "我想要查詢我的信用卡申請進度",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9975916743278503
+    }
+  },
+  {
+    "text": "核卡成功了嗎？",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9081401824951172
+    }
+  },
+  {
+    "text": "還是要考慮剪卡",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.5421743988990784
+    }
+  },
+  {
+    "text": "去辦信用卡的時候，說什麼文件有缺",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9974358081817627
+    }
+  },
+  {
+    "text": "附近的據點",
+    "intent": "place.prepare",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.467122882604599
+    }
+  },
+  {
+    "text": "國泰世華在哪裡",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5594881176948547
+    }
+  },
+  {
+    "text": "我要開戶哪有離青埔高鐵最近",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "place.atm",
+      "confidence": 0.4007512032985687
+    }
+  },
+  {
+    "text": "台北車站附近有你家銀行嗎",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "place.atm",
+      "confidence": 0.7699620723724365
+    }
+  },
+  {
+    "text": "用戶帳號密碼",
+    "intent": "cpin.enter",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5389987826347351
+    }
+  },
+  {
+    "text": "申請國泰app理財密碼",
+    "intent": "cpin.enter",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9953575730323792
+    }
+  },
+  {
+    "text": "我想要申請理財密碼",
+    "intent": "cpin.enter",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9590581059455872
+    }
+  }
+]

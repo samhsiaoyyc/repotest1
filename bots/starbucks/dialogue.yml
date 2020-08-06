@@ -1,0 +1,470 @@
+# Dialogue file for starbucks when using ngChatDialoguePolicy.
+#
+# Three variables are available to access the rasa tracker
+#   INTENT: A dict with the most recent INTENT info of the user
+#     - INTENT.name: The name of the most recent user intent
+#     - INTENT.confidence: The nlu confidence score
+#   ENTITIES: A list of entity names that appeared in the last utterance
+#   RESPONSES: A dict of template name/utterance pairs from the domain
+#     - RESPONSES.greet: A list of utterances available for this template
+#     - NOTE: Slots will not be filled with current values but will display as shown in domain.yml
+#   SLOTS: A dict with slot-name slot-value pairs
+#     - ex/ SLOTS.store: Starbucks
+#   PREV_ACTION: The name of the last action taken by the bot as a string
+#   LAST_UTT: The most recent utterance from the bot
+#   LAST_ACTION: The most recent action executed by the bot
+#
+# Rank Score:
+#   The default rank_score is 10.
+#   Direct connections add 1000 to the rank score
+
+# SIMPLE PATHS/TRIGGERS
+$[intent greet]:
+  rank_score: 50
+  conditions:
+    - INTENT.name == 'greet'
+  actions:
+    - utter_greet
+    - action_listen
+
+$[intent goodbye]:
+  rank_score: 50
+  conditions:
+    - INTENT.name == 'goodbye'
+  actions:
+    - utter_goodbye
+    - action_listen
+
+$[intent thanks]:
+  rank_score: 50
+  conditions:
+    - INTENT.name == 'thank'
+  actions:
+    - utter_noworries
+    - action_listen
+  
+$[faq]:
+  rank_score: 50
+  conditions:
+    - INTENT.name == 'faq'
+  actions:
+    - respond_faq
+    - action_listen
+
+$[read cart]:
+  rank_score: 50
+  conditions:
+    - INTENT.name == 'ask_cart_contents'
+  actions:
+    - action_read_cart
+    - utter_ask_next_action
+    - action_listen
+
+$[order button]:
+  rank_score: 50
+  conditions:
+    - INTENT.name == 'order_button'
+  actions:
+    - utter_ask_order
+    - action_listen
+
+$[not implemented]:
+  rank_score: 50
+  conditions:
+    - INTENT.name == 'not_implemented'
+  actions:
+    - utter_not_implemented
+    - action_listen
+
+# VALIDATION NODES
+$[store changed]:
+  rank_score: 503
+  conditions:
+    - "'store' in ENTITIES"
+    - LAST_ACTION != 'action_set_menu'
+    - LAST_ACTION != 'action_validate_item'
+    - LAST_ACTION != 'action_validate_size'
+    - LAST_ACTION != 'action_validate_option'
+  actions:
+    - action_set_menu
+
+$[item changed]:
+  rank_score: 502
+  conditions:
+    - "'item' in ENTITIES"
+    - LAST_ACTION != 'action_validate_item'
+    - LAST_ACTION != 'action_validate_size'
+    - LAST_ACTION != 'action_validate_options'
+  actions:
+    - action_set_menu
+    - action_validate_item
+    
+$[size changed]:
+  rank_score: 501
+  conditions:
+    - "'size' in ENTITIES"
+    - LAST_ACTION != 'action_validate_size'
+    - LAST_ACTION != 'action_validate_options'
+  actions:
+    - action_set_menu
+    - action_validate_size
+
+$[options changed]:
+  rank_score: 500
+  conditions:
+    - "'options' in ENTITIES"
+    - LAST_ACTION != 'action_validate_options'
+  actions:
+    - action_set_menu
+    - action_validate_options
+
+
+# SELECT STORE PATHS
+$[select store]:
+  conditions:
+    - INTENT.name == 'select_store'
+    - SLOTS.store is not None
+  actions:
+    - action_set_menu
+  connections:
+    - $[utter set menu]:
+        direct_connection: True
+        conditions:
+          - SLOTS.store is not None
+        actions:
+          - utter_show_menu
+          - action_listen
+    - $[set menu just listen]:
+        direct_connection: True
+        conditions:
+          - SLOTS.store is None
+        actions:
+          - action_listen
+
+$[select store missing store]:  # always defaults to Starbucks currently
+  conditions:
+    - INTENT.name == 'select_store'
+    - SLOTS.store is None
+  actions:
+    - utter_no_store_selected
+    - action_listen
+  connections:
+    - $[select store inform store]:
+        direct_connection: True
+        conditions:
+          - SLOTS.store is not None
+        actions:
+          - action_set_menu
+        connections:
+          - $[get store utter set menu]:
+              direct_connection: True
+              conditions:
+                - SLOTS.store is not None
+              actions:
+                - utter_show_menu
+                - action_listen
+          - $[ask store set menu just listen]:
+              direct_connection: True
+              conditions:
+                - SLOTS.store is None
+              actions:
+                - action_listen
+
+# DESCRIBE MENU PATHS
+$[describe menu]:
+  conditions:
+    - INTENT.name == 'describe_menu'
+    - SLOTS.store is not None
+  actions:
+    - action_set_menu
+    - action_describe_menu
+    - utter_ask_next_action
+    - action_listen
+
+$[describe menu no store]:  # always defaults to Starbucks currently
+  conditions:
+    - INTENT.name == 'describe_menu'
+    - SLOTS.store is None
+  actions:
+    - utter_no_store_selected
+    - action_listen
+  connections:
+    - $[describe menu inform store]:
+        direct_connection: True
+        conditions:
+          - SLOTS.store is not None
+        actions:
+          - action_set_menu
+          - action_describe_menu
+          - utter_ask_next_action
+          - action_listen
+
+# DESCRIBE CATEGORY PATHS
+$[describe category]:
+  conditions:
+    - INTENT.name == 'describe_category'
+    - SLOTS.store is not None
+    - SLOTS.category is not None
+  actions:
+    - action_set_menu
+    - action_describe_category
+    - utter_ask_next_action
+    - action_listen
+
+$[describe_category missing store]:  # always defaults to Starbucks currently
+  conditions:
+    - INTENT.name == 'describe_category'
+    - SLOTS.store is None
+  actions:
+    - utter_no_store_selected
+    - action_listen
+  connections:
+    - $[describe category inform store]:
+        direct_connection: True
+        conditions:
+          - SLOTS.store is not None
+          - SLOTS.category is not None
+        actions:
+          - action_set_menu
+          - action_describe_category
+          - utter_ask_next_action
+          - action_listen 
+    - $[describe menu inform category]:
+        direct_connection: True
+        conditions:
+          - SLOTS.store is not None
+          - SLOTS.category is None
+        actions:
+          - utter_no_category_selected
+          - action_listen
+        connections:
+          - $[describe category informed store category]:
+              direct_connection: True
+              conditions:
+                - SLOTS.category is not None
+              actions:
+                - action_set_menu
+                - action_describe_category
+                - utter_ask_next_action
+                - action_listen
+
+$[describe category missing category]:
+  conditions:
+    - INTENT.name == 'describe_category'
+    - SLOTS.store is not None
+    - SLOTS.category is None
+  actions:
+    - utter_no_category_selected
+    - action_listen
+  connections:
+    - $[describe category inform store 2]:
+        direct_connection: True
+        conditions:
+          - SLOTS.category is not None
+        actions:
+          - action_set_menu
+          - action_describe_category
+          - utter_ask_next_action
+          - action_listen 
+
+# SELECT ITEM PATHS
+$[select item no store]:
+  conditions:
+    - INTENT.name == 'select_item'
+    - SLOTS.store is None
+  actions:
+    - utter_no_store_selected
+    - action_listen
+
+$[select item]:
+  conditions:
+    - INTENT.name == 'select_item' or LAST_UTT in RESPONSES.utter_no_store_selected
+    - SLOTS.store is not None
+  actions:
+    - utter_ask_order
+  connections:
+    - $[select item no item]:
+        conditions:
+          - SLOTS.store is not None
+          - SLOTS.item is None
+        actions:
+          - utter_ask_item
+          - action_listen
+    - $[select item no size]:
+        conditions:
+          - SLOTS.store is not None
+          - SLOTS.item is not None
+          - SLOTS.size is None
+        actions:
+          - utter_affirm_item
+          - utter_ask_size
+          - action_listen
+    - $[select item no options]:
+        conditions:
+          - SLOTS.store is not None
+          - SLOTS.item is not None
+          - SLOTS.size is not None
+          - SLOTS.options is None
+        actions:
+          - utter_ask_options
+          - action_listen
+        connections:
+          - $[deny options]:
+              direct_connection: True
+              conditions:
+                - INTENT.name == 'deny'
+              actions:
+                - action_set_options_none
+    - $[select item all slots filled]:
+        rank_score: 15
+        conditions:
+          - SLOTS.store is not None
+          - SLOTS.item is not None
+          - SLOTS.size is not None
+          - SLOTS.options is not None
+        actions:
+          - action_set_menu
+          - action_prepare_add_to_cart
+          - action_confirm_add
+          - action_listen
+        connections:
+          - $[affirm add]:
+              direct_connection: True
+              conditions:
+                - INTENT.name == 'affirm'
+              actions:
+                - action_add_to_cart
+                - utter_affirm_add
+                - action_read_cart
+                - utter_ask_next_action
+                - action_listen
+          - $[deny add]:
+              direct_connection: True
+              conditions:
+                - INTENT.name == 'deny'
+              actions:
+                - utter_deny_add
+                - action_clear_slots
+                - action_read_cart
+                - utter_ask_next_action
+                - action_listen
+
+# REMOVE ITEM PATHS
+$[remove cart item]:
+  rank_score: 20
+  conditions:
+    - INTENT.name == 'remove_from_cart'
+    - SLOTS['item'] is not None
+  actions:
+    - action_get_cart_item
+  connections:
+    - $[confirm remove]:
+        direct_connection: True
+        conditions:
+          - SLOTS.target_cart_item is not None
+        actions:
+          - utter_confirm_remove
+          - action_listen
+        connections:
+          - $[affirm remove]:
+              direct_connection: True
+              conditions:
+                - INTENT.name == 'affirm'
+              actions:
+                - action_remove_from_cart
+                - action_read_cart
+                - action_clear_slots
+                - action_listen
+          - $[deny remove]:
+              direct_connection: True
+              conditions:
+                - INTENT.name == 'deny'
+              actions:
+                - utter_deny_remove
+                - action_read_cart
+                - action_clear_slots
+                - utter_ask_next_action
+                - action_listen
+    - $[cart item not found]:
+        direct_connection: True
+        conditions:
+          - SLOTS.target_cart_item is None
+        actions:
+          - utter_target_cart_item_not_found
+          - action_clear_slots
+          - utter_ask_next_action
+          - action_listen
+
+# CLEAR CART PATHS
+$[clear cart]:
+  rank_score: 20
+  conditions:
+    - INTENT.name == 'clear_cart'
+  actions:
+    - utter_confirm_clear_cart
+    - action_listen
+  connections:
+    - $[clear cart affirm]:
+        direct_connection: True
+        conditions:
+          - INTENT.name == 'affirm'
+        actions:
+          - action_clear_cart
+          - utter_ask_next_action
+          - action_listen
+    - $[clear cart deny]:
+        direct_connection: True
+        conditions:
+          - INTENT.name == 'deny'
+        actions:
+          - utter_deny_clear_cart
+          - utter_ask_next_action
+          - action_listen
+
+# CHECKOUT CART PATHS
+$[checkout cart]:
+  rank_score: 20
+  conditions:
+    - INTENT.name == 'checkout_cart'
+  actions:
+    - utter_confirm_checkout
+    - action_listen
+  connections:
+    - $[checkout affirm]:
+        direct_connection: True
+        conditions:
+          - INTENT.name == 'affirm'
+        actions:
+          - action_checkout_cart
+        connections:
+          - $[cart was empty]:
+              direct_connection: True
+              conditions:
+                - SLOTS.receipt is None or SLOTS.receipt == ""
+              actions:
+                - action_listen
+          - $[checkout success]:
+              direct_connection: True
+              conditions:
+                - SLOTS.receipt is not None and SLOTS.receipt != ""
+              actions:
+                - utter_receipt
+                - action_clear_slots
+                - action_request_rating
+                - action_listen
+              connections:
+                - $[inform rating]:
+                    conditions:
+                      - INTENT.name == 'inform'
+                      - SLOTS.rating is not None
+                    actions:
+                      - utter_thank
+                      - action_listen
+    - $[checkout deny]:
+        direct_connection: True
+        conditions:
+          - INTENT.name == 'deny'
+        actions:
+          - utter_cancel_checkout
+          - utter_ask_next_action
+          - action_listen

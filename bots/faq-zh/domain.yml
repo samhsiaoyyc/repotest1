@@ -1,0 +1,27 @@
+session_config:
+  session_expiration_time: 60.0
+  carry_over_slots_to_new_session: true
+
+intents:
+- thanks
+- greetings
+- bye
+- faq
+
+responses:
+  utter_greetings:
+  - text: 您好，台新銀行Richart客服，很高興為您服務。請問有什麼能夠服務的嗎？
+  utter_thanks:
+  - text: 不用客氣，為您服務是我的榮幸。請問還有什麼需要服務的嗎？
+  utter_repeat:
+  - text: 不好意思，可以請您再說一次嗎？
+  utter_bye:
+  - text: 再見，期待再為您服務。
+
+actions:
+  - utter_greetings
+  - utter_thanks
+  - utter_repeat
+  - utter_bye
+  - respond_faq
+

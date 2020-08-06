@@ -1,0 +1,250 @@
+$ PYTHONPATH=../../:$PYTHONPATH rasa test nlu --config configs/config-zhchar-DIET.yml -u data/training_data.json --cross-validation
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(rasa:1692): Gdk-CRITICAL **: 21:55:30.253: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+
+(rasa:1692): Gdk-CRITICAL **: 21:55:30.258: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+2020-04-08 21:55:30.880868: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2020-04-08 21:55:30.880940: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2020-04-08 21:55:30.880949: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2020-04-08 21:55:31 INFO     rasa.cli.test  - Test model using cross validation.
+/usr/local/lib/python3.6/dist-packages/rasa/nlu/components.py:156: FutureWarning: 'ZhCharTokenizer' contains property 'provides', which is deprecated. There is no need to specify the list of attributes that a component provides.
+  _check_deprecated_attributes(component)
+2020-04-08 21:55:33 INFO     rasa.nlu.model  - Starting to train component ZhCharTokenizer
+2020-04-08 21:55:33 INFO     rasa.nlu.model  - Finished training component.
+2020-04-08 21:55:33 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-08 21:55:33 INFO     rasa.nlu.model  - Finished training component.
+2020-04-08 21:55:33 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'SuperMarket' with '7-11'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-11' with 'OK商店'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'OK商店' with '7-ELEVEN'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-ELEVEN' with '711'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '711' with 'family'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'family' with 'seven'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+2020-04-08 21:55:33 INFO     rasa.nlu.model  - Finished training component.
+2020-04-08 21:55:33 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-04-08 21:55:34 INFO     rasa.nlu.model  - Finished training component.
+2020-04-08 21:55:34 INFO     rasa.nlu.model  - Starting to train component DIETClassifier
+Epochs: 100%|██| 300/300 [57:50<00:00, 11.64s/it, t_loss=0.598, i_loss=0.160, e_loss=0.046, i_acc=0.982, e_f1=0.762]
+2020-04-08 22:53:35 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-04-08 22:53:36 INFO     rasa.nlu.model  - Finished training component.
+2020-04-08 22:53:36 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████████████████| 2715/2715 [01:17<00:00, 34.90it/s]
+2020-04-08 22:54:54 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████████████████| 679/679 [00:18<00:00, 37.41it/s]
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2020-04-08 22:55:13 INFO     rasa.nlu.model  - Starting to train component ZhCharTokenizer
+2020-04-08 22:55:13 INFO     rasa.nlu.model  - Finished training component.
+2020-04-08 22:55:13 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-08 22:55:13 INFO     rasa.nlu.model  - Finished training component.
+2020-04-08 22:55:13 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'seven' with 'SuperMarket'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'SuperMarket' with '7-11'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-11' with 'OK商店'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'OK商店' with '7-ELEVEN'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-ELEVEN' with '711'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '711' with 'family'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'family' with 'seven'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+2020-04-08 22:55:13 INFO     rasa.nlu.model  - Finished training component.
+2020-04-08 22:55:13 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-04-08 22:55:15 INFO     rasa.nlu.model  - Finished training component.
+2020-04-08 22:55:15 INFO     rasa.nlu.model  - Starting to train component DIETClassifier
+Epochs: 100%|██| 300/300 [59:32<00:00, 12.31s/it, t_loss=0.534, i_loss=0.109, e_loss=0.050, i_acc=0.989, e_f1=0.752]
+2020-04-08 23:54:53 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-04-08 23:54:53 INFO     rasa.nlu.model  - Finished training component.
+2020-04-08 23:54:53 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████████████████| 2715/2715 [01:16<00:00, 35.30it/s]
+2020-04-08 23:56:11 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████████████████| 679/679 [00:19<00:00, 29.88it/s]
+2020-04-08 23:56:31 INFO     rasa.nlu.model  - Starting to train component ZhCharTokenizer
+2020-04-08 23:56:31 INFO     rasa.nlu.model  - Finished training component.
+2020-04-08 23:56:31 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-08 23:56:31 INFO     rasa.nlu.model  - Finished training component.
+2020-04-08 23:56:31 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'seven' with 'SuperMarket'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'SuperMarket' with '7-11'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-11' with 'OK商店'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'OK商店' with '711'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '711' with 'family'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'family' with 'seven'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+2020-04-08 23:56:31 INFO     rasa.nlu.model  - Finished training component.
+2020-04-08 23:56:31 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-04-08 23:56:32 INFO     rasa.nlu.model  - Finished training component.
+2020-04-08 23:56:32 INFO     rasa.nlu.model  - Starting to train component DIETClassifier
+Epochs: 100%|██| 300/300 [59:39<00:00, 12.26s/it, t_loss=0.611, i_loss=0.128, e_loss=0.048, i_acc=0.988, e_f1=0.763]
+2020-04-09 00:56:17 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-04-09 00:56:17 INFO     rasa.nlu.model  - Finished training component.
+2020-04-09 00:56:17 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████████████████| 2715/2715 [01:16<00:00, 26.90it/s]
+2020-04-09 00:57:35 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████████████████| 679/679 [00:19<00:00, 34.72it/s]
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2020-04-09 00:57:55 INFO     rasa.nlu.model  - Starting to train component ZhCharTokenizer
+2020-04-09 00:57:55 INFO     rasa.nlu.model  - Finished training component.
+2020-04-09 00:57:55 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-09 00:57:55 INFO     rasa.nlu.model  - Finished training component.
+2020-04-09 00:57:55 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'seven' with '7-11'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-11' with '7-ELEVEN'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-ELEVEN' with '711'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '711' with 'family'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'family' with 'seven'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+2020-04-09 00:57:55 INFO     rasa.nlu.model  - Finished training component.
+2020-04-09 00:57:55 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-04-09 00:57:56 INFO     rasa.nlu.model  - Finished training component.
+2020-04-09 00:57:56 INFO     rasa.nlu.model  - Starting to train component DIETClassifier
+Epochs: 100%|██| 300/300 [59:04<00:00, 12.14s/it, t_loss=0.541, i_loss=0.118, e_loss=0.056, i_acc=0.988, e_f1=0.737]
+2020-04-09 01:57:06 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-04-09 01:57:06 INFO     rasa.nlu.model  - Finished training component.
+2020-04-09 01:57:06 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████████████████| 2715/2715 [01:18<00:00, 33.89it/s]
+2020-04-09 01:58:26 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████████████████| 679/679 [00:19<00:00, 34.99it/s]
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Entity 'action' has only 1 training examples! The minimum is 2, because of this the training may fail.
+2020-04-09 01:58:45 INFO     rasa.nlu.model  - Starting to train component ZhCharTokenizer
+2020-04-09 01:58:46 INFO     rasa.nlu.model  - Finished training component.
+2020-04-09 01:58:46 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-09 01:58:46 INFO     rasa.nlu.model  - Finished training component.
+2020-04-09 01:58:46 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'seven' with 'SuperMarket'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'SuperMarket' with '7-11'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-11' with 'OK商店'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'OK商店' with '7-ELEVEN'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+2020-04-09 01:58:46 INFO     rasa.nlu.model  - Finished training component.
+2020-04-09 01:58:46 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-04-09 01:58:47 INFO     rasa.nlu.model  - Finished training component.
+2020-04-09 01:58:47 INFO     rasa.nlu.model  - Starting to train component DIETClassifier
+Epochs: 100%|██| 300/300 [58:52<00:00, 11.99s/it, t_loss=0.607, i_loss=0.163, e_loss=0.046, i_acc=0.979, e_f1=0.770]
+2020-04-09 02:57:45 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-04-09 02:57:45 INFO     rasa.nlu.model  - Finished training component.
+2020-04-09 02:57:45 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████████████████| 2716/2716 [01:19<00:00, 34.14it/s]
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2020-04-09 02:59:05 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████████████████| 678/678 [00:19<00:00, 36.90it/s]
+2020-04-09 02:59:25 INFO     rasa.nlu.test  - Accumulated test folds intent evaluation results:
+2020-04-09 02:59:25 INFO     rasa.nlu.test  - Intent Evaluation: Only considering those 3394 examples that have a defined intent out of 3394 examples
+2020-04-09 02:59:25 INFO     rasa.nlu.test  - Classification report saved to results/intent_report.json.
+2020-04-09 02:59:25 INFO     rasa.nlu.test  - Incorrect intent predictions saved to results/intent_errors.json.
+2020-04-09 02:59:25 INFO     rasa.nlu.test  - Confusion matrix, without normalization:
+[[165   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0   0   2   0   0   0   0   0   0   0   0   0]
+ [  0   6   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  1   1  26   0   1   0   0   0   0   0   0   0   0   0   0   1   0   8
+    0   0   1   0   2   1   0   0   1   0   0   0   0]
+ [  0   0   0   9   0   0   0   0   0   0   0   0   0   0   0   0   0   4
+    0   0   0   0   1   0   0   0   0   0   0   0   0]
+ [  0   0   0   0  51   2   1   0   0   0   0   0   0   0   0   0   0   9
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0  51   1   1   0   0   0   0   6   0   0   0   0   5
+    1   0   0   0   0   0   1   0   0   0   0   2   0]
+ [  0   0   0   0   1   0  47   1   0   0   0   0   1   0   0   0   0   4
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   2   1   1  51   0   0   0   1   1   0   0   0   0   8
+    0   0   0   0   0   0   0   0   0   0   0   1   0]
+ [  0   0   0   0   0   0   0   0  28   0   0   1   0   0   0   0   0   2
+    0   2   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0  19   0   0   0   0   0   0   0   0
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0  53   0   0   0   0   0   0   0
+    0   0   0   0   1   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   1   0   0   0  52   6   0   0   0   0  10
+    1   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   1   1   2   0   0   0   0   0   3  78   1   0   0   0  25
+    0   0   0   0  11   0   0   0   0   1   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0 151   0   0   0   9
+    0   0   0   0   2   0   0   0   0   0   0   0   0]
+ [  0   0   1   0   0   1   1   0   0   0   0   0   0   0   5   0   0   2
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   1   0  80   6   3
+    0   0   0   0   1   0   0   0   0   0   2   0   0]
+ [  0   0   1   0   0   0   0   0   0   0   0   0   0   0   0  12  29   1
+    0   0   0   0   0   0   0   0   0   0   1   0   0]
+ [  1   0   3   4  11   7   7   5   1   0   1  11  31  14   0   4   1 363
+    8   3   1   0  63   1   4   0   7  17   8   2   2]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   3
+  102   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0  83   6   0   1   0   0   0   0   1   0   0   0]
+ [  0   0   0   0   0   0   0   0   2   0   0   0   1   0   0   0   0   3
+    0  12  11   0   0   0   0   0   0   0   0   0   0]
+ [  1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1
+    0   0   0 231   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   1   0   0   1   0   0   0   0   0  12   1   0   0   1  45
+    1   0   0   0 275   0   0   0   0   0   2   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   4
+    0   0   0   0   0  68   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   5
+    0   0   0   0   0   0 228   4   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0   0   0   0   0   1   6   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  10
+    0   0   0   0   0   0   0   0  27  12   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  10
+    0   0   0   0   0   0   0   0   7  62   0   0   0]
+ [  0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   2   3  12
+    0   0   0   0   8   0   0   0   0   0  33   0   0]
+ [  1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   2
+    0   0   0   0   0   0   0   0   0   0   0 206   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   2
+    0   1   0   0   1   0   0   0   0   0   0   0 208]]
+2020-04-09 02:59:28 INFO     rasa.nlu.test  - Accumulated test folds entity evaluation results:
+2020-04-09 02:59:28 INFO     rasa.nlu.test  - Evaluation for entity extractor: DIETClassifier
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - Classification report for 'DIETClassifier' saved to 'results/DIETClassifier_report.json'.
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - Incorrect entity predictions saved to results/DIETClassifier_errors.json.
+2020-04-09 02:59:29 INFO     rasa.test  - CV evaluation (n=5)
+2020-04-09 02:59:29 INFO     rasa.test  - Intent evaluation results
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - train Accuracy: 0.983 (0.001)
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - train F1-score: 0.983 (0.001)
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - train Precision: 0.984 (0.001)
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - test Accuracy: 0.826 (0.005)
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - test F1-score: 0.823 (0.006)
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - test Precision: 0.830 (0.008)
+2020-04-09 02:59:29 INFO     rasa.test  - Entity evaluation results
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - Entity extractor: DIETClassifier
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - train Accuracy: 0.998 (0.000)
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - train F1-score: 0.874 (0.013)
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - train Precision: 0.822 (0.021)
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - Entity extractor: DIETClassifier
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - test Accuracy: 0.995 (0.001)
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - test F1-score: 0.617 (0.083)
+2020-04-09 02:59:29 INFO     rasa.nlu.test  - test Precision: 0.629 (0.091)

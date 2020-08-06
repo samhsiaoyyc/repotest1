@@ -1,0 +1,44 @@
+{
+  "park_location": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 18
+  },
+  "action": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7
+  },
+  "pay_method": {
+    "precision": 0.6940298507462687,
+    "recall": 0.5568862275449101,
+    "f1-score": 0.6179401993355481,
+    "support": 167
+  },
+  "pay_amount": {
+    "precision": 0.7362637362637363,
+    "recall": 0.5775862068965517,
+    "f1-score": 0.6473429951690821,
+    "support": 116
+  },
+  "micro avg": {
+    "precision": 0.6986899563318777,
+    "recall": 0.5194805194805194,
+    "f1-score": 0.5959031657355679,
+    "support": 308
+  },
+  "macro avg": {
+    "precision": 0.3575733967525012,
+    "recall": 0.28361810861036546,
+    "f1-score": 0.3163207986261576,
+    "support": 308
+  },
+  "weighted avg": {
+    "precision": 0.6536025275364294,
+    "recall": 0.5194805194805194,
+    "f1-score": 0.5788564958722404,
+    "support": 308
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pay_amount": {
+    "precision": 0.632,
+    "recall": 0.6810344827586207,
+    "f1-score": 0.6556016597510373,
+    "support": 116
+  },
+  "action": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7
+  },
+  "pay_method": {
+    "precision": 0.5974842767295597,
+    "recall": 0.6168831168831169,
+    "f1-score": 0.6070287539936102,
+    "support": 154
+  },
+  "park_location": {
+    "precision": 0.5454545454545454,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6,
+    "support": 18
+  },
+  "micro avg": {
+    "precision": 0.5961538461538461,
+    "recall": 0.6305084745762712,
+    "f1-score": 0.612850082372323,
+    "support": 295
+  },
+  "macro avg": {
+    "precision": 0.4437347055460263,
+    "recall": 0.491146066577101,
+    "f1-score": 0.4656576034361619,
+    "support": 295
+  },
+  "weighted avg": {
+    "precision": 0.5937042726594374,
+    "recall": 0.6305084745762712,
+    "f1-score": 0.6112956632072417,
+    "support": 295
+  }
+}

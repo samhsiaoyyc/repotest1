@@ -1,0 +1,39 @@
+$[greet]:
+  conditions:
+    - INTENT.name == 'greet'
+  actions:
+    - action_greet
+    - utter_greet
+
+$[bye]:
+  conditions:
+    - INTENT.name == 'goodbye'
+  actions:
+    - utter_goodbye
+
+$[sad]:
+  conditions:
+    - INTENT.name == 'mood_unhappy'
+  actions:
+    - utter_cheer_up
+    - utter_did_that_help
+
+$[helped]:
+  conditions:
+    - INTENT.name == 'affirm'
+  actions:
+    - utter_happy
+
+$[didn't help]:
+  conditions:
+    - INTENT.name == 'deny'
+  actions:
+    - utter_cheer_up
+    - utter_did_that_help
+
+$[happy]:
+  conditions:
+    - INTENT.name == 'mood_great'
+  actions:
+    - utter_happy
+    - utter_goodbye

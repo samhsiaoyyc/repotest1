@@ -1,0 +1,55 @@
+ENTITY RECOGNITION: PASS
+Regression check:
+                   GOLD  SYSTEM RESULT
+0. quantity      1.0000  1.0000     OK
+1. size          0.9281  0.9281     OK
+2. add_on        0.9723  0.9723     OK
+3. category      1.0000  1.0000     OK
+4. item          0.9947  0.9947     OK
+5. rating        1.0000  1.0000     OK
+6. store         1.0000  1.0000     OK
+7. micro avg     0.9909  0.9909     OK
+8. macro avg     0.9850  0.9850     OK
+9. weighted avg  0.9906  0.9906     OK
+
+
+INTENT CLASSIFICATION: PASS
+Regression check:
+                         GOLD  SYSTEM RESULT
+0. affirm              1.0000  1.0000     OK
+1. select_store        1.0000  1.0000     OK
+2. deny                1.0000  1.0000     OK
+3. faq                 1.0000  1.0000     OK
+4. select_item         1.0000  1.0000     OK
+5. greet               1.0000  1.0000     OK
+6. stop                1.0000  1.0000     OK
+7. describe_menu       1.0000  1.0000     OK
+8. checkout_cart       1.0000  1.0000     OK
+9. inform              1.0000  1.0000     OK
+10. ask_cart_contents  1.0000  1.0000     OK
+11. thank              1.0000  1.0000     OK
+12. describe_category  1.0000  1.0000     OK
+13. goodbye            1.0000  1.0000     OK
+14. remove_from_cart   1.0000  1.0000     OK
+15. clear_cart         1.0000  1.0000     OK
+16. macro avg          1.0000  1.0000     OK
+17. weighted avg       1.0000  1.0000     OK
+
+
+RESPONSE SELECTION: PASS
+Regression check:
+                           GOLD  SYSTEM RESULT
+0. If you know exactly   1.0000  1.0000     OK
+1. If you have items in  1.0000  1.0000     OK
+2. First navigate to th  1.0000  1.0000     OK
+3. If you know exactly   1.0000  1.0000     OK
+4. . (add some sort of   1.0000  1.0000     OK
+5. Volligator is design  1.0000  1.0000     OK
+6. The name "Volligator  1.0000  1.0000     OK
+7. Volligator is an app  1.0000  1.0000     OK
+8. First you might want  1.0000  1.0000     OK
+9. Currently the app do  1.0000  1.0000     OK
+10. macro avg            1.0000  1.0000     OK
+11. weighted avg         1.0000  1.0000     OK
+
+

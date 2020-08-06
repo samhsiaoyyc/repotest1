@@ -1,0 +1,26 @@
+language: zh
+pipeline:
+- name: ngchat_plugins.nlu.tokenizers.zhchar_tokenizer.ZhCharTokenizer
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+- name: DIETClassifier
+  epochs: 100
+- name: EntitySynonymMapper
+- name: ResponseSelector
+  retrieval_intent: faq  
+  epochs: 100
+policies:
+- name: MemoizationPolicy
+- name: TEDPolicy
+  max_history: 5
+  epochs: 100
+- name: MappingPolicy
+- name: FallbackPolicy
+  nlu_threshold: 0.1
+  core_threshold: 0.1
+  fallback_action_name: utter_repeate

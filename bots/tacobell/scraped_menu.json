@@ -1,0 +1,5667 @@
+{
+    "2 Chicken Chalupas Supreme Combo": {
+        "addons": [],
+        "product-calorie": "830-1250 Cal",
+        "product-price": "$8.19",
+        "sauces": [],
+        "sizes": []
+    },
+    "3 Crunchy Tacos Combo": {
+        "addons": [],
+        "product-calorie": "510-930 Cal",
+        "product-price": "$5.79",
+        "sauces": [],
+        "sizes": []
+    },
+    "3 Crunchy Tacos Supreme\u00ae Combo": {
+        "addons": [],
+        "product-calorie": "570-990 Cal",
+        "product-price": "$6.59",
+        "sauces": [],
+        "sizes": []
+    },
+    "3 Soft Tacos Combo": {
+        "addons": [],
+        "product-calorie": "540-960 Cal",
+        "product-price": "$5.79",
+        "sauces": [],
+        "sizes": []
+    },
+    "3 Soft Tacos Supreme\u00ae Combo": {
+        "addons": [],
+        "product-calorie": "630-1050 Cal",
+        "product-price": "$6.59",
+        "sauces": [],
+        "sizes": []
+    },
+    "7-Layer Burrito": {
+        "addons": [
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            }
+        ],
+        "product-calorie": "420 Cal",
+        "product-price": "$3.29",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Bean Burrito": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "110",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "350 Cal",
+        "product-price": "$1.29",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Beefy 5-Layer Burrito": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "490 Cal",
+        "product-price": "$2.39",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Beefy Fritos\u00ae Burrito": {
+        "addons": [
+            {
+                "calorie": "45",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "440 Cal",
+        "product-price": "$1.00",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Beefy Nacho Griller": {
+        "addons": [
+            {
+                "calorie": "45",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "370 Cal",
+        "product-price": "$1.99",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Black Bean Crunchwrap Supreme\u00ae": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            }
+        ],
+        "product-calorie": "510 Cal",
+        "product-price": "$3.69",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "15",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "20",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Black Bean Quesarito": {
+        "addons": [
+            {
+                "calorie": "90",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "630 Cal",
+        "product-price": "$3.19",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Black Beans": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "45",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "50 Cal",
+        "product-price": "$1.49",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Black Beans and Rice": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "45",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "170 Cal",
+        "product-price": "$1.49",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Blue Raspberry Freeze": {
+        "addons": [],
+        "product-calorie": "120-150 Cal",
+        "product-price": "$2.69",
+        "sauces": [],
+        "sizes": [
+            {
+                "Regular": {
+                    "calorie": "120",
+                    "price": "2.49"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "150",
+                    "price": "2.69"
+                }
+            }
+        ]
+    },
+    "Breakfast Crunchwrap Combo": {
+        "addons": [],
+        "product-calorie": "830-1110 Cal",
+        "product-price": "$4.99",
+        "sauces": [],
+        "sizes": []
+    },
+    "Brisk\u00ae Mango Fiesta": {
+        "addons": [],
+        "product-calorie": "100-180 Cal",
+        "product-price": "$1.99",
+        "sauces": [],
+        "sizes": [
+            {
+                "Small": {
+                    "calorie": "100",
+                    "price": "1.69"
+                }
+            },
+            {
+                "Medium": {
+                    "calorie": "120",
+                    "price": "1.89"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "180",
+                    "price": "1.99"
+                }
+            }
+        ]
+    },
+    "Burrito Supreme\u00ae": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            }
+        ],
+        "product-calorie": "390 Cal",
+        "product-price": "$3.49",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Burrito Supreme\u00ae Combo": {
+        "addons": [],
+        "product-calorie": "580-1000 Cal",
+        "product-price": "$6.29",
+        "sauces": [],
+        "sizes": []
+    },
+    "Chalupa Cravings Box": {
+        "addons": [],
+        "product-calorie": "1180-1460 Cal",
+        "product-price": "$5.00",
+        "sauces": [],
+        "sizes": []
+    },
+    "Chalupa Supreme": {
+        "addons": [
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            }
+        ],
+        "product-calorie": "350 Cal",
+        "product-price": "$2.99",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Cheese Quesadilla": {
+        "addons": [
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "220",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "470 Cal",
+        "product-price": "$2.99",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Cheesy Bean and Rice Burrito": {
+        "addons": [
+            {
+                "calorie": "45",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "420 Cal",
+        "product-price": "$1.00",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Cheesy Fiesta Potatoes": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "230 Cal",
+        "product-price": "$1.59",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Cheesy Gordita Crunch": {
+        "addons": [
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "500 Cal",
+        "product-price": "$3.59",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            }
+        ],
+        "sizes": []
+    },
+    "Cheesy Potato Griller": {
+        "addons": [
+            {
+                "calorie": "45",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "340 Cal",
+        "product-price": "$1.99",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Cheesy Roll Up": {
+        "addons": [
+            {
+                "calorie": "110",
+                "name": "Cheese",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "180 Cal",
+        "product-price": "$1.00",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            }
+        ],
+        "sizes": []
+    },
+    "Chicken Quesadilla": {
+        "addons": [
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "220",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "510 Cal",
+        "product-price": "$3.79",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Chicken Quesadilla Combo": {
+        "addons": [],
+        "product-calorie": "680-1100 Cal",
+        "product-price": "$6.59",
+        "sauces": [],
+        "sizes": []
+    },
+    "Chicken Soft Taco": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "170 Cal",
+        "product-price": "$2.19",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "30",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Chipotle Chicken Grande Burrito": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "390 Cal",
+        "product-price": "$1.00",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Chips and Guacamole": {
+        "addons": [
+            {
+                "calorie": "0",
+                "name": "Seasoned Red Chips",
+                "price": "$0.30"
+            }
+        ],
+        "product-calorie": "230 Cal",
+        "product-price": "$1.59",
+        "sauces": [],
+        "sizes": []
+    },
+    "Chips and Nacho Cheese Sauce": {
+        "addons": [
+            {
+                "calorie": "0",
+                "name": "Seasoned Red Chips",
+                "price": "$0.30"
+            }
+        ],
+        "product-calorie": "220 Cal",
+        "product-price": "$1.69",
+        "sauces": [],
+        "sizes": []
+    },
+    "Chips and Pico De Gallo": {
+        "addons": [
+            {
+                "calorie": "0",
+                "name": "Seasoned Red Chips",
+                "price": "$0.30"
+            }
+        ],
+        "product-calorie": "180 Cal",
+        "product-price": "$1.59",
+        "sauces": [],
+        "sizes": []
+    },
+    "Cinnabon Delights\u00ae 12 Pack": {
+        "addons": [],
+        "product-calorie": "930 Cal",
+        "product-price": "$4.99",
+        "sauces": [],
+        "sizes": []
+    },
+    "Cinnabon Delights\u00ae 2 Pack": {
+        "addons": [],
+        "product-calorie": "160 Cal",
+        "product-price": "$1.00",
+        "sauces": [],
+        "sizes": []
+    },
+    "Cinnamon Twists": {
+        "addons": [],
+        "product-calorie": "170 Cal",
+        "product-price": "$1.00",
+        "sauces": [],
+        "sizes": []
+    },
+    "Crunchwrap Supreme\u00ae": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            }
+        ],
+        "product-calorie": "530 Cal",
+        "product-price": "$3.69",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "15",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "20",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Crunchwrap Supreme\u00ae Combo": {
+        "addons": [],
+        "product-calorie": "700-1120 Cal",
+        "product-price": "$6.69",
+        "sauces": [],
+        "sizes": []
+    },
+    "Crunchy Taco": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "170 Cal",
+        "product-price": "$1.29",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "30",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Crunchy Taco Supreme\u00ae": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            }
+        ],
+        "product-calorie": "190 Cal",
+        "product-price": "$1.79",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "30",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Cup of Water": {
+        "addons": [],
+        "product-calorie": "0 Cal",
+        "product-price": "$0.00",
+        "sauces": [],
+        "sizes": []
+    },
+    "Diablo Sauce Packet": {
+        "addons": [],
+        "product-calorie": "0 Cal",
+        "product-price": "$",
+        "sauces": [],
+        "sizes": []
+    },
+    "Diet Pepsi\u00ae": {
+        "addons": [],
+        "product-calorie": "0 Cal",
+        "product-price": "$1.99",
+        "sauces": [],
+        "sizes": [
+            {
+                "Small": {
+                    "calorie": "0",
+                    "price": "1.69"
+                }
+            },
+            {
+                "Medium": {
+                    "calorie": "0",
+                    "price": "1.89"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "0",
+                    "price": "1.99"
+                }
+            }
+        ]
+    },
+    "Electric Blue Raspberry Freeze": {
+        "addons": [],
+        "product-calorie": "140-170 Cal",
+        "product-price": "$2.69",
+        "sauces": [],
+        "sizes": [
+            {
+                "Regular": {
+                    "calorie": "140",
+                    "price": "2.49"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "170",
+                    "price": "2.69"
+                }
+            }
+        ]
+    },
+    "Fire Sauce Packet": {
+        "addons": [],
+        "product-calorie": "0 Cal",
+        "product-price": "$",
+        "sauces": [],
+        "sizes": []
+    },
+    "Flamin' Hot\u00ae Doritos\u00ae Locos Tacos": {
+        "addons": [
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "170 Cal",
+        "product-price": "$1.89",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "30",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Flamin' Hot\u00ae Doritos\u00ae Locos Tacos Supreme": {
+        "addons": [
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            }
+        ],
+        "product-calorie": "190 Cal",
+        "product-price": "$2.39",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "30",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Flamin' Hot\u00ae Duo": {
+        "addons": [],
+        "product-calorie": "170-450 Cal",
+        "product-price": "$2.00",
+        "sauces": [],
+        "sizes": []
+    },
+    "Fountain Drink": {
+        "addons": [],
+        "product-calorie": "0-420 Cal",
+        "product-price": "$1.99",
+        "sauces": [],
+        "sizes": [
+            {
+                "Small": {
+                    "calorie": "0-230",
+                    "price": "1.69"
+                }
+            },
+            {
+                "Medium": {
+                    "calorie": "0-280",
+                    "price": "1.89"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "0-420",
+                    "price": "1.99"
+                }
+            }
+        ]
+    },
+    "G2 Gatorade\u00ae Fruit Punch": {
+        "addons": [],
+        "product-calorie": "30-50 Cal",
+        "product-price": "$1.99",
+        "sauces": [],
+        "sizes": [
+            {
+                "Small": {
+                    "calorie": "30",
+                    "price": "1.69"
+                }
+            },
+            {
+                "Medium": {
+                    "calorie": "35",
+                    "price": "1.89"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "50",
+                    "price": "1.99"
+                }
+            }
+        ]
+    },
+    "Grande Toasted Breakfast Burrito Combo": {
+        "addons": [],
+        "product-calorie": "720-1000 Cal",
+        "product-price": "$4.99",
+        "sauces": [],
+        "sizes": []
+    },
+    "Grilled Steak Soft Taco": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            }
+        ],
+        "product-calorie": "200 Cal",
+        "product-price": "$2.89",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "30",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Happier Hour\u00ae Beverage": {
+        "addons": [],
+        "product-calorie": "0-280 Cal",
+        "product-price": "$1.00",
+        "sauces": [],
+        "sizes": []
+    },
+    "Hash Brown Toasted Breakfast Burrito Combo": {
+        "addons": [],
+        "product-calorie": "730-1010 Cal",
+        "product-price": "$4.19",
+        "sauces": [],
+        "sizes": []
+    },
+    "Hot Sauce Packet": {
+        "addons": [],
+        "product-calorie": "0 Cal",
+        "product-price": "$",
+        "sauces": [],
+        "sizes": []
+    },
+    "Lipton\u00ae Unsweetened Iced Tea": {
+        "addons": [],
+        "product-calorie": "0 Cal",
+        "product-price": "$1.99",
+        "sauces": [],
+        "sizes": [
+            {
+                "Small": {
+                    "calorie": "0",
+                    "price": "1.69"
+                }
+            },
+            {
+                "Medium": {
+                    "calorie": "0",
+                    "price": "1.89"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "0",
+                    "price": "1.99"
+                }
+            }
+        ]
+    },
+    "Loaded Taco Grande Burrito": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "360 Cal",
+        "product-price": "$1.00",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Mexican Pizza": {
+        "addons": [
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "110",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            }
+        ],
+        "product-calorie": "530 Cal",
+        "product-price": "$3.89",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Mexican Pizza Combo": {
+        "addons": [],
+        "product-calorie": "910-1330 Cal",
+        "product-price": "$7.19",
+        "sauces": [],
+        "sizes": []
+    },
+    "Mild Sauce Packet": {
+        "addons": [],
+        "product-calorie": "0 Cal",
+        "product-price": "$",
+        "sauces": [],
+        "sizes": []
+    },
+    "Mountain Dew Baja Blast\u00ae": {
+        "addons": [],
+        "product-calorie": "220-420 Cal",
+        "product-price": "$1.99",
+        "sauces": [],
+        "sizes": [
+            {
+                "Small": {
+                    "calorie": "220",
+                    "price": "1.69"
+                }
+            },
+            {
+                "Medium": {
+                    "calorie": "280",
+                    "price": "1.89"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "420",
+                    "price": "1.99"
+                }
+            }
+        ]
+    },
+    "Mountain Dew Baja Blast\u00ae Freeze": {
+        "addons": [],
+        "product-calorie": "150-190 Cal",
+        "product-price": "$2.69",
+        "sauces": [],
+        "sizes": [
+            {
+                "Regular": {
+                    "calorie": "150",
+                    "price": "2.49"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "190",
+                    "price": "2.69"
+                }
+            }
+        ]
+    },
+    "Mountain Dew\u00ae": {
+        "addons": [],
+        "product-calorie": "220-410 Cal",
+        "product-price": "$1.99",
+        "sauces": [],
+        "sizes": [
+            {
+                "Small": {
+                    "calorie": "220",
+                    "price": "1.69"
+                }
+            },
+            {
+                "Medium": {
+                    "calorie": "270",
+                    "price": "1.89"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "410",
+                    "price": "1.99"
+                }
+            }
+        ]
+    },
+    "Mountain Dew\u00ae Baja Blast\u2122 Zero Sugar": {
+        "addons": [],
+        "product-calorie": "5-15 Cal",
+        "product-price": "$1.99",
+        "sauces": [],
+        "sizes": [
+            {
+                "Small": {
+                    "calorie": "5",
+                    "price": "1.69"
+                }
+            },
+            {
+                "Medium": {
+                    "calorie": "10",
+                    "price": "1.89"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "15",
+                    "price": "1.99"
+                }
+            }
+        ]
+    },
+    "Mountain Dew\u00ae Kickstart\u2122 Orange Citrus": {
+        "addons": [],
+        "product-calorie": "70-130 Cal",
+        "product-price": "$1.99",
+        "sauces": [],
+        "sizes": [
+            {
+                "Small": {
+                    "calorie": "70",
+                    "price": "1.69"
+                }
+            },
+            {
+                "Medium": {
+                    "calorie": "70",
+                    "price": "1.89"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "130",
+                    "price": "1.99"
+                }
+            }
+        ]
+    },
+    "Nacho Cheese Doritos\u00ae Locos Tacos": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "170 Cal",
+        "product-price": "$1.89",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "30",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Nacho Cheese Doritos\u00ae Locos Tacos Supreme\u00ae": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            }
+        ],
+        "product-calorie": "190 Cal",
+        "product-price": "$2.39",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "30",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Nachos BellGrande\u00ae": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "110",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            }
+        ],
+        "product-calorie": "740 Cal",
+        "product-price": "$3.69",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "25",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "25",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Nachos BellGrande\u00ae Combo": {
+        "addons": [],
+        "product-calorie": "930-1350 Cal",
+        "product-price": "$6.69",
+        "sauces": [],
+        "sizes": []
+    },
+    "Nachos Supreme": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            }
+        ],
+        "product-calorie": "430 Cal",
+        "product-price": "$2.99",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "15",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "20",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Orange Juice": {
+        "addons": [],
+        "product-calorie": "140 Cal",
+        "product-price": "$1.99",
+        "sauces": [],
+        "sizes": []
+    },
+    "Pepsi\u00ae": {
+        "addons": [],
+        "product-calorie": "200-380 Cal",
+        "product-price": "$1.99",
+        "sauces": [],
+        "sizes": [
+            {
+                "Small": {
+                    "calorie": "200",
+                    "price": "1.69"
+                }
+            },
+            {
+                "Medium": {
+                    "calorie": "250",
+                    "price": "1.89"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "380",
+                    "price": "1.99"
+                }
+            }
+        ]
+    },
+    "Pepsi\u00ae Zero Sugar": {
+        "addons": [],
+        "product-calorie": "0 Cal",
+        "product-price": "$1.99",
+        "sauces": [],
+        "sizes": [
+            {
+                "Small": {
+                    "calorie": "0",
+                    "price": "1.69"
+                }
+            },
+            {
+                "Medium": {
+                    "calorie": "0",
+                    "price": "1.89"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "0",
+                    "price": "1.99"
+                }
+            }
+        ]
+    },
+    "Power Menu Bowl": {
+        "addons": [
+            {
+                "calorie": "45",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "140",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "120",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "470 Cal",
+        "product-price": "$5.49",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "30",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Power Menu Bowl - Veggie": {
+        "addons": [
+            {
+                "calorie": "45",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "110",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "90",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "140",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "120",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "110",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "430 Cal",
+        "product-price": "$5.49",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "30",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Premium Hot Coffee": {
+        "addons": [],
+        "product-calorie": "10 Cal",
+        "product-price": "$1.49",
+        "sauces": [],
+        "sizes": []
+    },
+    "Quesarito": {
+        "addons": [
+            {
+                "calorie": "90",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "650 Cal",
+        "product-price": "$3.19",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Regular Iced Coffee": {
+        "addons": [],
+        "product-calorie": "10 Cal",
+        "product-price": "$1.49",
+        "sauces": [],
+        "sizes": []
+    },
+    "Shredded Chicken Burrito": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "420 Cal",
+        "product-price": "$2.49",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Shredded Chicken Quesadilla Melt": {
+        "addons": [
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "310 Cal",
+        "product-price": "$1.00",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "30",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Sierra Mist\u00ae": {
+        "addons": [],
+        "product-calorie": "200-380 Cal",
+        "product-price": "$1.99",
+        "sauces": [],
+        "sizes": [
+            {
+                "Small": {
+                    "calorie": "200",
+                    "price": "1.69"
+                }
+            },
+            {
+                "Medium": {
+                    "calorie": "260",
+                    "price": "1.89"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "380",
+                    "price": "1.99"
+                }
+            }
+        ]
+    },
+    "Soft Taco": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "180 Cal",
+        "product-price": "$1.29",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "30",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Soft Taco Party Pack 12": {
+        "addons": [],
+        "product-calorie": "180 Cal  Per Item",
+        "product-price": "$13.99",
+        "sauces": [],
+        "sizes": []
+    },
+    "Soft Taco Supreme\u00ae": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            }
+        ],
+        "product-calorie": "210 Cal",
+        "product-price": "$1.79",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "30",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Spicy Potato Soft Taco": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "60",
+                "name": "Bacon",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "230 Cal",
+        "product-price": "$1.00",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "30",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Spicy Tostada": {
+        "addons": [
+            {
+                "calorie": "25",
+                "name": "3 Cheese Blend",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Steak",
+                "price": "$1.50"
+            }
+        ],
+        "product-calorie": "190 Cal",
+        "product-price": "$1.00",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "30",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Steak Quesadilla": {
+        "addons": [
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "220",
+                "name": "Cheese",
+                "price": "$0.45"
+            },
+            {
+                "calorie": "45",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "80",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "5",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Lettuce",
+                "price": "$0.40"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "90",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "70",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "70",
+                "name": "Seasoned Beef",
+                "price": "$0.60"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "60",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "0",
+                "name": "Tomatoes",
+                "price": "$0.45"
+            }
+        ],
+        "product-calorie": "520 Cal",
+        "product-price": "$3.99",
+        "sauces": [
+            {
+                "calorie": "80",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "80",
+                "name": "Chipotle Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "35",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "30",
+                "name": "Nacho Cheese Sauce",
+                "price": "$0.65"
+            },
+            {
+                "calorie": "5",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "20",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "70",
+                "name": "Spicy Ranch",
+                "price": "$0.30"
+            }
+        ],
+        "sizes": []
+    },
+    "Supreme Soft Taco Party Pack": {
+        "addons": [],
+        "product-calorie": "210 Cal  Per Item",
+        "product-price": "$15.99",
+        "sauces": [],
+        "sizes": []
+    },
+    "Supreme Taco Party Pack": {
+        "addons": [],
+        "product-calorie": "190 Cal  Per Item",
+        "product-price": "$15.99",
+        "sauces": [],
+        "sizes": []
+    },
+    "Triple Layer Nachos": {
+        "addons": [],
+        "product-calorie": "320 Cal",
+        "product-price": "$1.00",
+        "sauces": [],
+        "sizes": []
+    },
+    "Triplelupa": {
+        "addons": [
+            {
+                "calorie": "60",
+                "name": "Beans",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "50",
+                "name": "Black Beans",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "90",
+                "name": "Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "160",
+                "name": "Fritos\u00ae",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "10",
+                "name": "Jalape\u00f1o Peppers",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "0",
+                "name": "Onions",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "180",
+                "name": "Potatoes",
+                "price": "$0.55"
+            },
+            {
+                "calorie": "140",
+                "name": "Red Strips",
+                "price": "$0.25"
+            },
+            {
+                "calorie": "60",
+                "name": "Seasoned Rice",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "120",
+                "name": "Shredded Chicken",
+                "price": "$1.30"
+            },
+            {
+                "calorie": "110",
+                "name": "Steak",
+                "price": "$1.50"
+            }
+        ],
+        "product-calorie": "610 Cal",
+        "product-price": "$3.49",
+        "sauces": [
+            {
+                "calorie": "30",
+                "name": "Avocado Ranch Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "30",
+                "name": "Creamy Jalape\u00f1o Sauce",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "70",
+                "name": "Guacamole",
+                "price": "$0.50"
+            },
+            {
+                "calorie": "10",
+                "name": "Mexican Pizza Sauce",
+                "price": "$0.30"
+            },
+            {
+                "calorie": "10",
+                "name": "Pico De Gallo",
+                "price": "$0.35"
+            },
+            {
+                "calorie": "10",
+                "name": "Red Sauce",
+                "price": "$0.20"
+            },
+            {
+                "calorie": "45",
+                "name": "Reduced Fat Sour Cream",
+                "price": "$0.50"
+            }
+        ],
+        "sizes": []
+    },
+    "Triplelupa Box": {
+        "addons": [],
+        "product-calorie": "950-1230 Cal",
+        "product-price": "$5.99",
+        "sauces": [],
+        "sizes": []
+    },
+    "Tropicana\u00ae Pink Lemonade": {
+        "addons": [],
+        "product-calorie": "210-390 Cal",
+        "product-price": "$1.99",
+        "sauces": [],
+        "sizes": [
+            {
+                "Small": {
+                    "calorie": "210",
+                    "price": "1.69"
+                }
+            },
+            {
+                "Medium": {
+                    "calorie": "260",
+                    "price": "1.89"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "390",
+                    "price": "1.99"
+                }
+            }
+        ]
+    },
+    "Wild Strawberry Candy Freeze": {
+        "addons": [],
+        "product-calorie": "180-220 Cal",
+        "product-price": "$2.69",
+        "sauces": [],
+        "sizes": [
+            {
+                "Regular": {
+                    "calorie": "180",
+                    "price": "2.49"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "220",
+                    "price": "2.69"
+                }
+            }
+        ]
+    },
+    "Wild Strawberry Freeze": {
+        "addons": [],
+        "product-calorie": "150-190 Cal",
+        "product-price": "$2.69",
+        "sauces": [],
+        "sizes": [
+            {
+                "Regular": {
+                    "calorie": "150",
+                    "price": "2.49"
+                }
+            },
+            {
+                "Large": {
+                    "calorie": "190",
+                    "price": "2.69"
+                }
+            }
+        ]
+    },
+    "menu_categories": {
+        "burritos": [
+            "Loaded Taco Grande Burrito",
+            "Chipotle Chicken Grande Burrito",
+            "Bean Burrito",
+            "Beefy Fritos\u00ae Burrito",
+            "Cheesy Bean and Rice Burrito",
+            "Beefy 5-Layer Burrito",
+            "Quesarito",
+            "Burrito Supreme\u00ae",
+            "Shredded Chicken Burrito",
+            "7-Layer Burrito",
+            "Cheesy Potato Griller",
+            "Beefy Nacho Griller",
+            "Crunchwrap Supreme\u00ae"
+        ],
+        "cravings value menu": [
+            "Loaded Taco Grande Burrito",
+            "Chipotle Chicken Grande Burrito",
+            "Shredded Chicken Quesadilla Melt",
+            "Beefy Fritos\u00ae Burrito",
+            "Cheesy Bean and Rice Burrito",
+            "Spicy Potato Soft Taco",
+            "Cheesy Roll Up",
+            "Cinnamon Twists",
+            "Spicy Tostada",
+            "Triple Layer Nachos"
+        ],
+        "deals and combos": [
+            "Chalupa Cravings Box",
+            "Flamin' Hot\u00ae Duo",
+            "Triplelupa Box",
+            "2 Chicken Chalupas Supreme Combo",
+            "Chicken Quesadilla Combo",
+            "Crunchwrap Supreme\u00ae Combo",
+            "Nachos BellGrande\u00ae Combo",
+            "3 Crunchy Tacos Combo",
+            "3 Crunchy Tacos Supreme\u00ae Combo",
+            "3 Soft Tacos Combo",
+            "3 Soft Tacos Supreme\u00ae Combo",
+            "Mexican Pizza Combo",
+            "Burrito Supreme\u00ae Combo",
+            "Breakfast Crunchwrap Combo",
+            "Hash Brown Toasted Breakfast Burrito Combo",
+            "Grande Toasted Breakfast Burrito Combo"
+        ],
+        "drinks": [
+            "Flamin' Hot\u00ae Duo",
+            "Wild Strawberry Candy Freeze",
+            "Wild Strawberry Freeze",
+            "Mountain Dew Baja Blast\u00ae Freeze",
+            "Electric Blue Raspberry Freeze",
+            "Blue Raspberry Freeze",
+            "Fountain Drink",
+            "Pepsi\u00ae",
+            "Diet Pepsi\u00ae",
+            "Pepsi\u00ae Zero Sugar",
+            "Mountain Dew\u00ae",
+            "Mountain Dew Baja Blast\u00ae",
+            "Mountain Dew\u00ae Baja Blast\u2122 Zero Sugar",
+            "Mountain Dew\u00ae Kickstart\u2122 Orange Citrus",
+            "Sierra Mist\u00ae",
+            "G2 Gatorade\u00ae Fruit Punch",
+            "Tropicana\u00ae Pink Lemonade",
+            "Brisk\u00ae Mango Fiesta",
+            "Lipton\u00ae Unsweetened Iced Tea",
+            "Orange Juice",
+            "Premium Hot Coffee",
+            "Regular Iced Coffee",
+            "Cup of Water",
+            "Happier Hour\u00ae Beverage"
+        ],
+        "nachos": [
+            "Nachos BellGrande\u00ae",
+            "Nachos BellGrande\u00ae Combo",
+            "Nachos Supreme",
+            "Triple Layer Nachos",
+            "Chips and Nacho Cheese Sauce",
+            "Chips and Guacamole",
+            "Chips and Pico De Gallo"
+        ],
+        "quesadillas": [
+            "Shredded Chicken Quesadilla Melt",
+            "Chicken Quesadilla",
+            "Chicken Quesadilla Combo",
+            "Steak Quesadilla",
+            "Cheese Quesadilla",
+            "Quesarito",
+            "Black Bean Quesarito"
+        ],
+        "sides": [
+            "Cheesy Roll Up",
+            "Chips and Nacho Cheese Sauce",
+            "Chips and Guacamole",
+            "Chips and Pico De Gallo",
+            "Cheesy Fiesta Potatoes",
+            "Black Beans",
+            "Black Beans and Rice",
+            "Mild Sauce Packet",
+            "Hot Sauce Packet",
+            "Fire Sauce Packet",
+            "Diablo Sauce Packet"
+        ],
+        "specialties": [
+            "Triplelupa",
+            "Chalupa Supreme",
+            "Crunchwrap Supreme\u00ae",
+            "Black Bean Crunchwrap Supreme\u00ae",
+            "Cheesy Gordita Crunch",
+            "Mexican Pizza",
+            "Power Menu Bowl",
+            "Power Menu Bowl - Veggie",
+            "Spicy Tostada",
+            "Black Bean Quesarito",
+            "Cheesy Roll Up",
+            "Soft Taco Supreme\u00ae",
+            "Soft Taco",
+            "Crunchy Taco",
+            "Nacho Cheese Doritos\u00ae Locos Tacos",
+            "Steak Quesadilla",
+            "Quesarito",
+            "Chicken Quesadilla",
+            "Beefy Fritos\u00ae Burrito",
+            "Nachos BellGrande\u00ae"
+        ],
+        "sweets": [
+            "Cinnamon Twists",
+            "Cinnabon Delights\u00ae 2 Pack",
+            "Cinnabon Delights\u00ae 12 Pack"
+        ],
+        "tacos": [
+            "Flamin' Hot\u00ae Doritos\u00ae Locos Tacos",
+            "Flamin' Hot\u00ae Doritos\u00ae Locos Tacos Supreme",
+            "Triplelupa",
+            "Soft Taco",
+            "Soft Taco Supreme\u00ae",
+            "Crunchy Taco",
+            "3 Crunchy Tacos Combo",
+            "Crunchy Taco Supreme\u00ae",
+            "3 Crunchy Tacos Supreme\u00ae Combo",
+            "Nacho Cheese Doritos\u00ae Locos Tacos",
+            "Nacho Cheese Doritos\u00ae Locos Tacos Supreme\u00ae",
+            "Chalupa Supreme",
+            "Cheesy Gordita Crunch",
+            "Grilled Steak Soft Taco",
+            "Chicken Soft Taco",
+            "Spicy Potato Soft Taco",
+            "Supreme Taco Party Pack",
+            "Soft Taco Party Pack 12",
+            "Supreme Soft Taco Party Pack"
+        ]
+    }
+}

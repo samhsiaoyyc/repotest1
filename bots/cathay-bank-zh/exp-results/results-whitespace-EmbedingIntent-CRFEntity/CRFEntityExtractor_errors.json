@@ -1,0 +1,1528 @@
+[
+  {
+    "text": "我 想 郵 局 繳 費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "郵 局",
+        "entity": "pay_method",
+        "confidence": 0.8495189391053779,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 想 全 繳",
+    "entities": [
+      {
+        "value": "全 繳",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "郵 局 繳 款",
+    "entities": [
+      {
+        "value": "郵 局 繳 款",
+        "start": 0,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "郵 局",
+        "entity": "pay_method",
+        "confidence": 0.9406576003246029,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 要 去 SuperMarket 繳 費",
+    "entities": [
+      {
+        "value": "SuperMarket",
+        "start": 6,
+        "end": 17,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "超 商 繳 全 額",
+    "entities": [
+      {
+        "value": "超 商",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全 額",
+        "start": 6,
+        "end": 9,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "超 商 繳",
+        "entity": "pay_method",
+        "confidence": 0.7661470551945212,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 6,
+        "end": 9,
+        "value": "全 額",
+        "entity": "pay_amount",
+        "confidence": 0.8618748722675855,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "全 家 繳 費",
+    "entities": [
+      {
+        "value": "全 家 繳",
+        "start": 0,
+        "end": 5,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "全 家",
+        "entity": "pay_method",
+        "confidence": 0.7337987916351004,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "全 家 便 利 商 店 繳 費",
+    "entities": [
+      {
+        "value": "全 家 便 利 商 店",
+        "start": 0,
+        "end": 11,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "轉 帳 繳 費",
+    "entities": [
+      {
+        "value": "轉 帳 繳 費",
+        "start": 0,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "劃 撥",
+    "entities": [
+      {
+        "value": "劃 撥",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "family 繳 費",
+    "entities": [
+      {
+        "value": "family",
+        "start": 0,
+        "end": 6,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全 部 繳",
+    "entities": [
+      {
+        "value": "全 部",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "全 部 繳",
+        "entity": "pay_amount",
+        "confidence": 0.6040954134776422,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "繳 最 低 應 繳 金 額",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 2,
+        "end": 3,
+        "value": "最",
+        "entity": "pay_amount",
+        "confidence": 0.40834353617069663,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "最 低 應 繳",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "最 低 應 繳",
+        "entity": "pay_amount",
+        "confidence": 0.5960801822648863,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "線 上 客 服",
+    "entities": [
+      {
+        "value": "線 上",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "查 詢 信 用 卡 未 出 帳 明 細",
+    "entities": [
+      {
+        "value": "查 詢",
+        "start": 0,
+        "end": 3,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 想 線 上 繳 費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "線 上",
+        "entity": "pay_method",
+        "confidence": 0.8190842540900695,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 想 通 過 商 超 繳 費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 8,
+        "end": 11,
+        "value": "商 超",
+        "entity": "pay_method",
+        "confidence": 0.6324333743806386,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 想 全 部 繳 納",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "全 部 繳 納",
+        "entity": "pay_amount",
+        "confidence": 0.741624905535125,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 想 線 上 繳 款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "線 上",
+        "entity": "pay_method",
+        "confidence": 0.831792074989868,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "線 上 繳 款",
+    "entities": [
+      {
+        "value": "線 上 繳 款",
+        "start": 0,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "線 上",
+        "entity": "pay_method",
+        "confidence": 0.9609647996311769,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "線 上 繳 款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "線 上",
+        "entity": "pay_method",
+        "confidence": 0.9609647996311769,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "繳 納 最 低",
+    "entities": [
+      {
+        "value": "最 低",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "郵 局 劃 撥",
+    "entities": [
+      {
+        "value": "郵 局",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "郵 局 劃 撥",
+        "entity": "pay_method",
+        "confidence": 0.5236676009834248,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 要 自 行 決 定 繳 納 金 額",
+    "entities": [
+      {
+        "value": "自 行 決 定",
+        "start": 4,
+        "end": 11,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 15,
+        "value": "自 行 決 定 繳 納",
+        "entity": "pay_amount",
+        "confidence": 0.9815795606469389,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 要 繳 最 低 應 繳 金 額",
+    "entities": [
+      {
+        "value": "最 低",
+        "start": 6,
+        "end": 9,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "郵 局 劃 撥",
+    "entities": [
+      {
+        "value": "郵",
+        "start": 0,
+        "end": 1,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "郵 局 劃 撥",
+        "entity": "pay_method",
+        "confidence": 0.5236676009834248,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "全 國 繳 費 網",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "全 國 繳 費 網",
+        "entity": "pay_method",
+        "confidence": 0.7548549334459813,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "超 商",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "超 商",
+        "entity": "pay_method",
+        "confidence": 0.9419513512000094,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "全 家 繳 費",
+    "entities": [
+      {
+        "value": "全 家",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "全 家 繳",
+        "entity": "pay_method",
+        "confidence": 0.7958381905454396,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "部 分 繳 款",
+    "entities": [
+      {
+        "value": "部 分",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "立 即 繳 款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "立 即",
+        "entity": "pay_method",
+        "confidence": 0.8630430392283412,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "桃 園 機 場 外 圍 停 車",
+    "entities": [
+      {
+        "value": "桃",
+        "start": 0,
+        "end": 1,
+        "entity": "park_location"
+      },
+      {
+        "value": "園",
+        "start": 2,
+        "end": 3,
+        "entity": "park_location"
+      },
+      {
+        "value": "機",
+        "start": 4,
+        "end": 5,
+        "entity": "park_location"
+      },
+      {
+        "value": "場",
+        "start": 6,
+        "end": 7,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 本 期 金 額 12000 多 如 果 繳 最 低",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 24,
+        "end": 27,
+        "value": "最 低",
+        "entity": "pay_amount",
+        "confidence": 0.7003458081559965,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "線 上 繳 費 有 手 續 費 嗎 ？",
+    "entities": [
+      {
+        "value": "線 上 繳 費 有 手 續 費 嗎 ？",
+        "start": 0,
+        "end": 19,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "線 上",
+        "entity": "pay_method",
+        "confidence": 0.9562811420146843,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 想 郵 局 繳 費",
+    "entities": [
+      {
+        "value": "郵 局 繳",
+        "start": 4,
+        "end": 9,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "郵 局",
+        "entity": "pay_method",
+        "confidence": 0.5478718273742227,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 想 全 繳",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "全 繳",
+        "entity": "pay_amount",
+        "confidence": 0.931263407201881,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 要 全 繳",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "全 繳",
+        "entity": "pay_amount",
+        "confidence": 0.961857194841126,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 想 繳 納 最 低",
+    "entities": [
+      {
+        "value": "最 低",
+        "start": 8,
+        "end": 11,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 想 要 全 部 繳 納",
+    "entities": [
+      {
+        "value": "全 部 繳 納",
+        "start": 6,
+        "end": 13,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 6,
+        "end": 9,
+        "value": "全 部",
+        "entity": "pay_amount",
+        "confidence": 0.8869544016384043,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "好 ， 我 要 自 行 決 定 金 額",
+    "entities": [
+      {
+        "value": "自 行 決 定 金 額",
+        "start": 8,
+        "end": 19,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "value": "自 行 決 定 金",
+        "entity": "pay_amount",
+        "confidence": 0.5096435523486765,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 自 己 輸 入 金 額",
+    "entities": [
+      {
+        "value": "自 己 輸 入",
+        "start": 2,
+        "end": 9,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 想 線 上 繳 款",
+    "entities": [
+      {
+        "value": "線 上",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "自 行 決 定 金 額",
+    "entities": [
+      {
+        "value": "自 行 決 定 金 額",
+        "start": 0,
+        "end": 11,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "自 行 決 定 金",
+        "entity": "pay_amount",
+        "confidence": 0.5045692233916271,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 想 線 上 全 部 繳 納",
+    "entities": [
+      {
+        "value": "線 上",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全 部 繳 納",
+        "start": 8,
+        "end": 15,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "線 上",
+        "entity": "pay_method",
+        "confidence": 0.6045949840646619,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 8,
+        "end": 11,
+        "value": "全 部",
+        "entity": "pay_amount",
+        "confidence": 0.823473399728569,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 要 線 上 繳 全 額",
+    "entities": [
+      {
+        "value": "線 上",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全 額",
+        "start": 10,
+        "end": 13,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 9,
+        "value": "線 上 繳",
+        "entity": "pay_method",
+        "confidence": 0.8621661368782758,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 10,
+        "end": 13,
+        "value": "全 額",
+        "entity": "pay_amount",
+        "confidence": 0.9435781160165796,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "線 上 繳 清",
+    "entities": [
+      {
+        "value": "線 上",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      },
+      {
+        "value": "繳 清",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "線 上",
+        "entity": "pay_method",
+        "confidence": 0.7916938908745145,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "超 商 繳 款",
+    "entities": [
+      {
+        "value": "超 商 繳 款",
+        "start": 0,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "超 商",
+        "entity": "pay_method",
+        "confidence": 0.9495362444411656,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "郵 局 劃 撥",
+    "entities": [
+      {
+        "value": "郵 局 劃 撥",
+        "start": 0,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 要 付 信 用 卡 費",
+    "entities": [
+      {
+        "value": "信 用 卡 費",
+        "start": 6,
+        "end": 13,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "轉 帳 繳 費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "轉 帳",
+        "entity": "pay_method",
+        "confidence": 0.5095964789146353,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "好 ， 我 要 自 行 輸 入 金 額",
+    "entities": [
+      {
+        "value": "自 行 輸 入",
+        "start": 8,
+        "end": 15,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "桃 園 機 場 外 圍 停 車",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "桃",
+        "entity": "park_location",
+        "confidence": 0.3924719920196748,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "高 雄 機 場 外 圍 停 車",
+    "entities": [
+      {
+        "value": "雄",
+        "start": 2,
+        "end": 3,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "高",
+        "entity": "park_location",
+        "confidence": 0.436996055562121,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 想 查 詢 餘 額",
+    "entities": [
+      {
+        "value": "查 詢",
+        "start": 4,
+        "end": 7,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "7 - 11 繳 款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "7 - 11",
+        "entity": "pay_method",
+        "confidence": 0.9670124286865587,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 想 商 超 繳 費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "商 超",
+        "entity": "pay_method",
+        "confidence": 0.7912135607355459,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "繳 納 全 部",
+    "entities": [
+      {
+        "value": "全 部",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "繳 納 全 部",
+        "entity": "pay_amount",
+        "confidence": 0.5950990490703496,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "全 部 繳 納",
+    "entities": [
+      {
+        "value": "全 部",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "全 部 繳 納",
+        "entity": "pay_amount",
+        "confidence": 0.7570465352260458,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "立 即 繳 款",
+    "entities": [
+      {
+        "value": "立 即",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "OK 商 店 繳 費",
+    "entities": [
+      {
+        "value": "OK 商 店",
+        "start": 0,
+        "end": 6,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全 國 繳 費 網 繳 費",
+    "entities": [
+      {
+        "value": "全 國 繳 費 網 繳",
+        "start": 0,
+        "end": 11,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 9,
+        "value": "全 國 繳 費 網",
+        "entity": "pay_method",
+        "confidence": 0.8583987035340531,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "711 繳 費",
+    "entities": [
+      {
+        "value": "711",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "他 行 繳 費",
+    "entities": [
+      {
+        "value": "他 行",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "seven 繳 費",
+    "entities": [
+      {
+        "value": "seven",
+        "start": 0,
+        "end": 5,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "高 雄 機 場 外 圍 停 車",
+    "entities": [
+      {
+        "value": "高 雄 機 場",
+        "start": 0,
+        "end": 7,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "高 雄 機 場 外 圍 停 車",
+    "entities": [
+      {
+        "value": "高 雄",
+        "start": 0,
+        "end": 3,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "桃 園 機 場 外 圍 停 車",
+    "entities": [
+      {
+        "value": "場",
+        "start": 6,
+        "end": 7,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "線 上 客 服",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "線 上",
+        "entity": "pay_method",
+        "confidence": 0.5811294363833028,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 想 商 超 繳 費",
+    "entities": [
+      {
+        "value": "商 超",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 想 超 市 繳 費",
+    "entities": [
+      {
+        "value": "超 市",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "郵 局 劃 撥",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "郵",
+        "entity": "pay_method",
+        "confidence": 0.3751168581348495,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 想 全 部 繳 納",
+    "entities": [
+      {
+        "value": "全 部 繳 納",
+        "start": 4,
+        "end": 11,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 5,
+        "value": "全",
+        "entity": "pay_amount",
+        "confidence": 0.35591345997132756,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 要 有 局 繳 費",
+    "entities": [
+      {
+        "value": "有 局",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 想 繳 納 全 部",
+    "entities": [
+      {
+        "value": "繳 納 全 部",
+        "start": 4,
+        "end": 11,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 8,
+        "end": 11,
+        "value": "全 部",
+        "entity": "pay_amount",
+        "confidence": 0.9300689639666024,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "線 上 繳 款",
+    "entities": [
+      {
+        "value": "線 上 繳",
+        "start": 0,
+        "end": 5,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "線 上",
+        "entity": "pay_method",
+        "confidence": 0.8634909140087043,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 想 線 上 繳 費",
+    "entities": [
+      {
+        "value": "線 上",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 要 線 上 繳 最 低 應 繳",
+    "entities": [
+      {
+        "value": "線 上",
+        "start": 4,
+        "end": 7,
+        "entity": "pay_method"
+      },
+      {
+        "value": "最 低 應 繳",
+        "start": 10,
+        "end": 17,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "線 上",
+        "entity": "pay_method",
+        "confidence": 0.5455601863382452,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "全 國 繳 費 網 繳 費",
+    "entities": [
+      {
+        "value": "全 國 繳 費 網",
+        "start": 0,
+        "end": 9,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "全 國 繳 費 網 繳",
+        "entity": "pay_method",
+        "confidence": 0.6840131304206446,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "全 國 繳 費 網",
+    "entities": [
+      {
+        "value": "全 國 繳 費 網",
+        "start": 0,
+        "end": 9,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "中 華 郵 政",
+    "entities": [
+      {
+        "value": "中 華 郵 政",
+        "start": 0,
+        "end": 7,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "萊 爾 富 繳 費",
+    "entities": [
+      {
+        "value": "萊 爾 富",
+        "start": 0,
+        "end": 5,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "7 - ELEVEN 繳 費",
+    "entities": [
+      {
+        "value": "7 - ELEVEN",
+        "start": 0,
+        "end": 10,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "小 7 繳 費",
+    "entities": [
+      {
+        "value": "小 7",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "超 商 繳 全 額",
+    "entities": [
+      {
+        "value": "超 商 繳",
+        "start": 0,
+        "end": 5,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全 額",
+        "start": 6,
+        "end": 9,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "超 商",
+        "entity": "pay_method",
+        "confidence": 0.9747240464285322,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 6,
+        "end": 9,
+        "value": "全 額",
+        "entity": "pay_amount",
+        "confidence": 0.865671600904194,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "繳 最 低 應 繳 金 額",
+    "entities": [
+      {
+        "value": "最 低 應 繳",
+        "start": 2,
+        "end": 9,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "最 低 應 繳",
+    "entities": [
+      {
+        "value": "最 低",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "最 低 應 繳 金 額",
+    "entities": [
+      {
+        "value": "最 低 應 繳",
+        "start": 0,
+        "end": 7,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "高 雄 機 場 外 圍 停 車",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "高 雄",
+        "entity": "park_location",
+        "confidence": 0.5344177199412398,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "桃 園 機 場 外 圍 停 車",
+    "entities": [
+      {
+        "value": "桃 園",
+        "start": 0,
+        "end": 3,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "桃 園 機 場 外 圍 停 車",
+    "entities": [
+      {
+        "value": "桃 園 機 場",
+        "start": 0,
+        "end": 7,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 想 查 询 其 他 额 度",
+    "entities": [
+      {
+        "value": "查 询",
+        "start": 4,
+        "end": 7,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我 要 查 可 用 餘 額",
+    "entities": [
+      {
+        "value": "查",
+        "start": 4,
+        "end": 5,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "劃 撥",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "劃 撥",
+        "entity": "pay_method",
+        "confidence": 0.5435964096760919,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我 要 郵 局 繳 費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "郵 局",
+        "entity": "pay_method",
+        "confidence": 0.8797074450533462,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "請 問 我 在 旅 行 社 刷 卡 付 全 額 機 票 ， 有 送 旅 遊 不 便 險 嗎 ？",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 20,
+        "end": 23,
+        "value": "全 額",
+        "entity": "pay_amount",
+        "confidence": 0.5615592854810421,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+  
+language: zh
+pipeline:
+- name: ngchat_plugins.common.components.zhchar_tokenizer.ZhCharTokenizer
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+- name: DIETClassifier
+  epochs: 30
+- name: EntitySynonymMapper
+- name: ngchat_plugins.nlu.selectors.question_selector.QuestionSelector
+  retrieval_intent: faq  
+  random_seed: 0
+  epochs: 100
+
+policies:
+- name: MemoizationPolicy
+- name: TEDPolicy
+  max_history: 5
+  epochs: 100
+- name: MappingPolicy

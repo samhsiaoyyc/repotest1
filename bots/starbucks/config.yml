@@ -1,0 +1,43 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+# Using suggested pipeline from Rasa for English
+pipeline:
+  # Pre-trained contextual sentence representation. Useful when there is little training data
+  # CONVERT DOES NOT WORK ON WINDOWS OS, SWITCH TO DIFFERENT OS OR USE WHITESPACETOKENIZER
+  - name: ConveRTTokenizer # dependency: tensorflow-text==2.1.1
+  - name: ConveRTFeaturizer
+  # - name: WhitespaceTokenizer
+  # Creates sparse features for entity extraction and intent classification. Rasa recommends
+  - name: RegexFeaturizer
+  # Creates lexical & syntactic features for entity extraction. Rasa recommends
+  - name: LexicalSyntacticFeaturizer
+  # Creates bag-of-word for intent classification and response selection. Using rasa recommendation
+  - name: CountVectorsFeaturizer # not sure why this is included twice but it's in the rasa doc
+  - name: CountVectorsFeaturizer
+    analyzer: "char_wb"  # can also use 'word' for word level n-grams
+    min_ngram: 1
+    max_ngram: 4
+  # classifier for entity extraction and intent classification
+  # slow to train but higher accuracy
+  - name: DIETClassifier
+    epochs: 100
+  # Allows for use of synonyms in entity extraction
+  # This must come *last or else the synonyms may be overridden
+  - name: EntitySynonymMapper
+  # classifier for FAQ responses
+  - name: ResponseSelector
+    epochs: 100
+  # - name: EntitySynonymMapper add if using synonyms in training data
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  # If exact conversation is present in train stories, predicts next action with confidence 1
+  # name: MemoizationPolicy
+  # predicts next action. Outperforms Keras and suggested by Rasa. replace by ngchatPolicy
+  # name: TEDPolicy
+  # max_history: 5
+  # epochs: 100
+  - name: ngchat_plugins.core.policy.ngchat.ngChatPolicy
+    dialogue_path: ./dialogue.yml

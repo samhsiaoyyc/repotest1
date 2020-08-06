@@ -1,0 +1,5370 @@
+[
+  {
+    "text": "我 要 去 SuperMarket 繳 費",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9844769239425659
+    }
+  },
+  {
+    "text": "這 期 的 卡 費 要 繳 多 少",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9963006377220154
+    }
+  },
+  {
+    "text": "要 付 信 用 卡",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9366238713264465
+    }
+  },
+  {
+    "text": "劃 撥",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9971520304679871
+    }
+  },
+  {
+    "text": "信 用 卡 是 否 有 欠 款",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.37367475032806396
+    }
+  },
+  {
+    "text": "2666005223333689 信 用 卡 是 否 有 欠 款",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9939161539077759
+    }
+  },
+  {
+    "text": "9 月 帳 單",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8796310424804688
+    }
+  },
+  {
+    "text": "我 上 禮 拜 收 到 你 們 給 我 的 催 繳 預 借 現 金 簡 訊 ， 請 問 我 要 去 哪 裡 查 我 該 繳 的 錢",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.956116795539856
+    }
+  },
+  {
+    "text": "我 要 怎 麼 知 道 信 用 卡 該 繳 的 錢",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.827876627445221
+    }
+  },
+  {
+    "text": "這 期 可 以 先 繳 1000 嗎",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8708853125572205
+    }
+  },
+  {
+    "text": "我 的 本 期 帳 單",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.5332601070404053
+    }
+  },
+  {
+    "text": "對 不 起 , 我 要 查 詢 我 這 個 月 的 帳 單 . . . 可 能 我 密 碼 又 輸 入 錯 了 …",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9145165681838989
+    }
+  },
+  {
+    "text": "因 我 人 在 國 外 可 以 幫 我 查 詢 最 近 一 期 信 用 卡 繳 款 金 額 ?",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5658552646636963
+    }
+  },
+  {
+    "text": "確 認 有 繳 費 成 功 嗎",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9936317205429077
+    }
+  },
+  {
+    "text": "我 想 知 道 我 的 卡 費 還 有 多 少 還 沒 付",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9305065274238586
+    }
+  },
+  {
+    "text": "為 什 麼 我 信 用 卡 這 個 月 還 沒 自 動 扣 款",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.5291460752487183
+    }
+  },
+  {
+    "text": "信 用 卡 轉 帳",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9153062701225281
+    }
+  },
+  {
+    "text": "誰 能 回 答 我 的 問 題",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.4326816201210022
+    }
+  },
+  {
+    "text": "信 用 卡 掛 失",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9088638424873352
+    }
+  },
+  {
+    "text": "I 刷 金 融 卡 遺 失",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9832110404968262
+    }
+  },
+  {
+    "text": "我 想 掛 失 信 用 卡",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8833090662956238
+    }
+  },
+  {
+    "text": "信 用 卡 卡 片 掛 失",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7792513370513916
+    }
+  },
+  {
+    "text": "卡 爆 了 嗎",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.5625457763671875
+    }
+  },
+  {
+    "text": "不 好 意 思 。 。 想 請 問 。 。 我 今 天 要 刷 旅 遊 費 卻 無 法 刷 成 功 。 。 想 問 我 的 額 度 有 超 出 嗎 ？",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9972825050354004
+    }
+  },
+  {
+    "text": "有 沒 有 比 較 方 便 查 詢 信 用 卡 餘 額 的 途 徑 ？",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.43254396319389343
+    }
+  },
+  {
+    "text": "想 請 您 幫 我 查 詢 我 的 帳 戶 - 悠 遊 聯 名 卡 的 累 積 消 費 ?",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9945810437202454
+    }
+  },
+  {
+    "text": "歸 戶 可 用 額 度",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9865214228630066
+    }
+  },
+  {
+    "text": "今 日 信 用 卡 消 費 金 額",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9933868050575256
+    }
+  },
+  {
+    "text": "信 用 卡 帳 單 重 複 繳 款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.7503342628479004
+    }
+  },
+  {
+    "text": "信 用 卡 分 期 付 款 同 意 書",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.9986023306846619
+    }
+  },
+  {
+    "text": "信 用 卡 繳 款 截 止 日 通 知",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9993681907653809
+    }
+  },
+  {
+    "text": "我 不 知 道 我 的 帳 單 最 低 應 繳 金 額 怎 麼 計 算 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.987278401851654
+    }
+  },
+  {
+    "text": "我 要 申 請 繳 款 協 商 ， 但 我 沒 有 能 力 繳 款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.5146422386169434
+    }
+  },
+  {
+    "text": "我 目 前 的 泰 贈 點 有 多 少 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.9577426910400391
+    }
+  },
+  {
+    "text": "信 用 卡 最 多 可 申 辦 幾 張",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.801072359085083
+    }
+  },
+  {
+    "text": "我 想 請 問 我 的 國 泰 世 華 信 用 卡 是 否 已 到 期",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.5230083465576172
+    }
+  },
+  {
+    "text": "你 們 信 用 卡 帳 單 還 款 日 期 好 不 好 更 改 啊",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.5979351997375488
+    }
+  },
+  {
+    "text": "自 動 扣 繳 生 效 日",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.997378408908844
+    }
+  },
+  {
+    "text": "撥 打 客 服 電 話 可 以 查 詢 商 店 刷 退 進 度 嗎 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "bank.turnToReal",
+      "confidence": 0.7809427976608276
+    }
+  },
+  {
+    "text": "你 們 的 客 服 人 員 可 以 直 接 幫 我 處 理 紙 本 存 單 掛 失 嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "bank.turnToReal",
+      "confidence": 0.916974663734436
+    }
+  },
+  {
+    "text": "如 果 我 沒 有 在 每 月 繳 款 截 止 日 前 付 清 當 期 最 低 應 繳 金 額 會 有 什 麼 後 果",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9990202784538269
+    }
+  },
+  {
+    "text": "紙 本 帳 單 日 期 都 過 了 好 久 了 我 還 沒 收 到 帳 單 是 什 麼 原 因 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.9985398650169373
+    }
+  },
+  {
+    "text": "我 信 用 卡 網 路 繳 錢 可 以 停 止 交 易 嗎 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9939000606536865
+    }
+  },
+  {
+    "text": "你 們 的 信 用 卡 電 子 帳 單 平 板 怎 麼 打 不 開 ？ 不 支 援 嗎 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9296993017196655
+    }
+  },
+  {
+    "text": "紅 利 點 數 餘 額 查 詢",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9909835457801819
+    }
+  },
+  {
+    "text": "申 請 額 度 調 整",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.9810965061187744
+    }
+  },
+  {
+    "text": "我 想 要 查 國 外 分 行 據 點 分 布 在 哪 些 地 方 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "place.bank",
+      "confidence": 0.9986106753349304
+    }
+  },
+  {
+    "text": "請 問 一 下 我 申 辦 一 張 信 用 卡 有 悠 遊 卡 功 能 但 我 到 7 - 11 消 費 使 用 已 經 剩 餘 16 元 但 他 沒 有 自 動 加 值",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.4288179576396942
+    }
+  },
+  {
+    "text": "為 何 我 的 額 度 夠 卻 無 法 自 動 加 值",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.7986347675323486
+    }
+  },
+  {
+    "text": "你 好",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.41753315925598145
+    }
+  },
+  {
+    "text": "本 行 如 何 申 辦 好 市 多 會 員",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.47835269570350647
+    }
+  },
+  {
+    "text": "我 的 ETC 聯 名 卡 有 累 積 紅 利 嗎 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9634112119674683
+    }
+  },
+  {
+    "text": "如 何 申 請 里 數 倍 數 回 饋",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.4558408260345459
+    }
+  },
+  {
+    "text": "請 問 基 金 單 位 數 計 算 到 小 數 點 的 第 幾 位",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.5695745944976807
+    }
+  },
+  {
+    "text": "亞 洲 萬 里 通 聯 名 卡 里 程 加 速 器 是 啥 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.7675159573554993
+    }
+  },
+  {
+    "text": "我 的 晶 片 金 融 卡 一 天 最 多 可 以 在 ATM 提 領 多 少 錢 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "place.atm",
+      "confidence": 0.601750910282135
+    }
+  },
+  {
+    "text": "我 的 世 界 卡 紅 利 點 數 如 何 累 積 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9887928366661072
+    }
+  },
+  {
+    "text": "開 卡 密 碼 遺 失",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.5320979356765747
+    }
+  },
+  {
+    "text": "詢 問 我 的 combo 卡 屬 於 哪 一 種 卡 等",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9953430891036987
+    }
+  },
+  {
+    "text": "信 用 卡 帳 款 自 動 轉 帳 付 款 授 權 書",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.9846050143241882
+    }
+  },
+  {
+    "text": "紅 利 當 期",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.9695879220962524
+    }
+  },
+  {
+    "text": "您 好 我 想 詢 問 我 的 信 用 卡 卡 別",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.8967426419258118
+    }
+  },
+  {
+    "text": "我 想 詢 問 信 用 卡 消 費 金 額 的 問 題",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9917930960655212
+    }
+  },
+  {
+    "text": "網 路 繳 款 現 多 少",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.6057673692703247
+    }
+  },
+  {
+    "text": "如 何 繳 費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9802245497703552
+    }
+  },
+  {
+    "text": "近 日 已 有 轉 帳 繳 款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.676487147808075
+    }
+  },
+  {
+    "text": "登 出 在 那 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.8168089389801025
+    }
+  },
+  {
+    "text": "查 詢 二 月 消 費 明 細",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "billDetail.query",
+      "confidence": 0.9004741907119751
+    }
+  },
+  {
+    "text": "使 用 紅 利 點 數",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.8737143874168396
+    }
+  },
+  {
+    "text": "我 想 問 一 下 我 帳 單 已 繳 納 了 嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.8825252056121826
+    }
+  },
+  {
+    "text": "本 期 信 用 卡 帳 單 應 繳 金 額 已 繳 了",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9974775314331055
+    }
+  },
+  {
+    "text": "請 問 我 的 滿 額 送 500 多 利 金 怎 麼 還 沒 有 下 來 呢 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.31812846660614014
+    }
+  },
+  {
+    "text": "多 卡 是 共 用 一 個 額 度 嗎 ？",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9736064076423645
+    }
+  },
+  {
+    "text": "目 前 使 用 的 額 度",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7216623425483704
+    }
+  },
+  {
+    "text": "我 要 投 訴",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.5646917819976807
+    }
+  },
+  {
+    "text": "還 是 看 不 懂 請 直 接 轉 客 服 好 嗎",
+    "intent": "bank.notTurnToReal",
+    "intent_prediction": {
+      "name": "bank.turnToReal",
+      "confidence": 0.9867867231369019
+    }
+  },
+  {
+    "text": "卡 如 果 掉 在 國 外 飯 店 第 一 步 怎 麼 辦 ？",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9067760109901428
+    }
+  },
+  {
+    "text": "我 怎 麼 遲 遲 收 不 到 你 們 的 賬 單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8264637589454651
+    }
+  },
+  {
+    "text": "信 用 卡 帳 單 明 細 未 收 到 但 已 收 到 扣 繳 成 功 email",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.9929589629173279
+    }
+  },
+  {
+    "text": "我 想 問 我 的 信 用 卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.981556236743927
+    }
+  },
+  {
+    "text": "我 sogo 卡 有 多 少 點",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.9842768907546997
+    }
+  },
+  {
+    "text": "請 問 紅 利 點 數 對 換 到 何 時 截 止",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.6377723217010498
+    }
+  },
+  {
+    "text": "想 請 問 手 機 app 裡 可 以 看 的 到 我 愛 刷 金 融 卡 的 點 數 嗎 ？",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9339284896850586
+    }
+  },
+  {
+    "text": "我 想 請 問 我 的 信 用 卡 紅 利 是 不 是 都 歸 零 了 ？",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9943236112594604
+    }
+  },
+  {
+    "text": "多 利 金 餘 額 查 詢 方 式",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9262881875038147
+    }
+  },
+  {
+    "text": "請 問 我 要 怎 麼 查 信 用 卡 點 數",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.9425103068351746
+    }
+  },
+  {
+    "text": "信 用 卡 紅 利",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7491450309753418
+    }
+  },
+  {
+    "text": "刷 爆",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9972518682479858
+    }
+  },
+  {
+    "text": "可 以 暫 時 調 高 嗎 ？",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8772735595703125
+    }
+  },
+  {
+    "text": "我 想 要 多 申 請 信 用 卡 額 度",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7604644298553467
+    }
+  },
+  {
+    "text": "若 使 用 信 用 卡 很 久 了 想 要 信 用 卡 額 度 變 更",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9199338555335999
+    }
+  },
+  {
+    "text": "我 忘 記 上 次 那 張 掉 了 以 後 我 還 有 幾 張 卡 ？",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9992781281471252
+    }
+  },
+  {
+    "text": "我 要 去 哪 裡 查 詢 我 辦 了 幾 張 信 用 卡 ？",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9439074397087097
+    }
+  },
+  {
+    "text": "想 詢 問 如 何 預 繳 下 期 卡 費 ?",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9985213279724121
+    }
+  },
+  {
+    "text": "點 數 餘 額 查 詢",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9528610706329346
+    }
+  },
+  {
+    "text": "信 用 卡 已 剪 卡 繳 款 金 額 查 詢",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9945414662361145
+    }
+  },
+  {
+    "text": "我 的 卡 現 在 不 想 寄 紙 本 帳 單 了 ， 可 以 改 用 網 路 看 就 好 了 嗎 ？",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.5321820974349976
+    }
+  },
+  {
+    "text": "我 想 請 問 我 有 你 們 的 信 用 卡 可 否 辦 理 線 上 看 刷 卡 帳 單 的 服 務",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.6850182414054871
+    }
+  },
+  {
+    "text": "信 用 卡 申 請 電 子 對 帳 單",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6115691661834717
+    }
+  },
+  {
+    "text": "我 想 用 網 路 銀 行 取 消 信 用 卡 電 子 帳 單 ， 需 要 輸 入 哪 些 資 訊 ？",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.6512197852134705
+    }
+  },
+  {
+    "text": "想 申 辦 紙 本 帳 單",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.7979763746261597
+    }
+  },
+  {
+    "text": "每 月 消 費 由 銀 行 帳 戶 轉 帳 扣 款",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.964076042175293
+    }
+  },
+  {
+    "text": "自 動 扣 款 時 間 是 什 麼 時 候 ？",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5651318430900574
+    }
+  },
+  {
+    "text": "我 想 知 道 信 用 卡 扣 款 日 期 是 何 時 ， 好 存 錢 進 戶 頭 。",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.49572667479515076
+    }
+  },
+  {
+    "text": "刷 信 用 卡 付 旅 費 機 場 免 費 車 場",
+    "intent": "park.airport",
+    "intent_prediction": {
+      "name": "airportService.Service",
+      "confidence": 0.5753381252288818
+    }
+  },
+  {
+    "text": "已 刷 團 費 ， 請 問 去 機 場 路 上 發 生 事 故 是 否 理 賠",
+    "intent": "rights.info",
+    "intent_prediction": {
+      "name": "roadsideAsst.callAssitant",
+      "confidence": 0.9448234438896179
+    }
+  },
+  {
+    "text": "在 國 外 搭 機 時 碰 到 天 災 無 飛 機 可 搭 乘 及 轉 接 貴 行 有 什 麼 協 助 及 保 障",
+    "intent": "rights.info",
+    "intent_prediction": {
+      "name": "airportService.Service",
+      "confidence": 0.9049367308616638
+    }
+  },
+  {
+    "text": "刷 卡 買 雄 獅 的 費 用 飛 行 狀 況 墜 機 有 什 麼 賠 錢 的",
+    "intent": "rights.info",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8067418336868286
+    }
+  },
+  {
+    "text": "現 在 有 JBC 卡 嗎 ?",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.6158663630485535
+    }
+  },
+  {
+    "text": "我 請 問 訂 購 巧 連 智 專 刊 ， 貴 銀 行 有 給 予 分 期 付 款 的 方 式 嗎 ！ 謝 謝",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6033206582069397
+    }
+  },
+  {
+    "text": "可 以 幫 我 查 詢 帳 單 明 細 嗎 ？",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "billDetail.query",
+      "confidence": 0.7389976978302002
+    }
+  },
+  {
+    "text": "信 用 卡 近 一 期 帳 單 名 細",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9653556942939758
+    }
+  },
+  {
+    "text": "請 問 一 下 線 上 可 以 查 詢 帳 單 明 細 嗎",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "billDetail.query",
+      "confidence": 0.6345293521881104
+    }
+  },
+  {
+    "text": "請 問 可 以 上 網 看 信 用 卡 帳 單 嗎",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9628463983535767
+    }
+  },
+  {
+    "text": "我 要 辦 卡",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9485734701156616
+    }
+  },
+  {
+    "text": "小 額 借 貸 的 款 項 是 不 是 可 以 透 過 線 上 申 辦 還 是 一 定 要 到 櫃 台 找 服 務 人 員",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9272623658180237
+    }
+  },
+  {
+    "text": "小 額 信 用 貸 款 的 辦 理 辦 法 ？",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "loan.unsecuredWidget",
+      "confidence": 0.9102610945701599
+    }
+  },
+  {
+    "text": "如 何 辦 理 小 額 信 用 貸 款 ？",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "loan.unsecuredWidget",
+      "confidence": 0.9709733128547668
+    }
+  },
+  {
+    "text": "我 年 收 入 不 高 可 以 借 錢 嗎 ?",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "loan.unsecuredWidget",
+      "confidence": 0.40574711561203003
+    }
+  },
+  {
+    "text": "是 否 可 查 可 貸 金 額",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9904522895812988
+    }
+  },
+  {
+    "text": "先 前 有 申 辦 貴 行 信 用 貸 款 . 查 詢 剩 餘 可 貸 額 度 .",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9148540496826172
+    }
+  },
+  {
+    "text": "想 請 問 關 於 信 用 貸 款 業 務 ， 如 貸 十 萬 分 三 年 期 ， 月 繳 ？ 開 辦 費 ？",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.659449577331543
+    }
+  },
+  {
+    "text": "怎 麼 用 小 額 信 用 貸 款",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.5010666847229004
+    }
+  },
+  {
+    "text": "預 約 信 用 貸 款 諮 詢",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5245136618614197
+    }
+  },
+  {
+    "text": "信 用 卡 申 辦 情 形",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9360190629959106
+    }
+  },
+  {
+    "text": "我 的 卡 片 下 來 了 嗎",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8278334736824036
+    }
+  },
+  {
+    "text": "我 的 信 用 卡 什 麼 時 候 會 辦 好 ？",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6439638733863831
+    }
+  },
+  {
+    "text": "我 想 停 用 sogo 聯 名 卡",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9858179092407227
+    }
+  },
+  {
+    "text": "那 現 在 可 以 線 上 取 消 卡 片 是 嗎",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.751503586769104
+    }
+  },
+  {
+    "text": "你 好 ， 我 要 停 卡",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.3423749804496765
+    }
+  },
+  {
+    "text": "我 上 週 申 請 信 用 卡 的 時 候 好 像 遺 漏 了 什 麼 ？ 導 致 沒 有 成 功",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.8047146201133728
+    }
+  },
+  {
+    "text": "查 詢 分 行 據 點",
+    "intent": "place.prepare",
+    "intent_prediction": {
+      "name": "place.bank",
+      "confidence": 0.9368589520454407
+    }
+  },
+  {
+    "text": "請 問 新 營 區 那 裡 有 世 華 銀 行",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "place.atm",
+      "confidence": 0.8512861728668213
+    }
+  },
+  {
+    "text": "請 問 新 竹 的 國 泰 世 華 銀 行",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.4405239522457123
+    }
+  },
+  {
+    "text": "台 中 存 款 機 分 行",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "place.bank",
+      "confidence": 0.7780444025993347
+    }
+  },
+  {
+    "text": "網 路 銀 行 使 用 者 名 稱 忘 記 該 如 何 重 新 申 請",
+    "intent": "cpin.enter",
+    "intent_prediction": {
+      "name": "cpin.cardApply",
+      "confidence": 0.6496654748916626
+    }
+  },
+  {
+    "text": "網 銀 我 要 怎 麼 先 登 入 我 的 帳 戶",
+    "intent": "cpin.enter",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7383104562759399
+    }
+  },
+  {
+    "text": "我 有 你 們 的 信 用 卡 怎 麼 辦 網 銀 密 碼",
+    "intent": "cpin.cardApply",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.6690184473991394
+    }
+  },
+  {
+    "text": "有 什 麼 方 式 可 以 查 詢 我 的 信 用 卡 還 款 日 ？",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9796072840690613
+    }
+  },
+  {
+    "text": "可 以 查 詢 ， 這 個 月 消 費 金 額 嗎",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7646557092666626
+    }
+  },
+  {
+    "text": "我 想 查 詢 信 用 卡 還 有 多 少 餘 額 未 繳",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9946344494819641
+    }
+  },
+  {
+    "text": "請 問 COMBO 普 卡 ， 這 張 的 繳 費 時 間 的 期 限 在 哪 幾 天 ?",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9192685484886169
+    }
+  },
+  {
+    "text": "我 2 個 禮 拜 前 在 家 樂 福 購 物 刷 卡 ， 請 問 要 去 哪 裡 查 詢 應 繳 金 額 ？",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.99974125623703
+    }
+  },
+  {
+    "text": "進 入 你 們 的 網 站 能 不 能 查 詢 到 信 用 卡 帳 單 應 繳 金 額 ？",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9760650396347046
+    }
+  },
+  {
+    "text": "想 了 解 我 是 否 還 有 帳 款 沒 有 繳 交 的",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9979804754257202
+    }
+  },
+  {
+    "text": "我 不 小 心 遺 失 本 期 信 用 卡 的 明 細 了 ， 所 以 不 知 道 最 低 應 繳 的 金 額",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9734640121459961
+    }
+  },
+  {
+    "text": "我 的 帳 單 弄 丟 了 怎 麼 查 最 低 繳 費",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6151226162910461
+    }
+  },
+  {
+    "text": "信 用 卡 消 費 金 額",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.8698132634162903
+    }
+  },
+  {
+    "text": "如 果 帳 單 沒 繳 怎 麼 樣",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.5455818176269531
+    }
+  },
+  {
+    "text": "我 想 知 道 我 這 個 月 卡 片 刷 了 多 少",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9223504662513733
+    }
+  },
+  {
+    "text": "真 的 人",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5296339392662048
+    }
+  },
+  {
+    "text": "我 不 要 你 服 務",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "dialogue.cardList",
+      "confidence": 0.5325185060501099
+    }
+  },
+  {
+    "text": "有 什 麼 功 能",
+    "intent": "dialogue.cardList",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.999290943145752
+    }
+  },
+  {
+    "text": "其 他 功 能",
+    "intent": "dialogue.cardList",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6174788475036621
+    }
+  },
+  {
+    "text": "查 繳 款 明 細",
+    "intent": "billDetail.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.4715843200683594
+    }
+  },
+  {
+    "text": "信 用 卡 消 失",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6619910001754761
+    }
+  },
+  {
+    "text": "掉 信 用 卡",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5090056657791138
+    }
+  },
+  {
+    "text": "我 在 葡 萄 牙 , 信 用 卡 剛 被 偷 , 如 何 掛 失 止 付 ! ! ? ? 信 用 卡 號 沒 記 , 本 人 許 進 富 A121524417 660118",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9835225343704224
+    }
+  },
+  {
+    "text": "信 用 卡 額 度 查 詢",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7181759476661682
+    }
+  },
+  {
+    "text": "刷 爆",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.9272063374519348
+    }
+  },
+  {
+    "text": "可 以 在 此 查 詢 刷 卡 額 度 嗎 ？",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6882231831550598
+    }
+  },
+  {
+    "text": "因 為 我 目 前 人 在 日 本 我 想 知 道 實 際 消 費 多 少 錢",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9854351282119751
+    }
+  },
+  {
+    "text": "我 可 以 請 問 這 個 月 截 至 目 前 ， 我 已 刷 卡 金 額",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8947597146034241
+    }
+  },
+  {
+    "text": "我 的 信 用 卡 目 前 沒 有 出 帳 的 總 額 那 應 該 怎 麼 查 詢 呢",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.6982882618904114
+    }
+  },
+  {
+    "text": "總 消 費 金 額",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9680758714675903
+    }
+  },
+  {
+    "text": "我 有 幾 張 信 用 卡",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.29607826471328735
+    }
+  },
+  {
+    "text": "卡 片 掛 失",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.9853470921516418
+    }
+  },
+  {
+    "text": "信 用 卡 繳 保 費 分 期 說 明",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.9291234016418457
+    }
+  },
+  {
+    "text": "信 用 卡 自 扣 指 定 扣 款 金 額",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.991862952709198
+    }
+  },
+  {
+    "text": "去 辦 信 用 卡 的 時 候 ， 說 什 麼 文 件 有 缺",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.4459124803543091
+    }
+  },
+  {
+    "text": "我 想 要 查 國 外 ETF 的 手 續 費 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.628911554813385
+    }
+  },
+  {
+    "text": "我 想 要 查 詢 我 的 信 用 卡 eTag 繳 費 紀 錄 ， 請 問 有 哪 些 查 詢 方 法 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8972668051719666
+    }
+  },
+  {
+    "text": "請 查 詢 卡 片 是 否 到 期",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.35277456045150757
+    }
+  },
+  {
+    "text": "在 國 外 要 查 帳 戶 還 剩 下 多 少 需 要 收 多 少 錢",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9877370595932007
+    }
+  },
+  {
+    "text": "我 要 繳 費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9924975633621216
+    }
+  },
+  {
+    "text": "常 用 牌 卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "dialogue.cardList",
+      "confidence": 0.47838008403778076
+    }
+  },
+  {
+    "text": "查 詢 信 用 卡 明 細",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "billDetail.query",
+      "confidence": 0.7581827044487
+    }
+  },
+  {
+    "text": "信 用 卡 我 不 想 用 了 ， 怎 麼 申 請 停 用 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cpin.cardApply",
+      "confidence": 0.9453602433204651
+    }
+  },
+  {
+    "text": "我 聽 不 懂",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "bank.turnToReal",
+      "confidence": 0.4206490218639374
+    }
+  },
+  {
+    "text": "我 被 盜 刷 了",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.5093898773193359
+    }
+  },
+  {
+    "text": "已 消 費 現 金 總 額",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9958294034004211
+    }
+  },
+  {
+    "text": "刷 卡 機 故 障 的 處 理 方 法",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "rights.info",
+      "confidence": 0.8713652491569519
+    }
+  },
+  {
+    "text": "信 用 卡 網 路 開 卡 方 法",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.3799096941947937
+    }
+  },
+  {
+    "text": "我 可 以 用 我 的 信 用 卡 額 度 去 繳 保 險 費 用 嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.860558032989502
+    }
+  },
+  {
+    "text": "我 要 查 詢 餘 額",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9961536526679993
+    }
+  },
+  {
+    "text": "紅 利",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.9751405119895935
+    }
+  },
+  {
+    "text": "里 程 數",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9401186108589172
+    }
+  },
+  {
+    "text": "泰 贈 點 點 數 查 詢 方 式",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.794941782951355
+    }
+  },
+  {
+    "text": "長 榮 航 空 聯 名 卡 哩 程 效 期",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.5796060562133789
+    }
+  },
+  {
+    "text": "刷 車 子 保 險 有 累 積 哩 程 嗎 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "rights.info",
+      "confidence": 0.946052610874176
+    }
+  },
+  {
+    "text": "網 路 銀 行 繳 信 用 卡 費 活 期 帳 戶 可 用 郵 局 嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9534881114959717
+    }
+  },
+  {
+    "text": "用 app 轉 帳",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.6420307159423828
+    }
+  },
+  {
+    "text": "我 要 問 信 用 卡 付 費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9641162753105164
+    }
+  },
+  {
+    "text": "您 好 我 想 查 月 結 單",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9990049004554749
+    }
+  },
+  {
+    "text": "我 剛 剛 先 是 去 線 上 付 信 用 卡 費 了",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9156312942504883
+    }
+  },
+  {
+    "text": "信 用 卡 電 子 對 帳 單",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.985549807548523
+    }
+  },
+  {
+    "text": "為 何 信 用 卡 消 費 沒 有 紅 利 點 數",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9332180619239807
+    }
+  },
+  {
+    "text": "增 加 信 用 卡 額 度",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.46366289258003235
+    }
+  },
+  {
+    "text": "線 上 繳 費 有 手 續 費 嗎 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.995623767375946
+    }
+  },
+  {
+    "text": "我 要 繳 費 的 時 候",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9994608759880066
+    }
+  },
+  {
+    "text": "這 期 卡 費 繳 了 沒",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.4597721993923187
+    }
+  },
+  {
+    "text": "pay . billinfo",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9997470378875732
+    }
+  },
+  {
+    "text": "我 大 概 知 道 我 這 個 月 的 刷 卡 金 額 要 先 繳 清 用 怎 麼 處 理",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9997753500938416
+    }
+  },
+  {
+    "text": "你 好 ！ 首 刷 禮 的 多 利 金 怎 麼 都 沒 到 帳 呢 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.850489616394043
+    }
+  },
+  {
+    "text": "客 服 方 面 是 否 有 電 子 信 箱 可 以 寄 信 ? ?",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9698465466499329
+    }
+  },
+  {
+    "text": "您 好 我 要 ATM 繳 費 帳 號",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8114048838615417
+    }
+  },
+  {
+    "text": "電 子 帳 單 會 寄 到 哪 裡",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9883061647415161
+    }
+  },
+  {
+    "text": "卡 信 用 額 度 查 詢",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7181759476661682
+    }
+  },
+  {
+    "text": "剛 查 詢 最 低 繳 款 金 額 總 和 部 分",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9996160864830017
+    }
+  },
+  {
+    "text": "信 用 卡 已 剪 卡 繳 款 金 額 查 詢",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9988558292388916
+    }
+  },
+  {
+    "text": "我 有 幾 點 紅 利 點",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.9695496559143066
+    }
+  },
+  {
+    "text": "如 何 查 詢 好 市 多 紅 利 累 積 金 額",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7755046486854553
+    }
+  },
+  {
+    "text": "長 榮 哩 程 回 饋",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7697943449020386
+    }
+  },
+  {
+    "text": "我 如 何 查 到 現 在 有 幾 點",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9274404644966125
+    }
+  },
+  {
+    "text": "可 以 告 訴 我 卡 片 的 回 饋 嗎",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.4753022789955139
+    }
+  },
+  {
+    "text": "消 費 多 少 錢 累 積 一 點",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.974723219871521
+    }
+  },
+  {
+    "text": "信 用 卡 餘 額 不 足",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9925796985626221
+    }
+  },
+  {
+    "text": "信 用 卡 額 度 不 足",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9518823623657227
+    }
+  },
+  {
+    "text": "額 度 不 夠 刷",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9617370963096619
+    }
+  },
+  {
+    "text": "商 店 表 示 我 額 度 不 夠 無 法 刷 卡",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.976338267326355
+    }
+  },
+  {
+    "text": "調 高 信 用 金 額",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5479689240455627
+    }
+  },
+  {
+    "text": "詢 問 我 的 combo 卡 屬 於 哪 一 種 卡 等",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9981382489204407
+    }
+  },
+  {
+    "text": "雙 幣 卡 指 定 卡 片 信 用 額 度",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9938839077949524
+    }
+  },
+  {
+    "text": "帳 單 條 碼",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9979932904243469
+    }
+  },
+  {
+    "text": "里 程 數",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9401186108589172
+    }
+  },
+  {
+    "text": "紅 利 點 數 餘 額 查 詢",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6322194337844849
+    }
+  },
+  {
+    "text": "過 了 好 長 一 段 時 間 我 還 未 收 取 到 紙 本 帳 單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9907704591751099
+    }
+  },
+  {
+    "text": "過 了 好 長 一 段 時 間 我 還 未 收 取 到 帳 單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9673900008201599
+    }
+  },
+  {
+    "text": "我 為 什 麼 沒 有 收 到 這 期 信 用 卡 通 知 我 繳 錢 的 紙 本 ？",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9990864992141724
+    }
+  },
+  {
+    "text": "想 要 確 認 你 們 是 不 是 真 的 有 記 帳 單 給 我 為 什 麼 之 前 收 的 到 但 近 兩 個 月 收 不 到",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9855751395225525
+    }
+  },
+  {
+    "text": "我 是 信 用 卡 使 用 者 這 一 期 單 據 沒 收 到 喔",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9887496829032898
+    }
+  },
+  {
+    "text": "有 什 麼 方 式 可 以 查 詢 我 的 信 用 卡 還 款 日",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9796072840690613
+    }
+  },
+  {
+    "text": "信 用 卡 回 饋",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.938456654548645
+    }
+  },
+  {
+    "text": "卡 費 怎 麼 繳",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7820985913276672
+    }
+  },
+  {
+    "text": "如 何 設 定 電 子 對 帳 單 ， E 化 時 代 了 ， 請 不 要 寄 紙 本 的 對 帳 單",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.9927352666854858
+    }
+  },
+  {
+    "text": "信 用 卡 繳 款 可 以 每 月 都 mail 傳 送 嗎",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9976577162742615
+    }
+  },
+  {
+    "text": "因 為 我 常 常 忘 記 收 EMAIL . 忘 掉 繳 信 用 卡 費 用 . 可 以 改 為 寄 紙 本 嗎 ?",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8845412731170654
+    }
+  },
+  {
+    "text": "我 的 信 用 卡 現 在 是 電 子 帳 單 ， 可 否 變 成 實 體 帳 單",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9603046178817749
+    }
+  },
+  {
+    "text": "我 想 把 信 用 卡 帳 單 改 成 紙 本 方 式",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.459232896566391
+    }
+  },
+  {
+    "text": "申 請 書 面 帳 單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.8730924725532532
+    }
+  },
+  {
+    "text": "申 請 紙 本 帳 單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.6331770420074463
+    }
+  },
+  {
+    "text": "怎 麼 申 請 讓 帳 戶 自 動 繳 卡 費",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.44921591877937317
+    }
+  },
+  {
+    "text": "請 問 本 人 有 貴 行 的 信 用 卡 是 否 可 以 申 請 使 用 貴 行 的 活 期 儲 蓄 存 款 證 券 戶 自 動 扣 繳",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8410672545433044
+    }
+  },
+  {
+    "text": "在 什 麼 時 間 把 要 繳 納 的 款 項 存 入 帳 戶 才 不 會 影 響 信 用 卡 自 動 扣 款 ？",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9764054417610168
+    }
+  },
+  {
+    "text": "我 要 在 哪 天 之 前 存 好 錢 才 可 以 使 扣 款 程 序 順 利 完 成",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5332972407341003
+    }
+  },
+  {
+    "text": "想 請 問 一 起 附 上 的 自 動 扣 繳 申 請 有 沒 有 成 功",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9974976778030396
+    }
+  },
+  {
+    "text": "你 好 - - 想 請 問 我 所 辦 的 好 市 多 聯 名 卡 是 否 有 辦 妥 轉 帳 代 繳 卡 費",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9956535696983337
+    }
+  },
+  {
+    "text": "多 久 前 刷 卡 出 國 才 可 享 有 停 車 優 惠",
+    "intent": "park.airport",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6573793888092041
+    }
+  },
+  {
+    "text": "現 金 回 饋 御 璽 卡 卡 友 權 益 旅 平 險 ?",
+    "intent": "rights.info",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9725378751754761
+    }
+  },
+  {
+    "text": "請 問 我 的 機 票 刷 SOGO 卡 ， 這 樣 公 共 運 輸 的 保 額 是 多 少 呢 ?",
+    "intent": "rights.info",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8868666887283325
+    }
+  },
+  {
+    "text": "免 費 機 場 專 車 搭 乘",
+    "intent": "airportService.Service",
+    "intent_prediction": {
+      "name": "park.airport",
+      "confidence": 0.4839795231819153
+    }
+  },
+  {
+    "text": "信 用 卡 叫 車 要 提 前 幾 天 預 約 ？",
+    "intent": "airportService.Service",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.4911716878414154
+    }
+  },
+  {
+    "text": "這 個 月 出 差 較 多 又 要 繳 年 度 壽 險 保 險 費 如 何 提 高 額 度 ?",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9684814810752869
+    }
+  },
+  {
+    "text": "沒 有 油 需 要 幫 忙",
+    "intent": "roadsideAsst.callAssitant",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.38735342025756836
+    }
+  },
+  {
+    "text": "能 打 電 話 至 客 服 做 變 更 車 號 的 動 作 嗎 ？",
+    "intent": "roadsideAsst.callAssitant",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8973389863967896
+    }
+  },
+  {
+    "text": "我 該 辨 那 一 種 信 用 卡 ？",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.619926929473877
+    }
+  },
+  {
+    "text": "信 用 卡 類 型",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9458274841308594
+    }
+  },
+  {
+    "text": "最 適 合 我 的 信 用 卡 ?",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6210392117500305
+    }
+  },
+  {
+    "text": "請 問 最 新 信 用 卡 是 哪 幾 總 ?",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9987953901290894
+    }
+  },
+  {
+    "text": "我 想 辦 分 期 付 款 授 權 書",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5457397103309631
+    }
+  },
+  {
+    "text": "請 問 我 的 信 用 卡 帳 單 能 分 期 付 款 嗎",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.665996789932251
+    }
+  },
+  {
+    "text": "信 用 卡 帳 單 分 期 ， 線 上 申 請 資 料 填 寫 完 畢 ， 點 選 確 認 送 出 無 法 操 作",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9820261597633362
+    }
+  },
+  {
+    "text": "國 外 旅 遊 團 費 有 分 期 付 款 的 優 惠 嗎",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8733536005020142
+    }
+  },
+  {
+    "text": "今 日 信 用 卡 出 帳 單 內 容 為 何 ？",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.876645028591156
+    }
+  },
+  {
+    "text": "公 車 站 牌",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "roadsideAsst.callAssitant",
+      "confidence": 0.9955014586448669
+    }
+  },
+  {
+    "text": "中 場 發 動 機",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "airportService.Service",
+      "confidence": 0.5760642290115356
+    }
+  },
+  {
+    "text": "我 想 詢 問 泰 幸 福 貸 款",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7119502425193787
+    }
+  },
+  {
+    "text": "本 利 攤 還 方 式 . 現 行 利 率 多 少",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.5222881436347961
+    }
+  },
+  {
+    "text": "我 想 問 一 下 VISA 金 融 卡 也 可 以 做 信 用 貸 款 嗎",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5400910377502441
+    }
+  },
+  {
+    "text": "我 需 要 辦 理 信 用 貸 款 但 是 金 額 不 會 很 大",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.9563676714897156
+    }
+  },
+  {
+    "text": "申 請 信 用 貸 款",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.9703283905982971
+    }
+  },
+  {
+    "text": "若 要 辦 副 卡 給 小 孩 出 國 用 須 多 少 作 業 天",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9782175421714783
+    }
+  },
+  {
+    "text": "辦 附 卡 需 要 幾 個 工 作 天 ？",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7318503260612488
+    }
+  },
+  {
+    "text": "申 请 的 信 用 卡 没 消 息 ？",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.43270525336265564
+    }
+  },
+  {
+    "text": "想 問 之 前 申 請 的 信 用 卡 是 否 可 領 取 了 ？",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.5151367783546448
+    }
+  },
+  {
+    "text": "請 把 我 的 2 張 信 用 卡 都 辦 理 停 用",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7773357629776001
+    }
+  },
+  {
+    "text": "去 辦 信 用 卡 的 時 候 ， 說 什 麼 文 件 有 缺",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.4459124803543091
+    }
+  },
+  {
+    "text": "台 北 市 西 門 町 門 市",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9792866110801697
+    }
+  },
+  {
+    "text": "我 要 開 戶 哪 有 離 青 埔 高 鐵 最 近",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.4236394166946411
+    }
+  },
+  {
+    "text": "幫 我 找 離 我 最 近 的 國 泰 在 哪",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.3187909722328186
+    }
+  },
+  {
+    "text": "054 後 埔 分 行",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8858864307403564
+    }
+  },
+  {
+    "text": "幾 號 要 繳 費",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7581424713134766
+    }
+  },
+  {
+    "text": "最 低 多 少",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.4458591341972351
+    }
+  },
+  {
+    "text": "信 用 卡 繳 費 時 間",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.559122622013092
+    }
+  },
+  {
+    "text": "如 何 知 道 繳 款 金 額",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9086695909500122
+    }
+  },
+  {
+    "text": "信 用 卡 繳 保 費 額 度 夠 嗎",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.973390519618988
+    }
+  },
+  {
+    "text": "我 想 問 一 下 我 的 卡 費 是 什 麼 時 候 繳",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9984272122383118
+    }
+  },
+  {
+    "text": "信 用 卡 要 在 什 麼 時 候 繳 款",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9474261403083801
+    }
+  },
+  {
+    "text": "线 上 缴 款",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9603050947189331
+    }
+  },
+  {
+    "text": "繳 費 確 認",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9996277689933777
+    }
+  },
+  {
+    "text": "信 用 卡 缴 款",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7263932228088379
+    }
+  },
+  {
+    "text": "我 想 問 我 的 信 用 卡",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9979643821716309
+    }
+  },
+  {
+    "text": "您 好 請 問 我 能 把 信 用 卡 使 用 的 金 額 一 次 繳 清 嗎",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8406956791877747
+    }
+  },
+  {
+    "text": "我 的 問 題 沒 有 解 決",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.63807213306427
+    }
+  },
+  {
+    "text": "你 可 以 回 答 什 麼",
+    "intent": "dialogue.cardList",
+    "intent_prediction": {
+      "name": "bank.turnToReal",
+      "confidence": 0.8515541553497314
+    }
+  },
+  {
+    "text": "信 用 卡 刷 卡 記 錄",
+    "intent": "billDetail.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9258447289466858
+    }
+  },
+  {
+    "text": "金 融 卡 消 費 紀 錄",
+    "intent": "billDetail.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9984623193740845
+    }
+  },
+  {
+    "text": "金 融 卡 不 見",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5544078946113586
+    }
+  },
+  {
+    "text": "掛 失 卡 片",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5181865692138672
+    }
+  },
+  {
+    "text": "我 的 錢 包 被 偷 了 ， 裡 面 還 有 信 用 卡 ， 要 怎 麼 辦 ？",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.6648992300033569
+    }
+  },
+  {
+    "text": "請 問 信 用 卡 在 好 久 久 以 前 辦 ， 但 是 沒 有 開 卡 又 弄 丟 了 ， 要 怎 麼 辦 ？",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.9970861673355103
+    }
+  },
+  {
+    "text": "如 何 查 信 用 卡 全 部 還 沒 有 付 款 的 消 費",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.975668728351593
+    }
+  },
+  {
+    "text": "想 請 問 我 需 要 在 繳 多 少 錢 才 能 使 用 信 用 卡 呢",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9911096692085266
+    }
+  },
+  {
+    "text": "詢 問 好 事 多 聯 名 卡 刷 卡 額 度",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.5525837540626526
+    }
+  },
+  {
+    "text": "請 問 一 下 我 的 信 用 卡 是 不 是 已 經 刷 超 過 金 額 不 能 繼 續 刷",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.6335651874542236
+    }
+  },
+  {
+    "text": "您 好 我 想 詢 問 我 的 信 用 卡 卡 別",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9637898206710815
+    }
+  },
+  {
+    "text": "信 用 卡 消 費 累 積 金 額",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.5216702818870544
+    }
+  },
+  {
+    "text": "申 請 自 動 扣 繳 路 邊 停 車 費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.7386497855186462
+    }
+  },
+  {
+    "text": "雙 幣 卡 自 動 扣 繳 帳 號 變 更",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.719022810459137
+    }
+  },
+  {
+    "text": "行 動 銀 行 繳 費 繳 稅 限 額",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9756506681442261
+    }
+  },
+  {
+    "text": "我 的 悠 遊 聯 名 卡 遺 失 了 ， 該 如 何 查 詢 我 的 電 子 發 票 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.687311053276062
+    }
+  },
+  {
+    "text": "我 想 要 有 一 張 美 國 運 通 卡 ， 國 泰 有 提 供 此 服 務 嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "roadsideAsst.callAssitant",
+      "confidence": 0.3252502977848053
+    }
+  },
+  {
+    "text": "一 指 查 功 能 是 什 麼",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "dialogue.cardList",
+      "confidence": 0.7595332860946655
+    }
+  },
+  {
+    "text": "信 用 卡 繳 款 可 以 每 月 都 mail 傳 送 嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9766219854354858
+    }
+  },
+  {
+    "text": "我 不 知 道 要 辦 哪 款 信 用 卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.9910677671432495
+    }
+  },
+  {
+    "text": "額 度 不 夠 刷",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.9506716132164001
+    }
+  },
+  {
+    "text": "我 想 知 道 MYATM 和 一 般 提 款 機 不 同 的 地 方 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "place.atm",
+      "confidence": 0.899828314781189
+    }
+  },
+  {
+    "text": "我 什 麼 時 候 會 收 到 卡 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.459989458322525
+    }
+  },
+  {
+    "text": "koko icash 卡 帳 單 要 去 哪 裡 繳",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9977343082427979
+    }
+  },
+  {
+    "text": "我 的 卡 還 能 用 嗎 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9964674115180969
+    }
+  },
+  {
+    "text": "從 哪 裡 可 以 查 詢 到 我 的 分 期 繳 款 金 額 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8952244520187378
+    }
+  },
+  {
+    "text": "請 問 最 新 信 用 卡 是 哪 幾 總 ?",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.9845149517059326
+    }
+  },
+  {
+    "text": "你 好 ， 我 想 請 問 ， 使 用 visa i 刷 金 融 卡 到 實 體 店 面 購 物 ， 會 寄 出 帳 單 嗎 ？ ^ _ ^",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.515870213508606
+    }
+  },
+  {
+    "text": "雙 幣 卡 自 動 扣 款 的 外 幣 存 款 不 足 時 ， 是 否 可 以 自 動 換 匯 扣 款 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.992129921913147
+    }
+  },
+  {
+    "text": "信 用 卡 取 消 掛 失 方 式",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.818655252456665
+    }
+  },
+  {
+    "text": "我 的 信 用 卡 丟 了 掛 失 費 要 收 取 多 少",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.861387312412262
+    }
+  },
+  {
+    "text": "信 用 卡 不 能 用 的 原 因 是 什 麼",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9720342755317688
+    }
+  },
+  {
+    "text": "我 的 聯 名 卡 掉 了 也 掛 失 了 ， 但 我 要 辦 退 貨 需 要 裡 面 存 的 收 據 怎 麼 辦",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.9008945822715759
+    }
+  },
+  {
+    "text": "額 度 可 以 調 高 嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.9856996536254883
+    }
+  },
+  {
+    "text": "我 應 該 要 辦 什 麼 卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.953556478023529
+    }
+  },
+  {
+    "text": "信 用 卡 帳 單 銷 帳 編 號 轉 帳",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.998774528503418
+    }
+  },
+  {
+    "text": "雙 幣 卡 指 定 卡 片 信 用 額 度",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9768908619880676
+    }
+  },
+  {
+    "text": "調 高 信 用 卡 臨 時 信 用 額 度",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.9816960692405701
+    }
+  },
+  {
+    "text": "我 想 要 用 財 富 點 數 換 禮 品 ， 要 如 何 辦 理 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "loan.unsecuredWidget",
+      "confidence": 0.39762070775032043
+    }
+  },
+  {
+    "text": "補 件 中",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.add_doc",
+      "confidence": 0.9845420718193054
+    }
+  },
+  {
+    "text": "停 車 繳 款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9795268177986145
+    }
+  },
+  {
+    "text": "結 帳 日 變 更",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9337640404701233
+    }
+  },
+  {
+    "text": "帳 戶 金 額 有 疑 問",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.8135461807250977
+    }
+  },
+  {
+    "text": "線 上 補 件",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.add_doc",
+      "confidence": 0.9855036735534668
+    }
+  },
+  {
+    "text": "這 樣 還 要 去 繳 款 嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9988054037094116
+    }
+  },
+  {
+    "text": "繳 信 用 卡 帳 號",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9995486736297607
+    }
+  },
+  {
+    "text": "因 為 信 用 卡 帳 單 不 曉 得 放 哪 裡 ? 我 要 確 認 有 需 要 繳 款 的 金 額 ， 即 可 atm 轉 帳",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.99887615442276
+    }
+  },
+  {
+    "text": "我 的 信 用 卡 查 一 下",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9986939430236816
+    }
+  },
+  {
+    "text": "我 要 查 信 用 卡 金 額",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.6962065696716309
+    }
+  },
+  {
+    "text": "繳 款 日 是 為 何",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9930355548858643
+    }
+  },
+  {
+    "text": "多 卡 共 用 額 度",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5119747519493103
+    }
+  },
+  {
+    "text": "我 要 找 金 管 會",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9209697246551514
+    }
+  },
+  {
+    "text": "專 員",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9338480830192566
+    }
+  },
+  {
+    "text": "信 用 卡 帳 單 明 細 未 收 到 但 已 收 到 扣 繳 成 功 email",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9989129900932312
+    }
+  },
+  {
+    "text": "查 詢 我 的 點 數",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.5546026229858398
+    }
+  },
+  {
+    "text": "我 的 紅 利 積 點",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.944179892539978
+    }
+  },
+  {
+    "text": "我 的 信 用 卡 紅 利 會 過 期 嗎 ？",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.5308248996734619
+    }
+  },
+  {
+    "text": "你 好 我 想 查 詢 信 用 卡 點 數",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5205983519554138
+    }
+  },
+  {
+    "text": "信 用 卡 點 數 查 詢",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.745448648929596
+    }
+  },
+  {
+    "text": "查 詢 回 饋",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.658452033996582
+    }
+  },
+  {
+    "text": "查 詢 點 數",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6615457534790039
+    }
+  },
+  {
+    "text": "點 數 查 詢",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6615457534790039
+    }
+  },
+  {
+    "text": "你 們 信 用 卡 的 是 怎 麼 計 算 紅 利 點 數",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9872367978096008
+    }
+  },
+  {
+    "text": "多 張 信 用 卡 點 數 計 算 方 式",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5824770331382751
+    }
+  },
+  {
+    "text": "申 請 額 度 調 整",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9143403172492981
+    }
+  },
+  {
+    "text": "請 問 costco 御 璽 卡 海 外 ( 日 本 ) 刷 卡 可 增 額 至 多 少 ? 如 何 申 請 ?",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.8014706969261169
+    }
+  },
+  {
+    "text": "我 想 確 認 我 辦 的 信 用 卡",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9662789106369019
+    }
+  },
+  {
+    "text": "如 何 查 詢 月 帳 單",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.5225226879119873
+    }
+  },
+  {
+    "text": "帳 單 顯 示 條 碼",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.791086733341217
+    }
+  },
+  {
+    "text": "長 榮 航 空 聯 名 卡 哩 程 效 期",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9975070953369141
+    }
+  },
+  {
+    "text": "信 用 卡 帳 單 列 印",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9940138459205627
+    }
+  },
+  {
+    "text": "紙 本 帳 單 日 期 都 過 了 好 久 了 我 還 沒 收 到 帳 單 是 什 麼 原 因 ？",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9957543015480042
+    }
+  },
+  {
+    "text": "帳 單 日 期 都 過 了 好 久 了 我 還 沒 收 到 帳 單 是 什 麼 原 因 ？",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7770617008209229
+    }
+  },
+  {
+    "text": "我 用 手 機 撥 打 哪 隻 電 話 可 以 申 請 信 用 卡 電 子 帳 單 ？",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.8363702297210693
+    }
+  },
+  {
+    "text": "我 信 用 卡 想 用 電 子 帳 單 就 好 不 要 寄 紙 本 給 我",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.7374778985977173
+    }
+  },
+  {
+    "text": "我 想 要 取 消 紙 本 帳 單",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.8294570446014404
+    }
+  },
+  {
+    "text": "想 用 電 子 信 箱 收 信 用 卡 帳 單",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8199244141578674
+    }
+  },
+  {
+    "text": "想 把 電 子 帳 單 改 回 來",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.5287458300590515
+    }
+  },
+  {
+    "text": "我 僅 要 申 請 理 財 密 碼 ， 沒 有 要 申 請 電 子 帳 單",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.8351722955703735
+    }
+  },
+  {
+    "text": "您 好 ， 上 次 申 辦 網 路 銀 行 時 ， 不 小 心 點 選 到 網 路 帳 單 ， 可 否 幫 我 取 消 ? 改 用 原 來 的 紙 本 寄 送",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.783146858215332
+    }
+  },
+  {
+    "text": "想 改 成 實 體 信 用 卡 帳 單",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.8908529281616211
+    }
+  },
+  {
+    "text": "請 問 我 原 本 信 用 卡 帳 單 是 傳 電 子 信 箱 ， 想 把 信 用 卡 改 郵 寄 地 址 ， 可 以 在 這 理 申 請 嗎 ?",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.5850128531455994
+    }
+  },
+  {
+    "text": "不 想 用 電 子 帳 單 ， 可 以 再 補 寄 紙 本 帳 單 嗎 ？",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.9754371643066406
+    }
+  },
+  {
+    "text": "請 問 信 用 卡 扣 款 帳 戶",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8489320278167725
+    }
+  },
+  {
+    "text": "請 問 自 扣 的 扣 款 時 間 是 什 麼 時 候 ？",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9717504978179932
+    }
+  },
+  {
+    "text": "請 問 我 上 個 月 申 請 信 用 卡 自 動 繳 款 這 個 月 的 信 用 卡 費 用 還 要 自 己 繳 費 嗎",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7731989026069641
+    }
+  },
+  {
+    "text": "免 費 停 車 需 要 帶 相 關 證 明",
+    "intent": "park.airport",
+    "intent_prediction": {
+      "name": "roadsideAsst.callAssitant",
+      "confidence": 0.4148918390274048
+    }
+  },
+  {
+    "text": "如 何 替 信 用 卡 辦 保 險 ， 要 準 備 什 麼 資 料 ？",
+    "intent": "rights.info",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.27411407232284546
+    }
+  },
+  {
+    "text": "我 想 瞭 解 你 們 的 信 用 卡",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9406158328056335
+    }
+  },
+  {
+    "text": "我 對 貴 銀 行 信 用 卡 有 興 趣 請 問 有 專 人 服 務 嗎",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "cpin.cardApply",
+      "confidence": 0.574491024017334
+    }
+  },
+  {
+    "text": "請 問 有 分 期 信 用 卡 嗎 ？",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.9840324521064758
+    }
+  },
+  {
+    "text": "您 好 # # # 我 想 請 教 您 # # # 我 可 以 在 貴 司 網 站 上 # # # 查 詢 我 的 信 用 卡 帳 單 有 多 少 筆 以 及 總 金 額 嗎 ?",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.4326332211494446
+    }
+  },
+  {
+    "text": "可 以 麻 煩 妳 幫 我 查 查 我 這 期 帳 單 消 費 多 少 了 嗎 ?",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.998553454875946
+    }
+  },
+  {
+    "text": "一 語 道 破",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "roadsideAsst.callAssitant",
+      "confidence": 0.7941040992736816
+    }
+  },
+  {
+    "text": "湯 馬 士 小 火 車",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "roadsideAsst.callAssitant",
+      "confidence": 0.7543714046478271
+    }
+  },
+  {
+    "text": "貸 款 專 案",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "loan.unsecuredWidget",
+      "confidence": 0.9322440028190613
+    }
+  },
+  {
+    "text": "您 好 ， 我 想 請 問 ， 我 是 小 吃 店 的 老 闆 ， 想 要 貸 款 做 週 轉",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "loan.unsecuredWidget",
+      "confidence": 0.6785532832145691
+    }
+  },
+  {
+    "text": "不 好 意 思 請 問 儀 下 我 有 資 金 需 求",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8685306310653687
+    }
+  },
+  {
+    "text": "我 想 要 辦 信 用 貸 款 , 有 國 泰 信 用 卡 , 聽 朋 友 說 國 泰 世 華 友 卡 友 貸 這 方 面 的 業 務",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.9761584401130676
+    }
+  },
+  {
+    "text": "信 用 貸 款",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "loan.unsecuredWidget",
+      "confidence": 0.957179069519043
+    }
+  },
+  {
+    "text": "我 要 去 美 國 ， 那 張 卡 好 用",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.6006014347076416
+    }
+  },
+  {
+    "text": "繳 費 通 知 說 明",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9965763688087463
+    }
+  },
+  {
+    "text": "我 的 信 用 卡 可 以 借 多 少 錢",
+    "intent": "cashAdvance.enter",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.7961199283599854
+    }
+  },
+  {
+    "text": "我 想 知 道 現 在 信 用 卡 辦 得 怎 麼 樣 了",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.4996494650840759
+    }
+  },
+  {
+    "text": "我 申 請 的 信 用 卡 現 在 到 哪 ？",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.795600175857544
+    }
+  },
+  {
+    "text": "我 想 要 查 詢 我 的 信 用 卡 申 請 進 度",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9977223873138428
+    }
+  },
+  {
+    "text": "核 卡 成 功 了 嗎 ？",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.471455842256546
+    }
+  },
+  {
+    "text": "我 想 要 注 銷 信 用 卡",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9971876740455627
+    }
+  },
+  {
+    "text": "還 是 要 考 慮 剪 卡",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6366533637046814
+    }
+  },
+  {
+    "text": "國 泰 世 華 在 哪 裡",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.23718085885047913
+    }
+  },
+  {
+    "text": "我 要 去 某 間 銀 行 但 我 不 知 道 他 在 哪",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.6702625155448914
+    }
+  },
+  {
+    "text": "有 那 些 地 方 的 提 款 機 可 使 用 銀 聯 卡",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6858987212181091
+    }
+  },
+  {
+    "text": "分 行 是 否 有 自 動 存 款 機",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.7980899810791016
+    }
+  },
+  {
+    "text": "哪 些 ATM 是 觸 控 式 螢 幕",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9977992177009583
+    }
+  },
+  {
+    "text": "如 何 設 定 mybank 的 身 分 代 號",
+    "intent": "cpin.enter",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9607590436935425
+    }
+  },
+  {
+    "text": "我 要 繳 費",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.981218695640564
+    }
+  },
+  {
+    "text": "我 要 繳 費 啦",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9960790872573853
+    }
+  },
+  {
+    "text": "繳 款 截 止 日",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9302362203598022
+    }
+  },
+  {
+    "text": "部 分",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "place.bank",
+      "confidence": 0.3818202614784241
+    }
+  },
+  {
+    "text": "他 行 繳 費",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9943090677261353
+    }
+  },
+  {
+    "text": "不 是 消 費 明 細 是 我 當 月 刷 卡 金 額 入 帳 截 止 的 日 期",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9991033673286438
+    }
+  },
+  {
+    "text": "信 用 卡 截 止 日",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6012409925460815
+    }
+  },
+  {
+    "text": "您 好 我 有 一 筆 分 期 付 款 的 交 易 , 想 要 查 詢 此 款 要 繳 的 什 麼 時 間",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9997518658638
+    }
+  },
+  {
+    "text": "總 消 費 金 額",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9462140202522278
+    }
+  },
+  {
+    "text": "想 確 認 信 用 卡 費 用",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8641195893287659
+    }
+  },
+  {
+    "text": "妳 好 ！ 請 問 信 用 卡 的 繳 費 期 限 是 什 麼 時 候 ， 是 固 定 的 嗎 ？",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6718186140060425
+    }
+  },
+  {
+    "text": "你 們 信 用 卡 帳 單 結 帳 日 期 查 詢 ， 可 以 直 接 透 過 網 路 銀 行 找 到 嗎",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.7990145087242126
+    }
+  },
+  {
+    "text": "能 不 能 幫 忙 看 一 下 我 的 信 用 卡 是 什 麼 時 候 結 算 的 ？",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9954866766929626
+    }
+  },
+  {
+    "text": "不 好 意 思 ， 我 想 要 線 上 觀 看 信 用 帳 單",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.5675706267356873
+    }
+  },
+  {
+    "text": "我 可 以 如 何 繳 費",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9965083599090576
+    }
+  },
+  {
+    "text": "繳 信 用 卡 帳 號",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9952433705329895
+    }
+  },
+  {
+    "text": "其 他 選 項",
+    "intent": "dialogue.cardList",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9926764965057373
+    }
+  },
+  {
+    "text": "以 往 信 用 卡 消 費 明 信 ， 如 何 查 詢 ?",
+    "intent": "billDetail.query",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9033151865005493
+    }
+  },
+  {
+    "text": "我 想 要 我 2017 年 7 月 份 至 今 的 交 易 明 細",
+    "intent": "billDetail.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7616409063339233
+    }
+  },
+  {
+    "text": "查 詢 刷 卡 紀 錄",
+    "intent": "billDetail.query",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.5161266326904297
+    }
+  },
+  {
+    "text": "信 用 卡 找 不 到",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9801154732704163
+    }
+  },
+  {
+    "text": "可 以 請 問 信 用 卡 相 關 知 識 的 問 題 嗎 ? 關 於 卡 片 掛 失",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5159518718719482
+    }
+  },
+  {
+    "text": "額 度 夠 嗎",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.3445272147655487
+    }
+  },
+  {
+    "text": "已 消 費 / 預 借 現 金 總 額",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9781156778335571
+    }
+  },
+  {
+    "text": "我 想 知 道 我 的 信 用 卡 是 什 麼 卡",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9988077282905579
+    }
+  },
+  {
+    "text": "查 詢 點 數",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.5257018804550171
+    }
+  },
+  {
+    "text": "可 用 額 度",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9890111684799194
+    }
+  },
+  {
+    "text": "帳 單 分 期 之 當 期 帳 單 繳 款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.8496881723403931
+    }
+  },
+  {
+    "text": "支 票 繳 納 信 用 卡 帳 單",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9413278102874756
+    }
+  },
+  {
+    "text": "修 改 信 用 卡 帳 單 結 帳 日 方 式",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9710131287574768
+    }
+  },
+  {
+    "text": "自 動 扣 繳 重 複 扣 款 處 理",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.8832899332046509
+    }
+  },
+  {
+    "text": "電 話 預 借 現 金 的 撥 款 時 間",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cashAdvance.enter",
+      "confidence": 0.9405643343925476
+    }
+  },
+  {
+    "text": "我 打 電 話 辦 了 預 借 現 金 ， 請 問 什 麼 時 候 會 匯 入 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cashAdvance.enter",
+      "confidence": 0.5353907942771912
+    }
+  },
+  {
+    "text": "支 存 戶 是 否 可 以 辦 理 財 轉 帳 約 定 之 轉 出 及 轉 入 帳 戶",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cpin.enter",
+      "confidence": 0.46143123507499695
+    }
+  },
+  {
+    "text": "我 本 期 的 信 用 卡 帳 單 要 如 何 指 定 金 額 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9975343346595764
+    }
+  },
+  {
+    "text": "我 忘 記 上 次 那 張 掉 了 以 後 我 還 有 幾 張 卡 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9954878687858582
+    }
+  },
+  {
+    "text": "我 能 不 能 找 人 幫 我 至 分 行 提 領 台 幣 現 鈔",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "place.bank",
+      "confidence": 0.5980144739151001
+    }
+  },
+  {
+    "text": "我 想 要 修 改 當 初 申 請 卡 片 時 填 寫 要 寄 往 的 地 址",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "roadsideAsst.callAssitant",
+      "confidence": 0.38342684507369995
+    }
+  },
+  {
+    "text": "我 要 繳 信 用 卡 費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9894441366195679
+    }
+  },
+  {
+    "text": "查 詢 信 用 卡 刷 卡 消 費 明 細",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.4823229908943176
+    }
+  },
+  {
+    "text": "信 用 卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9247657656669617
+    }
+  },
+  {
+    "text": "COSTCO 刷 卡 的 卡 片 和 有 相 片 的 卡 我 分 不 出 哪 裡 有 差 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.44419097900390625
+    }
+  },
+  {
+    "text": "點 數 餘 額 查 詢",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.8830326795578003
+    }
+  },
+  {
+    "text": "要 付 信 用 卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.994281530380249
+    }
+  },
+  {
+    "text": "多 卡 是 共 用 一 個 額 度 嗎 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.985743522644043
+    }
+  },
+  {
+    "text": "我 現 在 急 著 要 刷 卡 ， 額 度 不 夠",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.9834320545196533
+    }
+  },
+  {
+    "text": "亞 洲 萬 里 通 的 點 數 年 限",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.984714686870575
+    }
+  },
+  {
+    "text": "請 問 我 剛 在 線 上 確 認 信 貸 契 約 可 是 沒 收 到 簡 訊 驗 證 碼",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.5614319443702698
+    }
+  },
+  {
+    "text": "繳 他 人 信 用 卡 款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8375439047813416
+    }
+  },
+  {
+    "text": "想 詢 問 如 何 預 繳 下 期 卡 費 ?",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9955402612686157
+    }
+  },
+  {
+    "text": "繳 款 方 式",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9444706439971924
+    }
+  },
+  {
+    "text": "請 問 我 3 / 2 中 午 已 於 全 家 便 利 商 店 繳 納 卡 費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9977925419807434
+    }
+  },
+  {
+    "text": "我 大 概 知 道 我 這 個 月 的 刷 卡 金 額 要 先 繳 清 用 怎 麼 處 理",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9970507621765137
+    }
+  },
+  {
+    "text": "這 個 網 頁 的 紅 利 累 積",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.8431784510612488
+    }
+  },
+  {
+    "text": "不 好 意 思 如 何 申 請 本 期 帳 單 繳 款 最 低 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9992326498031616
+    }
+  },
+  {
+    "text": "請 給 我 客 服 電 話",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "bank.turnToReal",
+      "confidence": 0.9962073564529419
+    }
+  },
+  {
+    "text": "剛 查 詢 最 低 繳 款 金 額 總 和 部 分",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9997454881668091
+    }
+  },
+  {
+    "text": "信 用 卡 額 度 不 足",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.8151078820228577
+    }
+  },
+  {
+    "text": "我 要 如 何 提 前 繳 卡 費",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9993367791175842
+    }
+  },
+  {
+    "text": "您 好 我 想 查 月 結 單",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9995999932289124
+    }
+  },
+  {
+    "text": "有 消 費 又 查 不 到 帳 單",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.9706868529319763
+    }
+  },
+  {
+    "text": "有 消 費 又 查 不 到 帳 單",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.9706868529319763
+    }
+  },
+  {
+    "text": "繳 不 出 卡 費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8439784646034241
+    }
+  },
+  {
+    "text": "信 用 卡 掛 失 的 處 理 方 法",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9445767998695374
+    }
+  },
+  {
+    "text": "多 卡 共 用 最 多 可 以 刷 多 少 錢 ？",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9695669412612915
+    }
+  },
+  {
+    "text": "繳 費 後 額 度",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9802550077438354
+    }
+  },
+  {
+    "text": "提 供 信 用 卡 額 度",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.4852808713912964
+    }
+  },
+  {
+    "text": "叫 經 理 來 聽",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9965313673019409
+    }
+  },
+  {
+    "text": "叫 你 們 主 管 出 來",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "airportService.Service",
+      "confidence": 0.8311203122138977
+    }
+  },
+  {
+    "text": "聯 繫 我 時 可 以 撥 電 話 嗎",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5811064839363098
+    }
+  },
+  {
+    "text": "我 這 個 月 刷 卡 帳 單 沒 收 到",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.994562566280365
+    }
+  },
+  {
+    "text": "我 的 信 用 卡 查 一 下",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9873477816581726
+    }
+  },
+  {
+    "text": "刷 國 泰 世 華 銀 行 的 點 數 什 麼 時 候 到 期",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.9832666516304016
+    }
+  },
+  {
+    "text": "舞 動 點 數 能 放 到 哪 時",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.4927734136581421
+    }
+  },
+  {
+    "text": "我 有 在 95 年 刷 卡 我 的 紅 利 還 在 嗎 ?",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8040764331817627
+    }
+  },
+  {
+    "text": "亞 洲 萬 里 通 聯 名 卡 里 數 查 詢",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8842653632164001
+    }
+  },
+  {
+    "text": "長 榮 航 空 聯 名 卡 哩 程 數 查 詢",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.4934002161026001
+    }
+  },
+  {
+    "text": "剩 餘 紅 利",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9865662455558777
+    }
+  },
+  {
+    "text": "請 問 哪 裡 可 以 查 詢 信 用 卡 點 數 呢 ？",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.49148473143577576
+    }
+  },
+  {
+    "text": "我 sogo 卡 有 幾 點",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9831529855728149
+    }
+  },
+  {
+    "text": "我 要 查 詢 點 數",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.7602751851081848
+    }
+  },
+  {
+    "text": "卡 片 回 饋 方 式",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5416518449783325
+    }
+  },
+  {
+    "text": "還 是 看 不 懂 請 直 接 轉 客 服 好 嗎",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "bank.notTurnToReal",
+      "confidence": 0.985897958278656
+    }
+  },
+  {
+    "text": "額 度 可 以 調 高 嗎",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9893650412559509
+    }
+  },
+  {
+    "text": "信 用 卡 臨 時 額 度",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6406250596046448
+    }
+  },
+  {
+    "text": "要 申 請 信 用 卡 永 久 信 用 額 度",
+    "intent": "creditLimit.Apply",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.638359010219574
+    }
+  },
+  {
+    "text": "我 想 知 道 目 前 手 上 的 卡 是 不 是 白 金 卡",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9996496438980103
+    }
+  },
+  {
+    "text": "我 不 知 道 我 有 多 少 不 同 的 信 用 卡",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5170848369598389
+    }
+  },
+  {
+    "text": "我 可 以 分 次 繳 款 嗎",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.49764788150787354
+    }
+  },
+  {
+    "text": "紅 利 當 期",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9955621957778931
+    }
+  },
+  {
+    "text": "多 利 金 餘 額 查 詢",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9021109938621521
+    }
+  },
+  {
+    "text": "沒 有 收 到 帳 單 的 原 因 是 什 麼 呀",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8019199371337891
+    }
+  },
+  {
+    "text": "就 是 每 個 月 刷 卡 後 的 明 細 帳 單 沒 有 寄 來",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.5618651509284973
+    }
+  },
+  {
+    "text": "我 用 自 動 扣 款 可 以 不 要 寄 帳 單 到 家 裡 嗎",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.9914964437484741
+    }
+  },
+  {
+    "text": "停 止 寄 送 紙 本 帳 單",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.6309903264045715
+    }
+  },
+  {
+    "text": "用 手 機 撥 哪 隻 電 話 可 以 取 消 信 用 卡 電 子 帳 單 ？",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9687965512275696
+    }
+  },
+  {
+    "text": "你 好 ， 我 想 請 問 要 如 何 把 電 子 帳 單 設 定 為 紙 本 帳 單",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9914343953132629
+    }
+  },
+  {
+    "text": "我 不 要 再 收 到 電 子 帳 單 了",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.8069161772727966
+    }
+  },
+  {
+    "text": "我 剛 剛 沒 有 要 申 請 電 子 帳 單",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.7592648267745972
+    }
+  },
+  {
+    "text": "我 想 申 請 信 用 卡 的 書 面 帳 單",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.896314799785614
+    }
+  },
+  {
+    "text": "您 好 ， 請 問 我 要 如 何 從 電 子 帳 單 轉 回 實 體 帳 單",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9418365955352783
+    }
+  },
+  {
+    "text": "請 問 我 想 把 電 子 帳 單 改 為 紙 本 帳 單 要 怎 麼 處 理",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.9701600074768066
+    }
+  },
+  {
+    "text": "請 問 原 本 有 申 請 貴 行 的 電 子 帳 單 ， 但 想 改 回 紙 本 帳 單 要 如 何 申 請",
+    "intent": "elecbill.cancelElecBill",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.820995569229126
+    }
+  },
+  {
+    "text": "Combo 卡 自 動 扣 款",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8397232890129089
+    }
+  },
+  {
+    "text": "信 用 卡 繳 款 截 止 日 如 遇 假 日 ， 如 何 計 算 ？",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9497873187065125
+    }
+  },
+  {
+    "text": "請 問 卡 片 扣 款 日 期 是 啥 時 候",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8341051936149597
+    }
+  },
+  {
+    "text": "我 想 請 問 本 期 帳 單 是 否 已 經 可 以 用 郵 局 轉 帳 服 務 了 ？ 新 申 請 的",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.3734360337257385
+    }
+  },
+  {
+    "text": "信 用 卡 刷 卡 有 提 供 多 少 保 額",
+    "intent": "rights.info",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.5057272911071777
+    }
+  },
+  {
+    "text": "信 用 卡 的 免 費 拖 吊 有 限 制 卡 片 等 級 嗎 ?",
+    "intent": "roadsideAsst.callAssitant",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.27944502234458923
+    }
+  },
+  {
+    "text": "我 不 知 道 要 申 請 哪 一 種 信 用 卡 ?",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.46187642216682434
+    }
+  },
+  {
+    "text": "我 不 知 道 要 辦 哪 款 信 用 卡",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9971939325332642
+    }
+  },
+  {
+    "text": "我 想 詢 問 有 沒 有 哪 一 款 信 用 卡 對 我 只 有 使 用 上 網 刷 卡 較 優 惠 的",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.99294114112854
+    }
+  },
+  {
+    "text": "哪 裡 可 以 查 詢 到 詳 細 的 信 用 卡 介 紹 ？",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6969919204711914
+    }
+  },
+  {
+    "text": "信 用 卡 分 期 付 款 同 意 書",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9918347001075745
+    }
+  },
+  {
+    "text": "我 剛 才 的 刷 卡 可 以 分 期 嗎",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7029392719268799
+    }
+  },
+  {
+    "text": "信 用 卡 分 期 同 意 書",
+    "intent": "installment.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.885373592376709
+    }
+  },
+  {
+    "text": "我 想 知 道 我 這 月 刷 多 少 金 額 的 每 筆 帳 單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.4340113401412964
+    }
+  },
+  {
+    "text": "該 如 何 才 能 用 手 機 app 查 詢 帳 單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9987331628799438
+    }
+  },
+  {
+    "text": "如 我 需 要 信 用 貸 款 ， 每 月 本 金 + 利 息 為 多 少 ?",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "loan.unsecuredWidget",
+      "confidence": 0.5546960234642029
+    }
+  },
+  {
+    "text": "我 想 要 詢 問 信 用 貸 款 的 部 分",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "loan.unsecuredWidget",
+      "confidence": 0.4542901813983917
+    }
+  },
+  {
+    "text": "目 前 有 想 貸 信 用 貸 款",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.9998774528503418
+    }
+  },
+  {
+    "text": "我 想 辦 理 信 用 貸 款",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.6498444676399231
+    }
+  },
+  {
+    "text": "我 想 辦 貸 款",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9994786381721497
+    }
+  },
+  {
+    "text": "辦 附 卡 多 久 可 以 拿 到 ？",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9855283498764038
+    }
+  },
+  {
+    "text": "要 多 久 才 拿 到 信 用 卡",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.4993295967578888
+    }
+  },
+  {
+    "text": "新 辦 卡 補 資 料",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6352198123931885
+    }
+  },
+  {
+    "text": "這 樣 太 多 了 ， 我 要 取 消",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9613597989082336
+    }
+  },
+  {
+    "text": "國 泰 世 華 的 活 存 帳 號 如 何 填 再 補 件 內",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.991753339767456
+    }
+  },
+  {
+    "text": "您 好 我 有 申 請 信 用 卡 申 辦 進 度 現 在 是 補 件",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.8693127632141113
+    }
+  },
+  {
+    "text": "高 雄 的 總 行",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.38595050573349
+    }
+  },
+  {
+    "text": "where can i find branch",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.999810516834259
+    }
+  },
+  {
+    "text": "不 知 道 用 戶 代 碼",
+    "intent": "cpin.enter",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8093802332878113
+    }
+  },
+  {
+    "text": "信 用 卡 用 戶 怎 麼 申 請 app 帳 密 ？",
+    "intent": "cpin.cardApply",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.2955187261104584
+    }
+  },
+  {
+    "text": "我 不 是 存 戶 僅 使 用 信 用 卡 , 如 何 申 請 網 銀 ?",
+    "intent": "cpin.cardApply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6938877105712891
+    }
+  },
+  {
+    "text": "我 要 繳 信 用 卡 費",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8081058263778687
+    }
+  },
+  {
+    "text": "萊 爾 富 繳 費",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7803741097450256
+    }
+  },
+  {
+    "text": "我 想 請 問 我 信 用 卡 何 時 要 繳",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6585221886634827
+    }
+  },
+  {
+    "text": "請 間 一 下 信 用 卡 刷 下 去 之 後 帳 單 什 麼 會 時 侯 出 來",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.9913297891616821
+    }
+  },
+  {
+    "text": "我 是 信 用 卡 卡 戶 ， 請 問 在 app 裡 有 辦 法 查 詢 帳 單 嗎 ？",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.3343825340270996
+    }
+  },
+  {
+    "text": "我 想 知 道 信 用 卡 出 帳 總 額",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9875243306159973
+    }
+  },
+  {
+    "text": "想 繳 清 停 用 信 用 卡",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9325337409973145
+    }
+  },
+  {
+    "text": "卡 片 優 惠",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9768305420875549
+    }
+  },
+  {
+    "text": "看 常 用 牌 卡",
+    "intent": "dialogue.cardList",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9738147854804993
+    }
+  },
+  {
+    "text": "查 詢 消 費 明 細",
+    "intent": "billDetail.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9914007186889648
+    }
+  },
+  {
+    "text": "有 收 到 刷 卡 交 易 的 訊 息 我 被 盜 帳 號 可 以 立 即 停 止 支 付 嗎 ？",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9823421239852905
+    }
+  },
+  {
+    "text": "我 的 白 金 卡 不 知 道 掉 在 哪 裡 了 怎 麼 辦",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.28691425919532776
+    }
+  },
+  {
+    "text": "信 用 卡 夠 繳 保 費 嗎",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8476278781890869
+    }
+  },
+  {
+    "text": "已 消 費 現 金 總 額",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.809907853603363
+    }
+  },
+  {
+    "text": "請 幫 我 查 未 付 款 之 卡 費 金 額",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9981347918510437
+    }
+  },
+  {
+    "text": "信 用 卡 掛 失",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.9872059226036072
+    }
+  },
+  {
+    "text": "信 用 卡 額 度 查 詢",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9973666071891785
+    }
+  },
+  {
+    "text": "劃 撥",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9995765686035156
+    }
+  },
+  {
+    "text": "信 用 卡 繳 款 入 帳 時 間",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9988880157470703
+    }
+  },
+  {
+    "text": "信 用 卡 帳 單 寄 出 時 間",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.9904757142066956
+    }
+  },
+  {
+    "text": "申 請 信 用 卡 帳 戶 自 動 扣 款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.9995700716972351
+    }
+  },
+  {
+    "text": "查 詢 信 貸 繳 款 日",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9919738173484802
+    }
+  },
+  {
+    "text": "請 問 以 後 COSTCO 是 只 能 刷 聯 名 卡 ， 還 是 只 要 是 國 泰 世 華 發 行 的 信 用 卡 都 可 以",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.add_doc",
+      "confidence": 0.603238046169281
+    }
+  },
+  {
+    "text": "現 金 回 饋 卡 是 回 饋 多 少 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.6509109139442444
+    }
+  },
+  {
+    "text": "想 請 問 一 起 附 上 的 自 動 扣 繳 申 請 有 沒 有 成 功",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.9870942234992981
+    }
+  },
+  {
+    "text": "信 用 卡 帳 單 什 麼 時 候 寄 出 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.940432608127594
+    }
+  },
+  {
+    "text": "沒 有 收 到 紙 本 帳 單 的 原 因 是 什 麼 呀",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.9327617883682251
+    }
+  },
+  {
+    "text": "貸 款 過 期 了 ， 怎 麼 繳 費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.6082987785339355
+    }
+  },
+  {
+    "text": "我 想 要 查 詢 我 的 信 用 卡 申 請 進 度",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.9939390420913696
+    }
+  },
+  {
+    "text": "申 請 分 期 付 款 請 款 單",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.994124710559845
+    }
+  },
+  {
+    "text": "如 何 查 詢 帳 單 分 期 的 應 繳 金 額 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9093201160430908
+    }
+  },
+  {
+    "text": "我 資 金 上 有 困 難 想 把 信 用 卡 繳 款 日 期 延 遲 可 以 嗎 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.6379358172416687
+    }
+  },
+  {
+    "text": "我 想 辦 貸 款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "loan.unsecuredWidget",
+      "confidence": 0.9515154361724854
+    }
+  },
+  {
+    "text": "債 款 協 商 要 怎 麼 繳 款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9903421998023987
+    }
+  },
+  {
+    "text": "代 扣 繳 之 車 輛 必 須 有 eTag 才 能 申 請 自 動 儲 值 嗎 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.8670738935470581
+    }
+  },
+  {
+    "text": "你 們 線 上 ATM 是 不 是 怪 怪 的 ， 出 現 了 奇 怪 的 壓 碼",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "place.atm",
+      "confidence": 0.4622536301612854
+    }
+  },
+  {
+    "text": "官 網 申 辦 信 用 卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.query",
+      "confidence": 0.48078638315200806
+    }
+  },
+  {
+    "text": "信 用 卡 自 動 扣 款 失 敗 怎 麼 辦 ， 會 再 二 次 扣 款 嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.9969381093978882
+    }
+  },
+  {
+    "text": "加 入 申 請 Apple Pay 的 信 用 卡 毀 損 申 請 補 發",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "bank.turnToReal",
+      "confidence": 0.293122798204422
+    }
+  },
+  {
+    "text": "掛 失 信 用 卡 要 另 外 通 知 Apple 客 服 嗎",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cardStatus.add_doc",
+      "confidence": 0.3138282597064972
+    }
+  },
+  {
+    "text": "卡 片 找 到 了 ， 幫 我 撤 銷 金 融 卡 掛 失",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "card.lost",
+      "confidence": 0.5659205913543701
+    }
+  },
+  {
+    "text": "多 利 金 餘 額 查 詢",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9818968772888184
+    }
+  },
+  {
+    "text": "已 消 費 / 預 借 現 金 總 額",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9911099672317505
+    }
+  },
+  {
+    "text": "調 高 信 用 卡 信 用 額 度",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.8204160928726196
+    }
+  },
+  {
+    "text": "查 詢 信 貸 目 前 餘 額",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9481449127197266
+    }
+  },
+  {
+    "text": "額 度 不 夠 想 要 刷 分 期",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.5577974915504456
+    }
+  },
+  {
+    "text": "信 用 卡 使 用 循 環 時 繳 完 全 部 帳 款 所 需 之 時 間 是 什 麼 時 候 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9472952485084534
+    }
+  },
+  {
+    "text": "請 問 自 扣 的 扣 款 時 間 是 什 麼 時 候 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "debitbybk.apply",
+      "confidence": 0.9993343949317932
+    }
+  },
+  {
+    "text": "變 更 卡 片 寄 送 地 址 有 提 供 哪 些 方 式 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "roadsideAsst.callAssitant",
+      "confidence": 0.7926822304725647
+    }
+  },
+  {
+    "text": "我 看 不 懂 這 期 信 用 卡 帳 單 的 金 額 ？",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.7390267848968506
+    }
+  },
+  {
+    "text": "網 銀 金 額",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "cpin.cardApply",
+      "confidence": 0.49614498019218445
+    }
+  },
+  {
+    "text": "我 想 知 道 我 的 信 用 卡 是 什 麼 卡",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.996211051940918
+    }
+  },
+  {
+    "text": "你 好 ? 我 想 問 一 下 我 上 個 月 的 卡 費 為 什 麼 和 帳 單 不 一 樣",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8644465804100037
+    }
+  },
+  {
+    "text": "帳 單 顯 示 條 碼",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9918150901794434
+    }
+  },
+  {
+    "text": "紅 利 回 饋 進 帳 日",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.9422541260719299
+    }
+  },
+  {
+    "text": "信 用 卡 帳 單 列 印",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "resend.bill",
+      "confidence": 0.9900937676429749
+    }
+  },
+  {
+    "text": "信 用 卡 結 帳 日 期 顯 示 為 11 / 30 號",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9400056004524231
+    }
+  },
+  {
+    "text": "帳 單 條 碼",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9984176754951477
+    }
+  },
+  {
+    "text": "網 銀 繳 卡 費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8456466197967529
+    }
+  },
+  {
+    "text": "6 個 月 前 帳 單 明 細",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.7490125298500061
+    }
+  },
+  {
+    "text": "全 家 有 代 收 信 用 卡 費 嗎 ?",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "elecbill.applyElecBill",
+      "confidence": 0.4219711124897003
+    }
+  },
+  {
+    "text": "不 好 意 思 如 何 申 請 本 期 帳 單 繳 款 最 低 ？",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9932590126991272
+    }
+  },
+  {
+    "text": "繳 費 確 認",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9996658563613892
+    }
+  },
+  {
+    "text": "多 繳 費",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9802885055541992
+    }
+  },
+  {
+    "text": "是 否 繳 款",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.9986191987991333
+    }
+  },
+  {
+    "text": "想 請 教 信 用 卡 掛 失 的 處 理 方 法 和 如 何 補 發 ， 謝 謝 。",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9327081441879272
+    }
+  },
+  {
+    "text": "信 用 卡 餘 額 不 足",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "creditLimit.Apply",
+      "confidence": 0.7563060522079468
+    }
+  },
+  {
+    "text": "如 何 撥 打 網 路 客 服",
+    "intent": "bank.turnToReal",
+    "intent_prediction": {
+      "name": "roadsideAsst.callAssitant",
+      "confidence": 0.7555577158927917
+    }
+  },
+  {
+    "text": "我 要 註 銷 卡 片",
+    "intent": "card.lost",
+    "intent_prediction": {
+      "name": "cardStatus.add_doc",
+      "confidence": 0.8868504762649536
+    }
+  },
+  {
+    "text": "長 榮 航 空 聯 名 卡 里 程 數 累 積",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.761627733707428
+    }
+  },
+  {
+    "text": "查 詢 點 數",
+    "intent": "point.checkBonus",
+    "intent_prediction": {
+      "name": "point.check",
+      "confidence": 0.5209841132164001
+    }
+  },
+  {
+    "text": "我 想 問 我 的 點 數",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9466454982757568
+    }
+  },
+  {
+    "text": "你 好 我 有 信 用 卡 紅 利 的 問 題 想 詢 問",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9699118733406067
+    }
+  },
+  {
+    "text": "刷 國 泰 世 華 銀 行 的 點 數 什 麼 時 候 到 期",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9814862608909607
+    }
+  },
+  {
+    "text": "請 問 一 下 國 泰 世 華 點 數 到 期 日 是 到 甚 麼 時 候 截 止",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.9735344052314758
+    }
+  },
+  {
+    "text": "您 好 想 要 請 問 紅 利 積 點",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.975753128528595
+    }
+  },
+  {
+    "text": "我 的 卡 還 能 用 嗎 ？",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9880855083465576
+    }
+  },
+  {
+    "text": "我 的 信 用 卡 是 那 一 種",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.8113884329795837
+    }
+  },
+  {
+    "text": "我 想 問 我 還 有 國 泰 世 華 的 信 用 卡 嗎",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.5272831916809082
+    }
+  },
+  {
+    "text": "想 請 問 我 需 要 在 繳 多 少 錢 才 能 使 用 信 用 卡 呢",
+    "intent": "pay.billInfo",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.9817090034484863
+    }
+  },
+  {
+    "text": "我 這 個 月 刷 卡 帳 單 沒 收 到",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8097878098487854
+    }
+  },
+  {
+    "text": "這 個 月 應 繳 帳 款 661 元 ， 但 未 收 到 帳 單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.5966672301292419
+    }
+  },
+  {
+    "text": "我 的 電 子 帳 檔 已 連 續 二 個 月 沒 收 到 了",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9815375804901123
+    }
+  },
+  {
+    "text": "有 效 卡 數",
+    "intent": "creditLimit.queryAmount",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9849258661270142
+    }
+  },
+  {
+    "text": "別 人 跟 我 說 電 子 帳 單 很 方 便 ， 要 怎 麼 辦 理",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.6547915935516357
+    }
+  },
+  {
+    "text": "我 要 改 申 請 非 書 面 的 信 用 卡 帳 單",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.8200318813323975
+    }
+  },
+  {
+    "text": "我 需 要 電 子 帳 單 就 好",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.6132157444953918
+    }
+  },
+  {
+    "text": "取 消 實 體 帳 單 改 電 子 寄 送 的 帳 單 方 式",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.6207217574119568
+    }
+  },
+  {
+    "text": "取 消 實 體 帳 單 改 辦 電 子 帳 單",
+    "intent": "elecbill.applyElecBill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.9651592969894409
+    }
+  },
+  {
+    "text": "我 想 要 申 請 實 體 帳 單 ！",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "elecbill.cancelElecBill",
+      "confidence": 0.7121846079826355
+    }
+  },
+  {
+    "text": "如 何 指 定 扣 款 帳 戶",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9947318434715271
+    }
+  },
+  {
+    "text": "請 問 有 已 有 國 泰 世 華 存 摺 ， 國 泰 信 用 卡 可 自 動 從 存 摺 繳 款 嗎 ？",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "place.atm",
+      "confidence": 0.6771125197410583
+    }
+  },
+  {
+    "text": "信 用 卡 扣 款 辦 理 方 式",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.30959996581077576
+    }
+  },
+  {
+    "text": "我 想 查 詢 信 用 卡 是 否 有 轉 帳 扣 款",
+    "intent": "debitbybk.apply",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.990199089050293
+    }
+  },
+  {
+    "text": "你 們 卡 買 機 票 出 國 有 沒 有 提 供 免 費 停 車 服 務",
+    "intent": "park.airport",
+    "intent_prediction": {
+      "name": "roadsideAsst.callAssitant",
+      "confidence": 0.77908855676651
+    }
+  },
+  {
+    "text": "持 有 國 泰 信 用 卡 為 家 人 刷 卡 能 享 有 保 障 嗎",
+    "intent": "rights.info",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8368311524391174
+    }
+  },
+  {
+    "text": "出 國 用 卡 有 什 麼 理 賠",
+    "intent": "rights.info",
+    "intent_prediction": {
+      "name": "cardDiscount.Discount",
+      "confidence": 0.5396110415458679
+    }
+  },
+  {
+    "text": "出 國 叫 車 打 哪 支 專 線",
+    "intent": "airportService.Service",
+    "intent_prediction": {
+      "name": "roadsideAsst.callAssitant",
+      "confidence": 0.7617780566215515
+    }
+  },
+  {
+    "text": "請 問 機 場 停 車 優 惠 明 年 還 有 嗎 ？ 只 要 刷 機 票 就 可 以 免 費 停 車 嗎 ？ 多 久 前 預 約 ？",
+    "intent": "airportService.Service",
+    "intent_prediction": {
+      "name": "park.airport",
+      "confidence": 0.999975323677063
+    }
+  },
+  {
+    "text": "我 想 要 改 一 下 當 初 登 記 的 車 牌",
+    "intent": "roadsideAsst.callAssitant",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9605391025543213
+    }
+  },
+  {
+    "text": "需 要 用 到 信 用 卡",
+    "intent": "cardDiscount.Discount",
+    "intent_prediction": {
+      "name": "cardStatus.add_doc",
+      "confidence": 0.4032134413719177
+    }
+  },
+  {
+    "text": "想 查 詢 本 月 刷 卡 對 帳 單",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.7226257920265198
+    }
+  },
+  {
+    "text": "想 要 查 看 國 泰 世 華 信 用 卡 的 帳 單 資 料",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.7291045188903809
+    }
+  },
+  {
+    "text": "想 請 問 帳 單 明 細",
+    "intent": "resend.bill",
+    "intent_prediction": {
+      "name": "billDetail.query",
+      "confidence": 0.7918471097946167
+    }
+  },
+  {
+    "text": "暑 假 作 業",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "place.bank",
+      "confidence": 0.3384632468223572
+    }
+  },
+  {
+    "text": "與 神 同 行",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.45376768708229065
+    }
+  },
+  {
+    "text": "拯 救 婚 姻",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "roadsideAsst.callAssitant",
+      "confidence": 0.49484336376190186
+    }
+  },
+  {
+    "text": "開 車 請 減 速 慢 行",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.4227887690067291
+    }
+  },
+  {
+    "text": "經 濟 部 工 業 局",
+    "intent": "fallback",
+    "intent_prediction": {
+      "name": "pay.billInfo",
+      "confidence": 0.8451818823814392
+    }
+  },
+  {
+    "text": "多 利 金",
+    "intent": "point.check",
+    "intent_prediction": {
+      "name": "point.checkBonus",
+      "confidence": 0.6981973052024841
+    }
+  },
+  {
+    "text": "請 問 我 有 網 銀 沒 有 信 用 卡 如 何 申 請 信 用 貸 款",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "cpin.cardApply",
+      "confidence": 0.5300197601318359
+    }
+  },
+  {
+    "text": "怎 麼 跟 銀 行 先 借 錢 應 急 ?",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "cpin.enter",
+      "confidence": 0.4491350054740906
+    }
+  },
+  {
+    "text": "簡 單 小 額 借 款",
+    "intent": "loan.unsecured",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.634493887424469
+    }
+  },
+  {
+    "text": "可 借 我 錢 嗎 ？",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.5846588611602783
+    }
+  },
+  {
+    "text": "我 要 辦 理 小 筆 現 金 的 貸 款",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.9958305358886719
+    }
+  },
+  {
+    "text": "你 好 ， 我 是 國 泰 的 薪 轉 戶 ， 想 辦 信 用 貸 款 要 跟 誰 詢 問 呢",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.9941707849502563
+    }
+  },
+  {
+    "text": "申 辦 信 用 貸 款",
+    "intent": "loan.unsecuredWidget",
+    "intent_prediction": {
+      "name": "loan.unsecured",
+      "confidence": 0.9861177206039429
+    }
+  },
+  {
+    "text": "使 用 測 試 範 例 單 筆 借 錢 功 能 設 定",
+    "intent": "cashAdvance.enter",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.2727607190608978
+    }
+  },
+  {
+    "text": "預 借 額 度 額 度",
+    "intent": "cashAdvance.enter",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.5239486694335938
+    }
+  },
+  {
+    "text": "信 用 卡 領 現 金",
+    "intent": "cashAdvance.enter",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7224965691566467
+    }
+  },
+  {
+    "text": "但 至 昨 天 還 是 沒 有 收 到 卡 片",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.6967560648918152
+    }
+  },
+  {
+    "text": "我 要 怎 麼 知 道 上 個 禮 拜 申 請 的 信 用 卡 什 麼 時 候 可 以 開 始 用 ？",
+    "intent": "cardStatus.query",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.5294148921966553
+    }
+  },
+  {
+    "text": "您 好 ， 我 有 兩 張 國 泰 信 用 卡 ， 想 停 用 其 中 一 張",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "creditLimit.queryAmount",
+      "confidence": 0.3927333354949951
+    }
+  },
+  {
+    "text": "但 申 請 時 未 附 上 財 力 證 明",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.8268019556999207
+    }
+  },
+  {
+    "text": "我 的 照 片 為 什 麼 都 是 回 覆 我 錯 誤 訊 息 ， 我 無 法 上 傳 我 該 補 上 的 資 料 。",
+    "intent": "cardStatus.add_doc",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.7471044659614563
+    }
+  },
+  {
+    "text": "那 你 可 以 告 訴 我 羅 東 分 局 的 電 話 嗎",
+    "intent": "place.bank",
+    "intent_prediction": {
+      "name": "installment.apply",
+      "confidence": 0.5289597511291504
+    }
+  },
+  {
+    "text": "最 近 Ａ Ｔ Ｍ",
+    "intent": "place.atm",
+    "intent_prediction": {
+      "name": "fallback",
+      "confidence": 0.9949244856834412
+    }
+  }
+]

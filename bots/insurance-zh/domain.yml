@@ -1,0 +1,351 @@
+session_config:
+  session_expiration_time: 60.0
+  carry_over_slots_to_new_session: true
+intents:
+- pickup
+- no
+- yes
+- what
+- res_id
+- res_date
+- res_time
+- res_number
+- res_board
+- res_country
+- res_days
+- res_medium
+entities:
+- client_birth
+- client_departure_time
+- client_durance_days
+- client_id
+- client_travel_board
+- client_travel_country
+- client_insurance_inconvenience
+- client_notification
+- client_amount
+slots:
+  client_birth:
+    type: unfeaturized
+    auto_fill: false
+  client_birth_confirm:
+    type: unfeaturized
+    auto_fill: false
+  client_departure_time:
+    type: unfeaturized
+  client_departure_time_confirm:
+    type: unfeaturized
+    auto_fill: false
+  client_durance_days:
+    type: unfeaturized
+    auto_fill: false
+  client_durance_days_confirm:
+    type: unfeaturized
+    auto_fill: false
+  client_id:
+    type: unfeaturized
+    auto_fill: false
+  client_id_confirm:
+    type: bool
+    auto_fill: false
+  client_insurance_confirm:
+    type: unfeaturized
+    auto_fill: false
+  client_insurance_inconvenience:
+    type: unfeaturized
+    auto_fill: false
+  client_insurance_inconvenience_confirm:
+    type: unfeaturized
+    auto_fill: false
+  client_insurance_inconvenience_free:
+    type: bool
+    auto_fill: false
+  client_insurance_medical:
+    type: unfeaturized
+    auto_fill: false
+  client_insurance_medical_confirm:
+    type: unfeaturized
+    auto_fill: false
+  client_insurance_quote:
+    type: unfeaturized
+    auto_fill: false
+  client_insurance_quote_confirm:
+    type: unfeaturized
+    auto_fill: false
+  client_insurance_sudden_illness_c:
+    type: unfeaturized
+    auto_fill: false
+  client_insurance_sudden_illness_c_confirm:
+    type: unfeaturized
+    auto_fill: false
+  client_medical_plane:
+    type: unfeaturized
+    auto_fill: false
+  client_notification:
+    type: unfeaturized
+    auto_fill: false
+  client_travel_board:
+    type: unfeaturized
+    auto_fill: false
+  client_travel_board_confirm:
+    type: unfeaturized
+    auto_fill: false
+  client_travel_country:
+    type: unfeaturized
+    auto_fill: false
+  client_travel_country_confirm:
+    type: unfeaturized
+    auto_fill: false
+  client_trial_calculation:
+    type: unfeaturized
+    auto_fill: false
+  client_trial_calculation_confirm:
+    type: unfeaturized
+    auto_fill: false
+  is_debug_mode:
+    type: bool
+    initial_value: true
+    auto_fill: false
+  repeat_count:
+    type: unfeaturized
+    initial_value: 0
+    auto_fill: false
+  requested_slot:
+    type: unfeaturized
+responses:
+  utter_greetings:
+  - text: 親愛的貴賓您好，感謝您使用國泰人壽易Call保服務。
+  utter_thanks:
+  - text: 感謝您。
+  utter_is_guardianship:
+  - text: 非常抱歉因為保險法修正關係，若有受到法院的監護宣告就無法承保，很抱歉造成您的困擾。
+  utter_explain_guardianship:
+  - text: 對於精神障礙或其他心智缺陷，致不能為意思表示或受意思表示，或不能辨識其意思表示效果者，法院得依聲請人之聲請，為監護之宣告。
+  utter_ask_guardianship:
+  - text: 冒昧請教這次要投保的被保人，是否有受到法院的監護宣告？
+    buttons:
+    - title: 是
+      payload: 是
+    - title: 否
+      payload: 否
+    - title: 什麼是監護宣告
+      payload: 什麼是監護宣告
+  utter_check_guardianship:
+  - text: 依保險法規定，需先向您確認，冒昧請教這次要投保的被保人，是否有受到法院的監護宣告？
+    buttons:
+    - title: 是
+      payload: 是
+    - title: 否
+      payload: 否
+    - title: 什麼是監護宣告
+      payload: 什麼是監護宣告
+  utter_bye:
+  - text: 祝您旅途愉快，謝謝您的來電。
+  utter_ask_client_id:
+  - text: 請您提供完整的身分證字號。
+  utter_check_insurance_content:
+  - text: 接下來，要跟貴賓您核對投保內容。
+  utter_ask_client_id_confirm:
+  - text: 與您核對身分證字號為{client_id}，若有錯誤，煩請您再提供一次。
+    buttons:
+    - title: 正確
+      payload: 正確
+  utter_to_service:
+  - text: 請稍後，我們將為您轉接客服專員。
+  utter_ask_client_birth:
+  - text: 請您提供完整的出生之西元年月日 。
+  utter_ask_client_birth_confirm:
+  - text: 與您核對出生西元年月日為{client_birth}，如有錯誤，煩請您再提供一次。
+    buttons:
+    - title: 正確
+      payload: 正確
+  utter_ask_client_departure_time:
+  - text: 請問您出發的時間是上午還是下午的幾點？
+  utter_ask_client_departure_time_confirm:
+  - text: 與您核對出發的時間為{client_departure_time}，如有錯誤，煩請您再提供一次。
+    buttons:
+    - title: 正確
+      payload: 正確
+  utter_again:
+  - text: 不好意思，請您再說一次。
+  utter_ask_client_durance_days:
+  - text: 請問您要投保幾天？
+  utter_ask_client_durance_days_confirm:
+  - text: 與您核對投保天數為{client_durance_days}，如有錯誤，煩請您再提供一次。
+    buttons:
+    - title: 正確
+      payload: 正確
+  utter_ask_client_travel_board:
+  - text: 請問旅遊地點國內還是國外？
+    buttons:
+    - title: 國內
+      payload: 國內
+    - title: 國外
+      payload: 國外
+  utter_ask_client_travel_board_confirm:
+  - text: 與您核對旅遊地點為{client_travel_board}，如有錯誤，煩請您再提供一次。
+    buttons:
+    - title: 正確
+      payload: 正確
+    - title: 國內
+      payload: internal
+    - title: 國外
+      payload: external
+  utter_ask_client_travel_country:
+  - text: 請問旅遊的國家是？
+  utter_ask_client_travel_country_confirm:
+  - text: 與您核對旅遊國家為{client_travel_country}，如有錯誤，煩請您再提供一次。
+    buttons:
+    - title: 正確
+      payload: 正確
+  utter_ask_client_insurance_quote:
+  - text: 請問保額規劃多少?
+    buttons:
+    - title: 什麼是保額
+      payload: 什麼是保額
+  utter_ask_client_insurance_quote_confirm:
+  - text: 與您核對保額規劃為{client_insurance_quote}，如有錯誤，煩請您再提供一次。
+    buttons:
+    - title: 正確
+      payload: 正確
+  utter_explain_insurance_quote:
+  - text: 保障額度；意外身故或喪葬費用保險金的給付金額。
+  utter_limitation_insurance_quote:
+  - text: 國內旅遊保額限制為 60萬 至 1500萬元為限；國外旅遊保額限制則為 60萬 至 2000萬元。
+  utter_ask_client_insurance_medical:
+  - text: 請問實支實付之投保金額規劃為多少?
+    buttons:
+    - title: 什麼是實支實付
+      payload: 什麼是實支實付
+  utter_ask_client_insurance_medical_confirm:
+  - text: 與您核對實支實付之投保金額為{client_insurance_medical}，如有錯誤，煩請您再提供一次。
+    buttons:
+    - title: 正確
+      payload: 正確
+  utter_explain_insurance_medical:
+  - text: 醫療傷害保險金。
+  utter_limitation_insurance_medical:
+  - text: 實支實付之投保金額上限為保額的 20%。
+  utter_ask_client_insurance_sudden_illness_c:
+  - text: 請問突發疾病丙型之投保金額為多少?
+    buttons:
+    - title: 什麼是突發疾病丙型
+      payload: 什麼是突發疾病丙型
+  utter_ask_client_insurance_sudden_illness_c_confirm:
+  - text: 與您核對突發疾病丙型之投保金額為{client_insurance_sudden_illness_c}，如有錯誤，煩請您再提供一次。
+    buttons:
+    - title: 正確
+      payload: 正確
+  utter_explain_insurance_sudden_illness_c:
+  - text: 突發疾病分成甲、乙、丙三型，分別給付金額又不一樣，丙型給付%較高，建議客戶選擇丙型。
+  utter_limitation_insurance_sudden_illness_c:
+  - text: 突發疾病之投保金額上限為保額的 20%。
+  utter_ask_client_medical_plane:
+  - text: 請問是否需要附加醫療專機？
+    buttons:
+    - title: 是
+      payload: 是
+    - title: 否
+      payload: 否
+    - title: 什麼是醫療專機
+      payload: 什麼是醫療專機
+  utter_explain_medical_plane:
+  - text: 海外專機；在海外發生需要緊急醫療，且經醫師評估需要專機接送回台。
+  utter_limitation_medical_plane:
+  - text: 『醫療專機運送』服務僅限於指定之亞洲12國家接受住院治療，如果您臨時到其他國家(非指定之亞洲12國家)，就不在服務區域內，另外『醫療專機運送』啟動，需經救助機構醫師及當地主治醫師雙方取的同意，才能以醫療專機送返回國治療。
+  utter_explain_asia_12_countries:
+  - text: ※前述之亞洲12國家分別為：中國大陸(含港、澳地區)、日本、韓國、越南、新加坡、菲律賓、印尼、馬來西亞、緬甸、泰國、寮國、柬埔寨
+  utter_payment_processed_successful:
+  - text: 已線上投保成功，5-10 分鐘後手機會收到投保成功簡訊。
+  utter_payment_processing:
+  - text: 這邊為您線上刷卡，請您稍後。
+  utter_ask_client_trial_calculation_confirm:
+  - text: 請問保費金額是否可以？
+    buttons:
+    - title: 是
+      payload: 是
+    - title: 否
+      payload: 否
+  utter_explain_insurance_inconvenience:
+  - text: 不便險內容：1. 行李延誤只有去程，沒有回程 2. 並且沒有包含行李遺失與損害。
+  utter_ask_client_insurance_inconvenience:
+  - text: 是否附加不便險？
+    buttons:
+    - title: 是
+      payload: 是
+    - title: 否
+      payload: 否
+    - title: 什麼是不便險
+      payload: 什麼是不便險
+  utter_ask_client_insurance_inconvenience_confirm:
+  - text: 請問保費金額是否可以？
+    buttons:
+    - title: 是
+      payload: 是
+    - title: 否
+      payload: 否
+  utter_ask_client_notification:
+  - text: 請問保單是寄到您的 E-MAIL 信箱還是寄簡訊通知您？
+    buttons:
+    - title: E-MAIL
+      payload: email
+    - title: 簡訊
+      payload: 簡訊
+  utter_ask_client_insurance_confirm:
+  - text: 請問前述投保內容是否有誤？
+    buttons:
+    - title: 正確
+      payload: 正確
+    - title: 錯誤
+      payload: 錯誤
+actions:
+- utter_bye
+- utter_is_guardianship
+- utter_explain_guardianship
+- utter_ask_guardianship
+- utter_greetings
+- utter_check_guardianship
+- utter_thanks
+- utter_check_insurance_content
+- utter_explain_insurance_quote
+- utter_explain_insurance_medical
+- utter_explain_insurance_sudden_illness_c
+- utter_explain_medical_plane
+- utter_explain_insurance_inconvenience
+- utter_payment_processing
+- utter_payment_processed_successful
+- utter_ask_client_id
+- action_fill_eCallBao_form
+- utter_ask_client_id_confirm
+- action_tranfer_to_servicer
+- utter_ask_client_birth
+- utter_ask_client_birth_confirm
+- utter_ask_client_departure_time
+- utter_ask_client_durance_days
+- utter_ask_client_durance_days_confirm
+- utter_ask_client_travel_board_confirm
+- utter_ask_client_travel_country
+- utter_ask_client_travel_country_confirm
+- utter_ask_client_travel_board
+- utter_ask_client_insurance_quote
+- utter_ask_client_insurance_quote_confirm
+- utter_limitation_insurance_quote
+- utter_ask_client_insurance_medical
+- utter_ask_client_insurance_medical_confirm
+- utter_limitation_insurance_medical
+- utter_ask_client_insurance_sudden_illness_c
+- utter_ask_client_insurance_sudden_illness_c_confirm
+- utter_limitation_insurance_sudden_illness_c
+- utter_ask_client_medical_plane
+- utter_limitation_medical_plane
+- utter_explain_asia_12_countries
+- utter_ask_client_insurance_inconvenience
+- utter_ask_client_trial_calculation_confirm
+- utter_ask_client_insurance_inconvenience_confirm
+- utter_ask_client_notification
+- utter_ask_insurance_confirm
+- utter_again
+- utter_ask_client_departure_time_confirm
+- utter_to_service
+- action_repeate
+- utter_ask_client_insurance_confirm

@@ -1,0 +1,203 @@
+(rasa:20020): Gdk-CRITICAL **: 10:38:26.376: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+
+(rasa:20020): Gdk-CRITICAL **: 10:38:26.381: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+2020-03-31 10:38:27.007418: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2020-03-31 10:38:27.007480: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2020-03-31 10:38:27.007488: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2020-03-31 10:38:27 INFO     rasa.cli.test  - Test model using cross validation.
+2020-03-31 10:38:29 WARNING  rasa.nlu.classifiers.diet_classifier  - Please configure the number of 'epochs' in your configuration file. We will change the default value of 'epochs' in the future to 1.
+2020-03-31 10:38:29 INFO     rasa.nlu.model  - Starting to train component WhitespaceTokenizer
+2020-03-31 10:38:29 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 10:38:29 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-03-31 10:38:29 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 10:38:29 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+2020-03-31 10:38:29 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 10:38:29 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-03-31 10:38:30 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 10:38:30 INFO     rasa.nlu.model  - Starting to train component DIETClassifier
+Epochs:  28%|█████▎             | 84/300 [16:13<41:39, 11.57s/it, t_loss=0.902, i_loss=Epochs: 100%|██████████████████| 300/300 [57:18<00:00, 11.66s/it, t_loss=0.565, i_loss=0.126, e_loss=0.049, i_acc=0.984, e_f1=0.758]
+2020-03-31 11:36:00 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-03-31 11:36:00 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 11:36:00 INFO     rasa.nlu.test  - Running model for predictions:
+100%|██████████████████████████████████████████████| 2716/2716 [01:18<00:00, 37.83it/s]
+2020-03-31 11:37:18 INFO     rasa.nlu.test  - Running model for predictions:
+100%|████████████████████████████████████████████████| 679/679 [00:19<00:00, 34.25it/s]
+2020-03-31 11:37:39 INFO     rasa.nlu.model  - Starting to train component WhitespaceTokenizer
+2020-03-31 11:37:39 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 11:37:39 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-03-31 11:37:39 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 11:37:39 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+2020-03-31 11:37:39 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 11:37:39 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-03-31 11:37:40 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 11:37:40 INFO     rasa.nlu.model  - Starting to train component DIETClassifier
+Epochs:   0%| | 0/300 [00:11<?, ?it/s, t_loss=7.010, i_loss=4.771, e_loss=0.956, i_acc=pochs: 100%|▉| 299/300 [56:20<00:11, 11.15s/it, t_loss=0.565, i_loss=0.143, e_loss=0.0Epochs: 100%|█| 300/300 [56:20<00:00, 11.12s/it, t_loss=0.565, i_loss=0.143, e_loss=0.046, i_acc=0.985, e_f1=0.777]
+2020-03-31 12:34:06 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-03-31 12:34:06 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 12:34:06 INFO     rasa.nlu.test  - Running model for predictions:
+100%|██████████████████████████████████████████████| 2716/2716 [01:19<00:00, 34.19it/s]
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2020-03-31 12:35:26 INFO     rasa.nlu.test  - Running model for predictions:
+100%|████████████████████████████████████████████████| 679/679 [00:19<00:00, 35.03it/s]
+2020-03-31 12:35:46 INFO     rasa.nlu.model  - Starting to train component WhitespaceTokenizer
+2020-03-31 12:35:46 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 12:35:46 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-03-31 12:35:46 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 12:35:46 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+2020-03-31 12:35:46 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 12:35:46 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-03-31 12:35:48 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 12:35:48 INFO     rasa.nlu.model  - Starting to train component DIETClassifier
+Epochs:  92%|▉| 275/300 [52:59<04:54, 11.76s/it, t_loss=0.563, i_loss=0.137, e_loss=0.058, i_acc=0.989, e_f1=0.742]^[
+Epochs: 100%|█| 300/300 [57:50<00:00, 11.31s/it, t_loss=0.587, i_loss=0.134, e_loss=0.054, i_acc=0.986, e_f1=0.745]
+2020-03-31 13:33:43 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-03-31 13:33:43 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 13:33:43 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 2716/2716 [01:19<00:00, 34.08it/s]
+2020-03-31 13:35:04 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████████████████████████████████| 679/679 [00:19<00:00, 35.10it/s]
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2020-03-31 13:35:24 INFO     rasa.nlu.model  - Starting to train component WhitespaceTokenizer
+2020-03-31 13:35:24 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 13:35:24 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-03-31 13:35:24 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 13:35:24 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+2020-03-31 13:35:24 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 13:35:24 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-03-31 13:35:25 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 13:35:25 INFO     rasa.nlu.model  - Starting to train component DIETClassifier
+Epochs:  14%|██▌                | 41/300 [08:01<49:40, 11.51s/it, t_loss=1.205, i_loss=0.363, e_loss=0.098, i_acc=0.967, e_f1=0.551]
+
+Epochs:  15%|██▊                | 44/300 [08:35<48:20, 11.33s/it, t_loss=1.162, i_loss=0.330, e_loss=0.092, i_acc=0.966, e_f1=0.562]
+
+
+Epochs:  35%|██████▎           | 105/300 [19:50<35:23, 10.89s/it, t_loss=0.843, i_loss=0.209, e_loss=0.064, i_acc=0.983, e_f1=0.673]
+Epochs: 100%|██████████████████| 300/300 [56:09<00:00, 11.55s/it, t_loss=0.582, i_loss=0.140, e_loss=0.057, i_acc=0.983, e_f1=0.757]
+2020-03-31 14:31:40 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-03-31 14:31:41 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 14:31:41 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 2716/2716 [01:20<00:00, 33.74it/s]
+2020-03-31 14:33:02 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████████████████████████████████| 679/679 [00:19<00:00, 34.08it/s]
+2020-03-31 14:33:22 INFO     rasa.nlu.model  - Starting to train component WhitespaceTokenizer
+2020-03-31 14:33:22 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 14:33:22 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-03-31 14:33:22 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 14:33:22 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+2020-03-31 14:33:22 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 14:33:22 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-03-31 14:33:23 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 14:33:23 INFO     rasa.nlu.model  - Starting to train component DIETClassifier
+Epochs:   8%|█▌                 | 24/300 [04:45<53:18, 11.59s/it, t_loss=1.509, i_loss=0.504, e_loss=0.117, i_acc=0.963, e_f1=0.489]^B^[
+
+
+Epochs:  17%|███▏               | 51/300 [10:02<47:22, 11.42s/it, t_loss=1.095, i_loss=0.331, e_loss=0.080, i_acc=0.971, e_f1=0.608]
+Epochs:  17%|███▎               | 52/300 [10:13<47:04, 11.39s/it, t_loss=1.029, i_loss=0.274, e_loss=0.076, i_acc=0.976, e_f1=0.610]
+
+
+Epochs:  34%|██████            | 102/300 [19:48<37:37, 11.40s/it, t_loss=0.837, i_loss=0.233, e_loss=0.059, i_acc=0.981, e_f1=0.676]
+Epochs: 100%|██████████████████| 300/300 [57:51<00:00, 11.93s/it, t_loss=0.642, i_loss=0.134, e_loss=0.047, i_acc=0.985, e_f1=0.736]
+2020-03-31 15:31:20 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-03-31 15:31:20 INFO     rasa.nlu.model  - Finished training component.
+2020-03-31 15:31:20 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 2716/2716 [01:19<00:00, 36.18it/s]
+2020-03-31 15:32:41 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████████████████████████████████| 679/679 [00:18<00:00, 36.62it/s]
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2020-03-31 15:33:00 INFO     rasa.nlu.test  - Accumulated test folds intent evaluation results:
+2020-03-31 15:33:00 INFO     rasa.nlu.test  - Intent Evaluation: Only considering those 3395 examples that have a defined intent out of 3395 examples
+2020-03-31 15:33:00 INFO     rasa.nlu.test  - Classification report saved to results/intent_report.json.
+2020-03-31 15:33:00 INFO     rasa.nlu.test  - Incorrect intent predictions saved to results/intent_errors.json.
+2020-03-31 15:33:00 INFO     rasa.nlu.test  - Confusion matrix, without normalization:
+[[163   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   2
+    0   0   0   2   0   0   0   0   0   0   0   0   0]
+ [  0   7   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   2  27   0   0   1   0   0   0   0   0   0   0   0   0   2   0  11
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   1   7   0   0   0   0   0   0   0   0   1   0   0   0   0   3
+    0   0   0   0   0   0   0   0   0   0   1   1   0]
+ [  0   0   0   0  50   1   3   1   0   0   0   0   0   0   0   0   0   9
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   1  50   0   0   0   1   0   1   4   0   0   0   0   8
+    1   0   0   0   1   0   0   0   0   0   0   1   0]
+ [  0   0   0   0   0   0  43   1   0   0   0   0   0   0   0   0   0   8
+    0   0   0   0   0   0   0   0   0   1   1   0   0]
+ [  0   0   0   0   0   0   1  53   0   0   0   0   3   0   0   0   0   7
+    0   0   0   0   0   0   0   0   0   0   2   0   0]
+ [  0   0   0   0   0   0   0   0  30   0   0   1   0   0   0   1   0   1
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0  17   0   0   0   0   0   0   0   2
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0  52   0   0   0   0   0   0   1
+    0   0   0   0   0   0   1   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0  56   3   0   0   0   0  10
+    0   0   0   0   1   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   2   0   1   0   0   0   2  77   0   0   0   0  29
+    0   0   0   0  12   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0 154   0   1   0   6
+    0   0   0   0   1   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   1   0   0   0   0   0   0   0   0   7   0   0   2
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   1   0  79   9   2
+    0   0   0   0   1   0   0   0   0   0   1   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  10  32   1
+    0   0   0   0   0   0   0   0   0   0   1   0   0]
+ [  1   1   3   5  10   6   8   6   1   0   2  10  25  10   1   5   1 362
+    7   4   4   2  64   2   3   0   5  14  11   3   4]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   4
+  101   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   1
+    0  75  13   0   0   0   0   0   0   1   0   0   0]
+ [  0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0  15  13   0   0   0   0   0   0   0   0   0   0]
+ [  1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1
+    0   0   0 231   0   0   0   0   0   0   0   0   0]
+ [  0   0   1   1   0   0   0   0   0   0   0   0   6   2   0   0   0  49
+    0   0   0   0 277   0   0   0   0   0   3   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   3
+    0   0   0   0   0  69   1   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   4
+    0   0   0   0   0   0 229   5   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0   0   0   0   0   1   6   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   8
+    0   0   0   0   0   0   0   0  26  15   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12
+    0   0   0   0   0   0   0   0   5  62   0   0   0]
+ [  0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   3   4  11
+    0   0   0   0  10   0   0   0   0   0  29   0   0]
+ [  1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   3
+    0   0   0   1   0   0   0   0   0   0   0 204   0]
+ [  0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   1
+    0   0   0   0   1   0   0   0   0   0   0   0 210]]
+2020-03-31 15:33:04 INFO     rasa.nlu.test  - Accumulated test folds entity evaluation results:
+2020-03-31 15:33:04 INFO     rasa.nlu.test  - Evaluation for entity extractor: DIETClassifier
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - Classification report for 'DIETClassifier' saved to 'results/DIETClassifier_report.json'.
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - Incorrect entity predictions saved to results/DIETClassifier_errors.json.
+2020-03-31 15:33:05 INFO     rasa.test  - CV evaluation (n=5)
+2020-03-31 15:33:05 INFO     rasa.test  - Intent evaluation results
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - train Accuracy: 0.983 (0.001)
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - train F1-score: 0.983 (0.001)
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - train Precision: 0.984 (0.001)
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - test Accuracy: 0.824 (0.013)
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - test F1-score: 0.822 (0.014)
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - test Precision: 0.829 (0.015)
+2020-03-31 15:33:05 INFO     rasa.test  - Entity evaluation results
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - Entity extractor: DIETClassifier
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - train Accuracy: 0.998 (0.000)
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - train F1-score: 0.855 (0.017)
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - train Precision: 0.814 (0.015)
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - Entity extractor: DIETClassifier
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - test Accuracy: 0.995 (0.001)
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - test F1-score: 0.611 (0.037)
+2020-03-31 15:33:05 INFO     rasa.nlu.test  - test Precision: 0.642 (0.092)

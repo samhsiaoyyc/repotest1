@@ -1,0 +1,874 @@
+{
+    "caffe americano": {
+        "image": "https://globalassets.starbucks.com/assets/f12bc8af498d45ed92c5d6f1dac64062.jpg?impolicy=1by1_wide_1242",
+        "description": "Espresso with hot water",
+        "category": "Hot Coffee",
+        "price": "1.75", 
+        "calories": "5",
+        "required_slots": [
+            "size",
+            "quantity"
+        ],
+        "options": {
+            "milk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": ".25"
+            },
+            "soymilk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "sugar": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "15",
+                "price": "0"
+            },
+            "room": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": "0"
+            },
+            "blonde": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".50"
+            },
+            "decaf": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".25"
+            },
+            "whipped cream": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "20", 
+                "price": ".25"
+            }, 
+            "foam": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": "0"
+            },
+            "8oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0", 
+                "price": "0"
+            },
+            "12oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "16oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.00"
+            },
+            "20oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.50"
+            }
+        }
+    },
+    "salted caramel mocha": {
+        "image": "https://globalassets.starbucks.com/assets/da9f3c12cdba4abc913f4d8e294e7629.jpg",
+        "description": "Espresso with milk, foam, and salted caramel sauce",
+        "category": "Hot Coffee",
+        "price": "4.25", 
+        "calories": "470",
+        "required_slots": [
+            "size", 
+            "quantity"
+        ],
+        "options": {
+            "milk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": ".25"
+            },
+            "soymilk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "sugar": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "15",
+                "price": "0"
+            },
+            "room": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": "0"
+            },
+            "blonde": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".50"
+            },
+            "decaf": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".25"
+            },
+            "whipped cream": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "20", 
+                "price": ".25"
+            }, 
+            "foam": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": "0"
+            },
+            "8oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0", 
+                "price": "0"
+            },
+            "12oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "16oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.00"
+            },
+            "20oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.50"
+            }
+        }
+     },
+    "peppermint mocha": {
+        "image": "https://globalassets.starbucks.com/assets/ca435e1035e04487b6e2fa872a1f8ba7.jpg?impolicy=1by1_wide_1242",
+        "description": "Espresso with milk, chocolate sauce, and peppermint syrup",
+        "category": "Hot Coffee",
+        "price": "4.25", 
+        "calories": "440",
+        "required_slots": [
+            "size", 
+            "quantity"
+        ],
+        "options": {
+            "milk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": ".25"
+            },
+            "soymilk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "sugar": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "15",
+                "price": "0"
+            },
+            "room": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": "0"
+            },
+            "blonde": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".50"
+            },
+            "decaf": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".25"
+            },
+            "whipped cream": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "20", 
+                "price": ".25"
+            }, 
+            "foam": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": "0"
+            },
+            "8oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0", 
+                "price": "0"
+            },
+            "12oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "16oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.00"
+            },
+            "20oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.50"
+            }
+        }
+    },
+     "caramel macchiato": {
+        "image": "https://globalassets.starbucks.com/assets/58db701349cb48738069e8c912e2b3ac.jpg?impolicy=1by1_wide_1242",
+        "description": "Espresso with layered caramel sauce, milk, and foam",
+        "category": "Hot Coffee",
+        "price": "4.65", 
+        "calories": "250",
+        "required_slots": [
+            "size", 
+            "quantity"
+        ],
+        "options": {
+            "milk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": ".25"
+            },
+            "soymilk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "sugar": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "15",
+                "price": "0"
+            },
+            "room": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": "0"
+            },
+            "blonde": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".50"
+            },
+            "decaf": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".25"
+            },
+            "whipped cream": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "20", 
+                "price": ".25"
+            }, 
+            "foam": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": "0"
+            },
+            "8oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0", 
+                "price": "0"
+            },
+            "12oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "16oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.00"
+            },
+            "20oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.50"
+            }
+        }
+    },    
+    "smoked butterscotch latte": {
+        "image": "https://globalassets.starbucks.com/assets/eea44e2041234b9cbaaff6607bea1d23.jpg?impolicy=1by1_wide_1242",
+        "description": "Espresso with milk, foam, and smoked butterscotch syrup",
+        "category": "Hot Coffee",
+        "price": "3.75", 
+        "calories": "350",
+        "required_slots": [
+            "size", 
+            "quantity"
+        ],
+        "options": {
+            "milk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": ".25"
+            },
+            "soymilk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "sugar": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "15",
+                "price": "0"
+            },
+            "room": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": "0"
+            },
+            "blonde": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".50"
+            },
+            "decaf": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".25"
+            },
+            "whipped cream": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "20", 
+                "price": ".25"
+            }, 
+            "foam": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": "0"
+            },
+            "8oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0", 
+                "price": "0"
+            },
+            "12oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "16oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.00"
+            },
+            "20oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.50"
+            }
+        }
+    },    
+    "espresso": {
+        "image": "https://globalassets.starbucks.com/assets/ec519dd5642c41629194192cce582135.jpg?impolicy=1by1_wide_1242",
+        "description": "A stand-alone espresso shot",
+        "category": "Hot Coffee",
+        "price": "1.75", 
+        "calories": "10",
+        "required_slots": [
+            "size", 
+            "quantity"
+        ],
+        "options": {
+            "milk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": ".25"
+            },
+            "soymilk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "sugar": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "15",
+                "price": "0"
+            },
+            "room": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": "0"
+            },
+            "blonde": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".50"
+            },
+            "decaf": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".25"
+            },
+            "whipped cream": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "20", 
+                "price": ".25"
+            }, 
+            "foam": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": "0"
+            },
+            "8oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0", 
+                "price": "0"
+            },
+            "12oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "16oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.00"
+            },
+            "20oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.50"
+            }
+        }
+    },    
+    "cappuccino": {
+        "image": "https://globalassets.starbucks.com/assets/5c515339667943ce84dc56effdf5fc1b.jpg?impolicy=1by1_wide_1242",
+        "description": "Espresso with a small amount of milk and a lot of foam",
+        "category": "Hot Coffee",
+        "price": "4.15", 
+        "calories": "120",
+        "required_slots": [
+            "size", 
+            "quantity"
+        ],
+        "options": {
+            "milk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": ".25"
+            },
+            "soymilk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "sugar": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "15",
+                "price": "0"
+            },
+            "room": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": "0"
+            },
+            "blonde": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".50"
+            },
+            "decaf": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".25"
+            },
+            "whipped cream": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "20", 
+                "price": ".25"
+            }, 
+            "foam": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": "0"
+            },
+            "8oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0", 
+                "price": "0"
+            },
+            "12oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "16oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.00"
+            },
+            "20oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.50"
+            }
+        }
+    },    
+    "caffe mocha": {
+        "image": "https://globalassets.starbucks.com/assets/f4ec500b34624242b15c2d29e53f3c48.jpg?impolicy=1by1_wide_1242",
+        "description": "Espresso with milk and chocolate syrup", 
+        "category": "Hot Coffee",
+        "price": "4.00", 
+        "calories": "360",
+        "required_slots": [
+            "size", 
+            "quantity"
+        ],
+        "options": {
+            "milk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": ".25"
+            },
+            "soymilk": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "sugar": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "15",
+                "price": "0"
+            },
+            "room": {
+                "type": "add_ins",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": "0"
+            },
+            "blonde": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".50"
+            },
+            "decaf": {
+                "type": "shots",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0",
+                "price": ".25"
+            },
+            "whipped cream": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "20", 
+                "price": ".25"
+            }, 
+            "foam": {
+                "type": "toppings",
+                "category": false,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": "0"
+            },
+            "8oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "0", 
+                "price": "0"
+            },
+            "12oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "5",
+                "price": ".50"
+            },
+            "16oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.00"
+            },
+            "20oz": {
+                "type": "size",
+                "category": true,
+                "selected": false,
+                "quantity": null,
+                "calories": "10",
+                "price": "1.50"
+            }
+        }
+    }
+}

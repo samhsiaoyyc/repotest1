@@ -1,0 +1,90 @@
+intents:
+  - greeting
+  - ask_menu
+  - ask_menu_category
+  - ask_price
+  - add_item
+  - remove_item
+  - ask_cart_contents
+  - affirm
+  - deny
+  - faq
+  - inform
+  - out_of_scope
+
+entities:
+  - product
+  - addon
+  - sauce
+  - quantity
+  - size
+  - menu_category
+
+responses:
+
+  utter_confused:
+    - text: "Sorry, I don't understand. Try asking about the menu or making an order."
+
+  utter_greet:
+    - text: "Hello!"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  utter_get_add_confirmation:
+    - text: "You want to add {quantity} {product} to your cart. Is that right?"
+
+  utter_cancelled_add:
+    - text: "Got it. I won't add that to your cart."
+
+  utter_confirmed_add:
+    - text: "Sure, I've added that to your cart."
+
+  utter_ask_quantity:
+    - text: "How many would you like?"
+
+  utter_ask_size:
+    - text: "What size would you like?"
+
+  utter_ask_product:
+    - text: "What item would you like?"
+
+forms:
+  - order_form
+  - order_detail_form
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_iamabot
+  - utter_get_add_confirmation
+  - action_cart_contents
+  - action_remove_item
+  - action_add_to_cart
+  - action_utter_menu
+  - action_utter_menu_categories
+  - action_utter_menu_category
+  - action_cancel_add
+
+session_config:
+  session_expiration_time: 120
+  carry_over_slots_to_new_session: false
+
+slots:
+  cart:
+    type: list
+  product:
+    type: text
+  size:
+    type: unfeaturized
+  quantity:
+    type: unfeaturized
+  addon:
+    type: unfeaturized
+  sauce:
+    type: unfeaturized
+  menu_category:
+    type: text

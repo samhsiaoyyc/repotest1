@@ -1,0 +1,1821 @@
+<!-- Generated using Chatette v1.6.2 -->
+
+## intent:greet
+- hey
+- Hi
+- Good morning
+- Hi again!
+- Hey!
+- howdy do!
+- hiya!
+- Hi folks
+- hey!
+- How's it going!
+- hey there!
+- Heya
+- hey there
+- how's it going
+- Hey there
+- good morning
+- Hiya!
+- hi again!
+- Howdy do
+- howdy
+- hey bot!
+- hi
+- Hiya
+- how's it going!
+- hiya
+- Hey bot
+- heya
+- Hello!
+- Hey there!
+- Hi!
+- good morning!
+- Heya!
+- hello!
+- hi bot!
+- How's it going
+- hi folks
+- howdy!
+- hi folks!
+- heya!
+- hi bot
+- hello
+- Hey bot!
+- Hey
+- Howdy!
+- howdy do
+- Howdy do!
+- Hi bot
+- Good morning!
+- hi again
+- Hi again
+
+## intent:goodbye
+- later
+- Toodle-oo
+- good night
+- Talk to you later!
+- goodbye!
+- bye
+- see ya
+- Later!
+- see you
+- See ya!
+- Talk to you later
+- Bye!
+- Good bye
+- see you!
+- gotta go
+- Goodbye!
+- Bye bye
+- Goodbye
+- gotta go!
+- toodle-oo!
+- Good night!
+- Toodle-oo!
+- Bye bye!
+- See ya
+- bye bye
+- good-bye
+- See you!
+- goodbye
+- Bye
+- later!
+- Later
+- talk to you later!
+- toodle-oo
+- Farewell
+- Farewell!
+- See you
+- Good bye!
+- see ya!
+- bye bye!
+- Good night
+- good night!
+- Good-bye!
+- farewell
+- Gotta go!
+- good bye
+- good-bye!
+- bye!
+- talk to you later
+- Gotta go
+- good bye!
+
+## intent:thank
+- Many thanks!
+- thanks a bunch!
+- Thank you so much
+- thank you so much
+- thanks bot
+- Thank you so much!
+- Thanks a ton
+- many thanks!
+- Cheers!
+- thanks bot!
+- Many thanks
+- thanks a bunch
+- Thank you
+- cheers!
+- Thanks a million!
+- many thanks
+- thank you!
+- Thanks a million
+- thanks a ton!
+- thank you
+- thanks
+- thanks!
+- Thanks a bunch!
+- Thank you!
+- thanks a million
+- thank you so much!
+- thanks for that!
+- Thanks
+- thanks a ton
+- Thanks for that
+- Thanks bot
+- Thanks for that!
+- Thanks!
+- cheers
+- Thanks bot!
+- Cheers
+- Thanks a ton!
+- thanks for that
+- thanks a million!
+- Thanks a bunch
+
+## intent:affirm
+- yessir
+- yee
+- Sounds good
+- yes please!
+- yep!
+- indeed!
+- Ye!
+- sure thing!
+- yup
+- Yah
+- yeah!
+- Yes!
+- Yuppers
+- Yep!
+- sounds good!
+- Yee
+- yuppers!
+- Yeet!
+- yes please
+- yup!
+- yep
+- yee!
+- Yup
+- Yeah!
+- Yeah
+- yeet
+- Yup!
+- of course
+- sure thing
+- yah!
+- Sure
+- Sure thing
+- Indeed!
+- Yah!
+- correct!
+- Yuppers!
+- Yessir!
+- yessir!
+- yes
+- Affirmative!
+- sure!
+- Yes please!
+- Yep
+- ye
+- sounds good
+- affirmative!
+- Correct!
+- correct
+- yah
+- Affirmative
+
+## intent:deny
+- Don't like that
+- Don't like that!
+- Don't want that
+- Don't want that!
+- I don't think so
+- I don't think so!
+- Nay
+- Nay!
+- Never
+- Never!
+- Nevermind
+- Nevermind!
+- No
+- No thanks
+- No thanks!
+- No way
+- No way!
+- No!
+- None
+- None!
+- Not really
+- Not really!
+- Nothing
+- Nothing!
+- don't like that
+- don't like that!
+- don't want that
+- don't want that!
+- i don't think so
+- i don't think so!
+- nay
+- nay!
+- never
+- never!
+- nevermind
+- nevermind!
+- no
+- no thanks
+- no thanks!
+- no way
+- no way!
+- no!
+- none
+- none!
+- not really
+- not really!
+- nothing
+- nothing!
+
+## intent:stop
+- okay cancel
+- actually exit
+- actually I changed my mind
+- stop
+- okay I changed my mind
+- okay actually stop it
+- okay nevermind
+- actually leave
+- okay actually stop
+- actually stop please
+- leave
+- nevermind please
+- okay actually I changed my mind
+- okay actually move on please
+- okay actually cancel
+- okay move on
+- okay exit
+- stop please
+- okay nevermind please
+- actually move on
+- okay I changed my mind please
+- leave please
+- actually nevermind please
+- stop it please
+- actually I changed my mind please
+- okay actually nevermind
+- cancel
+- I changed my mind please
+- actually leave please
+- okay actually I changed my mind please
+
+## intent:inform
+- [10](rating)
+- [2](rating)
+- [20oz](size)
+- [3](rating)
+- [4](rating)
+- [5](rating)
+- [6](rating)
+- [9](rating)
+- [Caramel Macchiatos](item)
+- [Cold Coffee](category)
+- [Cold Drinks](category)
+- [Extra Caramel Crunch Topping](options)
+- [Extra Splash of Black Tea](options) and [Extra Splash of 2% Milk](options)
+- [Extra Tea](options) and [No Cascara Topping](options)
+- [Frappuccino Blended Beverage](category)
+- [Hot Breakfast](category)
+- [Hot Coffee](category)
+- I want a [8oz](size)
+- I'll have [20oz](size)
+- I'll have [32oz](size)
+- I'll have [Banana Nut Bread](item)
+- I'll have [Light Dark Cocoa Almondmilk Foam](options) and [Extra Nutmeg Powder](options)
+- I'll have [Toasted Honey Topping](options)
+- I'll have a [12oz](size)
+- I'll have a [Bananas](item)
+- I'll have a [Blonde Roasts](item)
+- I'll have a [Chicken & Quinoa Protein Bowls with Black Beans and Greens](item)
+- I'll have a [Chicken Wrap Protein Boxes](item)
+- I'll have a [Chocolate Covered Espresso Beans](item)
+- I'll have a [Cinnamon Dolce Latte](item)
+- I'll have a [quad](size)
+- I'll have a [small](size)
+- I'll have [trenta](size)
+- [Iced Tea](category)
+- [Large](size)
+- [Light Caramel Crunch Topping](options)
+- [Light Cinnamon Almondmilk Foam](options) and [Light Splash of Heavy Cream](options)
+- [Light Cinnamon Soymilk Foam](options) and [Light Splash of Nonfat Milk](options)
+- [Light Room](options) and [Extra Splash of Heavy Cream](options)
+- [Light Splash of Black Tea](options) and [Extra Splash of Heavy Cream](options)
+- Make it a [16oz](size)
+- Make it a [8oz](size)
+- Make it a [Solo](size)
+- Make it a [trenta](size)
+- [No Ice](options) and [Light Splash of Whole Milk](options)
+- [No Splash of Green Tea](options) and [Extra Splash of Passion Tango Tea](options)
+- [No Toasted Honey Topping](options) and [Light Splash of Soymilk](options)
+- [Snacks and Sweets](category)
+- [Splash of Black Tea](options) and [Cinnamon Dolce Sprinkles](options)
+- [Substitute Peach Juice Blend](options)
+- Sure, add [Light Caramel Crunch Topping](options)
+- Sure, add [No Marshmallow Whipped Cream](options)
+- [Taco bell](store)
+- [Whole Bean Coffee](category)
+- [With Extra Whipped Cream](options)
+- Yeah, I want [Lemonade](options)
+- Yeah, I would like [Whole Milk](options) and [No Splash of Green Tea](options)
+- Yeah, I would like a [Unicorn Cake Pop](item)
+- a [12oz](size)
+- a [8oz](size)
+- a [Caffe Americano](item)
+- a [Chicken Capreses](item)
+- a [crispy Grilled Cheese Sandwiches](item)
+- a [medium](size)
+- a [starbucks® BBQ Potato Chips](item)
+- add [23.7 fl oz](options)
+- add [No Splash of Black Tea](options)
+- add [Splash of Soymilk](options)
+- add [Substitute Cinnamon Almondmilk Foam](options)
+- add [Vanilla Sweet Cream Cold Foam](options)
+- [bakery](category)
+- [caffe Americanos](item)
+- [cold Brew Coffee](category)
+- [espresso (Fine)](options)
+- [extra Foam](options)
+- [hot Tea](category)
+- [light Cinnamon Powder](options)
+- [light Cookie Crumble Topping](options)
+- [light Dark Cocoa Almondmilk Foam](options)
+- make it [16.9 fl oz](options)
+- make it [Light Dark Cocoa Almondmilk Foam](options)
+- make it [Nonfat Milk](options)
+- make it [Wet](options)
+- make it a [20oz](size)
+- make it a [32oz](size)
+- make it a [Triple](size)
+- make it a [venti](size)
+- [no Cinnamon Soymilk Foam](options)
+- [shopping Bags](category)
+- [splash of Almondmilk](options)
+- [starbucks](store)
+- sure, add [Heavy Cream](options)
+- sure, add [No Apple Juice](options)
+- sure, add [No Chocolate Powder](options)
+- [taco bell](store)
+- [verismo Pods](category)
+- [whole Bean Coffee](category)
+- [whole foods](store)
+- yeah, Give me a [8oz](size)
+- yeah, Give me a [Caffe Lattes](item)
+
+## intent:faq/ask_volli
+- what is this app?
+- What does this app do?
+- what does this app do?
+- describe Volligator
+- about Volligator
+- What does the app do
+- tell me what Volligator does
+- About Volligator
+- describe this app
+- What does Volligator do
+- give me an introduction
+- what does Volli do
+- Tell me about the app
+- what does the app do
+- Give me an introduction
+- About this app
+- Describe Volligator
+- App description
+- What is this app?
+- what is the app
+- What does Volli do
+- What is Volli
+- tell me about Volligator
+- describe the app
+- Give me a description of the app
+- tell me about Volli
+- Tell me what Volligator does
+- describe Volli
+- Introduction
+- What is Volligator
+- give me a description
+- tell me what Volli does
+- Tell me what Volli does
+- Describe the app
+- app description
+- what does Volli do?
+- Describe Volli
+- Describe this app
+- what does this app do
+- what is Volligator?
+- tell me about this app
+- What is Volli?
+- what does Volligator do?
+- what is Volligator
+- What is this app
+- introduction
+- What does Volli do?
+- Tell me about this app
+- Give me a description
+- about this app
+
+## intent:faq/ask_volli_name
+- Why is this app called Volligator
+- why are you called Volligator?
+- why is this app called Volligator
+- what is the meaning behind the name Volliagator?
+- what's the meaning behind the name Volliagator?
+- Why are you called Volligator
+- why is it called Volligator
+- What's the meaning behind the name Volliagator
+- why is the app called Volligator?
+- what is the meaning behind Volliagator
+- What's the meaning behind the name Volliagator?
+- Why is it called Volligator?
+- what's the meaning behind Volliagator
+- What does Volligator mean?
+- What does Volligator mean
+- why is Volligator called Volligator?
+- why is Volligator called Volligator
+- what's the meaning behind Volliagator?
+- what does Volligator mean
+- why is this called Volligator?
+- why is this called Volligator
+- What's the meaning behind Volliagator?
+- Why is the app called Volligator
+- why is this app called Volligator?
+- what is the meaning behind Volliagator?
+- Why is Volli called Volligator?
+- Why are you called Volligator?
+- What does your name mean?
+- Why is Volli called Volligator
+- why is Volli called Volligator?
+- why is Volli called Volligator
+- why is the app called Volligator
+- what does Volligator mean?
+- What is the meaning behind Volliagator?
+- What does your name mean
+- what does your name mean?
+- what's the meaning behind the name Volliagator
+- Why is the app called Volligator?
+- Why is Volligator called Volligator
+- Why is Volligator called Volligator?
+- What does the name Volligator mean?
+- What does the name Volligator mean
+- what does your name mean
+- Why is it called Volligator
+- why are you called Volligator
+- What's the meaning behind Volliagator
+- What is the meaning behind Volliagator
+- what does the name Volligator mean
+- what is the meaning behind the name Volliagator
+- Why is this called Volligator
+
+## intent:faq/ask_how_to
+- how do I get started with this app?
+- How do I use the app?
+- How can I get started with Volligator?
+- how do I start using the app?
+- How to start using this app
+- what do I do?
+- how does this app work
+- how can I start using the app?
+- Tell me how to use Volli
+- Tell me how to get started with Volligator
+- usage instructions
+- how do I use this app
+- How do I get started with the app
+- How do I use Volli?
+- How to use this app?
+- How do I start using Volli
+- how do I get started with this app
+- How can I start using the app
+- How do I get started with Volli?
+- How can I start using this app
+- How do I use this app
+- How does Volli work?
+- how does the app work
+- How do I use Volligator
+- How to get started with Volli?
+- How to get started with this app?
+- How to start using this app?
+- how do I get started with Volligator
+- How does this app work
+- How can I use the app?
+- what do I do
+- How do I start using Volligator?
+- how can I start using Volligator
+- how can I get started with this app?
+- how can I use the app
+- how to start using the app
+- How can I start using Volligator?
+- How can I start using the app?
+- how to use Volligator?
+- how to use Volli
+- Usage instructions
+- how to use Volligator
+- how can I get started with Volligator?
+- how to start using Volli?
+- how to get started with Volli
+- how do I start using the app
+- how can I start using Volli
+- how can I use this app
+- how do I use Volli
+- how to start using Volli
+
+## intent:faq/ask_find_shop
+- How can I browse places
+- How can I browse places?
+- How can I browse shops
+- How can I browse shops?
+- How can I browse stores
+- How can I find a place I want to order from
+- How can I find shops
+- How can I find what shops are available?
+- How can I find which restaurants are available?
+- How can I find which stores are available?
+- How can I look for a restaurant
+- How can I pick shops I want to order from
+- How do I browse places
+- How do I browse restaurants?
+- How do I browse shops
+- How do I browse shops?
+- How do I find places
+- How do I find what shops are available
+- How do I look for places
+- How do I pick shops that I want
+- How to browse places
+- How to browse restaurants
+- How to browse shops
+- How to find what places are available?
+- How to find which stores are available
+- How to look for a shop
+- How to look for stores I want to order from
+- How to pick a store to order from
+- How to pick places
+- how can I browse places?
+- how can I browse restaurants
+- how can I find places
+- how can I find what places are available?
+- how can I find what restaurants are available?
+- how can I find which restaurants are available?
+- how can I look for restaurants
+- how can I look for shops
+- how do I browse places?
+- how do I browse shops
+- how do I browse stores
+- how do I find what restaurants are available
+- how do I find what restaurants are available?
+- how do I find which places are available
+- how do I find which restaurants are available
+- how do I look for stores
+- how to browse places?
+- how to browse shops
+- how to browse shops?
+- how to find what places are available
+- how to find what places are available?
+
+## intent:faq/ask_find_item
+- How can I browse items
+- How can I browse something
+- How can I browse the food items?
+- How can I know what items are available?
+- How can I look for items I want to order?
+- How can I search for a item that I want?
+- How can I see what a place has?
+- How can I see what a restaurant has
+- How can I see what items a shop has
+- How do I browse food
+- How do I browse items?
+- How do I know what is available?
+- How do I see what a place has
+- How do I see what items a restaurant has
+- How to browse items
+- How to browse items?
+- How to find a item?
+- How to find the item
+- How to know what items are available
+- How to see what food a store has?
+- How to see what items a shop has?
+- how can I browse something
+- how can I browse stuff
+- how can I find something?
+- how can I find the items that I want
+- how can I search for the items that I want
+- how can I see what a store has
+- how can I see what items a place has?
+- how do I browse food?
+- how do I browse items?
+- how do I browse stuff?
+- how do I browse the items?
+- how do I know what is available
+- how do I know what items are available?
+- how do I see what a place has?
+- how do I see what a restaurant has?
+- how do I see what a shop has
+- how do I see what a store has?
+- how do I see what food a store has?
+- how do I see what items a shop has?
+- how to browse items
+- how to browse the items
+- how to find the food to order?
+- how to find the food?
+- how to know what items are available
+- how to know what items are available?
+- how to search for items to order?
+- how to search for something I want to order?
+- how to search for the food items I want
+- how to see what a place has
+
+## intent:faq/ask_add_cart
+- How can I add the food items I want to my cart
+- How can I add the food that I want to my cart
+- How can I add the item to my cart
+- How can I choose the item?
+- How can I put a item I want into my cart
+- How can I put an item into my cart?
+- How can I put in cart
+- How can I put into cart
+- How can I put the food items that I want in my cart?
+- How can I select what I want
+- How do I add an item to my cart
+- How do I add the item that I want to my cart?
+- How do I add to cart
+- How do I pick a food item
+- How do I put into cart
+- How do I put the item in my cart?
+- How to add something to my cart?
+- How to add the food I want to my cart
+- How to add the food items to my cart
+- How to add to cart
+- How to pick what I want?
+- How to put the food that I want into my cart?
+- How to put the item that I want into my cart?
+- How to put the items in my cart
+- how can I add the food to my cart
+- how can I add to cart
+- how can I choose a item?
+- how can I choose what I want
+- how can I pick an item?
+- how can I put an item that I want in my cart?
+- how can I put food into my cart
+- how can I put something in my cart?
+- how can I put something into my cart
+- how can I select what I want?
+- how do I add stuff to my cart?
+- how do I add the items I want to my cart
+- how do I add to cart
+- how do I choose what I want?
+- how do I put a food item in my cart
+- how do I put a food item that I want into my cart?
+- how do I put something that I want in my cart?
+- how do I put the food I want into my cart?
+- how do I put the items I want in my cart
+- how do I select what I want?
+- how to add food items to my cart
+- how to add something to my cart
+- how to add the food I want to my cart?
+- how to add to cart
+- how to put an item that I want into my cart
+- how to put food items I want in my cart?
+
+## intent:faq/ask_remove_cart
+- How can I delete from my cart?
+- How can I remove from cart
+- How can I remove from my cart
+- How can I remove something
+- How can I remove the item from my cart
+- How can I take a food item out
+- How can I take out of my cart?
+- How can I take out the food items
+- How can I take out the items?
+- How do I delete an item in my cart
+- How do I deselect stuff in my cart
+- How do I remove food out of my cart?
+- How do I remove from my cart
+- How do I remove the food?
+- How do I take items out of my cart?
+- How do I take out of cart?
+- How do I take stuff out
+- How do I take the item out of my cart?
+- How to deselect a item from my cart
+- How to deselect the food
+- How to deselect the food in my cart?
+- How to remove a food item out of my cart
+- How to remove from my cart?
+- How to take a item out of my cart
+- How to take a item out of my cart?
+- How to take out of cart?
+- How to take the food out?
+- how can I delete from my cart?
+- how can I delete the food items out of my cart
+- how can I deselect the food items out of my cart?
+- how can I remove from my cart
+- how can I take a food item out of my cart
+- how can I take a food item out of my cart?
+- how can I take a food item out?
+- how can I take stuff out of my cart?
+- how do I remove from my cart
+- how do I remove the food?
+- how do I take an item out of my cart?
+- how do I take out of my cart
+- how do I take stuff out of my cart?
+- how do I take the food out
+- how to delete the food?
+- how to deselect a food item in my cart
+- how to remove food items?
+- how to remove stuff?
+- how to remove the item out of my cart?
+- how to take a item out of my cart
+- how to take items out
+- how to take out an item from my cart?
+- how to take out of my cart?
+
+## intent:faq/ask_purchase
+- How can I buy the food?
+- How can I buy the items
+- How can I buy?
+- How can I order
+- How can I order my cart?
+- How can I order stuff in my cart
+- How can I order what is in my cart?
+- How can I place an order
+- How can I purchase items in my cart?
+- How can I purchase what is in my cart
+- How can I purchase what's in my cart
+- How do I buy
+- How do I make an order
+- How do I order my cart
+- How do I order my cart?
+- How do I place an order
+- How do I purchase what's in my cart?
+- How to buy
+- How to buy stuff?
+- How to order my cart
+- How to order my cart?
+- How to order something
+- How to order something in my cart
+- How to order what's in my cart?
+- How to place an order
+- How to place an order?
+- How to purchase a item in my cart?
+- How to purchase the item?
+- how can I buy
+- how can I buy something?
+- how can I buy?
+- how can I make an order?
+- how can I order
+- how can I order an item?
+- how can I order my cart
+- how can I order the food in my cart?
+- how can I order what is in my cart
+- how can I order what's in my cart?
+- how can I order?
+- how can I purchase what's in my cart?
+- how do I buy stuff in my cart
+- how do I make a purchase
+- how do I order something
+- how do I purchase my cart?
+- how to buy
+- how to buy?
+- how to make a purchase?
+- how to order something?
+- how to purchase something in my cart
+- how to purchase the food in my cart?
+
+## intent:faq/ask_multiple_orders
+- Can I make many orders at once
+- Can I make many purchases
+- Can I make more than one order at a time
+- Can I make more than one order at a time?
+- Can I make more than one order at once
+- Can I make more than one order at once?
+- Can I make more than one purchase
+- Can I make more than one purchase at a time
+- Can I make more than one purchase at once
+- Can I make more than one purchase at once?
+- Can I make more than one purchase?
+- Can I make multiple orders at once
+- Can I order from more than one shop
+- Can I place many orders at once?
+- Can I place more than one order at a time?
+- Can I purchase from many shops at once?
+- Can I purchase from multiple places at once?
+- How can I make many purchases at once?
+- How can I make more than one purchase at once
+- How can I make more than one purchase at once?
+- How can I order from multiple shops?
+- How can I order from multiple stores
+- How can I place more than one order at a time?
+- How can I purchase from multiple places at once
+- How do I make more than one purchase?
+- How do I order from more than one shop at a time?
+- How do I place several orders at once?
+- How do I purchase from more than one restaurant?
+- How to order from more than one restaurant
+- How to place more than one order at a time
+- can I make many purchases at a time?
+- can I make many purchases at once?
+- can I make many purchases?
+- can I make more than one order at a time
+- can I make more than one purchase at once?
+- can I make multiple orders at a time?
+- can I make multiple orders at once?
+- can I make several purchases at a time?
+- can I order from many stores at a time?
+- can I order from more than one store at a time?
+- can I place more than one order at a time?
+- how can I make many purchases at once
+- how can I order from many stores at a time
+- how can I purchase from more than one restaurant at once
+- how do I make more than one purchase at once?
+- how do I make multiple purchases
+- how do I make several purchases
+- how do I purchase from more than one shop
+- how to make more than one order at a time?
+- how to make multiple purchases
+
+## intent:faq/ask_help
+- This does not work properly
+- This does not work
+- This is not working well
+- This app isn't working well
+- I am having problem with this app
+- this app doesn't work properly
+- I do not know what to do with this app
+- I am having issues with Volli
+- Help
+- This app is not working
+- This does not work well
+- This app doesn't work well
+- where can I receive help
+- this does not work
+- where can I find help
+- this app does not work
+- where can I get help
+- This app does not work properly
+- this app does not work well
+- this app isn't working
+- I am having issues with this app
+- I am having trouble with Volligator
+- This app isn't working
+- This is not working properly
+- I am having trouble
+- This app isn't working properly
+- this is not working properly
+- I am having problem
+- I need help with Volli
+- I do not know what to do
+- I am having issues
+- this isn't working properly
+- This isn't working properly
+- this is not working well
+- this isn't working well
+- Where can I find help?
+- I need help with the app
+- This doesn't work properly
+- this doesn't work
+- this doesn't work properly
+- Where can I get help
+- I don't know how to work Volligator
+- Where can I receive help
+- I don't know how to work the app
+- help!
+- I don't know what to do with Volligator
+- this is not working
+- I am having issues with Volligator
+- This doesn't work well
+- I am having issues with the app
+
+## intent:select_store
+- Can I look at the menu for [Whole Foods](store) please?
+- Can I look at the menu for [taco Bell](store) please
+- Can I open the [Starbucks](store) menu please?
+- Can I read [taco Bell](store) please
+- Can I read the [panera](store) menu please
+- Could I browse [Panera](store)
+- Could I open [panera](store)?
+- Could I view the [Taco bell](store) menu
+- Could I view the [Whole foods](store) menu?
+- Gimme [Taco bell](store) menu please
+- Gimme [starbucks](store) menu please
+- Gimme the menu for [Taco bell](store)
+- Gimme the menu for [whole Foods](store) please
+- Gimme the [starbucks](store) menu
+- Gimme the [starbucks](store) menu please
+- Give me [Taco Bell](store) menu please
+- Give me [Taco bell](store)
+- Give me [starbucks](store) menu
+- I am going to read [Starbucks](store)
+- I am going to to get the items from [Whole foods](store)
+- I am going to view the menu for [Taco Bell](store)
+- I wanna to purchase from [Whole foods](store)
+- I wanna to purchase from [panera](store)
+- I want to read the [Starbucks](store) menu
+- I would like to browse the [whole foods](store) menu
+- I would like to read the [Taco bell](store) menu
+- I'd like to browse the [Whole Foods](store) menu
+- I'd like to to purchase from [panera](store)
+- I'd like to view the menu for [Whole foods](store)
+- I'm going to look at the [whole Foods](store) menu
+- I'm going to to purchase from [taco bell](store)
+- I'm gunna to get the food from [Panera](store)
+- I'm gunna to purchase from the [Whole foods](store) menu
+- I'm gunna to shop from the [Whole Foods](store) menu
+- I'm gunna view the [Panera](store) menu
+- Let me to get the item from the [panera](store) menu
+- May I read the [Panera](store) menu please?
+- Might I read [Whole Foods](store) please?
+- Might I see the menu for [Whole foods](store)?
+- Open [Panera](store)
+- Open [Taco Bell](store)
+- Open [Whole Foods](store) menu
+- Open [starbucks](store) menu
+- Open the menu for [whole Foods](store) please
+- Open the [taco bell](store) menu
+- Open [whole Foods](store)
+- Select [starbucks](store)
+- Select the [starbucks](store) menu please
+- Show me [Starbucks](store)
+- Show me [Starbucks](store) menu
+- can I open the menu for [Taco Bell](store) please?
+- can I open the [whole foods](store) menu please
+- could I open the [Panera](store) menu please
+- could I read the [Whole Foods](store) menu please?
+- could I read the [starbucks](store) menu?
+- gimme [taco Bell](store) menu please
+- gimme the [Starbucks](store) menu please
+- gimme the menu for [Panera](store)
+- give me [panera](store) menu please
+- give me the [Starbucks](store) menu
+- give me the [Whole foods](store) menu
+- give me the [whole Foods](store) menu please
+- give me [whole Foods](store) please
+- i am going to to shop from the [Starbucks](store) menu
+- i wanna read the menu for [whole foods](store)
+- i wanna to purchase from [taco Bell](store)
+- i wanna to purchase from the [starbucks](store) menu
+- i wanna to shop from [Taco Bell](store)
+- i want to to get the item from the [whole foods](store) menu
+- i want to to get the items from the [Starbucks](store) menu
+- i would like to browse the [whole Foods](store) menu
+- i would like to to order from [taco Bell](store)
+- i would like to to order from the [taco bell](store) menu
+- i would like to to purchase from [panera](store)
+- i would like to view [Panera](store)
+- i would like to view the [Starbucks](store) menu
+- i'd like to to get the item from [Taco Bell](store)
+- i'm going to look at the menu for [Starbucks](store)
+- i'm going to to shop from [whole Foods](store)
+- i'm gunna to shop from [whole Foods](store)
+- let me look at the menu for [Whole Foods](store)
+- let me to shop from [panera](store)
+- may I look at the [Taco bell](store) menu please?
+- may I read the menu for [Taco Bell](store) please
+- may I see [Panera](store)?
+- might I browse [Whole foods](store)
+- might I look at the menu for [starbucks](store)
+- might I open [Starbucks](store) please?
+- might I open the [Panera](store) menu please?
+- might I read [starbucks](store)?
+- might I see the [starbucks](store) menu
+- open [Whole foods](store) menu please
+- open the [Starbucks](store) menu
+- select the menu for [Panera](store)
+- select the menu for [Panera](store) please
+- select [whole foods](store) menu
+- show me [Taco Bell](store) please
+- show me the [Starbucks](store) menu
+- show me the menu for [taco Bell](store)
+- show me the [taco Bell](store) menu please
+
+## intent:describe_menu
+- Describe the menu
+- Describe the [panera](store) menu please
+- Explain more about the [whole Foods](store) menu please
+- Explain the menu
+- Explain the menu please
+- Gimme more information about the menu for [Whole foods](store)
+- Gimme more information about the menu for [panera](store) please
+- Give me more information about [Starbucks](store) please
+- Give me more information about [Whole Foods](store) please
+- Give me more information about the [Panera](store) menu please
+- I am going to hear info about the [panera](store) menu
+- I am going to hear more info about the [starbucks](store) menu
+- I wanna get info about the [panera](store) menu
+- I would like to get more information about the menu
+- I would like to hear about the [whole Foods](store) menu
+- I'd like to hear more info about the [Panera](store) menu
+- I'm gunna get about the [taco Bell](store) menu
+- I'm gunna get info about the [Taco Bell](store) menu
+- Open more information about the menu for [panera](store) please
+- Open the categories in the [panera](store) menu
+- Open the groups under [Panera](store) menu
+- Open the sections in menu
+- Open the sections on menu
+- Open the types of things in [whole Foods](store) menu
+- Select more information about [Panera](store) menu please
+- Select more information about the [Whole foods](store) menu please
+- Select the groups on the [Panera](store) menu
+- Show me more information about [Panera](store)
+- Show me more information about [Taco bell](store) please
+- Show me more information about [Whole Foods](store) menu please
+- Show me more information about the [Taco bell](store) menu please
+- Show me more information about the menu for [whole Foods](store) please
+- Show me the categories in the menu
+- Show me the types of things in menu
+- Show me the types of things under the menu
+- Tell me about the [whole Foods](store) menu please
+- Tell me more about the menu
+- What are the [Taco bell](store) menu categories
+- What are the [Whole Foods](store) menu groups
+- What are the categories on the menu
+- What are the categories on the [starbucks](store) menu
+- describe the menu
+- describe the menu please
+- describe the [panera](store) menu
+- explain more about the menu please
+- explain more about the [panera](store) menu please
+- explain the [starbucks](store) menu
+- gimme the groups on the [Panera](store) menu
+- give me more information about the menu for [Panera](store) please
+- give me the groups under [whole foods](store) menu
+- i am going to get info about the [starbucks](store) menu
+- i wanna hear info about the [Whole foods](store) menu
+- i would like to get about the menu
+- i would like to get more info about the [whole foods](store) menu
+- i would like to hear about the [Panera](store) menu
+- i would like to hear about the [Whole foods](store) menu
+- i would like to hear info about the menu
+- i would like to hear more info about the menu
+- i'd like to get information about the [Starbucks](store) menu
+- i'd like to hear more information about the [taco Bell](store) menu
+- i'm going to get about the menu
+- i'm going to get more information about the menu
+- i'm gunna hear info about the [Taco bell](store) menu
+- i'm gunna hear information about the [Starbucks](store) menu
+- i'm gunna hear more info about the [taco bell](store) menu
+- let me hear info about the [Whole Foods](store) menu
+- list the [Starbucks](store) menu categories
+- list the categories on the menu
+- list the categories on the [whole Foods](store) menu
+- list the sections on the menu
+- list the [starbucks](store) menu groups
+- list the [whole Foods](store) menu sections
+- open more information about [Starbucks](store) menu
+- open more information about the [starbucks](store) menu
+- open more information about the [starbucks](store) menu please
+- open more information about [whole foods](store) menu please
+- open the types of things on menu
+- select more information about the menu for [panera](store)
+- select more information about the [whole foods](store) menu please
+- select more information about [whole foods](store) please
+- select the categories on the menu
+- show me more information about [Starbucks](store) menu please
+- show me the categories on the [Taco Bell](store) menu
+- show me the groups under menu
+- show me the sections on the menu
+- show me the types of things on [Panera](store) menu
+- tell me about the [Whole foods](store) menu
+- tell me about the menu
+- tell me about the [panera](store) menu please
+- tell me about the [starbucks](store) menu please
+- tell me more about the menu
+- tell me more about the [taco Bell](store) menu please
+- tell me more about the [whole Foods](store) menu
+- what are the [Panera](store) menu sections
+- what are the [Taco Bell](store) menu groups
+- what are the categories on the menu
+- what are the categories on the [taco bell](store) menu
+- what are the groups on the menu
+- what are the sections on the [Panera](store) menu
+- what are the [whole foods](store) menu categories
+
+## intent:describe_category
+- Describe [Verismo Pods](category)
+- Describe [Whole Bean Coffee](category)
+- Gimme more info about [Bakery](category) please
+- Gimme more info about [Hot Coffee](category) category
+- Gimme more information about the [Whole Bean Coffee](category) category please
+- Gimme the food in [Cold Coffee](category)
+- Gimme the food in [Snacks and Sweets](category)
+- Gimme the items under [Whole Bean Coffee](category)
+- Gimme the the items under [Cold Brew Coffee](category)
+- Give me more info about [Hot Coffees](category)
+- Give me more info about [Iced Teas](category)
+- Give me more info about the [Frappuccino Blended Beverages](category) category please
+- Give me more information about [Cold Coffee](category)
+- Give me more information about [Cold Coffee](category) category please
+- Give me more information about the [Yogurt and Custard](category) category please
+- Give me the the items in the [Hot Drink](category) category
+- I wanna get more about [Lunch](category)
+- I wanna get more information about [Hot Coffee](category)
+- I want to hear more about [Via Instant Coffee](category)
+- I want to hear more about the [Iced Tea](category) category
+- I'd like to get more about [Lunch](category)
+- I'd like to hear more info about [Cold Drink](category)
+- I'd like to hear more information about the [Whole Bean Coffee](category) category
+- I'm going to get more info about the [Verismo Pods](category) category
+- Let me get more about [Frappuccino Blended Beverage](category)
+- Let me get more about the [Hot Breakfast](category) category
+- Open more info about [Snacks and Sweets](category) please
+- Open the food items in [Snacks and Sweets](category)
+- Open the food under the [Snacks and Sweets](category) category
+- Open the the items under [Via Instant Coffee](category)
+- Select more info about [Frappuccino Blended Beverages](category) please
+- Select more info about [Via Instant Coffee](category) category
+- Select more info about [Whole Bean Coffee](category)
+- Select the the items under [Hot Breakfast](category)
+- Show me more info about [Cold Coffee](category)
+- Show me more info about [Lunch](category)
+- Show me more information about the [Verismo Pods](category) category please
+- Show me the something under the [Cold Drinks](category)
+- Tell me about [Shopping Bags](category)
+- Tell me more about [Hot Coffees](category) please
+- Tell me more about [Shopping Bags](category)
+- describe [Cold Drinks](category) please
+- describe [Iced Tea](category)
+- explain more about [Cold Coffees](category)
+- explain more about the [Bakery](category) category
+- explain more about the [Hot Drinks](category) category please
+- explain the [Bakery](category) category please
+- explain the [Cold Brew Coffee](category) category please
+- gimme more info about [Verismo Pods](category) category
+- gimme more info about [Whole Bean Coffee](category)
+- gimme more information about [Hot Teas](category) category
+- give me more info about [Cold Coffees](category) please
+- give me more info about the [Lunch](category) category please
+- give me more information about [Cold Brew Coffee](category) category please
+- give me more information about [Via Instant Coffee](category)
+- give me the food items under [Yogurt and Custard](category)
+- give me the something under the [Hot Tea](category)
+- give me the the food items under the [Frappuccino Blended Beverages](category) category
+- i am going to get more information about [Hot Teas](category)
+- i wanna hear more about the [Hot Teas](category) category
+- i wanna hear more information about [Shopping Bags](category)
+- i want to get more about [Hot Breakfast](category)
+- i want to get more information about [Hot Tea](category)
+- i want to get more information about the [Cold Coffees](category) category
+- i want to hear more about [Cold Brew Coffee](category)
+- i would like to get more information about the [Lunch](category) category
+- i would like to hear more info about [Whole Bean Coffee](category)
+- i would like to hear more information about the [Frappuccino Blended Beverages](category) category
+- i'd like to get more info about the [Shopping Bags](category) category
+- i'd like to get more information about the [Snacks and Sweets](category) category
+- i'd like to hear more information about [Cold Coffees](category)
+- i'm going to get more about [Shopping Bags](category)
+- i'm going to hear more about [Whole Bean Coffee](category)
+- i'm gunna get more about the [Verismo Pods](category) category
+- i'm gunna hear more info about [Cold Coffee](category)
+- let me hear more about [Hot Drinks](category)
+- let me hear more about [Snacks and Sweets](category)
+- let me hear more info about [Via Instant Coffee](category)
+- open more info about [Hot Tea](category) please
+- open the food in [Cold Coffees](category)
+- open the food in [Via Instant Coffee](category)
+- open the items under the [Cold Coffees](category)
+- open the items under the [Yogurt and Custard](category) category
+- select more info about [Frappuccino Blended Beverage](category) category
+- select more information about [Cold Coffee](category) please
+- select the items under [Hot Coffee](category)
+- select the something under [Snacks and Sweets](category) category
+- select the the food in [Hot Drink](category) category
+- select the the food under the [Snacks and Sweets](category) category
+- select the the items under [Lunch](category) category
+- show me more info about [Shopping Bags](category)
+- show me more information about [Cold Brew Coffee](category) category
+- show me the food items in the [Hot Drinks](category)
+- show me the the food items under [Shopping Bags](category)
+- tell me about [Whole Bean Coffee](category)
+- tell me about the [Hot Drinks](category) category
+- tell me about the [Verismo Pods](category) category please
+- tell me more about [Bakery](category) please
+- tell me more about the [Snacks and Sweets](category) category please
+- tell me more about the [Whole Bean Coffee](category) category please
+
+## intent:select_item
+- Add [2](quantity) [Not Warmed](options) [Cinnamon Raisin Bagels](item) to my purchase
+- Add [3](quantity) [Pumpkin Breads](item) please
+- Add [5](quantity) [small](size) [Decaf](options) [Dark Roast Coffees](item) to my cart
+- Add a [1/3 Decaf](options) [Cocounutmilk Latte with Blonde Espresso](item) with [Soy](options) and [Graham Cracker Topping](options)
+- Add a [16oz](size) [Caffe Americano](item) with [Splash of Soymilk](options) please
+- Add a [Dark Roast Coffee](item) to my basket
+- Add a [Espresso Roast Verismo® Pods](item) to my cart please
+- Add a [Flat White](item) please
+- Add a [Not Warmed](options) [Chicken Wrap Protein Box](item) please
+- Add a [Not Warmed](options) [Spinach, Feta & Cage-Free Egg White Wrap](item)
+- Add a [Triple](size) [Blonde Espresso](options) [Almondmilk Honey Flat White with Blonde Espresso](item) with [No Splash of White Tea](options) and [Substitute Cinnamon Almondmilk Foam](options) to my basket
+- Add a [Warmed](options) [Chicken Wrap Protein Box](item) to my cart
+- Add [four](quantity) [32oz](size) [Blone Caramel Cloud Macchiatos](item) please
+- Add [four](quantity) [Not Warmed](options) [Evolution Fresh® Oranges](item) to my order please
+- Add [three](quantity) [12oz](size) [Dry](options) [Caffe Mochas](item) with [2% Milk](options) to my order
+- Add [two](quantity) [Warmed](options) [Starbucks® BBQ Potato Chips](item) to my order please
+- Add [two](quantity) [large](size) [Decaf](options) [Cocoa Cloud macchiatos](item) with [Splash of Almondmilk](options) and [Extra Splash of Soymilk](options)
+- From [Panera](store) I'd like a [This Bar Saves Lives™ Madagascar Vanilla Almond & Honey Bar](item)
+- From [Whole Foods](store) Give me a [Not Warmed](options) [Everything Bagel](item)
+- From [Whole foods](store) I want [two](quantity) [Warmed](options) [Perfect Bars® – Dark Chocolate Chip Peanut Butter](item)
+- From [panera](store) Give me a [Dry](options) [Cocounutmilk Latte with Blonde Espresso](item) with [No Mocha Drizzle](options) please
+- From [starbucks](store) How about a [Warmed](options) [Starbucks® BBQ Potato Chips](item) please
+- From [starbucks](store) let me have a [Petite Vanilla Bean Scone](item)
+- From [taco bell](store) let me have a [Dry](options) [Espresso Macchiato](item)
+- From [whole foods](store) Give me a [Warmed](options) [Chocolate Covered Espresso Beans](item) please
+- Give me [1](quantity) [large](size) [Caffe Mistos](item) please
+- Give me [3](quantity) [Not Warmed](options) [Evolution Fresh® Oranges](item)
+- Give me [4](quantity) [Not Warmed](options) [Ham & Cheese Croissants](item)
+- Give me a [Almondmilk Honey Flat White](item) please
+- Give me a [Banana Nut Bread](item) from [starbucks](store)
+- Give me a [Decaf Pike Place Roast](item) with [Light Splash of Green Tea](options) and [Substitute Dark Cocoa Almondmilk Foam](options)
+- Give me a [Evolution Fresh® Orange](item) please
+- Give me a [Extra Hot](options) [Coconutmilk Latte](item) please
+- Give me a [Ristretto](options) [Blonde Cappuccino](item) from [panera](store) please
+- Give me a [quad](size) sized [Blonde Caffe Latte](item) with [Light Cinnamon Soymilk Foam](options) and [Substitute Cinnamon Soymilk Foam](options) from [Taco bell](store) please
+- Give me [five](quantity) [Warm](options) [Starbucks Reserve Lattes](item) please
+- Give me [five](quantity) [Warmed](options) [Blueberry Scones](item) please
+- Give me [four](quantity) [32oz](size) [1/3 Decaf](options) [Blonde Caffe Lattes](item) with [Light Apple Juice](options) and [Splash of Green Tea](options) from [Starbucks](store) please
+- Give me [four](quantity) [Justin’s® Dark Chocolate Peanut Butter Cups](item)
+- Give me [one](quantity) [small](size) [Extra Hot](options) [Blonde Cappuccinos](item) with [No Apple Juice](options) and [French Press (Coarse)](options)
+- How about [2](quantity) [8oz](size) [Blone Vanilla Lattes](item)
+- How about [3](quantity) [8oz](size) [Extra Dry](options) [Blonde Roasts](item) with [Salted Honey Cold Foam](options) and [Caramel Crunch Topping](options)
+- How about [3](quantity) [Coconutmilk Lattes](item) please
+- How about a [Espresso Roast Verismo® Pods](item) from [Panera](store)
+- How about a [short](size) [Caramel Cloud Macchiato](item)
+- How about [two](quantity) [Warm](options) [Caramel Cloud macchiatos](item) please
+- I want [4](quantity) [20oz](size) [Espressos](item) please
+- I want [5](quantity) [Siggi's® Yogurt Cups 0% Vanilla](item) please
+- I want a [Not Warmed](options) [Justin’s® Dark Chocolate Peanut Butter Cups](item)
+- I want a [Pike Place Roast](item) please
+- I want a [Ristretto](options) [Blonde Flat White](item)
+- I want a [Warmed](options) [Grilled Chicken and Hummus Protein Box](item)
+- I want a [Wet](options) [Oatmilk Honey Latte with Blonde Espresso](item)
+- I want [one](quantity) [Triple](size) [Blonde Caffe Lattes](item) please
+- I want [two](quantity) [Blonde Cappuccinos](item)
+- I would like [4](quantity) [Not Warmed](options) [Egg White & Roasted Red Pepper Sous Vide Egg Bites](item) please
+- I would like a [Coconutmilk Latte](item)
+- I would like a [Not Warmed](options) [Petite Vanilla Bean Scone](item)
+- I would like a [Warmed](options) [Banana Nut Bread](item)
+- I would like [two](quantity) [Perfect Bars® – Dark Chocolate Chip Peanut Butter](item)
+- I would like [two](quantity) [Solo](size) [Upside Down](options) [Blonde Cappuccinos](item) from [taco bell](store) please
+- I'd like [1](quantity) [Chicken & Quinoa Protein Bowls with Black Beans and Greens](item) please
+- I'd like [1](quantity) [Warmed](options) [Pumpkin Breads](item)
+- I'd like [2](quantity) [Warmed](options) [Bacon & Gruyère Sous Vide Egg Bites](item) from [starbucks](store) please
+- I'd like [2](quantity) [small](size) [2/3 Decaf](options) [Blone Vanilla Lattes](item) with [Light Nutmeg Powder](options) from [starbucks](store)
+- I'd like [3](quantity) [Crispy Grilled Cheese Sandwiches](item) from [Panera](store)
+- I'd like a [Blonde Flat White](item) with [Double Blended](options) from [starbucks](store)
+- I'd like a [Cheese & Fruit Protein Box](item) please
+- I'd like a [Iced Lemon Loaf Cake](item) please
+- I'd like a [doppio](size) [Caffe Latte](item) with [No Cinnamon Powder](options)
+- I'd like [three](quantity) [Not Warmed](options) [Hippeas® – White Cheddar](item)
+- I'll have a [2/3 Decaf](options) [Caffe Americano](item) with [No Foam](options) and [Splash of Passion Tango Tea](options)
+- I'll have a [Cocounutmilk Latte with Blonde Espresso](item)
+- I'll have a [Starbucks Reserve Dark Chocolate Mocha](item) with [Cinnamon Almondmilk Foam](options)
+- I'll have a [Warmed](options) [Banana](item) please
+- I'll have [one](quantity) [large](size) [Blonde Flat Whites](item) with [Light Splash of Whole Milk](options) and [No Vanilla Powder](options)
+- Let me have [1](quantity) [Bacon & Gruyère Sous Vide Egg Bites](item)
+- Let me have [2](quantity) [Chicken Capreses](item) from [Starbucks](store)
+- Let me have [3](quantity) [small](size) [Starbucks Reserve Lattes](item) please
+- Let me have [4](quantity) [Not Warmed](options) [Cheese & Fruit Protein Boxes](item) please
+- Let me have a [Blonde Cocoa Cloud Macchiato](item) please
+- Let me have a [Long Shot](options) [Cocounutmilk Latte with Blonde Espresso](item)
+- Let me have a [Passport Series: West Java](item)
+- Let me have [four](quantity) [quad](size) [Blonde Espresso](options) [Almondmilk Honey Flat Whites](item) with [Nutmeg Powder](options) and [No Splash of Passion Tango Tea](options) from [whole foods](store) please
+- Put [1](quantity) [20oz](size) [Extra Dry](options) [Oatmilk Honey Lattes](item) with [Splash of Black Tea](options) in my basket please
+- Put [1](quantity) [trenta](size) [Blonde Cappuccinos](item) in my purchase please
+- Put [2](quantity) [Cinnamon Raisin Bagels](item) in my order
+- Put [2](quantity) [Not Warmed](options) [Espresso Roast Verismo® Pods](item) in my cart please
+- Put [2](quantity) [Warmed](options) [Chocolate Covered Espresso Beans](item) in my order please
+- Put [3](quantity) [12oz](size) [Dry](options) [Cappuccinos](item) in my order please
+- Put [4](quantity) [single](size) [Pike Place Roasts](item) with [No Vanilla Sweet Cream Cold Foam](options) and [Light Toasted Honey Topping](options) in my purchase
+- Put a [Birthday Cake Pop](item) in my order please
+- Put a [Caffe Americano](item) with [Light Marshmallow Whipped Cream](options) and [No Nutmeg Powder](options) in my order please
+- Put a [Cheese & Fruit Protein Box](item) in my order please
+- Put a [Espresso Roast Verismo® Pods](item) in my cart please
+- Put a [Justin’s® Dark Chocolate Peanut Butter Cups](item) in my purchase
+- Put a [Triple](size) sized [Caffe Mocha](item) in my cart please
+- Put a [Warmed](options) [Passport Series: West Java](item) in my basket please
+- Put a [Warmed](options) [Passport Series: West Java](item) in my purchase
+- Put a [Warmed](options) [Spinach, Feta & Cage-Free Egg White Wrap](item) in my cart please
+- Put a [medium](size) sized [2/3 Decaf](options) [Espresso con Panna](item) in my purchase please
+- Put [five](quantity) [Not Warmed](options) [Old-Fashioned Glazed Doughnuts](item) in my purchase please
+- Put [four](quantity) [Double](size) [2/3 Decaf](options) [Pike Place Roasts](item) in my basket please
+- Put [four](quantity) [Peter Rabbit™ Organics Apple & Grape](item) in my purchase
+- Put [one](quantity) [Not Warmed](options) [Chicken Wrap Protein Boxes](item) in my purchase please
+- Select [16oz](size) [Extra Wet](options) [Espresso con Panna](item) with [Extra Splash of Nonfat Milk](options)
+- Select [5](quantity) [Not Warmed](options) [Iced Lemon Loaf Cakes](item)please
+- Select [Caffe Americano](item) please
+- Select a [Bacon & Gruyère Sous Vide Egg Bites](item)
+- Select a [Blonde Caffe Latte](item) with [Salted Honey Cold Foam](options)
+- Select a [Blonde Espresso](options) [Cinnamon Dolce Latte](item) with [Graham Cracker Topping](options) please
+- Select a [Espresso Roast Verismo® Pods](item)please
+- Select a [Not Warmed](options) [Espresso Roast Verismo® Pods](item)
+- Select a [Not Warmed](options) [Everything Bagel](item)
+- Select a [Not Warmed](options) [Plain Bagel](item)please
+- Select a [Starbucks Reserve Hazelnut Bianco Latte](item) please
+- Select a [Warmed](options) [Cheese & Fruit Protein Box](item)
+- Select a [Warmed](options) [Chicken Caprese](item)
+- Select a [trenta](size) [1/3 Decaf](options) [Pike Place Roast](item) with [Extra Toasted Honey Topping](options)
+- Select [quad](size) [Blonde Espresso](options) [Oatmilk Honey Latte with Blonde Espresso](item) with [Cascara Topping](options)
+- Select [small](size) [Dry](options) [Oatmilk Honey Latte](item) with [No Toasted Honey Topping](options)
+- Select [tall](size) [Ristretto](options) [Pike Place Roast](item) with [No Chocolate Powder](options)
+- add [3](quantity) [Warmed](options) [Passport Series: West Javas](item) to my order please
+- add [3](quantity) [large](size) [Cinnamon Dolce Lattes](item) to my basket
+- add [4](quantity) [medium](size) [Blone Vanilla Lattes](item) with [Splash of Sweet Cream](options)
+- add a [8oz](size) [Blone Caramel Cloud Macchiato](item) with [No Toasted Honey Topping](options)
+- add a [Blonde Roast](item) please
+- add a [Blueberry Muffin](item) to my purchase please
+- add a [Extra Dry](options) [Almondmilk Honey Flat White with Blonde Espresso](item) with [23.7 fl oz](options) and [Light Guava Juice Blend](options)
+- add a [Not Warmed](options) [Passport Series: West Java](item) to my order
+- add a [Not Warmed](options) [Plain Bagel](item) to my order
+- add a [Oatmilk Honey Latte](item) with [Splash of Sweet Cream](options) please
+- add a [Siggi's® Yogurt Cup 0% Vanilla](item) to my cart please
+- add a [Spinach, Feta & Cage-Free Egg White Wrap](item) please
+- add a [Warmed](options) [Bacon & Gruyère Sous Vide Egg Bites](item)
+- add a [small](size) sized [Blonde Espresso](options) [Decaf Pike Place Roast](item) with [Light Splash of Sweet Cream](options) and [Soy](options)
+- add [one](quantity) [Birthday Cake Pops](item) please
+- add [one](quantity) [Solo](size) [Dry](options) [Dark Roast Coffees](item) please
+- add [one](quantity) [large](size) [Dry](options) [Starbucks Reserve Lattes](item) to my purchase
+- add [two](quantity) [Not Warmed](options) [Egg White & Roasted Red Pepper Sous Vide Egg Bites](item) to my cart please
+- from [Panera](store) I'd like a [Ristretto](options) [Cinnamon Dolce Latte](item) with [Lemonade](options)
+- from [Panera](store) I'll have [5](quantity) [Warmed](options) [Birthday Cake Pops](item) please
+- from [Whole foods](store) let me have [three](quantity) [Not Warmed](options) [Starbucks® BBQ Potato Chips](item) please
+- give me [4](quantity) [32oz](size) [Warm](options) [Blonde Caffe Americanos](item)
+- give me [4](quantity) [Dry](options) [Caramel Cloud macchiatos](item)
+- give me [5](quantity) [Not Warmed](options) [Banana Nut Breads](item) please
+- give me [three](quantity) [trenta](size) [Extra Hot](options) [Blone Caramel Cloud Macchiatos](item) with [Extra Cookie Crumble Topping](options) from [Starbucks](store)
+- how about [4](quantity) [Perfect Bars® – Dark Chocolate Chip Peanut Butter](item) from [taco bell](store) please
+- how about [two](quantity) [12oz](size) [Blone Caramel Cloud Macchiatos](item) with [Extra Cookie Crumble Topping](options) please
+- how about [two](quantity) [Not Warmed](options) [Espresso Roast Verismo® Pods](item) please
+- i want [1](quantity) [Warmed](options) [Birthday Cake Pops](item)
+- i want [five](quantity) [Cocounutmilk Latte with Blonde Espressos](item) please
+- i would like [5](quantity) [Eggs & Cheese Protein Boxes](item) please
+- i would like a [1/2 Decaf](options) [Blonde Cappuccino](item)
+- i would like a [Not Warmed](options) [Crispy Grilled Cheese Sandwich](item)
+- i would like [five](quantity) [grande](size) [Cocoa Cloud macchiatos](item) with [Substitute Cascara Topping](options) and [Extra Splash of Nonfat Milk](options) from [Whole foods](store) please
+- i'd like [3](quantity) [Ham & Cheese Croissants](item) from [Whole foods](store) please
+- i'd like [3](quantity) [Not Warmed](options) [Grilled Chicken and Hummus Protein Boxes](item)
+- i'd like a [Blonde Cappuccino](item)
+- i'd like a [Not Warmed](options) [Perfect Bar® – Dark Chocolate Chip Peanut Butter](item) please
+- i'd like a [Not Warmed](options) [Peter Rabbit™ Organics Apple & Grape](item) please
+- i'd like a [Warmed](options) [Banana](item)
+- i'd like a [Warmed](options) [Cheese & Fruit Protein Box](item) please
+- i'd like [five](quantity) [Not Warmed](options) [Petite Vanilla Bean Scones](item) please
+- i'd like [five](quantity) [large](size) [Coconutmilk Lattes](item) with [Extra Water](options) and [Extra Splash of Green Tea](options) from [Whole Foods](store) please
+- i'd like [four](quantity) [Blonde Cappuccinos](item) please
+- i'll have a [Double-Smoked Bacon, Cheddar & Egg Sandwich](item) please
+- i'll have a [Spinach, Feta & Cage-Free Egg White Wrap](item)
+- i'll have a [quad](size) [Decaf Pike Place Roast](item) please
+- i'll have [one](quantity) [single](size) [Espressos](item)
+- let me have [5](quantity) [Not Warmed](options) [Everything Bagels](item) from [Whole Foods](store)
+- let me have [5](quantity) [medium](size) [Blone Vanilla Lattes](item)
+- let me have a [small](size) sized [Almondmilk Honey Flat White with Blonde Espresso](item) with [Extra Dark Cocoa Almondmilk Foam](options) from [Taco Bell](store) please
+- let me have [five](quantity) [Decaf](options) [Espressos](item) please
+- put [1](quantity) [Triple](size) [2/3 Decaf](options) [Almondmilk Honey Flat Whites](item) with [Whole Milk](options) and [Splash of Nonfat Milk](options) in my order
+- put [5](quantity) [Not Warmed](options) [Birthday Cake Pops](item) in my purchase
+- put a [Banana](item) in my purchase please
+- put a [Cheese & Fruit Protein Box](item) in my purchase please
+- put a [Chocolate Covered Espresso Beans](item) in my basket please
+- put a [Passport Series: West Java](item) in my cart please
+- put a [Warmed](options) [Spinach, Feta & Cage-Free Egg White Wrap](item) in my cart
+- put a [tall](size) [Espresso](item) in my cart
+- put [four](quantity) [Warmed](options) [Starbucks® BBQ Potato Chips](item) in my cart
+- put [four](quantity) [Warmed](options) [Unicorn Cake Pops](item) in my purchase please
+- put [one](quantity) [Evolution Fresh® Oranges](item) in my order
+- put [one](quantity) [Warmed](options) [Hippeas® – White Cheddar](item) in my basket please
+- put [two](quantity) [Not Warmed](options) [Starbucks® BBQ Potato Chips](item) in my order please
+- put [two](quantity) [doppio](size) [1/2 Decaf](options) [Blone Caramel Cloud Macchiatos](item) in my basket
+- put [two](quantity) [medium](size) [Blonde Espresso](options) [Espresso Macchiatos](item) in my order
+- select [1/2 Decaf](options) [Espresso Macchiato](item) please
+- select [12oz](size) [Blonde Cocoa Cloud Macchiato](item) with [Substitute Cookie Crumble Topping](options)
+- select [Blonde Caffe Americano](item) please
+- select a [Not Warmed](options) [Eggs & Cheese Protein Box](item)
+- select a [Ristretto](options) [Starbucks Reserve Dark Chocolate Mocha](item) with [Heavy Cream](options) please
+- select a [Warmed](options) [This Bar Saves Lives™ Madagascar Vanilla Almond & Honey Bar](item)please
+- select a [doppio](size) [Dry](options) [Starbucks Reserve Dark Chocolate Mocha](item) with [Cascara Topping](options)
+- select a [doppio](size) [Flat White](item) please
+- select a [medium](size) [Blone Caramel Cloud Macchiato](item) with [Ice](options) please
+- select a [trenta](size) [Extra Wet](options) [Flat White](item) with [Light Splash of Nonfat Milk](options) please
+- select [five](quantity) [Double-Smoked Bacon, Cheddar & Egg Sandwiches](item)please
+
+## intent:ask_cart_contents
+- Could you check my cart
+- Could you check the basket for me
+- Could you look at my basket for me
+- Could you look at the order for me
+- Could you open my order
+- Could you open my order for me
+- Could you read my basket for me
+- Could you read my purchase for me
+- Could you read the cart for me
+- I wanna see what's in my order
+- I want see what's in my cart
+- I would like to look at my basket
+- I would like to look at my cart
+- I would like view my cart
+- I'd like to see what's in my purchase
+- I'm gunna look at my purchase
+- I'm gunna view my purchase
+- Let me look at my basket
+- Open my cart please
+- Open my order please
+- Read out the contents of my cart
+- Read out the contents of my order
+- Show me my cart
+- Show me my order
+- Show me the contents of my cart
+- Show me the contents of my order
+- Tell me the contents of my purchase
+- View my basket please
+- View my cart please
+- View my purchase please
+- What did I add to my cart?
+- What did I add to my order?
+- What did I add to my purchase?
+- What did I put in my basket
+- What did I put in my order
+- What do I have in my basket
+- What do I have in my basket at the moment
+- What do I have in my basket currently?
+- What do I have in my basket now?
+- What do I have in my order currently
+- What do I have in my order?
+- What do I have in my purchase?
+- What is in my cart right now?
+- What is in my order at the moment?
+- What is in my order?
+- What's in my basket now
+- What's in my order currently?
+- What's in my order?
+- could you check my basket
+- could you check my purchase for me
+- could you look at my basket
+- could you look at my cart
+- could you open my order
+- could you read my order
+- could you read the cart for me
+- give me see what's in my purchase
+- i wanna look at my basket
+- i would like to look at my cart
+- i'd like look at my basket
+- i'd like to look at my basket
+- i'm gunna look at my basket
+- let me view my cart
+- open my cart
+- open my cart please
+- open my order
+- open my order please
+- read me my purchase please
+- read me the contents of my purchase
+- read out the contents of my order
+- read out what is in my purchase
+- read out what's in my basket
+- read out what's in my cart
+- show me the contents of my cart
+- show me the contents of my order
+- show me what's in my purchase
+- tell me the contents of my purchase
+- tell me what is in my order
+- tell me what's in my cart
+- view my basket please
+- what did I add to my basket
+- what did I add to my cart
+- what did I add to my order
+- what did I add to my order?
+- what did I put in my basket
+- what did I put in my basket?
+- what did I put in my cart
+- what did I put in my purchase?
+- what do I have in my basket at the moment?
+- what do I have in my basket currently?
+- what do I have in my cart
+- what do I have in my cart now
+- what do I have in my cart right now
+- what do I have in my order
+- what do I have in my order?
+- what do I have in my purchase currently
+- what do I have in my purchase?
+- what is in my purchase currently?
+- what's in my basket at the moment
+- what's in my cart at the moment
+- what's in my purchase at the moment
+
+## intent:remove_from_cart
+- Actually, Can you clear the [trenta](size) [Peter Rabbit™ Organics Apple & Grape](item) from my order please
+- Actually, Could you get rid of the [Cocoa Cloud macchiato](item) from my cart please
+- Actually, Could you remove the [Caffe Americano](item) from my purchase please
+- Actually, I don't want the [Almondmilk Honey Flat White with Blonde Espressos](item)
+- Actually, I don't want the [Blonde Flat White](item)
+- Actually, I don't want the [Blonde Roast](item) in my basket
+- Actually, I don't want the [Blonde Roasts](item) in my order
+- Actually, I don't want the [Blueberry Muffins](item)
+- Actually, I don't want the [Caffe Mistos](item) in my order
+- Actually, I don't want the [Double-Smoked Bacon, Cheddar & Egg Sandwich](item) in my order
+- Actually, I don't want the [Egg White & Roasted Red Pepper Sous Vide Egg Bites](item) in my cart
+- Actually, I don't want the [Espresso con Pannas](item) in my basket
+- Actually, I don't want the [Grilled Chicken and Hummus Protein Boxes](item) in my order
+- Actually, I don't want the [Petite Vanilla Bean Scone](item) in my order
+- Actually, I don't want the [This Bar Saves Lives™ Madagascar Vanilla Almond & Honey Bars](item)
+- Actually, I don't want the [Unicorn Cake Pops](item) in my order
+- Actually, I don't want the [White Chocolate Mocha](item) in my order
+- Actually, May you remove the [Caramel Cloud macchiatos](item) from my cart please
+- Actually, Might you get rid of the [grande](size) [Caffe Lattes](item) please
+- Actually, Might you remove the [Tomato & Mozzarella](item) from my order
+- Actually, could you clear the [8oz](size) [Chicken & Double-Smoked Bacon](item)
+- Actually, could you drop the [Cocounutmilk Latte with Blonde Espressos](item) from my order
+- Actually, could you take out the [Chicken Caprese](item) from my cart
+- Actually, could you take out the [venti](size) [Blonde Cappuccinos](item) from my purchase please
+- Actually, might you clear the [Banana](item) please
+- Actually, might you drop the [Perfect Bars® – Dark Chocolate Chip Peanut Butter](item) from my purchase
+- Actually, might you erase the [small](size) [Passport Series: West Java](item) from my basket please
+- Actually, might you remove the [16oz](size) [Caffe Mocha](item)
+- Can you erase the [Caffe Mistos](item) from my basket
+- Clear a [Decaf Pike Place Roasts](item)
+- Clear a [Spinach, Feta & Cage-Free Egg White Wrap](item) please
+- Delete a [Crispy Grilled Cheese Sandwich](item) please
+- Delete the [Galvanina Sparkling Waters](item) from my basket please
+- Drop the [Caffe Latte](item) please
+- Drop the[Double](size) [Chocolate Covered Espresso Beans](item)
+- Drop the[doppio](size) [Justin’s® Dark Chocolate Peanut Butter Cups](item) from my cart
+- Erase the [Caffe Mistos](item)
+- Erase the [Plain Bagels](item) from my purchase
+- Get rid of a [Dark Roast Coffee](item) from my cart
+- Get rid of a [Oatmilk Honey Latte with Blonde Espresso](item) from my order please
+- I am going to delete the [Cappuccino](item)
+- I am going to drop a [Solo](size) [Caffe Americano](item)
+- I am going to get rid of the [Oatmilk Honey Lattes](item)
+- I don't want the [Almondmilk Honey Flat White with Blonde Espressos](item) in my order
+- I don't want the [Blonde Flat White](item)
+- I don't want the [Blueberry Muffin](item) in my purchase
+- I don't want the [Caffe Mochas](item) in my order
+- I don't want the [Chicken Caprese](item) in my basket
+- I don't want the [Cocounutmilk Latte with Blonde Espresso](item)
+- I don't want the [Decaf Pike Place Roasts](item)
+- I don't want the [Flat White](item) in my basket
+- I don't want the [Flat White](item) in my order
+- I don't want the [Pike Place Roast](item) in my cart
+- I don't want the [Siggi's® Yogurt Cups 0% Vanilla](item) in my purchase
+- I don't want the [Tomato & Mozzarellas](item)
+- I don't want the [Unicorn Cake Pops](item)
+- I wanna delete a [Chicken Caprese](item) from my purchase
+- I want to get rid of the [Blonde Caffe Lattes](item) from my cart
+- I want to remove the [Galvanina Sparkling Water](item)
+- I want to take out a [Blone Caramel Cloud Macchiato](item)
+- I would like to remove a [Dark Roast Coffees](item)
+- I'm going to remove a [Oatmilk Honey Lattes](item) from my purchase
+- Let me erase the [medium](size) [Starbucks Reserve Hazelnut Bianco Latte](item) from my order
+- Let me remove the [Pumpkin Bread](item)
+- May you clear the [Almondmilk Honey Flat White with Blonde Espressos](item) please
+- May you drop the [short](size) [Everything Bagel](item) please
+- Remove a [Crispy Grilled Cheese Sandwiches](item) from my order
+- Remove a[Solo](size) [Banana Nut Breads](item)
+- Remove the [Egg White & Roasted Red Pepper Sous Vide Egg Bites](item) from my basket
+- Take out a [Siggi's® Yogurt Cups 0% Vanilla](item)
+- Take out the [Ham & Cheese Croissant](item)
+- can you clear the [quad](size) [Starbucks Reserve Dark Chocolate Mochas](item) from my order please
+- can you drop the [20oz](size) [Passport Series: West Javas](item) from my basket please
+- can you remove the [Almondmilk Honey Flat Whites](item) from my order please
+- clear a [Passport Series: West Java](item) from my basket please
+- could you clear the [Ham & Cheese Croissant](item) please
+- delete a[8oz](size) [Chicken & Double-Smoked Bacons](item)
+- delete a[small](size) [Starbucks Reserve Lattes](item) please
+- drop the [Unicorn Cake Pops](item) please
+- erase a [Chocolate Covered Espresso Beans](item)
+- erase the [Caffe Americano](item) from my order
+- erase the[8oz](size) [Cocoa Cloud macchiato](item) please
+- get rid of the[Double](size) [Egg White & Roasted Red Pepper Sous Vide Egg Bites](item) from my purchase
+- get rid of the[single](size) [Caramel Macchiato](item) from my purchase
+- i am going to take out the [Double-Smoked Bacon, Cheddar & Egg Sandwiches](item) from my cart
+- i want to clear a [Starbucks Reserve Latte](item)
+- i want to clear the [Chicken & Quinoa Protein Bowl with Black Beans and Greens](item)
+- i would like to clear a [trenta](size) [Evolution Fresh® Organic Vital Berrys](item) from my cart
+- i would like to get rid of the [Bacon & Gruyère Sous Vide Egg Bites](item) from my order
+- i'd like to clear a [Grilled Chicken and Hummus Protein Box](item)
+- i'd like to erase the [Evolution Fresh® Organic Vital Berry](item) from my order
+- i'd like to remove a [Cocoa Cloud macchiato](item)
+- i'm gunna clear the [Evolution Fresh® Organic Vital Berrys](item)
+- may you clear the [Blone Caramel Cloud Macchiatos](item) from my cart
+- might you clear the [16oz](size) [Oatmilk Honey Latte](item) please
+- might you get rid of the [doppio](size) [Evolution Fresh® Orange](item) from my cart please
+- might you remove the [grande](size) [Old-Fashioned Glazed Doughnuts](item) please
+- remove a[Triple](size) [Blonde Cocoa Cloud Macchiato](item) please
+- take out a [Chicken Capreses](item) from my cart please
+- take out the [Blonde Cappuccino](item) from my basket please
+
+## intent:clear_cart
+- Actually,Can you clear it all from my basket
+- Actually,Can you get rid of all of the items please
+- Actually,Could you drop all of the items from my basket please
+- Actually,May you clear it all from my purchase
+- Actually,May you drop all of the items please
+- Actually,Might you clear everything from my order please
+- Actually,Might you delete all of the items
+- Actually,Might you drop everything from my purchase please
+- Actually,can you remove all the stuff from my order
+- Actually,could you delete all of the items from my basket please
+- Actually,could you erase all the stuff please
+- Actually,may you clear all of the items please
+- Actually,might you drop everything from my cart please
+- Actually,might you take out all of the items please
+- Can you clear all the items
+- Can you erase everything
+- Can you get rid of all of the items
+- Clear all the stuff
+- Clear my order
+- Could you drop all of the items from my cart
+- Could you remove all of the items
+- Delete all of the items from my purchase
+- Delete everything please
+- Delete my purchase
+- Drop all the stuff from my cart
+- Drop all the stuff from my purchase
+- Drop my cart
+- Drop my order
+- Erase my cart
+- Erase my order
+- Get rid of all the stuff
+- Get rid of my order
+- I want to erase it all
+- I would like to drop all the stuff from my order
+- I would like to take out all of the items
+- I'd like to clear all the stuff from my basket
+- I'm gunna clear all the stuff
+- Let me clear all of the items
+- Might you clear all of the items
+- Might you clear everything please
+- Might you remove all the stuff
+- Remove all of the items from my purchase please
+- Remove everything from my basket
+- Remove my basket
+- Remove my cart
+- Take out all of the items
+- Take out all the stuff
+- Take out my order
+- can you delete all of the items from my purchase please
+- clear all the items please
+- could you clear it all please
+- could you delete all the stuff
+- could you delete it all from my order please
+- could you drop it all from my basket
+- delete all the items from my purchase please
+- delete it all from my cart
+- delete my purchase
+- drop all the items from my cart please
+- drop it all
+- drop it all from my cart
+- erase all of the items
+- erase all the stuff please
+- erase everything please
+- erase it all please
+- erase my basket
+- erase my purchase
+- get rid of all the stuff
+- get rid of all the stuff from my basket
+- get rid of my basket
+- get rid of my purchase
+- i am going to remove everything from my cart
+- i am going to take out all the items from my purchase
+- i wanna erase all the stuff
+- i wanna get rid of everything
+- i want to take out everything
+- i would like to clear it all from my purchase
+- i would like to get rid of it all from my order
+- i would like to remove all the stuff
+- i would like to remove everything
+- i'd like to get rid of all the items
+- i'm going to take out everything
+- i'm gunna delete all of the items from my cart
+- i'm gunna erase all the items from my order
+- i'm gunna remove all of the items from my basket
+- i'm gunna remove all the stuff
+- i'm gunna remove everything from my order
+- let me drop it all from my basket
+- let me get rid of all the stuff from my basket
+- let me remove all the stuff
+- let me remove all the stuff from my order
+- might you drop all the items from my purchase
+- might you get rid of all the stuff from my cart please
+- might you take out all the items please
+- might you take out all the stuff from my cart
+- remove it all from my order
+- remove my basket
+- remove my cart
+- remove my purchase
+- take out my cart
+- take out my purchase
+
+## intent:checkout_cart
+- Checkout my basket please
+- Checkout my cart
+- Checkout my cart please
+- Checkout my order
+- Checkout my order please
+- Checkout my purchase
+- Checkout my purchase please
+- I am going to check out it all
+- I am going to checkout
+- I am going to finalize everything
+- I am going to purchase my purchase
+- I wanna check out all of the items
+- I wanna checkout
+- I wanna checkout it all in my basket
+- I wanna checkout my cart
+- I wanna finalize all the items in my purchase
+- I wanna finalize everything in my basket
+- I wanna finalize my order
+- I want to checkout all of the items
+- I want to checkout it all
+- I want to checkout my basket
+- I want to checkout my order
+- I want to checkout my purchase
+- I want to place my order
+- I want to place my order please
+- I would like to checkout
+- I would like to checkout my basket
+- I would like to checkout my cart
+- I would like to place my order please
+- I'd like to checkout
+- I'd like to checkout my basket
+- I'd like to checkout please
+- I'd like to finalize all of the items
+- I'm going to finalize all the items in my basket
+- I'm going to place my order please
+- I'm gunna check out everything in my cart
+- I'm gunna check out my purchase
+- I'm gunna checkout
+- I'm gunna checkout please
+- Let me check out my purchase
+- Let me checkout my purchase
+- Let me place my order
+- Let me place my order please
+- Place my order
+- Place my order please
+- checkout my basket
+- checkout my basket please
+- checkout my cart
+- checkout my cart please
+- checkout my order
+- checkout my purchase please
+- i am going to checkout my cart
+- i am going to checkout please
+- i wanna checkout it all in my purchase
+- i wanna checkout please
+- i wanna finalize everything
+- i wanna finalize it all
+- i wanna finalize my purchase
+- i wanna place my order
+- i wanna place my order please
+- i want to checkout it all
+- i want to finalize all of the items
+- i want to place my order
+- i want to purchase my cart
+- i would like to checkout all of the items
+- i would like to checkout my cart
+- i would like to finalize my cart
+- i would like to purchase all the stuff in my order
+- i'd like to check out my basket
+- i'd like to check out my cart
+- i'd like to checkout
+- i'd like to checkout my cart
+- i'd like to checkout my purchase
+- i'd like to finalize all of the items
+- i'd like to finalize all the items
+- i'd like to finalize all the items in my purchase
+- i'd like to place my order
+- i'd like to place my order please
+- i'd like to purchase my cart
+- i'd like to purchase my order
+- i'm going to checkout my cart
+- i'm going to checkout please
+- i'm going to purchase my purchase
+- i'm gunna check out all the items in my cart
+- i'm gunna checkout all the stuff
+- i'm gunna checkout it all in my purchase
+- i'm gunna checkout my basket
+- i'm gunna place my order
+- i'm gunna place my order please
+- i'm gunna purchase my cart
+- let me checkout please
+- let me finalize all the items in my basket
+- let me finalize my basket
+- let me finalize my purchase
+- let me place my order
+- let me place my order please
+- let me purchase all the stuff
+- let me purchase my cart
+- place my order
+- place my order please
+
+

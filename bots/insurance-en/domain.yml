@@ -1,0 +1,158 @@
+session_config:
+  session_expiration_time: 60.0
+  carry_over_slots_to_new_session: true
+intents:
+- quote_insurance
+- affirm
+- deny
+- mood_great
+- greet
+- inform
+- goodbye
+- mood_unhappy
+- bot_challenge
+- faq
+- explain
+- out_of_scope
+- faq/ask_airlift
+- faq/ask_amount
+- faq/ask_guardianship
+entities:
+- birthday
+- email
+- insurance_day
+- is_under_guardianship
+- name
+- need_airlift
+- total_amount
+- travel_country
+slots:
+  birthday:
+    type: unfeaturized
+  email:
+    type: unfeaturized
+  insurance_day:
+    type: unfeaturized
+  is_under_guardianship:
+    type: text
+  name:
+    type: unfeaturized
+  need_airlift:
+    type: text
+  requested_slot:
+    type: categorical
+    values:
+    - name
+    - birthday
+    - insurance_day
+    - travel_country
+    - email
+    - is_under_guardianship
+    - total_amount
+    - need_airlift
+    - __other__
+  total_amount:
+    type: text
+  travel_country:
+    type: unfeaturized
+responses:
+  utter_ask_birthday:
+  - text: could you please provide your birthday?
+  utter_ask_email:
+  - text: what's your email address?
+  utter_ask_insurance_day:
+  - text: how many days do you want to insure for?
+  utter_ask_is_under_guardianship:
+  - text: is the applicant currently under guardianship?
+    buttons:
+    - title: yes
+      payload: /affirm
+    - title: no
+      payload: /deny
+    - title: explain this
+      payload: /explain
+  utter_ask_name:
+  - text: what is your full name?
+  utter_ask_need_airlift:
+  - text: do you need air ambulance support?
+    buttons:
+    - title: yes
+      payload: /affirm
+    - title: no
+      payload: /deny
+    - title: explain this
+      payload: /explain
+  utter_ask_total_amount:
+  - text: what's the total insurance amount?
+    buttons:
+    - title: explain this
+      payload: /explain
+  utter_ask_travel_country:
+  - text: which country are you traveling to?
+    buttons:
+    - title: Japan
+      payload: '/inform{"travel_country": "Japan"}'
+    - title: Thailand
+      payload: '/inform{"travel_country": "Thailand"}'
+    - title: Taiwan
+      payload: '/inform{"travel_country": "Taiwan"}'
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_correct_amount:
+  - text: amount can only be between $60,000 to $1500,000
+  utter_correct_country:
+  - text: "Country can be: 'Japan', 'Taiwan', 'Burma', 'Cambodia', 'China/HK/Macao',\
+      \ 'South Korea', 'Laos', 'Malaysia', 'Singapore', 'Thailand', 'The Philippines',\
+      \ 'Vietnam', 'Other Countries'"
+  utter_correct_email:
+  - text: please enter correct email such as xx@yy.cc
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_explain_guardianship:
+  - text: If the applicant is under guardianship, we cannot legally provide insurance
+      to them without a legal guardian present.
+  utter_explain_need_airlift:
+  - text: An air ambulance is an aircraft equipped with life support equipment and
+      medical staff. If you require urgent medical care in a difficult terrain, an
+      air ambulance might be the best method of transport. The median cost of a helicopter
+      airlift is 10 thousand dollars. Adding insurance can significantly offset that
+      cost.
+  utter_explain_total_amount:
+  - text: Total means the highest value you or your beneficiary will get paid in the
+      extreme event of death or disability.
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_out_of_scope:
+  - text: Sorry, I can’t handle that request.
+actions:
+- respond_faq
+- utter_ask_birthday
+- utter_ask_email
+- utter_ask_insurance_day
+- utter_ask_is_under_guardianship
+- utter_ask_name
+- utter_ask_need_airlift
+- utter_ask_total_amount
+- utter_ask_travel_country
+- utter_cheer_up
+- utter_correct_amount
+- utter_correct_country
+- utter_correct_email
+- utter_did_that_help
+- utter_explain_guardianship
+- utter_explain_need_airlift
+- utter_explain_total_amount
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_iamabot
+- utter_out_of_scope
+forms:
+- insurance_form

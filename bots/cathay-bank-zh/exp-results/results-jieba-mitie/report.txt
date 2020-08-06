@@ -1,0 +1,815 @@
+xuchen@seasalt01:~/seasalt-ai/ngChat/bots/cathay-bank-zh/transformers (NGCHAT-53/docs/Theo/Add_rasa_jieba_mitie/20200331)*$ rasa test nlu --config configs/config-jieba-mitie.yml -u data/training_data.json --cross-validation
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(rasa:20691): Gdk-CRITICAL **: 16:36:47.687: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+
+(rasa:20691): Gdk-CRITICAL **: 16:36:47.696: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+2020-04-01 16:36:48.755884: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2020-04-01 16:36:48.755974: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2020-04-01 16:36:48.755987: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2020-04-01 16:36:49 INFO     rasa.cli.test  - Test model using cross validation.
+2020-04-01 16:36:52 INFO     rasa.nlu.components  - Added 'MitieNLP' to component cache. Key 'MitieNLP-/home/xuchen/seasalt-ai/ngChat/bots/cathay-bank-zh/transformers/components/total_word_feature_extractor.dat'.
+2020-04-01 16:36:52 INFO     rasa.nlu.model  - Starting to train component MitieNLP
+2020-04-01 16:36:52 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 16:36:52 INFO     rasa.nlu.model  - Starting to train component JiebaTokenizer
+Building prefix dict from the default dictionary ...
+Dumping model to file cache /tmp/jieba.cache
+Loading model cost 0.516 seconds.
+Prefix dict has been built successfully.
+2020-04-01 16:36:53 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 16:36:53 INFO     rasa.nlu.model  - Starting to train component MitieEntityExtractor
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '我想郵局繳費' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '郵局繳', 'start': 2, 'end': 5, 'entity': 'pay_method'} in example '我想郵局繳費': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '線上繳款' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '線上繳', 'start': 0, 'end': 3, 'entity': 'pay_method'} in example '線上繳款': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '我想線上繳費' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '線上', 'start': 2, 'end': 4, 'entity': 'pay_method'} in example '我想線上繳費': entities must span whole tokens. Wrong entity start.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '我想線上繳款' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '線上', 'start': 2, 'end': 4, 'entity': 'pay_method'} in example '我想線上繳款': entities must span whole tokens. Wrong entity start.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '我想線上全繳' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '線上', 'start': 2, 'end': 4, 'entity': 'pay_method'} in example '我想線上全繳': entities must span whole tokens. Wrong entity start.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '我想線上全部繳 納' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '線上', 'start': 2, 'end': 4, 'entity': 'pay_method'} in example '我想線上全部繳納': entities must span whole tokens. Wrong entity start.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '我要去超商繳信 用卡費' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '超商', 'start': 3, 'end': 5, 'entity': 'pay_method'} in example '我要去超商繳信用卡費': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '我要去SuperMarket繳費' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': 'SuperMarket', 'start': 3, 'end': 0, 'entity': 'pay_method'} in example '我要去SuperMarket繳費': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '我要線上繳最低 應繳' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '線上', 'start': 2, 'end': 4, 'entity': 'pay_method'} in example '我要線上繳最低應繳': entities must span whole tokens. Wrong entity start.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '我要線上繳全額' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '線上', 'start': 2, 'end': 4, 'entity': 'pay_method'} in example '我要線上繳全額': entities must span whole tokens. Wrong entity start.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '郵局劃撥' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '郵', 'start': 0, 'end': 1, 'entity': 'pay_method'} in example '郵局劃撥': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '7-11繳款' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '7-11', 'start': 0, 'end': 0, 'entity': 'pay_method'} in example '7-11繳款': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '我要超商繳' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '超商', 'start': 2, 'end': 4, 'entity': 'pay_method'} in example '我要超商繳': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '7-11繳費' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '7-11', 'start': 0, 'end': 0, 'entity': 'pay_method'} in example '7-11繳費': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '全家繳費' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '全家繳', 'start': 0, 'end': 3, 'entity': 'pay_method'} in example '全家繳費': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example 'OK商店繳費' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': 'OK商店', 'start': 0, 'end': 0, 'entity': 'pay_method'} in example 'OK商店繳費': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '全國繳費網繳費' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '全國繳費網繳', 'start': 0, 'end': 6, 'entity': 'pay_method'} in example '全國繳費網繳費': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example 'family繳費' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': 'family', 'start': 0, 'end': 0, 'entity': 'pay_method'} in example 'family繳費': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '高雄機場外圍停 車' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '雄', 'start': 1, 'end': 2, 'entity': 'park_location'} in example '高雄機場外圍停車': entities must span whole tokens. Wrong entity start.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '桃園機場外圍停 車' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '桃', 'start': 0, 'end': 1, 'entity': 'park_location'} in example '桃園機場外圍停車': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '桃園機場外圍停 車' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '園', 'start': 1, 'end': 2, 'entity': 'park_location'} in example '桃園機場外圍停車': entities must span whole tokens. Wrong entity start.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '桃園機場外圍停 車' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '機', 'start': 2, 'end': 3, 'entity': 'park_location'} in example '桃園機場外圍停車': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '桃園機場外圍停 車' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '場', 'start': 3, 'end': 4, 'entity': 'park_location'} in example '桃園機場外圍停車': entities must span whole tokens. Wrong entity start.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '我要查可用餘額' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '查', 'start': 2, 'end': 3, 'entity': 'action'} in example '我要查可用餘額': entities must span whole tokens. Wrong entity start.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '我想查詢餘額' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '查詢', 'start': 2, 'end': 4, 'entity': 'action'} in example '我想查詢餘額': entities must span whole tokens. Wrong entity start.
+Training to recognize 4 labels: 'pay_method', 'pay_amount', 'park_location', 'action'
+Part I: train segmenter
+words in dictionary: 200000
+num features: 271
+now do training
+C:           20
+epsilon:     0.01
+num threads: 1
+cache size:  5
+max iterations: 2000
+loss per missed segment:  3
+C: 20   loss: 3         0.385714
+^[C: 35   loss: 3       0.371429
+
+
+C: 20   loss: 4.5       0.357143
+C: 5   loss: 3  0.1
+C: 20   loss: 1.5       0.314286
+C: 26.7857   loss: 3.32143      0.4
+C: 27.8361   loss: 3.42583      0.4
+C: 27.1435   loss: 3.22805      0.4
+C: 27.4812   loss: 3.32804      0.4
+C: 26.2867   loss: 3.40809      0.4
+C: 26.9527   loss: 3.42002      0.4
+best C: 26.7857
+best loss: 3.32143
+num feats in chunker model: 4095
+train: precision, recall, f1-score: 0.791667 0.542857 0.644068
+Part I: elapsed time: 139 seconds.
+
+Part II: train segment classifier
+now do training
+num training samples: 80
+C: 200   f-score: 0.828729
+C: 400   f-score: 0.828729
+C: 300   f-score: 0.828729
+C: 100   f-score: 0.828729
+C: 0.01   f-score: 0.846154
+C: 50.005   f-score: 0.828729
+C: 25.0075   f-score: 0.824022
+C: 12.5088   f-score: 0.828729
+C: 6.25938   f-score: 0.828729
+C: 3.13469   f-score: 0.828729
+C: 1.57234   f-score: 0.837696
+C: 0.791172   f-score: 0.841969
+C: 0.400586   f-score: 0.858974
+best C: 0.400586
+^[test on train:
+34  0  0  0  0
+ 0 32  0  0  0
+ 0  0  2  0  0
+ 0  0  0  2  0
+ 6  4  0  0  0
+
+overall accuracy: 0.875
+Part II: elapsed time: 613 seconds.
+df.number_of_classes(): 5
+2020-04-01 16:49:29 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 16:49:29 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'SuperMarket' with '7-11'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-11' with 'OK商店'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'OK商店' with 'family'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+2020-04-01 16:49:29 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 16:49:29 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-01 16:49:29 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 16:49:29 INFO     rasa.nlu.model  - Starting to train component MitieIntentClassifier
+Training to recognize 31 categories: 'airportService.Service', 'roadsideAsst.callAssitant', 'pay.billInfo', 'elecbill.applyElecBill', 'elecbill.cancelElecBill', 'park.airport', 'rights.info', 'bank.turnToReal', 'bank.notTurnToReal', 'billDetail.query', 'debitbybk.apply', 'installment.apply', 'dialogue.cardList', 'resend.bill', 'card.lost', 'creditLimit.queryAmount', 'fallback', 'creditLimit.Apply', 'point.check', 'point.checkBonus', 'cardDiscount.Discount', 'loan.unsecured', 'loan.unsecuredWidget', 'cardStatus.add_doc', 'cardStatus.query', 'cashAdvance.enter', 'place.prepare', 'place.bank', 'place.atm', 'cpin.enter', 'cpin.cardApply'
+Train classifier
+extracting text features
+now do training
+num training samples: 2715
+C: 200   f-score: 0.716296
+C: 400   f-score: 0.71
+C: 300   f-score: 0.711111
+
+^[
+C: 100   f-score: 0.727407
+
+C: 0.01   f-score: 0.578148
+C: 143.073   f-score: 0.719259
+
+C: 113.491   f-score: 0.723704
+C: 90.001   f-score: 0.730741
+C: 81.0019   f-score: 0.731111
+C: 84.5418   f-score: 0.73037
+C: 82.7719   f-score: 0.731111
+C: 40.506   f-score: 0.733704
+C: 60.0901   f-score: 0.731852
+C: 49.5763   f-score: 0.732963
+C: 44.5252   f-score: 0.733704
+C: 20.258   f-score: 0.742593
+C: 29.3436   f-score: 0.735926
+C: 23.5855   f-score: 0.737778
+C: 18.2332   f-score: 0.742222
+C: 19.5459   f-score: 0.742593
+C: 19.9019   f-score: 0.742222
+C: 20.8503   f-score: 0.742593
+best C: 20.258
+test on train:
+133   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  1 170   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0 254   1   0   0   1   0   0   0   1   1   0   2   0   2   5   0   0   0   1   0   0   3   0   0   0   0   0   0   0
+  0   0   0  70   2   0   0   0   0   0   1   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   5  30   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0 187   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0 166   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0  34   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   2   3   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   2   0   0   0   0   0   0   8   0   0   0   0   1   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   1   0   0   0   0   0   0   0 128   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   1   0   0   0   0  83   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   8   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   2   3   0   0   0   0   0   0   0   0   0  40   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0  49   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   1   5   0   0   0   3   0   0   0   0   0   0   0   0  79   5   4   0   0   1   0   0   0   0   0   0   0   0   0   0
+  0   1  49   2   1   2   2   2   0   2  14   7   0   3   4   8 340   6   1   6   1   1   1   3   3   1   0   3   1   0   0
+  0   0   1   0   0   0   1   0   0   0   0   0   0   0   0   0   0  54   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   6   0  29   4   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   5   0   4  55   0   0   0   0   0   0   0   0   0   0   0
+  0   0   1   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0  52   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0  71   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  11  12   0   0   1   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0  42   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0  52   0   0   0   0   0   0
+  0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0  24   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   4   2   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 190   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  58   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  44   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1  14
+
+overall accuracy: 0.914549
+Training time: 35602 seconds.
+df.number_of_classes(): 31
+
+2020-04-02 02:42:54 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 02:42:54 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████████████| 2715/2715 [00:00<00:00, 3562.61it/s]
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.6/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2020-04-02 02:42:56 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████████████████| 679/679 [00:00<00:00, 3768.49it/s]
+2020-04-02 02:42:56 INFO     rasa.nlu.model  - Starting to train component MitieNLP
+2020-04-02 02:42:56 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 02:42:56 INFO     rasa.nlu.model  - Starting to train component JiebaTokenizer
+2020-04-02 02:42:56 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 02:42:56 INFO     rasa.nlu.model  - Starting to train component MitieEntityExtractor
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '超商繳全額' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '超商', 'start': 0, 'end': 2, 'entity': 'pay_method'} in example '超商繳全額': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '我要線上全繳' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '線上', 'start': 2, 'end': 4, 'entity': 'pay_method'} in example '我要線上全繳': entities must span whole tokens. Wrong entity start.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '7-ELEVEN繳費' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '7-ELEVEN', 'start': 0, 'end': 0, 'entity': 'pay_method'} in example '7-ELEVEN繳費': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example '711繳費' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': '711', 'start': 0, 'end': 0, 'entity': 'pay_method'} in example '711繳費': entities must span whole tokens. Wrong entity end.
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Failed to use example 'seven繳費' to train MITIE entity extractor. Example will be skipped.Error: Invalid entity {'value': 'seven', 'start': 0, 'end': 0, 'entity': 'pay_method'} in example 'seven繳費': entities must span whole tokens. Wrong entity end.
+Training to recognize 4 labels: 'pay_method', 'pay_amount', 'park_location', 'action'
+Part I: train segmenter
+words in dictionary: 200000
+num features: 271
+now do training
+C:           20
+epsilon:     0.01
+num threads: 1
+cache size:  5
+max iterations: 2000
+loss per missed segment:  3
+C: 20   loss: 3         0.454545
+C: 35   loss: 3         0.454545
+C: 20   loss: 4.5       0.484848
+C: 5   loss: 3  0.166667
+C: 20   loss: 1.5       0.348485
+C: 27.5   loss: 4.35    0.5
+C: 25.8516   loss: 4.02681      0.515152
+C: 25.8826   loss: 3.77431      0.5
+C: 27.1971   loss: 4.05529      0.484848
+C: 23.3459   loss: 3.99553      0.469697
+C: 26.3468   loss: 4.11369      0.530303
+C: 27.006   loss: 4.18889       0.515152
+best C: 26.3468
+best loss: 4.11369
+num feats in chunker model: 4095
+train: precision, recall, f1-score: 0.724138 0.636364 0.677419
+Part I: elapsed time: 151 seconds.
+
+Part II: train segment classifier
+now do training
+num training samples: 82
+C: 200   f-score: 0.739437
+C: 400   f-score: 0.732143
+C: 300   f-score: 0.732143
+C: 100   f-score: 0.729167
+C: 210   f-score: 0.732143
+C: 205   f-score: 0.729167
+C: 202.5   f-score: 0.726351
+C: 201.25   f-score: 0.729167
+C: 200.625   f-score: 0.709459
+C: 200.312   f-score: 0.732143
+C: 200.156   f-score: 0.736301
+C: 200.078   f-score: 0.721831
+C: 200.039   f-score: 0.729167
+C: 200.02   f-score: 0.736301
+C: 200.01   f-score: 0.729167
+C: 200.005   f-score: 0.732143
+C: 200.002   f-score: 0.711806
+C: 200.001   f-score: 0.739437
+C: 150   f-score: 0.711806
+C: 175   f-score: 0.729167
+C: 187.5   f-score: 0.729167
+C: 193.75   f-score: 0.724638
+C: 196.875   f-score: 0.721831
+C: 198.438   f-score: 0.724638
+C: 199.219   f-score: 0.736301
+best C: 200
+test on train:
+31  0  0  0  2
+ 0 28  0  0  0
+ 0  0  3  0  0
+ 0  0  0  2  0
+ 2  1  0  0 13
+
+overall accuracy: 0.939024
+Part II: elapsed time: 2385 seconds.
+df.number_of_classes(): 5
+2020-04-02 03:25:16 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 03:25:16 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'family' with 'SuperMarket'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'OK商店' with '7-ELEVEN'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-ELEVEN' with '711'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '711' with 'family'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'family' with 'seven'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+2020-04-02 03:25:16 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 03:25:16 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-02 03:25:16 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 03:25:16 INFO     rasa.nlu.model  - Starting to train component MitieIntentClassifier
+Training to recognize 31 categories: 'airportService.Service', 'roadsideAsst.callAssitant', 'pay.billInfo', 'elecbill.applyElecBill', 'elecbill.cancelElecBill', 'park.airport', 'cardDiscount.Discount', 'bank.turnToReal', 'bank.notTurnToReal', 'billDetail.query', 'debitbybk.apply', 'installment.apply', 'dialogue.cardList', 'resend.bill', 'card.lost', 'creditLimit.queryAmount', 'fallback', 'creditLimit.Apply', 'point.checkBonus', 'point.check', 'rights.info', 'loan.unsecured', 'loan.unsecuredWidget', 'cardStatus.add_doc', 'cardStatus.query', 'cashAdvance.enter', 'place.prepare', 'place.bank', 'place.atm', 'cpin.enter', 'cpin.cardApply'
+Train classifier
+extracting text features
+now do training
+num training samples: 2715
+C: 200   f-score: 0.722428
+C: 400   f-score: 0.713175
+C: 300   f-score: 0.716136
+C: 100   f-score: 0.72946
+C: 0.01   f-score: 0.572169
+C: 145.721   f-score: 0.725019
+
+C: 118.624   f-score: 0.728349
+C: 107.146   f-score: 0.727609
+C: 103.573   f-score: 0.727979
+C: 101.787   f-score: 0.727609
+C: 100.893   f-score: 0.72909
+
+C: 100.447   f-score: 0.728349
+C: 100.223   f-score: 0.72909
+C: 100.112   f-score: 0.728719
+C: 100.056   f-score: 0.72983
+best C: 100.056
+test on train:
+133   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0 171   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0 261   0   0   0   0   0   0   0   1   0   0   0   0   2   7   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0  72   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   2  34   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0 186   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0  54   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0  34   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   1   5   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   1   0   0   0   0   0   0  10   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   1   0   0   0   0   0   0   0 126   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0  83   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   8   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   1   0   0   0   0   0   0   0   0   0  46   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0  50   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   2   0   0   0   0   0   0   0   0   0   0   0   0  92   4   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0  18   3   0   1   2   0   0   1   5   1   0   3   1   4 414   5   0   3   0   0   1   1   1   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   1  54   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  60   3   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   2   0   1  37   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 168   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  73   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   3  20   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0  42   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  53   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0  25   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   5   1   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 190   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  59   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  43   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  15
+
+overall accuracy: 0.966114
+Training time: 35193 seconds.
+df.number_of_classes(): 31
+
+2020-04-02 13:11:52 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 13:11:52 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████████████| 2715/2715 [00:01<00:00, 2642.01it/s]
+2020-04-02 13:11:53 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████████████████| 679/679 [00:00<00:00, 3963.32it/s]
+2020-04-02 13:11:54 INFO     rasa.nlu.model  - Starting to train component MitieNLP
+2020-04-02 13:11:54 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 13:11:54 INFO     rasa.nlu.model  - Starting to train component JiebaTokenizer
+2020-04-02 13:11:54 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 13:11:54 INFO     rasa.nlu.model  - Starting to train component MitieEntityExtractor
+Training to recognize 4 labels: 'pay_method', 'pay_amount', 'park_location', 'action'
+Part I: train segmenter
+words in dictionary: 200000
+num features: 271
+now do training
+C:           20
+epsilon:     0.01
+num threads: 1
+cache size:  5
+max iterations: 2000
+loss per missed segment:  3
+C: 20   loss: 3         0.422535
+C: 35   loss: 3         0.43662
+C: 20   loss: 4.5       0.422535
+C: 5   loss: 3  0.056338
+C: 20   loss: 1.5       0.394366
+C: 28.1   loss: 3.75    0.422535
+C: 34.1208   loss: 2.25517      0.422535
+C: 36.5   loss: 3.15    0.43662
+C: 32.7636   loss: 3.11604      0.43662
+C: 36.5   loss: 3       0.43662
+C: 33.1413   loss: 3.0247       0.43662
+C: 35.8267   loss: 3.05626      0.422535
+best C: 35
+best loss: 3
+num feats in chunker model: 4095
+train: precision, recall, f1-score: 0.746032 0.661972 0.701493
+Part I: elapsed time: 157 seconds.
+
+Part II: train segment classifier
+now do training
+num training samples: 87
+test on train:
+33  0  0  0  1
+ 0 33  0  0  0
+ 0  0  3  0  0
+ 0  0  0  1  0
+ 5  1  0  0 10
+
+overall accuracy: 0.91954
+Part II: elapsed time: 242 seconds.
+df.number_of_classes(): 5
+2020-04-02 13:18:37 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 13:18:37 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'seven' with '7-11'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-11' with '7-ELEVEN'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+2020-04-02 13:18:37 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 13:18:37 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-02 13:18:37 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 13:18:37 INFO     rasa.nlu.model  - Starting to train component MitieIntentClassifier
+Training to recognize 31 categories: 'airportService.Service', 'pay.billInfo', 'elecbill.applyElecBill', 'elecbill.cancelElecBill', 'park.airport', 'cardDiscount.Discount', 'rights.info', 'bank.turnToReal', 'bank.notTurnToReal', 'billDetail.query', 'debitbybk.apply', 'installment.apply', 'dialogue.cardList', 'resend.bill', 'card.lost', 'creditLimit.queryAmount', 'fallback', 'creditLimit.Apply', 'point.check', 'point.checkBonus', 'roadsideAsst.callAssitant', 'loan.unsecured', 'loan.unsecuredWidget', 'cardStatus.add_doc', 'cardStatus.query', 'cashAdvance.enter', 'place.prepare', 'place.bank', 'place.atm', 'cpin.enter', 'cpin.cardApply'
+Train classifier
+extracting text features
+now do training
+num training samples: 2715
+C: 200   f-score: 0.720904
+C: 400   f-score: 0.714974
+C: 300   f-score: 0.716827
+C: 100   f-score: 0.736471
+C: 0.01   f-score: 0.584878
+C: 140.689   f-score: 0.730912
+C: 114.529   f-score: 0.73573
+C: 105.4   f-score: 0.736842
+C: 104.86   f-score: 0.736101
+C: 109.571   f-score: 0.734618
+C: 106.827   f-score: 0.73573
+C: 105.757   f-score: 0.736101
+best C: 105.4
+
+
+
+test on train:
+134   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0 263   0   0   0   0   0   0   0   0   0   0   0   0   0   2   6   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0  72   3   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   1  34   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0 186   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0  55   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0 167   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0  34   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   1   5   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0  11   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   1   0   0   0   0   0   0   0   0 128   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0  84   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   8   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0  46   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0  50   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   1   0   0   0   0   0   0   0   0   0   0   0   0   0  94   4   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0  17   0   0   1   1   0   0   0   1   2   1   0   2   3  10 408   8   2   5   0   0   1   0   1   0   0   0   0   0   1
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   2   0  54   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   1   0  34   3   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   3  60   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 170   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  73   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1  22   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  43   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  53   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  26   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   5   1   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 190   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  59   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  43   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  15
+
+overall accuracy: 0.967219
+Training time: 30294 seconds.
+df.number_of_classes(): 31
+
+2020-04-02 21:43:34 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 21:43:34 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████████████| 2715/2715 [00:00<00:00, 3714.06it/s]
+2020-04-02 21:43:35 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████████████████| 679/679 [00:00<00:00, 4022.33it/s]
+2020-04-02 21:43:36 INFO     rasa.nlu.model  - Starting to train component MitieNLP
+2020-04-02 21:43:36 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 21:43:36 INFO     rasa.nlu.model  - Starting to train component JiebaTokenizer
+2020-04-02 21:43:36 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 21:43:36 INFO     rasa.nlu.model  - Starting to train component MitieEntityExtractor
+Training to recognize 4 labels: 'pay_method', 'pay_amount', 'park_location', 'action'
+Part I: train segmenter
+words in dictionary: 200000
+num features: 271
+now do training
+C:           20
+epsilon:     0.01
+num threads: 1
+cache size:  5
+max iterations: 2000
+loss per missed segment:  3
+C: 20   loss: 3         0.386667
+C: 35   loss: 3         0.466667
+C: 20   loss: 4.5       0.36
+C: 5   loss: 3  0.133333
+C: 20   loss: 1.5       0.4
+C: 34.4451   loss: 1.50103      0.413333
+C: 36.5677   loss: 3.73343      0.44
+C: 36.5   loss: 2.85    0.44
+C: 31.28   loss: 2.95262        0.426667
+C: 33.6742   loss: 3.13258      0.453333
+C: 36.7524   loss: 2.93332      0.44
+C: 34.963   loss: 2.90007       0.44
+C: 35.5786   loss: 3.08156      0.426667
+best C: 35
+best loss: 3
+num feats in chunker model: 4095
+train: precision, recall, f1-score: 0.726027 0.706667 0.716216
+Part I: elapsed time: 172 seconds.
+
+Part II: train segment classifier
+now do training
+num training samples: 95
+C: 200   f-score: 0.742857
+C: 400   f-score: 0.742857
+C: 300   f-score: 0.742857
+C: 100   f-score: 0.742857
+C: 0.01   f-score: 0.755814
+C: 50.005   f-score: 0.742857
+C: 25.0075   f-score: 0.742857
+C: 12.5088   f-score: 0.745614
+C: 6.25938   f-score: 0.734463
+C: 3.13469   f-score: 0.732044
+C: 1.57234   f-score: 0.743243
+C: 0.791172   f-score: 0.751295
+C: 0.400586   f-score: 0.76087
+best C: 0.400586
+test on train:
+35  0  0  0  0
+ 0 34  0  0  0
+ 0  0  4  0  0
+ 0  0  0  2  0
+13  4  0  0  3
+
+overall accuracy: 0.821053
+Part II: elapsed time: 859 seconds.
+df.number_of_classes(): 5
+2020-04-02 22:00:50 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 22:00:50 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'seven' with 'SuperMarket'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.6/dist-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '711' with 'seven'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+2020-04-02 22:00:50 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 22:00:50 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-02 22:00:50 INFO     rasa.nlu.model  - Finished training component.
+2020-04-02 22:00:50 INFO     rasa.nlu.model  - Starting to train component MitieIntentClassifier
+Training to recognize 31 categories: 'airportService.Service', 'roadsideAsst.callAssitant', 'pay.billInfo', 'elecbill.cancelElecBill', 'park.airport', 'cardDiscount.Discount', 'rights.info', 'bank.turnToReal', 'bank.notTurnToReal', 'billDetail.query', 'debitbybk.apply', 'installment.apply', 'dialogue.cardList', 'resend.bill', 'card.lost', 'creditLimit.queryAmount', 'fallback', 'creditLimit.Apply', 'point.check', 'point.checkBonus', 'elecbill.applyElecBill', 'loan.unsecured', 'loan.unsecuredWidget', 'cardStatus.query', 'cashAdvance.enter', 'cardStatus.add_doc', 'place.prepare', 'place.bank', 'place.atm', 'cpin.enter', 'cpin.cardApply'
+Train classifier
+extracting text features
+now do training
+num training samples: 2715
+C: 200   f-score: 0.71365
+C: 400   f-score: 0.709199
+C: 300   f-score: 0.711053
+C: 100   f-score: 0.722552
+C: 0.01   f-score: 0.587166
+C: 143.831   f-score: 0.716617
+C: 115.378   f-score: 0.720326
+C: 102.119   f-score: 0.720326
+C: 101.06   f-score: 0.722181
+C: 100.53   f-score: 0.720326
+C: 100.265   f-score: 0.72181
+C: 100.132   f-score: 0.72181
+C: 100.066   f-score: 0.720326
+C: 100.033   f-score: 0.722181
+C: 100.017   f-score: 0.722923
+best C: 100.017
+test on train:
+134   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0 170   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0 261   0   0   0   0   0   0   0   1   0   0   0   0   2   7   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0  33   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0 186   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0  55   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0 167   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0  34   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   6   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0  10   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   1   0   0   0   0   0   0   0 129   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0  84   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   8   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0  45   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0  50   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   2   0   0   0   0   0   0   0   0   0   0   0   0  95   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0  21   0   1   2   0   0   0   2   5   3   0   2   2  10 402   7   1   4   2   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0  55   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   3   0  33   3   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   2  60   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  73   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  73   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  23   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  53   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  27   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0  42   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   4   1   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 191   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  58   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  43   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  15
+
+overall accuracy: 0.964641
+Training time: 35176 seconds.
+df.number_of_classes(): 31
+
+2020-04-03 07:47:10 INFO     rasa.nlu.model  - Finished training component.
+2020-04-03 07:47:10 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████████████| 2715/2715 [00:01<00:00, 2637.23it/s]
+2020-04-03 07:47:11 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████████████████| 679/679 [00:00<00:00, 4026.55it/s]
+2020-04-03 07:47:11 INFO     rasa.nlu.model  - Starting to train component MitieNLP
+2020-04-03 07:47:11 INFO     rasa.nlu.model  - Finished training component.
+2020-04-03 07:47:11 INFO     rasa.nlu.model  - Starting to train component JiebaTokenizer
+2020-04-03 07:47:12 INFO     rasa.nlu.model  - Finished training component.
+2020-04-03 07:47:12 INFO     rasa.nlu.model  - Starting to train component MitieEntityExtractor
+Training to recognize 4 labels: 'pay_method', 'pay_amount', 'park_location', 'action'
+Part I: train segmenter
+words in dictionary: 200000
+num features: 271
+now do training
+C:           20
+epsilon:     0.01
+num threads: 1
+cache size:  5
+max iterations: 2000
+loss per missed segment:  3
+C: 20   loss: 3         0.257143
+C: 35   loss: 3         0.328571
+C: 20   loss: 4.5       0.271429
+C: 5   loss: 3  0.1
+C: 20   loss: 1.5       0.242857
+C: 39.2665   loss: 4.43804      0.4
+C: 51.6016   loss: 7.17272      0.428571
+C: 54.5387   loss: 6.26156      0.428571
+C: 51.9578   loss: 6.51253      0.4
+C: 54.4648   loss: 7.41488      0.414286
+C: 49.1196   loss: 7.45383      0.442857
+C: 45.8432   loss: 7.63624      0.414286
+C: 48.5373   loss: 7.2756       0.4
+C: 49.5867   loss: 7.63542      0.414286
+C: 50.057   loss: 7.41899       0.4
+best C: 49.1196
+best loss: 7.45383
+num feats in chunker model: 4095
+train: precision, recall, f1-score: 0.761194 0.728571 0.744526
+Part I: elapsed time: 218 seconds.
+
+Part II: train segment classifier
+now do training
+num training samples: 86
+test on train:
+28  0  0  0  4
+ 0 33  0  0  0
+ 0  0  4  0  0
+ 0  0  0  1  0
+ 2  3  0  0 11
+
+overall accuracy: 0.895349
+Part II: elapsed time: 253 seconds.
+df.number_of_classes(): 5
+2020-04-03 07:55:07 INFO     rasa.nlu.model  - Finished training component.
+2020-04-03 07:55:07 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+2020-04-03 07:55:07 INFO     rasa.nlu.model  - Finished training component.
+2020-04-03 07:55:07 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-03 07:55:07 INFO     rasa.nlu.model  - Finished training component.
+2020-04-03 07:55:07 INFO     rasa.nlu.model  - Starting to train component MitieIntentClassifier
+Training to recognize 31 categories: 'airportService.Service', 'roadsideAsst.callAssitant', 'pay.billInfo', 'elecbill.applyElecBill', 'park.airport', 'cardDiscount.Discount', 'rights.info', 'bank.turnToReal', 'bank.notTurnToReal', 'billDetail.query', 'debitbybk.apply', 'installment.apply', 'dialogue.cardList', 'resend.bill', 'card.lost', 'creditLimit.queryAmount', 'fallback', 'creditLimit.Apply', 'point.check', 'point.checkBonus', 'elecbill.cancelElecBill', 'loan.unsecured', 'loan.unsecuredWidget', 'cardStatus.add_doc', 'cardStatus.query', 'cashAdvance.enter', 'place.bank', 'place.atm', 'place.prepare', 'cpin.enter', 'cpin.cardApply'
+Train classifier
+extracting text features
+now do training
+num training samples: 2716
+C: 200   f-score: 0.715185
+C: 400   f-score: 0.700741
+C: 300   f-score: 0.707037
+C: 100   f-score: 0.717407
+C: 0.01   f-score: 0.585556
+C: 148.343   f-score: 0.718148
+C: 134.712   f-score: 0.717037
+C: 160.689   f-score: 0.717407
+C: 149.577   f-score: 0.717778
+C: 148.96   f-score: 0.718148
+C: 141.528   f-score: 0.718148
+C: 144.935   f-score: 0.718519
+C: 145.276   f-score: 0.718889
+C: 146.5   f-score: 0.717407
+C: 145.476   f-score: 0.718519
+best C: 145.276
+test on train:
+134   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0 170   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0 267   0   0   0   0   0   0   0   0   0   0   0   0   2   3   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0  73   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0 187   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0  54   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0 167   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0  35   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   5   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0  11   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0 129   0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0  84   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   8   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0  47   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0  51   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  94   3   1   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0  19   1   0   2   0   0   0   1   2   1   0   2   1  11 410   5   3   4   0   0   1   0   1   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0  55   0   0   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  38   1   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   2  61   0   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  35   0   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  73   0   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  23   0   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0  43   0   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  52   0   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  27   0   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0 191   0   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  58   0   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   5   0   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  43   0
+  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  16
+
+overall accuracy: 0.974227
+Training time: 48551 seconds.
+df.number_of_classes(): 31
+
+2020-04-03 21:24:30 INFO     rasa.nlu.model  - Finished training component.
+2020-04-03 21:24:30 INFO     rasa.nlu.test  - Running model for predictions:
+  0%|                                                                                                                                                 | 0/2716 [00:00<?, ?it/s  0%|▌                                                                                                                                      | 12/2716 [00:00<00:24, 109.59it/s  2%|██                                                                                                                                     | 41/2716 [00:00<00:20, 133.33it/s  2%|███▎                                                                                                                                   | 66/2716 [00:00<00:17, 151.00it/s  4%|████▊                                                                                                                                  | 97/2716 [00:00<00:14, 176.06it/s  4%|█████▋                                                                                                                                | 116/2716 [00:00<00:14, 179.01it/s  6%|███████▊                                                                                                                              | 159/2716 [00:00<00:11, 215.71it/s  7%|█████████▍                                                                                                                            | 191/2716 [00:00<00:10, 238.52it/s  9%|████████████▋                                                                                                                         | 257/2716 [00:00<00:08, 294.96it/s 12%|███████████████▍                                                                                                                      | 313/2716 [00:00<00:07, 342.63it/s 14%|██████████████████▌                                                                                                                   | 377/2716 [00:01<00:05, 397.34it/s 16%|█████████████████████                                                                                                                 | 427/2716 [00:01<00:05, 412.11it/s 18%|███████████████████████▍                                                                                                              | 476/2716 [00:01<00:05, 413.98it/s 20%|██████████████████████████▏                                                                                                           | 532/2716 [00:01<00:04, 448.99it/s 21%|████████████████████████████▋                                                                                                         | 582/2716 [00:01<00:04, 459.51it/s 24%|████████████████████████████████▍                                                                                                     | 658/2716 [00:01<00:03, 520.53it/s 28%|█████████████████████████████████████                                                                                                 | 752/2716 [00:01<00:03, 600.27it/s 32%|███████████████████████████████████████████                                                                                           | 874/2716 [00:01<00:02, 708.19it/s 37%|█████████████████████████████████████████████████▊                                                                                   | 1017/2716 [00:01<00:02, 833.12it/s 42%|███████████████████████████████████████████████████████▊                                                                             | 1140/2716 [00:01<00:01, 921.26it/s 47%|█████████████████████████████████████████████████████████████▉                                                                       | 1264/2716 [00:02<00:01, 995.97it/s 51%|███████████████████████████████████████████████████████████████████▍                                                                 | 1377/2716 [00:02<00:01, 982.42it/s 55%|████████████████████████████████████████████████████████████████████████▍                                                           | 1491/2716 [00:02<00:01, 1024.66it/s 60%|██████████████████████████████████████████████████████████████████████████████▋                                                     | 1619/2716 [00:02<00:01, 1087.43it/s 65%|██████████████████████████████████████████████████████████████████████████████████████                                              | 1770/2716 [00:02<00:00, 1184.45it/s 71%|██████████████████████████████████████████████████████████████████████████████████████████████                                      | 1935/2716 [00:02<00:00, 1293.10it/s 78%|██████████████████████████████████████████████████████████████████████████████████████████████████████▎                             | 2106/2716 [00:02<00:00, 1394.28it/s 83%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                      | 2253/2716 [00:02<00:00, 1325.56it/s 90%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████             | 2449/2716 [00:02<00:00, 1467.80it/s 96%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎    | 2620/2716 [00:03<00:00, 1532.65it/s100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2716/2716 [00:03<00:00, 882.24it/s]
+2020-04-03 21:24:34 INFO     rasa.nlu.test  - Running model for predictions:
+  0%|                                                                                                                                                  | 0/678 [00:00<?, ?it/s 15%|████████████████████▌                                                                                                                 | 104/678 [00:00<00:00, 1036.37it/s 26%|███████████████████████████████████                                                                                                    | 176/678 [00:00<00:00, 903.66it/s 47%|██████████████████████████████████████████████████████████████▋                                                                       | 317/678 [00:00<00:00, 1012.23it/s 58%|█████████████████████████████████████████████████████████████████████████████▋                                                         | 390/678 [00:00<00:00, 842.73it/s 68%|███████████████████████████████████████████████████████████████████████████████████████████▍                                           | 459/678 [00:00<00:00, 789.31it/s 79%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▉                            | 537/678 [00:00<00:00, 784.41it/s 92%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍          | 625/678 [00:00<00:00, 804.75it/s100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 678/678 [00:00<00:00, 875.15it/s]
+2020-04-03 21:24:35 INFO     rasa.nlu.test  - Accumulated test folds intent evaluation results:
+2020-04-03 21:24:35 INFO     rasa.nlu.test  - Intent Evaluation: Only considering those 3394 examples that have a defined intent out of 3394 examples
+2020-04-03 21:24:35 INFO     rasa.nlu.test  - Classification report saved to results/intent_report.json.
+2020-04-03 21:24:35 INFO     rasa.nlu.test  - Incorrect intent predictions saved to results/intent_errors.json.
+2020-04-03 21:24:36 INFO     rasa.nlu.test  - Confusion matrix, without normalization:
+[[159   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   3
+    0   0   0   4   0   0   0   0   0   1   0   0   0]
+ [  0   4   3   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   1  29   0   0   0   0   0   0   0   0   0   0   0   1   1   0   4
+    1   0   1   1   3   0   0   0   1   0   0   0   0]
+ [  0   0   0   5   0   0   0   0   0   0   0   0   1   0   0   0   0   3
+    0   0   0   0   4   0   0   0   0   1   0   0   0]
+ [  0   0   0   0  56   0   0   0   0   0   0   1   0   0   0   0   0   6
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   1   0   2  49   3   2   0   0   0   0   3   0   0   1   0   2
+    1   0   0   0   2   0   0   0   1   0   0   1   0]
+ [  0   0   0   0   0   2  43   2   0   0   0   0   0   0   0   0   1   5
+    0   0   0   0   1   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   1   0   2  52   0   0   0   1   0   1   0   0   1   7
+    0   0   0   0   1   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0  28   0   0   1   1   0   0   0   0   3
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   2   1   0   0   0  15   0   0   0   0   0   0   0   0
+    0   0   0   0   0   0   1   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   1  47   0   0   1   0   0   0   3
+    0   1   0   0   0   0   0   0   0   1   0   0   0]
+ [  0   0   0   0   0   1   0   0   0   0   0  57   3   0   0   0   0   4
+    0   1   0   0   3   0   0   0   0   0   0   0   1]
+ [  0   0   0   0   0   5   0   1   0   0   0   2  74   1   0   0   0  19
+    0   1   1   0  10   0   0   0   0   1   2   5   1]
+ [  0   0   0   0   0   1   0   1   0   0   0   0   0 149   0   1   0   5
+    0   0   0   0   4   0   0   0   0   0   1   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   1   0   6   0   0   2
+    0   0   0   0   0   0   0   0   0   0   0   0   1]
+ [  0   0   1   0   0   0   0   0   0   0   1   0   0   1   0  73  12   5
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   1   0   0   0   0   0   0   0   0   0   0   1   0  16  22   1
+    0   1   0   0   0   0   0   0   0   0   2   0   0]
+ [  2   0   7   6  11  12   6   5   3   2   5  11  27  20   3   6   2 287
+    9   4   4   3  85   9  10   0   6  20   7   3   5]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   1   1   1
+   97   0   0   0   2   0   0   0   0   0   0   2   0]
+ [  0   0   0   0   0   0   0   0   1   0   0   0   3   0   0   0   1   3
+    0  75   4   0   0   0   1   0   1   2   0   0   0]
+ [  0   0   1   0   0   0   0   0   1   0   0   0   0   1   0   0   0   4
+    0  10  11   0   1   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   3
+    0   0   0 228   0   0   0   0   0   0   0   0   1]
+ [  0   0   0   1   1   1   2   0   1   1   1   0   7   4   0   0   0  36
+    3   1   1   1 259   1   0   0   2   2  10   4   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   2
+    0   0   0   0   0  68   3   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   4
+    1   0   0   0   1   2 229   1   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0   0   0   0   0   4   3   0   0   0   0   0]
+ [  0   0   0   0   1   0   0   0   0   0   1   0   0   0   0   0   0   7
+    0   0   0   0   3   1   0   0  22  13   1   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   1   1   0   0   0   0  16
+    0   0   0   0   1   0   0   0  10  49   0   1   0]
+ [  0   0   0   1   0   0   1   0   0   0   0   0   0   0   0   7   1  13
+    0   0   0   0   9   0   0   0   0   0  26   0   1]
+ [  1   0   0   0   0   1   1   0   0   0   0   0   0   0   0   0   0   2
+    0   0   0   1   0   0   0   0   0   0   0 203   0]
+ [  2   0   0   0   0   0   0   0   0   0   0   1   1   0   0   0   0   3
+    0   0   0   0   0   0   0   0   0   0   0   0 206]]
+
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - Accumulated test folds entity evaluation results:
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - Evaluation for entity extractor: MitieEntityExtractor
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - Classification report for 'MitieEntityExtractor' saved to 'results/MitieEntityExtractor_report.json'.
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - Incorrect entity predictions saved to results/MitieEntityExtractor_errors.json.
+2020-04-04 08:42:52 INFO     rasa.test  - CV evaluation (n=5)
+2020-04-04 08:42:52 INFO     rasa.test  - Intent evaluation results
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - train Accuracy: 0.957 (0.022)
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - train F1-score: 0.957 (0.023)
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - train Precision: 0.958 (0.021)
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - test Accuracy: 0.775 (0.012)
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - test F1-score: 0.768 (0.016)
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - test Precision: 0.773 (0.018)
+2020-04-04 08:42:52 INFO     rasa.test  - Entity evaluation results
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - Entity extractor: MitieEntityExtractor
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - train Accuracy: 0.997 (0.000)
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - train F1-score: 0.626 (0.066)
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - train Precision: 0.845 (0.027)
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - Entity extractor: MitieEntityExtractor
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - test Accuracy: 0.995 (0.001)
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - test F1-score: 0.354 (0.074)
+2020-04-04 08:42:52 INFO     rasa.nlu.test  - test Precision: 0.498 (0.089)

@@ -1,0 +1,1271 @@
+[
+  {
+    "text": "我想商超繳費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 2,
+        "end": 4,
+        "value": "商超",
+        "entity": "pay_method",
+        "confidence": 0.9531038972043642,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我想郵局繳費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 2,
+        "end": 4,
+        "value": "郵局",
+        "entity": "pay_method",
+        "confidence": 0.8570980218314233,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我想通過商超繳費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 6,
+        "value": "商超",
+        "entity": "pay_method",
+        "confidence": 0.7242040230074926,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我想郵局繳費",
+    "entities": [
+      {
+        "value": "郵局繳",
+        "start": 2,
+        "end": 5,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 2,
+        "end": 4,
+        "value": "郵局",
+        "entity": "pay_method",
+        "confidence": 0.8570980218314233,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我想全繳",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 2,
+        "end": 4,
+        "value": "全繳",
+        "entity": "pay_amount",
+        "confidence": 0.956166762977846,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我想全部繳納",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 2,
+        "end": 6,
+        "value": "全部繳納",
+        "entity": "pay_amount",
+        "confidence": 0.6581077046809879,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我要全繳",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 2,
+        "end": 4,
+        "value": "全繳",
+        "entity": "pay_amount",
+        "confidence": 0.9348029835951663,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我要線上繳全額",
+    "entities": [
+      {
+        "value": "線上",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全額",
+        "start": 5,
+        "end": 7,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 2,
+        "end": 5,
+        "value": "線上繳",
+        "entity": "pay_method",
+        "confidence": 0.8664039800667162,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 5,
+        "end": 7,
+        "value": "全額",
+        "entity": "pay_amount",
+        "confidence": 0.9153435507991102,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "超商繳全額",
+    "entities": [
+      {
+        "value": "超商",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全額",
+        "start": 3,
+        "end": 5,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "超商繳",
+        "entity": "pay_method",
+        "confidence": 0.8903287983433084,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 3,
+        "end": 5,
+        "value": "全額",
+        "entity": "pay_amount",
+        "confidence": 0.9235060374847317,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "超商繳款",
+    "entities": [
+      {
+        "value": "超商繳款",
+        "start": 0,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "超商",
+        "entity": "pay_method",
+        "confidence": 0.957005441741962,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "全國繳費網繳費",
+    "entities": [
+      {
+        "value": "全國繳費網",
+        "start": 0,
+        "end": 5,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "全國繳費網繳",
+        "entity": "pay_method",
+        "confidence": 0.6474393917906587,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "全國繳費網",
+    "entities": [
+      {
+        "value": "全國繳費網",
+        "start": 0,
+        "end": 5,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "高雄機場外圍停車",
+    "entities": [
+      {
+        "value": "高雄",
+        "start": 0,
+        "end": 2,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我想查询其他额度",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 2,
+        "end": 4,
+        "value": "查询",
+        "entity": "action",
+        "confidence": 0.6937030074998732,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我想查詢餘額",
+    "entities": [
+      {
+        "value": "查詢",
+        "start": 2,
+        "end": 4,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我本期金額12000多如果繳最低",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 14,
+        "end": 16,
+        "value": "最低",
+        "entity": "pay_amount",
+        "confidence": 0.7978184763596726,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "線上繳費有手續費嗎？",
+    "entities": [
+      {
+        "value": "線上繳費有手續費嗎？",
+        "start": 0,
+        "end": 10,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "線上",
+        "entity": "pay_method",
+        "confidence": 0.8082197234562463,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我想繳納最低",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 6,
+        "value": "最低",
+        "entity": "pay_amount",
+        "confidence": 0.7331388866331217,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我想線上繳款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 2,
+        "end": 4,
+        "value": "線上",
+        "entity": "pay_method",
+        "confidence": 0.6465242904190904,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "繳納最低",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 2,
+        "end": 4,
+        "value": "最低",
+        "entity": "pay_amount",
+        "confidence": 0.7453546155169448,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "郵局劃撥",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "郵",
+        "entity": "pay_method",
+        "confidence": 0.5626499774153961,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "郵局繳款",
+    "entities": [
+      {
+        "value": "郵局繳款",
+        "start": 0,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "郵局",
+        "entity": "pay_method",
+        "confidence": 0.4890897456195722,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我要郵局繳費",
+    "entities": [
+      {
+        "value": "郵局",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我要有局繳費",
+    "entities": [
+      {
+        "value": "有局",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我要自行決定繳納金額",
+    "entities": [
+      {
+        "value": "自行決定",
+        "start": 2,
+        "end": 6,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 2,
+        "end": 10,
+        "value": "自行決定繳納金額",
+        "entity": "pay_amount",
+        "confidence": 0.740023324148501,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我要線上繳最低應繳",
+    "entities": [
+      {
+        "value": "線上",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      },
+      {
+        "value": "最低應繳",
+        "start": 5,
+        "end": 9,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "最",
+        "entity": "pay_amount",
+        "confidence": 0.4015493548037602,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "郵局劃撥",
+    "entities": [
+      {
+        "value": "郵局劃撥",
+        "start": 0,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "郵",
+        "entity": "pay_method",
+        "confidence": 0.5626499774153961,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "立即繳款",
+    "entities": [
+      {
+        "value": "立即",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我要付信用卡費",
+    "entities": [
+      {
+        "value": "信用卡費",
+        "start": 3,
+        "end": 7,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全家繳費",
+    "entities": [
+      {
+        "value": "全家繳",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "全家",
+        "entity": "pay_method",
+        "confidence": 0.834119069508117,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "商超",
+    "entities": [
+      {
+        "value": "商超",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "部分繳款",
+    "entities": [
+      {
+        "value": "部分",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "轉帳繳費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "轉帳",
+        "entity": "pay_method",
+        "confidence": 0.48636949950444547,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "高雄機場外圍停車",
+    "entities": [
+      {
+        "value": "高雄機場",
+        "start": 0,
+        "end": 4,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "桃園機場外圍停車",
+    "entities": [
+      {
+        "value": "場",
+        "start": 3,
+        "end": 4,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "桃",
+        "entity": "park_location",
+        "confidence": 0.4134265298237784,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我要查可用餘額",
+    "entities": [
+      {
+        "value": "查",
+        "start": 2,
+        "end": 3,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "線上客服",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "線上",
+        "entity": "pay_method",
+        "confidence": 0.5975532365680708,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我想繳納最低",
+    "entities": [
+      {
+        "value": "最低",
+        "start": 4,
+        "end": 6,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "線上繳款",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "線上",
+        "entity": "pay_method",
+        "confidence": 0.9090362716943174,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "繳納最低",
+    "entities": [
+      {
+        "value": "最低",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我想繳納全部",
+    "entities": [
+      {
+        "value": "繳納全部",
+        "start": 2,
+        "end": 6,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 4,
+        "end": 6,
+        "value": "全部",
+        "entity": "pay_amount",
+        "confidence": 0.6503733006538274,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我想通過郵局全繳",
+    "entities": [
+      {
+        "value": "郵局",
+        "start": 4,
+        "end": 6,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全繳",
+        "start": 6,
+        "end": 8,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "線上繳款",
+    "entities": [
+      {
+        "value": "線上繳",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "線上",
+        "entity": "pay_method",
+        "confidence": 0.9090362716943174,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我想線上繳費",
+    "entities": [
+      {
+        "value": "線上",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我要繳最低應繳金額",
+    "entities": [
+      {
+        "value": "最低",
+        "start": 3,
+        "end": 5,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "線上繳清",
+    "entities": [
+      {
+        "value": "線上",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      },
+      {
+        "value": "繳清",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "線上",
+        "entity": "pay_method",
+        "confidence": 0.8920652638999917,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "全家繳費",
+    "entities": [
+      {
+        "value": "全家",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "全家繳",
+        "entity": "pay_method",
+        "confidence": 0.7634269045638199,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "轉帳繳費",
+    "entities": [
+      {
+        "value": "轉帳繳費",
+        "start": 0,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "小7繳費",
+    "entities": [
+      {
+        "value": "小7",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "超商繳全額",
+    "entities": [
+      {
+        "value": "超商繳",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      },
+      {
+        "value": "全額",
+        "start": 3,
+        "end": 5,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "超商",
+        "entity": "pay_method",
+        "confidence": 0.9556270525367768,
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "start": 3,
+        "end": 5,
+        "value": "全額",
+        "entity": "pay_amount",
+        "confidence": 0.7735176849282945,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "高雄機場外圍停車",
+    "entities": [
+      {
+        "value": "雄",
+        "start": 1,
+        "end": 2,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "高",
+        "entity": "park_location",
+        "confidence": 0.4876423119026437,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我要郵局繳費",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 2,
+        "end": 4,
+        "value": "郵局",
+        "entity": "pay_method",
+        "confidence": 0.8962998876796526,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我想超市繳費",
+    "entities": [
+      {
+        "value": "超市",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "郵局劃撥",
+    "entities": [
+      {
+        "value": "郵局",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我自己輸入金額",
+    "entities": [
+      {
+        "value": "自己輸入",
+        "start": 1,
+        "end": 5,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "郵局劃撥",
+    "entities": [
+      {
+        "value": "郵",
+        "start": 0,
+        "end": 1,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "中華郵政",
+    "entities": [
+      {
+        "value": "中華郵政",
+        "start": 0,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全國繳費網繳費",
+    "entities": [
+      {
+        "value": "全國繳費網繳",
+        "start": 0,
+        "end": 6,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "全國繳費網",
+        "entity": "pay_method",
+        "confidence": 0.8307026235848021,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "劃撥",
+    "entities": [
+      {
+        "value": "劃撥",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全部繳",
+    "entities": [
+      {
+        "value": "全部",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "全部繳",
+        "entity": "pay_amount",
+        "confidence": 0.5582104154040634,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "繳最低應繳金額",
+    "entities": [
+      {
+        "value": "最低應繳",
+        "start": 1,
+        "end": 5,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "最低應繳金額",
+    "entities": [
+      {
+        "value": "最低應繳",
+        "start": 0,
+        "end": 4,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "好，我要自行輸入金額",
+    "entities": [
+      {
+        "value": "自行輸入",
+        "start": 4,
+        "end": 8,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "桃園機場外圍停車",
+    "entities": [
+      {
+        "value": "桃園",
+        "start": 0,
+        "end": 2,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "桃園機場外圍停車",
+    "entities": [
+      {
+        "value": "桃園機場",
+        "start": 0,
+        "end": 4,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "線上客服",
+    "entities": [
+      {
+        "value": "線上",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我想商超繳費",
+    "entities": [
+      {
+        "value": "商超",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "線上繳款",
+    "entities": [
+      {
+        "value": "線上繳款",
+        "start": 0,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "線上",
+        "entity": "pay_method",
+        "confidence": 0.7629568842425449,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "我想線上繳款",
+    "entities": [
+      {
+        "value": "線上",
+        "start": 2,
+        "end": 4,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全部繳納",
+    "entities": [
+      {
+        "value": "全部",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "全部繳納",
+        "entity": "pay_amount",
+        "confidence": 0.5271528204092807,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "全國繳費網",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "全國繳費網",
+        "entity": "pay_method",
+        "confidence": 0.8066232667161334,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "超商",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "超商",
+        "entity": "pay_method",
+        "confidence": 0.9629411584416248,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "萊爾富繳費",
+    "entities": [
+      {
+        "value": "萊爾富",
+        "start": 0,
+        "end": 3,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "全家便利商店繳費",
+    "entities": [
+      {
+        "value": "全家便利商店",
+        "start": 0,
+        "end": 6,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "他行繳費",
+    "entities": [
+      {
+        "value": "他行",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_method"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "最低應繳",
+    "entities": [
+      {
+        "value": "最低",
+        "start": 0,
+        "end": 2,
+        "entity": "pay_amount"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "最低應繳",
+        "entity": "pay_amount",
+        "confidence": 0.5809153599344428,
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "桃園機場外圍停車",
+    "entities": [
+      {
+        "value": "桃",
+        "start": 0,
+        "end": 1,
+        "entity": "park_location"
+      },
+      {
+        "value": "園",
+        "start": 1,
+        "end": 2,
+        "entity": "park_location"
+      },
+      {
+        "value": "機",
+        "start": 2,
+        "end": 3,
+        "entity": "park_location"
+      },
+      {
+        "value": "場",
+        "start": 3,
+        "end": 4,
+        "entity": "park_location"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "我想查询其他额度",
+    "entities": [
+      {
+        "value": "查询",
+        "start": 2,
+        "end": 4,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "查詢信用卡未出帳明細",
+    "entities": [
+      {
+        "value": "查詢",
+        "start": 0,
+        "end": 2,
+        "entity": "action"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

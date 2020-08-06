@@ -1,0 +1,351 @@
+xuchen@Xuchens-MacBook-Pro:~/seasalt.ai/ngChat/bots/cathay-bank-zh (NGCHAT-53/docs/Theo/Add_rasa_jieba_mitie/20200331)*$ rasa test nlu -c configs/config-transformers.yml -u data/training_data.json --cross-validation
+2020-04-01 09:47:24 INFO     rasa.cli.test  - Test model using cross validation.
+2020-04-01 09:47:27 INFO     transformers.file_utils  - PyTorch version 1.2.0 available.
+2020-04-01 09:47:27 INFO     transformers.file_utils  - TensorFlow version 2.1.0 available.
+2020-04-01 09:47:28 INFO     filelock  - Lock 5455100048 acquired on /Users/xuchen/.cache/torch/transformers/8a0c070123c1f794c42a29c6904beb7c1b8715741e235bee04aca2c7636fc83f.9b42061518a39ca00b8b52059fd2bede8daa613f8a8671500e518a8c29de8c00.lock
+Downloading: 100%|███████████████████████████████████| 110k/110k [00:00<00:00, 574kB/s]
+2020-04-01 09:47:28 INFO     filelock  - Lock 5455100048 released on /Users/xuchen/.cache/torch/transformers/8a0c070123c1f794c42a29c6904beb7c1b8715741e235bee04aca2c7636fc83f.9b42061518a39ca00b8b52059fd2bede8daa613f8a8671500e518a8c29de8c00.lock
+2020-04-01 09:47:28 INFO     transformers.tokenization_utils  - loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-vocab.txt from cache at /Users/xuchen/.cache/torch/transformers/8a0c070123c1f794c42a29c6904beb7c1b8715741e235bee04aca2c7636fc83f.9b42061518a39ca00b8b52059fd2bede8daa613f8a8671500e518a8c29de8c00
+2020-04-01 09:47:29 INFO     filelock  - Lock 5455100048 acquired on /Users/xuchen/.cache/torch/transformers/8a3b1cfe5da58286e12a0f5d7d182b8d6eca88c08e26c332ee3817548cf7e60a.3767c74c8ed285531d04153fe84a0791672aff52f7249b27df341dbce09b8305.lock
+Downloading: 100%|█████████████████████████████████████| 568/568 [00:00<00:00, 265kB/s]
+2020-04-01 09:47:29 INFO     filelock  - Lock 5455100048 released on /Users/xuchen/.cache/torch/transformers/8a3b1cfe5da58286e12a0f5d7d182b8d6eca88c08e26c332ee3817548cf7e60a.3767c74c8ed285531d04153fe84a0791672aff52f7249b27df341dbce09b8305.lock
+2020-04-01 09:47:29 INFO     transformers.configuration_utils  - loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-config.json from cache at /Users/xuchen/.cache/torch/transformers/8a3b1cfe5da58286e12a0f5d7d182b8d6eca88c08e26c332ee3817548cf7e60a.3767c74c8ed285531d04153fe84a0791672aff52f7249b27df341dbce09b8305
+2020-04-01 09:47:29 INFO     transformers.configuration_utils  - Model config BertConfig {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "directionality": "bidi",
+  "do_sample": false,
+  "eos_token_ids": 0,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1
+  },
+  "layer_norm_eps": 1e-12,
+  "length_penalty": 1.0,
+  "max_length": 20,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_beams": 1,
+  "num_hidden_layers": 12,
+  "num_labels": 2,
+  "num_return_sequences": 1,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "pruned_heads": {},
+  "repetition_penalty": 1.0,
+  "temperature": 1.0,
+  "top_k": 50,
+  "top_p": 1.0,
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 21128
+}
+
+2020-04-01 09:47:30 INFO     filelock  - Lock 4416661328 acquired on /Users/xuchen/.cache/torch/transformers/987cd265ea1aa9cd7e884caf8dd86c2e764e5114ee9a14a67686c1fe05f7a26c.e6b974f59b54219496a89fd32be7afb020374df0976a796e5ccd3a1733d31537.h5.lock
+Downloading: 100%|██████████████████████████████████| 478M/478M [00:48<00:00, 9.84MB/s]
+2020-04-01 09:48:19 INFO     filelock  - Lock 4416661328 released on /Users/xuchen/.cache/torch/transformers/987cd265ea1aa9cd7e884caf8dd86c2e764e5114ee9a14a67686c1fe05f7a26c.e6b974f59b54219496a89fd32be7afb020374df0976a796e5ccd3a1733d31537.h5.lock
+2020-04-01 09:48:19 INFO     transformers.modeling_tf_utils  - loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-chinese-tf_model.h5 from cache at /Users/xuchen/.cache/torch/transformers/987cd265ea1aa9cd7e884caf8dd86c2e764e5114ee9a14a67686c1fe05f7a26c.e6b974f59b54219496a89fd32be7afb020374df0976a796e5ccd3a1733d31537.h5
+2020-04-01 09:48:26 INFO     transformers.modeling_tf_utils  - Layers from pretrained model not used in TFBertModel: ['mlm___cls', 'nsp___cls']
+2020-04-01 09:48:26 WARNING  rasa.nlu.classifiers.diet_classifier  - Please configure the number of 'epochs' in your configuration file. We will change the default value of 'epochs' in the future to 1.
+/usr/local/lib/python3.7/site-packages/rasa/nlu/components.py:394: FutureWarning: 'EmbeddingIntentClassifier' is deprecated and will be removed in version 2.0. Use 'DIETClassifier' instead.
+  return cls(component_config)
+2020-04-01 09:48:26 INFO     rasa.nlu.model  - Starting to train component HFTransformersNLP
+2020-04-01 09:52:07 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 09:52:07 INFO     rasa.nlu.model  - Starting to train component LanguageModelTokenizer
+2020-04-01 09:52:07 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 09:52:07 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-01 09:52:07 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 09:52:07 INFO     rasa.nlu.model  - Starting to train component LanguageModelFeaturizer
+2020-04-01 09:52:07 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 09:52:07 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'SuperMarket' with '7-11'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-11' with 'OK商店'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'OK商店' with '7-ELEVEN'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-ELEVEN' with 'family'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'family' with 'seven'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+2020-04-01 09:52:07 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 09:52:07 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-04-01 09:52:09 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 09:52:09 INFO     rasa.nlu.model  - Starting to train component CRFEntityExtractor
+2020-04-01 09:52:46 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 09:52:46 INFO     rasa.nlu.model  - Starting to train component EmbeddingIntentClassifier
+Epochs:  89%|▉| 268/300 [08:01<00:44,  1.38s/it, t_loss=0.822, i_loss=0.264, i_acc=0.973]
+Epochs:  90%|▉| 271/300 [08:04<00:35,  1.22s/it, t_loss=0.862, i_loss=0.305, i_acc=0.973]
+Epochs:  91%|▉| 272/300 [08:06<00:33,  1.21s/it, t_loss=0.826, i_loss=0.266, i_acc=0.977]
+Epochs: 100%|█| 300/300 [08:41<00:00,  1.19s/it, t_loss=0.895, i_loss=0.262, i_acc=0.974]
+2020-04-01 10:01:37 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-04-01 10:01:37 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 10:01:37 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████| 2715/2715 [17:36<00:00,  1.72it/s]
+/usr/local/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2020-04-01 10:19:15 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████| 679/679 [05:22<00:00,  1.62it/s]
+2020-04-01 10:24:38 INFO     rasa.nlu.model  - Starting to train component HFTransformersNLP
+2020-04-01 10:30:04 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 10:30:04 INFO     rasa.nlu.model  - Starting to train component LanguageModelTokenizer
+2020-04-01 10:30:05 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 10:30:05 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-01 10:30:05 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 10:30:05 INFO     rasa.nlu.model  - Starting to train component LanguageModelFeaturizer
+2020-04-01 10:30:06 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 10:30:06 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'seven' with 'SuperMarket'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'SuperMarket' with '7-11'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-11' with 'OK商店'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'OK商店' with '7-ELEVEN'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-ELEVEN' with '711'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '711' with 'family'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'family' with 'seven'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+2020-04-01 10:30:06 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 10:30:06 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-04-01 10:30:09 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 10:30:09 INFO     rasa.nlu.model  - Starting to train component CRFEntityExtractor
+2020-04-01 10:30:53 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 10:30:53 INFO     rasa.nlu.model  - Starting to train component EmbeddingIntentClassifier
+Epochs: 100%|████████████████| 300/300 [10:58<00:00,  1.25s/it, t_loss=1.016, i_loss=0.271, i_acc=0.974]
+2020-04-01 10:41:57 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-04-01 10:41:57 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 10:41:57 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████| 2715/2715 [14:54<00:00,  3.95it/s]
+/usr/local/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2020-04-01 10:56:53 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████| 679/679 [03:22<00:00,  1.12s/it]
+2020-04-01 11:00:17 INFO     rasa.nlu.model  - Starting to train component HFTransformersNLP
+2020-04-01 11:09:19 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 11:09:19 INFO     rasa.nlu.model  - Starting to train component LanguageModelTokenizer
+2020-04-01 11:09:19 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 11:09:19 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-01 11:09:19 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 11:09:19 INFO     rasa.nlu.model  - Starting to train component LanguageModelFeaturizer
+2020-04-01 11:09:20 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 11:09:20 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'seven' with 'SuperMarket'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'SuperMarket' with '7-11'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-11' with 'OK商店'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'OK商店' with '7-ELEVEN'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-ELEVEN' with '711'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '711' with 'seven'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+2020-04-01 11:09:20 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 11:09:20 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-04-01 11:09:24 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 11:09:24 INFO     rasa.nlu.model  - Starting to train component CRFEntityExtractor
+2020-04-01 11:10:25 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 11:10:25 INFO     rasa.nlu.model  - Starting to train component EmbeddingIntentClassifier
+Epochs: 100%|████████████████| 300/300 [16:43<00:00,  2.41s/it, t_loss=0.769, i_loss=0.205, i_acc=0.982]
+2020-04-01 11:27:17 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-04-01 11:27:17 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 11:27:17 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████| 2715/2715 [18:13<00:00,  3.64it/s]
+/usr/local/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2020-04-01 11:45:32 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████| 679/679 [03:10<00:00,  3.94it/s]
+2020-04-01 11:48:43 INFO     rasa.nlu.model  - Starting to train component HFTransformersNLP
+2020-04-01 11:52:34 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 11:52:34 INFO     rasa.nlu.model  - Starting to train component LanguageModelTokenizer
+2020-04-01 11:52:34 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 11:52:34 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-01 11:52:34 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 11:52:34 INFO     rasa.nlu.model  - Starting to train component LanguageModelFeaturizer
+2020-04-01 11:52:34 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 11:52:34 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'seven' with 'SuperMarket'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'SuperMarket' with '7-11'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-11' with '7-ELEVEN'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-ELEVEN' with '711'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '711' with 'family'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+2020-04-01 11:52:34 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 11:52:34 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-04-01 11:52:36 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 11:52:36 INFO     rasa.nlu.model  - Starting to train component CRFEntityExtractor
+2020-04-01 11:53:05 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 11:53:05 INFO     rasa.nlu.model  - Starting to train component EmbeddingIntentClassifier
+Epochs: 100%|████████████████| 300/300 [10:15<00:00,  1.43s/it, t_loss=0.774, i_loss=0.215, i_acc=0.979]
+2020-04-01 12:03:24 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-04-01 12:03:25 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 12:03:25 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████| 2715/2715 [12:38<00:00,  3.99it/s]
+/usr/local/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2020-04-01 12:16:04 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████| 679/679 [02:58<00:00,  3.78it/s]
+2020-04-01 12:19:03 INFO     rasa.nlu.model  - Starting to train component HFTransformersNLP
+2020-04-01 12:22:13 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 12:22:13 INFO     rasa.nlu.model  - Starting to train component LanguageModelTokenizer
+2020-04-01 12:22:13 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 12:22:13 INFO     rasa.nlu.model  - Starting to train component RegexFeaturizer
+2020-04-01 12:22:13 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 12:22:13 INFO     rasa.nlu.model  - Starting to train component LanguageModelFeaturizer
+2020-04-01 12:22:13 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 12:22:13 INFO     rasa.nlu.model  - Starting to train component EntitySynonymMapper
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'family' with '7-11'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '7-11' with 'OK商店'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'OK商店' with '711'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target '711' with 'family'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+/usr/local/lib/python3.7/site-packages/rasa/utils/common.py:347: UserWarning: Found conflicting synonym definitions for ''. Overwriting target 'family' with 'seven'. Check your training data and remove conflicting synonym definitions to prevent this from happening.
+  More info at https://rasa.com/docs/rasa/nlu/training-data-format/#entity-synonyms
+2020-04-01 12:22:13 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 12:22:13 INFO     rasa.nlu.model  - Starting to train component CountVectorsFeaturizer
+2020-04-01 12:22:15 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 12:22:15 INFO     rasa.nlu.model  - Starting to train component CRFEntityExtractor
+2020-04-01 12:22:41 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 12:22:41 INFO     rasa.nlu.model  - Starting to train component EmbeddingIntentClassifier
+Epochs: 100%|████████████████| 300/300 [07:45<00:00,  1.08s/it, t_loss=0.808, i_loss=0.245, i_acc=0.981]
+2020-04-01 12:30:29 INFO     rasa.utils.tensorflow.models  - Finished training.
+2020-04-01 12:30:29 INFO     rasa.nlu.model  - Finished training component.
+2020-04-01 12:30:29 INFO     rasa.nlu.test  - Running model for predictions:
+100%|███████████████████████████████████████████████████████████████| 2716/2716 [11:46<00:00,  3.83it/s]
+/usr/local/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2020-04-01 12:42:17 INFO     rasa.nlu.test  - Running model for predictions:
+100%|█████████████████████████████████████████████████████████████████| 678/678 [02:52<00:00,  4.00it/s]
+2020-04-01 12:45:10 INFO     rasa.nlu.test  - Accumulated test folds intent evaluation results:
+2020-04-01 12:45:10 INFO     rasa.nlu.test  - Intent Evaluation: Only considering those 3394 examples that have a defined intent out of 3394 examples
+2020-04-01 12:45:10 INFO     rasa.nlu.test  - Classification report saved to results/intent_report.json.
+2020-04-01 12:45:10 INFO     rasa.nlu.test  - Incorrect intent predictions saved to results/intent_errors.json.
+2020-04-01 12:45:10 INFO     rasa.nlu.test  - Confusion matrix, without normalization:
+[[161   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   2
+    0   0   0   3   0   0   0   0   0   0   0   0   0]
+ [  0   0   7   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   1  34   0   0   0   0   0   0   0   0   1   0   0   0   1   0   5
+    0   0   0   0   1   0   0   0   0   0   0   0   0]
+ [  0   0   0   3   0   0   0   0   0   0   0   0   2   0   0   0   0   6
+    0   0   0   0   1   0   0   0   0   0   2   0   0]
+ [  0   0   0   0  45   0   3   0   0   0   0   0   1   0   0   0   0  14
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   1  48   0   0   0   1   0   0   4   0   0   0   0  12
+    1   0   0   0   0   1   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0  33   1   0   0   0   2   1   0   0   0   0  17
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   1  57   0   0   0   0   2   0   0   0   0   5
+    0   0   0   0   0   0   0   0   0   0   1   0   0]
+ [  0   0   0   0   0   0   0   0  27   0   0   1   0   0   0   0   0   5
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   1   0  13   4   0   0   0   0   0   0   1
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   1  49   0   0   0   0   0   0   4
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   1   0  49   2   0   0   0   0  18
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   4   1   0   0   0   1   2  79   0   0   0   0  27
+    0   0   0   0   9   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0 146   0   0   0  13
+    0   0   0   0   2   0   0   0   0   0   1   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   6   0   0   4
+    0   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   1   0  78   8   4
+    0   0   0   0   0   0   0   0   0   0   2   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  12  26   1
+    0   0   0   0   0   0   0   0   0   0   5   0   0]
+ [  1   0   2   3   6   3   4   2   0   1   2   8  24  11   0   4   2 423
+    4   1   1   0  47   2   2   0   2  13   8   3   1]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0  10
+   95   0   0   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   3
+    0  81   6   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   1   0   0   0
+    0  10  18   0   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0   0 233   0   0   0   0   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   1   0   0   0  10   1   0   0   0  66
+    0   0   0   0 259   0   0   0   0   0   2   0   0]
+ [  0   0   0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   9
+    0   0   0   0   0  60   3   0   0   0   0   0   0]
+ [  0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   6
+    0   1   0   0   0   0 228   2   0   0   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0   0   0   0   1   2   4   0   0   0   0   0]
+ [  0   0   0   0   0   1   0   0   0   0   0   0   1   0   0   0   0  18
+    0   0   0   0   0   0   0   0  17  12   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   2   0   0   0   0  19
+    0   0   0   0   0   0   0   0   4  54   0   0   0]
+ [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   2   2   7
+    0   0   0   0   8   0   0   0   0   0  40   0   0]
+ [  0   0   0   0   0   1   1   0   0   0   0   0   5   0   0   0   0   5
+    0   0   0   0   0   0   0   0   0   0   0 197   0]
+ [  0   0   1   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+    0   0   0   0   0   0   0   0   0   0   0   0 212]]
+2020-04-01 12:45:17 INFO     rasa.nlu.test  - Accumulated test folds entity evaluation results:
+2020-04-01 12:45:17 INFO     rasa.nlu.test  - Evaluation for entity extractor: CRFEntityExtractor
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - Classification report for 'CRFEntityExtractor' saved to 'results/CRFEntityExtractor_report.json'.
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - Incorrect entity predictions saved to results/CRFEntityExtractor_errors.json.
+2020-04-01 12:45:18 INFO     rasa.test  - CV evaluation (n=5)
+2020-04-01 12:45:18 INFO     rasa.test  - Intent evaluation results
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - train Accuracy: 0.982 (0.003)
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - train F1-score: 0.982 (0.003)
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - train Precision: 0.982 (0.003)
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - test Accuracy: 0.818 (0.011)
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - test F1-score: 0.816 (0.010)
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - test Precision: 0.826 (0.006)
+2020-04-01 12:45:18 INFO     rasa.test  - Entity evaluation results
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - Entity extractor: CRFEntityExtractor
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - train Accuracy: 0.998 (0.000)
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - train F1-score: 0.770 (0.028)
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - train Precision: 0.835 (0.027)
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - Entity extractor: CRFEntityExtractor
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - test Accuracy: 0.996 (0.001)
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - test F1-score: 0.595 (0.067)
+2020-04-01 12:45:18 INFO     rasa.nlu.test  - test Precision: 0.711 (0.138)

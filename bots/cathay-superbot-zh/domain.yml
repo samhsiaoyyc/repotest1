@@ -1,0 +1,237 @@
+session_config:
+  session_expiration_time: 60.0
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- recent
+- unbill
+- history
+- search_consum_detail
+- search_detail_twd
+- search_detail_frd
+- pay
+- installment
+- detail
+- resend_ebill
+- register_ebill
+- non_resend
+- resend
+- chage_mail
+- ebill
+- usual
+- transfer_help
+slots:
+  currency_type:
+    type: unfeaturized
+  date:
+    type: unfeaturized
+  day:
+    type: unfeaturized
+  email:
+    type: unfeaturized
+  new_email:
+    type: unfeaturized
+  new_email_confirm:
+    type: unfeaturized
+  resend_confirm:
+    type: unfeaturized
+  user_id:
+    type: unfeaturized
+  user_password:
+    type: unfeaturized
+  user_token:
+    type: unfeaturized
+  recent_bill_id:
+    type: unfeaturized
+  unbill_details:
+    type: unfeaturized
+responses:
+  utter_greet:
+  - text: 嗨我是阿發! 你好嗎?
+  utter_thanks:
+  - text: Receive your insert!
+  utter_default:
+  - text: 抱歉我聽不懂你在說甚麼
+  utter_transfer:
+  - text: 將轉往專人服務
+  utter_exception:
+  - text: 您好! {message}，若有疑問可選擇轉往專人服務
+  utter_begin_action:
+  - text: 請選擇服務?
+    buttons:
+    - title: 查詢消費明細
+      payload: 查詢消費明細
+    - title: 補寄電子帳單
+      payload: 補寄電子帳單
+  utter_history:
+  - text: 前往MMB流程
+  utter_pay:
+  - text: 前往繳卡費流程
+  utter_installment:
+  - text: 前往信用卡分期流程
+  utter_search_detail:
+  - text: 請問要查詢的消費明細是?
+    buttons:
+    - title: 近一期帳單明細
+      payload: 近一期帳單明細
+    - title: 尚未出帳明細
+      payload: 尚未出帳明細
+    - title: 歷史帳單明細
+      payload: 歷史帳單明細
+  utter_detail:
+  - text: 台幣/外幣明細
+    buttons:
+    - title: 查詢台幣明細
+      payload: 查詢台幣明細
+    - title: 查詢外幣明細
+      payload: 查詢外幣明細
+  utter_recent_bill_detail:
+  - text: 以上為近一期明細資料，請選擇後續動作
+    buttons:
+    - title: 我要繳費
+      payload: 我要繳費
+    - title: 我要分期
+      payload: 我要分期
+    - title: 歷史帳單明細
+      payload: 歷史帳單明細
+  utter_unbill_detail:
+  - text: 以上為未出帳明細資料，請選擇後續動作
+    buttons:
+    - title: 我要分期
+      payload: 我要分期
+    - title: 帳單明細
+      payload: 帳單明細
+  utter_unfound_detail:
+  - text: 阿發看到你現在沒有近一期帳單消費性哦!
+    buttons:
+    - title: 未出帳明細
+      payload: 未出帳明細
+    - title: 歷史帳單明細
+      payload: 歷史帳單明細
+  utter_register_ebill:
+  - text: 前往申請電子帳單
+  utter_usual:
+  - text: 前往常用功能
+  utter_fallback:
+  - text: 最近這兩個月都沒有信用卡帳單 ，所以沒有帳單可以補寄
+  utter_help:
+  - text: 還有其他需要幫你的地方嗎?
+    buttons:
+    - title: 常用功能
+      payload: 常用功能
+  utter_help_for_unbill_uncheckout:
+  - text: 還有其他需要幫你的地方嗎?
+    buttons:
+    - title: 常用功能
+      payload: 常用功能
+    - title: 近一期帳單明細
+      payload: 近一期帳單明細
+  utter_help_resend:
+  - text: 還有其他需要幫你的地方嗎?
+    buttons:
+    - title: 常用功能
+      payload: 常用功能
+    - title: 申請電子帳單
+      payload: 申請電子帳單
+  utter_paper_bill_checkout:
+  - text: 你的 {date} 帳單已於 {day} 日結帳，結帳日後三個工作天就會寄出, 信用卡帳單將寄送至 {address} 想要用哪種方式補寄帳單?
+    buttons:
+    - title: 近一期帳單消費明細
+      payload: 近一期帳單消費明細
+    - title: 電子帳單
+      payload: 電子帳單
+    - title: 不用補寄
+      payload: 不用補寄
+  utter_ebill_checkout:
+  - text: 你的 {date} 帳單已於{day} 日結帳，結帳日後三個工作天就會寄出, 信用卡帳單將Email寄送至 {email} 是否還需要補寄?
+    buttons:
+    - title: 補寄給我
+      payload: 補寄給我
+    - title: 改寄到另一個信箱
+      payload: 改寄到另一個信箱
+  utter_paper_bill_uncheckout:
+  - text: 你的 {date} 帳單已於 {day} 日結帳，結帳日後三個工作天就會寄出, 信用卡帳單將寄送至 {address} 再幫我注意是否收到信用卡帳單?
+  utter_ebill_uncheckout:
+  - text: 你的 {date} 帳單已於 {day} 日結帳，結帳日後三個工作天就會寄出, 信用卡帳單將Email寄送至 {email} 再幫我注意是否收到信用卡帳單?
+  utter_attention:
+  - text: 我發現最近一小時內，你已經有補寄信用卡帳單的紀錄，請整點後再幫我們留意信箱有無收到!
+  utter_confirm_resend:
+  - text: 補寄信用卡帳單只限單次，確定嗎?
+    buttons:
+    - title: 確定
+      payload: 確定
+    - title: 輸入錯誤，重新輸入
+      payload: 輸入錯誤，重新輸入
+  utter_reset_email:
+  - text: 看不懂你的 Email，是不是輸入錯誤? 請重新輸入
+  utter_ask_user_id:
+  - text: 請輸入您的帳號
+  utter_ask_user_password:
+  - text: 請輸入您的密碼
+  utter_ask_new_email:
+  - text: 請幫我輸入 E-mail
+  utter_ask_new_email_confirm:
+  - text: 請確認此Email {new_email} 是否正確?
+    buttons:
+    - title: 是
+      payload: 是
+    - title: 否，重新輸入
+      payload: 否，重新輸入
+  utter_ask_resend_confirm:
+  - text: 補寄信用卡帳單只限單次，確定嗎?
+    buttons:
+    - title: 確定
+      payload: 確定
+    - title: 輸入錯誤，重新輸入
+      payload: 輸入錯誤，重新輸入
+  utter_resend_email_done:
+  - text: 沒問題! 補寄信用卡電子帳單將於【整點寄送】至 {email}，信件標題為 {date} 信用卡對帳單，請再確認email是否收到
+actions:
+- utter_greet
+- utter_search_detail
+- utter_recent_bill_detail
+- utter_unbill_detail
+- utter_unfound_detail
+- utter_thanks
+- utter_history
+- utter_pay
+- utter_installment
+- utter_detail
+- utter_fallback
+- utter_transfer
+- utter_exception
+- utter_resend_email_done
+- utter_begin_action
+- utter_register_ebill
+- utter_usual
+- utter_help
+- utter_help_for_unbill_uncheckout
+- utter_help_resend
+- utter_paper_bill_checkout
+- utter_ebill_checkout
+- utter_paper_bill_uncheckout
+- utter_ebill_uncheckout
+- utter_attention
+- utter_confirm_resend
+- utter_reset_email
+# custom action
+- action_recent_detail_api
+- action_unbill_detail_api
+- action_bill_detail_api
+- action_twd_detail_api
+- action_frd_detail_api
+- action_resend_ebill_api
+- action_switch_ebill
+# form action required slot
+- utter_ask_user_id
+- utter_ask_user_password
+- utter_ask_new_email
+- utter_ask_new_email_confirm
+- utter_ask_resend_confirm
+forms:
+- login_form
+- reset_email_form
+- resend_email_form
